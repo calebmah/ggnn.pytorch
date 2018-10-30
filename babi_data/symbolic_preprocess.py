@@ -142,7 +142,7 @@ def write_examples(dataset, output_file):
 
 def write_dict(d, output_file):
     with open(output_file, 'w') as f:
-        for k,v in d.iteritems():
+        for k,v in d.items():
             f.write('%s=%s\n' % (str(k), str(v)))
 
 if __name__ == '__main__':

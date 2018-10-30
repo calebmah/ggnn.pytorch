@@ -1,0 +1,3000 @@
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 C n A
+2 A n B
+3 eval A n	B	2
+1 A n C
+2 C n B
+3 eval C s	A	1
+1 C n A
+2 D n C
+3 eval C n	A	1
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 A e C
+2 B e A
+3 eval A e	C	1
+1 C n A
+2 D n C
+3 eval C s	D	2
+1 C e A
+2 B e C
+3 eval C e	A	1
+1 C n A
+2 B n C
+3 eval C s	B	2
+1 A e C
+2 C e B
+3 eval C w	A	1
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 D n B
+2 B n A
+3 eval B s	D	1
+1 A n C
+2 B n A
+3 eval A s	B	2
+1 C e B
+2 D e C
+3 eval C w	D	2
+1 C e A
+2 A e B
+3 eval A e	B	2
+1 C e B
+2 D e C
+3 eval C w	D	2
+1 A n C
+2 C n B
+3 eval C n	B	2
+1 A n B
+2 C n A
+3 eval A s	C	2
+1 C e A
+2 A e B
+3 eval A e	B	2
+1 B e C
+2 C e A
+3 eval C w	B	1
+1 C e A
+2 D e C
+3 eval C w	D	2
+1 A n B
+2 B n C
+3 eval B s	A	1
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 A e B
+2 C e A
+3 eval A w	C	2
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 D e C
+2 C e A
+3 eval C e	A	2
+1 C e A
+2 D e C
+3 eval C e	A	1
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 A e C
+2 D e A
+3 eval A e	C	1
+1 C e A
+2 D e C
+3 eval C w	D	2
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 C e A
+2 A e B
+3 eval A w	C	1
+1 C e B
+2 A e C
+3 eval C w	A	2
+1 A e B
+2 C e A
+3 eval A w	C	2
+1 A n B
+2 C n A
+3 eval A s	C	2
+1 C e A
+2 B e C
+3 eval C w	B	2
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 C n A
+2 D n C
+3 eval C s	D	2
+1 C e A
+2 A e B
+3 eval A w	C	1
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 A n B
+2 C n A
+3 eval A n	B	1
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 A e B
+2 C e A
+3 eval A w	C	2
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 C n A
+2 A n B
+3 eval A s	C	1
+1 C e A
+2 B e C
+3 eval C w	B	2
+1 C n B
+2 A n C
+3 eval C n	B	1
+1 C e A
+2 A e B
+3 eval A w	C	1
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 D e C
+2 C e A
+3 eval C w	D	1
+1 C n A
+2 A n B
+3 eval A s	C	1
+1 C e B
+2 A e C
+3 eval C e	B	1
+1 B n C
+2 A n B
+3 eval B s	A	2
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 B n C
+2 C n A
+3 eval C n	A	2
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 C e A
+2 B e C
+3 eval C e	A	1
+1 C e A
+2 A e B
+3 eval A e	B	2
+1 C e B
+2 A e C
+3 eval C e	B	1
+1 A e B
+2 C e A
+3 eval A e	B	1
+1 C e B
+2 D e C
+3 eval C w	D	2
+1 B e C
+2 C e A
+3 eval C w	B	1
+1 C e A
+2 A e B
+3 eval A e	B	2
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 B e C
+2 C e A
+3 eval C e	A	2
+1 B n C
+2 C n A
+3 eval C s	B	1
+1 B e A
+2 A e C
+3 eval A e	C	2
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 A e B
+2 C e A
+3 eval A w	C	2
+1 B n C
+2 A n B
+3 eval B n	C	1
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 B e A
+2 A e C
+3 eval A w	B	1
+1 A e B
+2 C e A
+3 eval A w	C	2
+1 A e C
+2 D e A
+3 eval A w	D	2
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 C n A
+2 D n C
+3 eval C s	D	2
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 A e C
+2 D e A
+3 eval A w	D	2
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 B n C
+2 A n B
+3 eval B s	A	2
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 A n B
+2 C n A
+3 eval A s	C	2
+1 D n C
+2 C n A
+3 eval C s	D	1
+1 C n B
+2 A n C
+3 eval C n	B	1
+1 B e C
+2 C e A
+3 eval C e	A	2
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 A e B
+2 C e A
+3 eval A w	C	2
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 A e B
+2 C e A
+3 eval A e	B	1
+1 C e A
+2 A e B
+3 eval A w	C	1
+1 C n A
+2 B n C
+3 eval C s	B	2
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 C e A
+2 B e C
+3 eval C w	B	2
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 D n A
+2 A n C
+3 eval A n	C	2
+1 A e C
+2 C e B
+3 eval C w	A	1
+1 C n A
+2 A n B
+3 eval A n	B	2
+1 C n A
+2 D n C
+3 eval C n	A	1
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 B n C
+2 C n A
+3 eval C n	A	2
+1 A e C
+2 B e A
+3 eval A w	B	2
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 C e B
+2 A e C
+3 eval C e	B	1
+1 D e C
+2 C e B
+3 eval C w	D	1
+1 A n B
+2 C n A
+3 eval A n	B	1
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 C e A
+2 D e C
+3 eval C e	A	1
+1 B e C
+2 C e A
+3 eval C w	B	1
+1 D n C
+2 C n B
+3 eval C n	B	2
+1 C e A
+2 B e C
+3 eval C w	B	2
+1 A e B
+2 B e C
+3 eval B e	C	2
+1 C n A
+2 A n B
+3 eval A n	B	2
+1 C e A
+2 A e B
+3 eval A w	C	1
+1 C n A
+2 B n C
+3 eval C n	A	1
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 B e C
+2 D e B
+3 eval B e	C	1
+1 D e A
+2 A e C
+3 eval A e	C	2
+1 C n A
+2 A n B
+3 eval A s	C	1
+1 A n B
+2 C n A
+3 eval A n	B	1
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 C e A
+2 B e C
+3 eval C e	A	1
+1 C e A
+2 D e C
+3 eval C e	A	1
+1 A e B
+2 C e A
+3 eval A w	C	2
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 D e C
+2 C e A
+3 eval C w	D	1
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 C e A
+2 A e B
+3 eval A e	B	2
+1 A e B
+2 C e A
+3 eval A e	B	1
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 A n B
+2 B n C
+3 eval B n	C	2
+1 C n A
+2 D n C
+3 eval C s	D	2
+1 C n B
+2 A n C
+3 eval C n	B	1
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 A e C
+2 C e B
+3 eval C e	B	2
+1 C n A
+2 A n B
+3 eval A n	B	2
+1 B n C
+2 C n A
+3 eval C s	B	1
+1 C e A
+2 A e B
+3 eval A e	B	2
+1 C e A
+2 B e C
+3 eval C w	B	2
+1 D n C
+2 C n B
+3 eval C s	D	1
+1 D e C
+2 C e B
+3 eval C w	D	1
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 C e A
+2 D e C
+3 eval C e	A	1
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 A e B
+2 C e A
+3 eval A w	C	2
+1 C e A
+2 D e C
+3 eval C e	A	1
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 C n A
+2 B n C
+3 eval C s	B	2
+1 C e A
+2 B e C
+3 eval C e	A	1
+1 A n C
+2 C n B
+3 eval C s	A	1
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 A n C
+2 B n A
+3 eval A n	C	1
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 B e C
+2 A e B
+3 eval B w	A	2
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 C e B
+2 A e C
+3 eval C w	A	2
+1 B e C
+2 C e A
+3 eval C w	B	1
+1 D n C
+2 C n A
+3 eval C n	A	2
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 C e B
+2 A e C
+3 eval C e	B	1
+1 C e A
+2 B e C
+3 eval C w	B	2
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 D e A
+2 A e B
+3 eval A e	B	2
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 C n B
+2 A n C
+3 eval C s	A	2
+1 C n A
+2 D n C
+3 eval C s	D	2
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 A n B
+2 C n A
+3 eval A n	B	1
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 C n A
+2 D n C
+3 eval C s	D	2
+1 A e B
+2 C e A
+3 eval A w	C	2
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 C e A
+2 A e B
+3 eval A w	C	1
+1 A e C
+2 C e B
+3 eval C w	A	1
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 C e B
+2 A e C
+3 eval C e	B	1
+1 C e A
+2 B e C
+3 eval C e	A	1
+1 B e C
+2 A e B
+3 eval B e	C	1
+1 C n A
+2 B n C
+3 eval C n	A	1
+1 C e A
+2 A e B
+3 eval A w	C	1
+1 C e B
+2 A e C
+3 eval C w	A	2
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 C e A
+2 A e B
+3 eval A e	B	2
+1 C n A
+2 D n C
+3 eval C s	D	2
+1 C e A
+2 B e C
+3 eval C e	A	1
+1 C e A
+2 A e B
+3 eval A e	B	2
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 D n A
+2 A n C
+3 eval A n	C	2
+1 D n C
+2 C n A
+3 eval C s	D	1
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 C n B
+2 D n C
+3 eval C s	D	2
+1 A n C
+2 C n B
+3 eval C n	B	2
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 B n C
+2 C n A
+3 eval C n	A	2
+1 C n A
+2 B n C
+3 eval C n	A	1
+1 A e C
+2 C e B
+3 eval C w	A	1
+1 A e B
+2 B e C
+3 eval B e	C	2
+1 B e A
+2 A e C
+3 eval A e	C	2
+1 A e B
+2 C e A
+3 eval A w	C	2
+1 A e B
+2 C e A
+3 eval A w	C	2
+1 A n B
+2 C n A
+3 eval A n	B	1
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 C n A
+2 A n B
+3 eval A n	B	2
+1 A n C
+2 B n A
+3 eval A s	B	2
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 A n C
+2 D n A
+3 eval A n	C	1
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 A n C
+2 C n B
+3 eval C s	A	1
+1 B e A
+2 A e C
+3 eval A e	C	2
+1 B e C
+2 A e B
+3 eval B w	A	2
+1 A n B
+2 B n C
+3 eval B s	A	1
+1 A n C
+2 B n A
+3 eval A s	B	2
+1 B n C
+2 C n A
+3 eval C n	A	2
+1 D e A
+2 A e C
+3 eval A e	C	2
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 C e A
+2 A e B
+3 eval A w	C	1
+1 B e C
+2 C e A
+3 eval C w	B	1
+1 A e B
+2 C e A
+3 eval A w	C	2
+1 C e A
+2 B e C
+3 eval C e	A	1
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 C e A
+2 D e C
+3 eval C w	D	2
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 C e A
+2 D e C
+3 eval C w	D	2
+1 B n C
+2 C n A
+3 eval C n	A	2
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 A n B
+2 C n A
+3 eval A n	B	1
+1 C n B
+2 A n C
+3 eval C s	A	2
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 A e C
+2 B e A
+3 eval A w	B	2
+1 C e B
+2 A e C
+3 eval C w	A	2
+1 A n C
+2 D n A
+3 eval A s	D	2
+1 B n C
+2 C n A
+3 eval C n	A	2
+1 A n C
+2 B n A
+3 eval A s	B	2
+1 A e B
+2 C e A
+3 eval A e	B	1
+1 C e A
+2 A e B
+3 eval A e	B	2
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 C e A
+2 B e C
+3 eval C w	B	2
+1 C n A
+2 A n B
+3 eval A s	C	1
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 C e A
+2 B e C
+3 eval C w	B	2
+1 A n B
+2 C n A
+3 eval A n	B	1
+1 A e C
+2 B e A
+3 eval A e	C	1
+1 C e A
+2 D e C
+3 eval C e	A	1
+1 C n B
+2 A n C
+3 eval C n	B	1
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 A n B
+2 C n A
+3 eval A s	C	2
+1 C e B
+2 A e C
+3 eval C w	A	2
+1 A e C
+2 D e A
+3 eval A w	D	2
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 B e A
+2 A e C
+3 eval A w	B	1
+1 A e B
+2 C e A
+3 eval A e	B	1
+1 C n A
+2 A n B
+3 eval A n	B	2
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 D e C
+2 C e A
+3 eval C w	D	1
+1 C n A
+2 B n C
+3 eval C s	B	2
+1 A e C
+2 D e A
+3 eval A e	C	1
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 C e A
+2 B e C
+3 eval C w	B	2
+1 A n C
+2 C n B
+3 eval C n	B	2
+1 B n A
+2 A n C
+3 eval A n	C	2
+1 C n B
+2 A n C
+3 eval C n	B	1
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 C e A
+2 A e B
+3 eval A e	B	2
+1 B n C
+2 A n B
+3 eval B n	C	1
+1 A n B
+2 B n C
+3 eval B n	C	2
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 C n A
+2 D n C
+3 eval C s	D	2
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 C e B
+2 A e C
+3 eval C w	A	2
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 A e B
+2 C e A
+3 eval A w	C	2
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 D n C
+2 C n A
+3 eval C s	D	1
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 A e C
+2 C e B
+3 eval C e	B	2
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 B e C
+2 C e A
+3 eval C e	A	2
+1 C e A
+2 B e C
+3 eval C e	A	1
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 C e A
+2 D e C
+3 eval C w	D	2
+1 A n C
+2 C n B
+3 eval C n	B	2
+1 B n C
+2 C n A
+3 eval C s	B	1
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 C n B
+2 A n C
+3 eval C s	A	2
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 D n A
+2 A n C
+3 eval A s	D	1
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 A e B
+2 B e C
+3 eval B e	C	2
+1 A n C
+2 C n B
+3 eval C n	B	2
+1 B e C
+2 C e A
+3 eval C e	A	2
+1 A e C
+2 B e A
+3 eval A e	C	1
+1 A n B
+2 C n A
+3 eval A s	C	2
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 A n C
+2 C n B
+3 eval C n	B	2
+1 D e C
+2 C e A
+3 eval C w	D	1
+1 B n C
+2 C n A
+3 eval C n	A	2
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 C e A
+2 B e C
+3 eval C e	A	1
+1 D e A
+2 A e C
+3 eval A e	C	2
+1 D n B
+2 B n C
+3 eval B s	D	1
+1 C n B
+2 A n C
+3 eval C s	A	2
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 A n C
+2 B n A
+3 eval A n	C	1
+1 A e B
+2 C e A
+3 eval A e	B	1
+1 C n A
+2 B n C
+3 eval C n	A	1
+1 A e B
+2 C e A
+3 eval A w	C	2
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 D e A
+2 A e B
+3 eval A w	D	1
+1 B n C
+2 C n A
+3 eval C n	A	2
+1 C e A
+2 A e B
+3 eval A w	C	1
+1 C n A
+2 A n B
+3 eval A n	B	2
+1 C e A
+2 A e B
+3 eval A w	C	1
+1 C n A
+2 A n B
+3 eval A s	C	1
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 A e B
+2 C e A
+3 eval A e	B	1
+1 C n A
+2 A n B
+3 eval A s	C	1
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 C n B
+2 A n C
+3 eval C n	B	1
+1 A n B
+2 B n C
+3 eval B s	A	1
+1 C e A
+2 A e B
+3 eval A e	B	2
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 C e B
+2 D e C
+3 eval C w	D	2
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 D e C
+2 C e A
+3 eval C e	A	2
+1 B n C
+2 C n A
+3 eval C s	B	1
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 D n B
+2 B n C
+3 eval B s	D	1
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 A n B
+2 C n A
+3 eval A s	C	2
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 A n B
+2 B n C
+3 eval B s	A	1
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 A n C
+2 C n B
+3 eval C s	A	1
+1 B e C
+2 C e A
+3 eval C e	A	2
+1 D n C
+2 C n A
+3 eval C n	A	2
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 C n A
+2 D n C
+3 eval C s	D	2
+1 C n B
+2 A n C
+3 eval C n	B	1
+1 A e C
+2 D e A
+3 eval A w	D	2
+1 C e A
+2 B e C
+3 eval C w	B	2
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 C e B
+2 A e C
+3 eval C w	A	2
+1 C n B
+2 D n C
+3 eval C s	D	2
+1 A e C
+2 C e B
+3 eval C e	B	2
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 D e C
+2 C e A
+3 eval C w	D	1
+1 C n B
+2 A n C
+3 eval C s	A	2
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 C n B
+2 A n C
+3 eval C n	B	1
+1 C n B
+2 A n C
+3 eval C s	A	2
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 D e C
+2 C e A
+3 eval C e	A	2
+1 C e B
+2 D e C
+3 eval C w	D	2
+1 C e B
+2 A e C
+3 eval C w	A	2
+1 A e B
+2 C e A
+3 eval A e	B	1
+1 C e A
+2 A e B
+3 eval A e	B	2
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 B e C
+2 C e A
+3 eval C e	A	2
+1 B n C
+2 A n B
+3 eval B n	C	1
+1 B n C
+2 C n A
+3 eval C n	A	2
+1 A e C
+2 C e B
+3 eval C w	A	1
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 D n C
+2 C n B
+3 eval C s	D	1
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 C e B
+2 A e C
+3 eval C e	B	1
+1 A n B
+2 B n C
+3 eval B n	C	2
+1 A e C
+2 C e B
+3 eval C e	B	2
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 B e A
+2 A e C
+3 eval A w	B	1
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 B n C
+2 A n B
+3 eval B n	C	1
+1 B n C
+2 D n B
+3 eval B n	C	1
+1 C e B
+2 A e C
+3 eval C w	A	2
+1 A e B
+2 B e C
+3 eval B w	A	1
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 C e A
+2 A e B
+3 eval A e	B	2
+1 B e C
+2 C e A
+3 eval C e	A	2
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 C n A
+2 A n B
+3 eval A n	B	2
+1 C e A
+2 D e C
+3 eval C w	D	2
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 C e A
+2 B e C
+3 eval C e	A	1
+1 C n A
+2 B n C
+3 eval C s	B	2
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 D e C
+2 C e A
+3 eval C w	D	1
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 C n A
+2 D n C
+3 eval C s	D	2
+1 A e B
+2 B e C
+3 eval B e	C	2
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 A n C
+2 B n A
+3 eval A s	B	2
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 D n B
+2 B n A
+3 eval B n	A	2
+1 B n C
+2 A n B
+3 eval B s	A	2
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 D n C
+2 C n A
+3 eval C n	A	2
+1 A e C
+2 B e A
+3 eval A e	C	1
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 B e C
+2 C e A
+3 eval C e	A	2
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 B e C
+2 D e B
+3 eval B e	C	1
+1 B e A
+2 A e C
+3 eval A e	C	2
+1 C e A
+2 B e C
+3 eval C w	B	2
+1 A e C
+2 C e B
+3 eval C w	A	1
+1 C n A
+2 A n B
+3 eval A s	C	1
+1 C n A
+2 A n B
+3 eval A n	B	2
+1 A n C
+2 D n A
+3 eval A s	D	2
+1 A n B
+2 C n A
+3 eval A s	C	2
+1 C e B
+2 D e C
+3 eval C e	B	1
+1 C e A
+2 A e B
+3 eval A w	C	1
+1 C e B
+2 A e C
+3 eval C e	B	1
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 D e C
+2 C e A
+3 eval C e	A	2
+1 C n A
+2 D n C
+3 eval C n	A	1
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 A n B
+2 C n A
+3 eval A n	B	1
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 C e A
+2 B e C
+3 eval C w	B	2
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 D n C
+2 C n B
+3 eval C s	D	1
+1 C n B
+2 A n C
+3 eval C s	A	2
+1 D e C
+2 C e B
+3 eval C e	B	2
+1 C e B
+2 A e C
+3 eval C w	A	2
+1 C n A
+2 A n B
+3 eval A n	B	2
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 B e C
+2 A e B
+3 eval B w	A	2
+1 B e A
+2 A e C
+3 eval A e	C	2
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 A n B
+2 C n A
+3 eval A n	B	1
+1 C e A
+2 D e C
+3 eval C e	A	1
+1 C n A
+2 D n C
+3 eval C s	D	2
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 C e A
+2 A e B
+3 eval A w	C	1
+1 C e B
+2 A e C
+3 eval C e	B	1
+1 A n C
+2 C n B
+3 eval C s	A	1
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 B e A
+2 A e C
+3 eval A e	C	2
+1 A n C
+2 D n A
+3 eval A s	D	2
+1 C e B
+2 A e C
+3 eval C w	A	2
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 D e A
+2 A e B
+3 eval A e	B	2
+1 C e A
+2 B e C
+3 eval C w	B	2
+1 A n B
+2 C n A
+3 eval A s	C	2
+1 C e B
+2 A e C
+3 eval C e	B	1
+1 A e C
+2 C e B
+3 eval C w	A	1
+1 D n B
+2 B n C
+3 eval B n	C	2
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 C e A
+2 A e B
+3 eval A e	B	2
+1 B e C
+2 C e A
+3 eval C e	A	2
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 B e C
+2 C e A
+3 eval C w	B	1
+1 A n C
+2 C n B
+3 eval C n	B	2
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 C n A
+2 A n B
+3 eval A n	B	2
+1 D n C
+2 C n B
+3 eval C n	B	2
+1 A e B
+2 B e C
+3 eval B e	C	2
+1 A n B
+2 C n A
+3 eval A n	B	1
+1 C e A
+2 A e B
+3 eval A e	B	2
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 B e C
+2 C e A
+3 eval C e	A	2
+1 C e A
+2 B e C
+3 eval C w	B	2
+1 A e C
+2 D e A
+3 eval A e	C	1
+1 C n A
+2 B n C
+3 eval C n	A	1
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 D n C
+2 C n A
+3 eval C s	D	1
+1 C e A
+2 D e C
+3 eval C w	D	2
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 C n B
+2 A n C
+3 eval C n	B	1
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 A n B
+2 C n A
+3 eval A s	C	2
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 C n A
+2 A n B
+3 eval A n	B	2
+1 C e A
+2 B e C
+3 eval C e	A	1
+1 C n B
+2 D n C
+3 eval C s	D	2
+1 B e A
+2 D e B
+3 eval B e	A	1
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 C n B
+2 A n C
+3 eval C n	B	1
+1 D n C
+2 C n B
+3 eval C n	B	2
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 B e C
+2 C e A
+3 eval C w	B	1
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 D n A
+2 A n C
+3 eval A n	C	2
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 C n B
+2 A n C
+3 eval C s	A	2
+1 C e A
+2 A e B
+3 eval A w	C	1
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 C n A
+2 B n C
+3 eval C n	A	1
+1 A e B
+2 C e A
+3 eval A w	C	2
+1 A n B
+2 C n A
+3 eval A n	B	1
+1 A n C
+2 C n B
+3 eval C n	B	2
+1 C n A
+2 A n B
+3 eval A n	B	2
+1 C n A
+2 A n B
+3 eval A n	B	2
+1 A e C
+2 B e A
+3 eval A w	B	2
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 D e A
+2 A e B
+3 eval A e	B	2
+1 D n A
+2 A n C
+3 eval A n	C	2
+1 A n C
+2 C n B
+3 eval C n	B	2
+1 D e A
+2 A e B
+3 eval A w	D	1
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 C n A
+2 A n B
+3 eval A n	B	2
+1 A e C
+2 C e B
+3 eval C w	A	1
+1 C e A
+2 A e B
+3 eval A e	B	2
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 C e B
+2 D e C
+3 eval C e	B	1
+1 C n B
+2 A n C
+3 eval C n	B	1
+1 D n B
+2 B n A
+3 eval B s	D	1
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 A e C
+2 D e A
+3 eval A w	D	2
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 A n B
+2 B n C
+3 eval B s	A	1
+1 C e A
+2 B e C
+3 eval C e	A	1
+1 C e A
+2 A e B
+3 eval A e	B	2
+1 B n A
+2 A n C
+3 eval A n	C	2
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 A e C
+2 C e B
+3 eval C w	A	1
+1 A e C
+2 D e A
+3 eval A e	C	1
+1 C e A
+2 A e B
+3 eval A e	B	2
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 B n C
+2 A n B
+3 eval B n	C	1
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 C e A
+2 B e C
+3 eval C e	A	1
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 C e A
+2 A e B
+3 eval A e	B	2
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 C e A
+2 D e C
+3 eval C e	A	1
+1 D e B
+2 B e C
+3 eval B e	C	2
+1 A n B
+2 B n C
+3 eval B n	C	2
+1 D e A
+2 A e C
+3 eval A w	D	1
+1 B n C
+2 D n B
+3 eval B s	D	2
+1 A n B
+2 C n A
+3 eval A n	B	1
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 A e B
+2 C e A
+3 eval A e	B	1
+1 B n A
+2 A n C
+3 eval A s	B	1
+1 C e B
+2 A e C
+3 eval C e	B	1
+1 A e B
+2 C e A
+3 eval A w	C	2
+1 C n A
+2 A n B
+3 eval A s	C	1
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 B n A
+2 A n C
+3 eval A s	B	1
+1 B e C
+2 C e A
+3 eval C e	A	2
+1 D e B
+2 B e C
+3 eval B w	D	1
+1 C n B
+2 A n C
+3 eval C s	A	2
+1 A n C
+2 D n A
+3 eval A n	C	1
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 C e A
+2 A e B
+3 eval A w	C	1
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 D e C
+2 C e A
+3 eval C w	D	1
+1 C e A
+2 A e B
+3 eval A e	B	2
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 B e C
+2 A e B
+3 eval B e	C	1
+1 A e B
+2 C e A
+3 eval A w	C	2
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 B e C
+2 C e A
+3 eval C e	A	2
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 D n C
+2 C n A
+3 eval C s	D	1
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 C e B
+2 A e C
+3 eval C e	B	1
+1 B n C
+2 C n A
+3 eval C s	B	1
+1 B n C
+2 C n A
+3 eval C n	A	2
+1 A e B
+2 C e A
+3 eval A e	B	1
+1 B e C
+2 C e A
+3 eval C e	A	2
+1 B n C
+2 C n A
+3 eval C n	A	2
+1 A n C
+2 C n B
+3 eval C n	B	2
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 A e B
+2 B e C
+3 eval B w	A	1
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 A e C
+2 C e B
+3 eval C e	B	2
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 C e B
+2 D e C
+3 eval C w	D	2
+1 B n C
+2 C n A
+3 eval C n	A	2
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 A e C
+2 C e B
+3 eval C w	A	1
+1 D e C
+2 C e A
+3 eval C e	A	2
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 C e B
+2 A e C
+3 eval C w	A	2
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 A e B
+2 B e C
+3 eval B w	A	1
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 A e B
+2 B e C
+3 eval B w	A	1
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 A e B
+2 C e A
+3 eval A w	C	2
+1 C n A
+2 B n C
+3 eval C s	B	2
+1 C e A
+2 B e C
+3 eval C e	A	1
+1 C e B
+2 A e C
+3 eval C e	B	1
+1 C e A
+2 A e B
+3 eval A e	B	2
+1 A e B
+2 C e A
+3 eval A w	C	2
+1 A n C
+2 C n B
+3 eval C s	A	1
+1 D e C
+2 C e B
+3 eval C e	B	2
+1 B e A
+2 A e C
+3 eval A e	C	2
+1 B n C
+2 A n B
+3 eval B n	C	1
+1 C n A
+2 A n B
+3 eval A s	C	1
+1 C e A
+2 A e B
+3 eval A e	B	2
+1 C e B
+2 A e C
+3 eval C e	B	1
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 B e C
+2 C e A
+3 eval C w	B	1
+1 A e C
+2 C e B
+3 eval C w	A	1
+1 C n A
+2 A n B
+3 eval A s	C	1
+1 C e A
+2 A e B
+3 eval A e	B	2
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 B n C
+2 A n B
+3 eval B s	A	2
+1 C e B
+2 A e C
+3 eval C e	B	1
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 A e C
+2 C e B
+3 eval C w	A	1
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 D n C
+2 C n A
+3 eval C s	D	1
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 B n C
+2 D n B
+3 eval B n	C	1
+1 A n B
+2 C n A
+3 eval A n	B	1
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 A n B
+2 C n A
+3 eval A n	B	1
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 A e B
+2 C e A
+3 eval A w	C	2
+1 B e C
+2 C e A
+3 eval C e	A	2
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 A e B
+2 C e A
+3 eval A w	C	2
+1 A e B
+2 C e A
+3 eval A e	B	1
+1 C n A
+2 A n B
+3 eval A s	C	1
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 A e C
+2 C e B
+3 eval C w	A	1
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 A n B
+2 C n A
+3 eval A s	C	2
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 C n A
+2 B n C
+3 eval C s	B	2
+1 C n A
+2 A n B
+3 eval A n	B	2
+1 A e B
+2 B e C
+3 eval B w	A	1
+1 D e C
+2 C e A
+3 eval C w	D	1
+1 B e C
+2 A e B
+3 eval B e	C	1
+1 A e C
+2 C e B
+3 eval C w	A	1
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 A n B
+2 C n A
+3 eval A n	B	1
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 A e B
+2 B e C
+3 eval B e	C	2
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 D e C
+2 C e B
+3 eval C w	D	1
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 A n B
+2 D n A
+3 eval A n	B	1
+1 A n B
+2 C n A
+3 eval A n	B	1
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 A e B
+2 C e A
+3 eval A w	C	2
+1 B n A
+2 A n C
+3 eval A n	C	2
+1 C n A
+2 A n B
+3 eval A s	C	1
+1 B n C
+2 C n A
+3 eval C n	A	2
+1 D n C
+2 C n B
+3 eval C n	B	2
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 B e C
+2 C e A
+3 eval C w	B	1
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 A e B
+2 C e A
+3 eval A w	C	2
+1 C e A
+2 A e B
+3 eval A e	B	2
+1 D e A
+2 A e C
+3 eval A e	C	2
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 C n A
+2 B n C
+3 eval C n	A	1
+1 B n C
+2 C n A
+3 eval C n	A	2
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 B n C
+2 C n A
+3 eval C n	A	2
+1 B n A
+2 D n B
+3 eval B n	A	1
+1 A e C
+2 B e A
+3 eval A w	B	2
+1 C n A
+2 A n B
+3 eval A n	B	2
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 C n A
+2 A n B
+3 eval A s	C	1
+1 A n C
+2 D n A
+3 eval A n	C	1
+1 C e A
+2 A e B
+3 eval A e	B	2
+1 C n A
+2 D n C
+3 eval C s	D	2
+1 C n A
+2 D n C
+3 eval C n	A	1
+1 C e A
+2 B e C
+3 eval C e	A	1
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 C n A
+2 A n B
+3 eval A s	C	1
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 C n A
+2 D n C
+3 eval C s	D	2
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 B n C
+2 A n B
+3 eval B n	C	1
+1 C e A
+2 D e C
+3 eval C w	D	2
+1 A e B
+2 C e A
+3 eval A e	B	1
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 C n A
+2 D n C
+3 eval C n	A	1
+1 C e B
+2 A e C
+3 eval C w	A	2
+1 C e A
+2 B e C
+3 eval C w	B	2
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 A n C
+2 C n B
+3 eval C n	B	2
+1 B n C
+2 C n A
+3 eval C s	B	1
+1 D e C
+2 C e A
+3 eval C e	A	2
+1 C n A
+2 A n B
+3 eval A n	B	2
+1 A n C
+2 D n A
+3 eval A n	C	1
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 C n B
+2 A n C
+3 eval C n	B	1
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 B n C
+2 C n A
+3 eval C n	A	2
+1 C n A
+2 D n C
+3 eval C n	A	1
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 B e C
+2 A e B
+3 eval B w	A	2
+1 C n B
+2 A n C
+3 eval C s	A	2
+1 A e B
+2 B e C
+3 eval B w	A	1
+1 C n B
+2 A n C
+3 eval C n	B	1
+1 C n B
+2 D n C
+3 eval C s	D	2
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 D e B
+2 B e C
+3 eval B w	D	1
+1 D n C
+2 C n B
+3 eval C n	B	2
+1 C e A
+2 D e C
+3 eval C w	D	2
+1 B e C
+2 C e A
+3 eval C e	A	2
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 B n C
+2 A n B
+3 eval B n	C	1
+1 C e B
+2 A e C
+3 eval C e	B	1
+1 C n A
+2 D n C
+3 eval C n	A	1
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 C n B
+2 A n C
+3 eval C n	B	1
+1 C n A
+2 B n C
+3 eval C n	A	1
+1 C e A
+2 A e B
+3 eval A e	B	2
+1 A e B
+2 C e A
+3 eval A w	C	2
+1 A n B
+2 C n A
+3 eval A s	C	2
+1 B n C
+2 C n A
+3 eval C n	A	2
+1 C n A
+2 A n B
+3 eval A s	C	1
+1 D e B
+2 B e C
+3 eval B e	C	2
+1 D n C
+2 C n A
+3 eval C n	A	2
+1 C e A
+2 D e C
+3 eval C w	D	2
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 A e B
+2 B e C
+3 eval B e	C	2
+1 C n A
+2 D n C
+3 eval C n	A	1
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 D e C
+2 C e A
+3 eval C w	D	1
+1 C e A
+2 D e C
+3 eval C w	D	2
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 C e A
+2 A e B
+3 eval A e	B	2
+1 A e B
+2 C e A
+3 eval A e	B	1
+1 C n A
+2 A n B
+3 eval A s	C	1
+1 B n C
+2 C n A
+3 eval C s	B	1
+1 A n B
+2 C n A
+3 eval A n	B	1
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 C n A
+2 A n B
+3 eval A n	B	2
+1 A n C
+2 C n B
+3 eval C n	B	2
+1 D e C
+2 C e A
+3 eval C e	A	2
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 A e B
+2 C e A
+3 eval A e	B	1
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 B e C
+2 A e B
+3 eval B w	A	2
+1 D e C
+2 C e A
+3 eval C e	A	2
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 A n B
+2 C n A
+3 eval A n	B	1
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 C n B
+2 D n C
+3 eval C n	B	1
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 D n C
+2 C n B
+3 eval C s	D	1
+1 C n A
+2 A n B
+3 eval A n	B	2
+1 A e B
+2 C e A
+3 eval A w	C	2
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 C n A
+2 A n B
+3 eval A s	C	1
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 A n B
+2 C n A
+3 eval A s	C	2
+1 B n C
+2 C n A
+3 eval C n	A	2
+1 A n C
+2 C n B
+3 eval C n	B	2
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 D n A
+2 A n C
+3 eval A s	D	1
+1 B n C
+2 C n A
+3 eval C n	A	2
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 C e A
+2 A e B
+3 eval A w	C	1
+1 A n C
+2 B n A
+3 eval A s	B	2
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 D e C
+2 C e A
+3 eval C w	D	1
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 C e A
+2 A e B
+3 eval A w	C	1
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 A e B
+2 D e A
+3 eval A w	D	2
+1 C n A
+2 A n B
+3 eval A s	C	1
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 C n A
+2 B n C
+3 eval C s	B	2
+1 A e C
+2 C e B
+3 eval C w	A	1
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 C e A
+2 A e B
+3 eval A w	C	1
+1 C n B
+2 A n C
+3 eval C s	A	2
+1 A e C
+2 C e B
+3 eval C w	A	1
+1 D e B
+2 B e C
+3 eval B e	C	2
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 A e C
+2 C e B
+3 eval C w	A	1
+1 D n C
+2 C n A
+3 eval C n	A	2
+1 C n A
+2 A n B
+3 eval A s	C	1
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 A n B
+2 C n A
+3 eval A n	B	1
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 A e C
+2 C e B
+3 eval C e	B	2
+1 B e C
+2 C e A
+3 eval C w	B	1
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 C e A
+2 D e C
+3 eval C e	A	1
+1 C n A
+2 A n B
+3 eval A n	B	2
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 A n B
+2 B n C
+3 eval B n	C	2
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 C e A
+2 A e B
+3 eval A e	B	2
+1 A n B
+2 C n A
+3 eval A s	C	2
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 A n C
+2 C n B
+3 eval C s	A	1
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 B e C
+2 C e A
+3 eval C w	B	1
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 C e B
+2 A e C
+3 eval C e	B	1
+1 C n A
+2 A n B
+3 eval A n	B	2
+1 A n B
+2 C n A
+3 eval A n	B	1
+1 A e B
+2 C e A
+3 eval A e	B	1
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 C n B
+2 D n C
+3 eval C s	D	2
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 C n A
+2 A n B
+3 eval A s	C	1
+1 D n C
+2 C n B
+3 eval C n	B	2
+1 A e B
+2 C e A
+3 eval A w	C	2
+1 D n C
+2 C n B
+3 eval C s	D	1
+1 A e B
+2 B e C
+3 eval B w	A	1
+1 A n C
+2 C n B
+3 eval C n	B	2
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 B n C
+2 C n A
+3 eval C s	B	1
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 A n C
+2 C n B
+3 eval C s	A	1
+1 B e A
+2 A e C
+3 eval A e	C	2
+1 A e C
+2 D e A
+3 eval A e	C	1
+1 B e C
+2 C e A
+3 eval C e	A	2
+1 D e C
+2 C e A
+3 eval C w	D	1
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 B n C
+2 D n B
+3 eval B n	C	1
+1 A e C
+2 C e B
+3 eval C e	B	2
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 C n A
+2 D n C
+3 eval C n	A	1
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 B e A
+2 A e C
+3 eval A w	B	1
+1 C n A
+2 B n C
+3 eval C n	A	1
+1 C e A
+2 A e B
+3 eval A w	C	1
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 C n B
+2 D n C
+3 eval C s	D	2
+1 A n B
+2 C n A
+3 eval A n	B	1
+1 B e C
+2 D e B
+3 eval B w	D	2
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 A n B
+2 B n C
+3 eval B s	A	1
+1 A n B
+2 C n A
+3 eval A n	B	1
+1 B n C
+2 C n A
+3 eval C s	B	1
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 B e A
+2 A e C
+3 eval A e	C	2
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 B e C
+2 C e A
+3 eval C e	A	2
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 B e C
+2 A e B
+3 eval B e	C	1
+1 A n B
+2 C n A
+3 eval A s	C	2
+1 C e A
+2 B e C
+3 eval C e	A	1
+1 C e B
+2 A e C
+3 eval C e	B	1
+1 C n A
+2 B n C
+3 eval C n	A	1
+1 A n B
+2 C n A
+3 eval A n	B	1
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 A e B
+2 C e A
+3 eval A w	C	2
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 D e B
+2 B e C
+3 eval B e	C	2
+1 C n A
+2 A n B
+3 eval A s	C	1
+1 A n C
+2 B n A
+3 eval A s	B	2
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 A n C
+2 B n A
+3 eval A s	B	2
+1 C n A
+2 B n C
+3 eval C n	A	1
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 C e A
+2 A e B
+3 eval A e	B	2
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 A e C
+2 C e B
+3 eval C w	A	1
+1 C e A
+2 B e C
+3 eval C e	A	1
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 A e B
+2 C e A
+3 eval A e	B	1
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 A n B
+2 C n A
+3 eval A n	B	1
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 C e A
+2 A e B
+3 eval A w	C	1
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 A n B
+2 C n A
+3 eval A n	B	1
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 A n B
+2 C n A
+3 eval A s	C	2
+1 B n A
+2 C n B
+3 eval B s	C	2
+1 C e B
+2 A e C
+3 eval C w	A	2
+1 A n C
+2 C n B
+3 eval C s	A	1
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 D n B
+2 B n A
+3 eval B s	D	1
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 D n A
+2 A n B
+3 eval A n	B	2
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 D n C
+2 C n B
+3 eval C s	D	1
+1 C e A
+2 A e B
+3 eval A e	B	2
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 D e C
+2 C e A
+3 eval C e	A	2
+1 B e C
+2 D e B
+3 eval B e	C	1
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 C n B
+2 A n C
+3 eval C n	B	1
+1 A e C
+2 C e B
+3 eval C e	B	2
+1 B e A
+2 A e C
+3 eval A e	C	2
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 C e A
+2 A e B
+3 eval A w	C	1
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 B e C
+2 C e A
+3 eval C e	A	2
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 B n C
+2 C n A
+3 eval C s	B	1
+1 A n B
+2 B n C
+3 eval B s	A	1
+1 A e B
+2 D e A
+3 eval A w	D	2
+1 B n C
+2 C n A
+3 eval C n	A	2
+1 C e B
+2 B e A
+3 eval B w	C	1
+1 B n C
+2 A n B
+3 eval B n	C	1
+1 B e C
+2 A e B
+3 eval B w	A	2
+1 C e B
+2 D e C
+3 eval C w	D	2
+1 A e C
+2 C e B
+3 eval C e	B	2
+1 B n A
+2 A n C
+3 eval A s	B	1
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 A e B
+2 C e A
+3 eval A e	B	1
+1 A e B
+2 B e C
+3 eval B w	A	1
+1 B n A
+2 C n B
+3 eval B n	A	1
+1 A e C
+2 D e A
+3 eval A e	C	1
+1 C n B
+2 B n A
+3 eval B n	A	2
+1 A e C
+2 C e B
+3 eval C w	A	1
+1 B e A
+2 C e B
+3 eval B e	A	1
+1 C e B
+2 B e A
+3 eval B e	A	2
+1 C n B
+2 B n A
+3 eval B s	C	1
+1 D n C
+2 C n A
+3 eval C n	A	2
+1 A n B
+2 B n C
+3 eval B s	A	1
+1 A e C
+2 C e B
+3 eval C e	B	2
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 A e B
+2 C e A
+3 eval A e	B	1
+1 B e A
+2 C e B
+3 eval B w	C	2
+1 B n C
+2 C n A
+3 eval C n	A	2
+1 C e B
+2 A e C
+3 eval C e	B	1
+1 A n C
+2 C n B
+3 eval C s	A	1
+1 A e C
+2 C e B
+3 eval C w	A	1

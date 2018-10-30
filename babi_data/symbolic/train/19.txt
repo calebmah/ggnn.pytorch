@@ -1,0 +1,5000 @@
+1 F w A
+2 D n G
+3 F n D
+4 A w B
+5 eval path F B	w,w	1 4
+1 G s A
+2 B n F
+3 G e D
+4 B s G
+5 eval path B D	s,e	3 4
+1 F n E
+2 B w D
+3 D w A
+4 B n F
+5 eval path B E	n,n	1 4
+1 G e E
+2 G n A
+3 B n G
+4 B w D
+5 eval path B A	n,n	3 2
+1 G w F
+2 D s A
+3 G s B
+4 A w G
+5 eval path D G	s,w	2 4
+1 B n D
+2 D n F
+3 G e E
+4 D e G
+5 eval path B G	n,e	4 1
+1 G s E
+2 B e A
+3 B s G
+4 G w D
+5 eval path B D	s,w	4 3
+1 F e E
+2 E n D
+3 A n F
+4 E e G
+5 eval path A E	n,e	1 3
+1 B w A
+2 E w B
+3 E n G
+4 B s F
+5 eval path E F	w,s	4 2
+1 F n D
+2 D e E
+3 B w A
+4 B n F
+5 eval path B D	n,n	1 4
+1 E n B
+2 E e D
+3 D e G
+4 F n E
+5 eval path F B	n,n	4 1
+1 B e D
+2 A s E
+3 D e A
+4 D n F
+5 eval path B F	e,n	4 1
+1 G s D
+2 A n E
+3 A s G
+4 A e F
+5 eval path A D	s,s	1 3
+1 D e G
+2 G n F
+3 B e D
+4 G e A
+5 eval path B G	e,e	3 1
+1 F n A
+2 B n G
+3 D n B
+4 G e F
+5 eval path D G	n,n	2 3
+1 D s E
+2 B w A
+3 D w B
+4 D e F
+5 eval path D A	w,w	2 3
+1 E w D
+2 A w B
+3 E n G
+4 G n A
+5 eval path E A	n,n	4 3
+1 F e G
+2 E n F
+3 A e B
+4 B n E
+5 eval path A E	e,n	4 3
+1 A e F
+2 A s B
+3 F n E
+4 E e G
+5 eval path A E	e,n	3 1
+1 F n G
+2 E e B
+3 F e E
+4 E s A
+5 eval path F B	e,e	2 3
+1 B n A
+2 G w D
+3 F w B
+4 A w G
+5 eval path F A	w,n	1 3
+1 D e A
+2 G e D
+3 A s F
+4 A n B
+5 eval path G A	e,e	2 1
+1 F e D
+2 A n E
+3 E n F
+4 G e A
+5 eval path G E	e,n	2 4
+1 F w E
+2 F s G
+3 A n D
+4 A w F
+5 eval path A G	w,s	2 4
+1 D s F
+2 A s E
+3 D n B
+4 F w A
+5 eval path D A	s,w	4 1
+1 B n G
+2 E n A
+3 D w B
+4 G w E
+5 eval path D G	w,n	1 3
+1 E e F
+2 G n E
+3 D e G
+4 A e D
+5 eval path A G	e,e	4 3
+1 F w A
+2 G s F
+3 D w G
+4 A w E
+5 eval path D F	w,s	3 2
+1 A e D
+2 D n B
+3 B n E
+4 D s G
+5 eval path A G	e,s	4 1
+1 B e D
+2 F e A
+3 D e G
+4 G n F
+5 eval path B G	e,e	3 1
+1 F e E
+2 E s A
+3 F w D
+4 D w G
+5 eval path F A	e,s	1 2
+1 F w B
+2 G n F
+3 E w G
+4 D n E
+5 eval path D G	n,w	3 4
+1 E e B
+2 D s G
+3 A e E
+4 A s D
+5 eval path A B	e,e	1 3
+1 A w E
+2 A e F
+3 F e D
+4 B s A
+5 eval path B F	s,e	2 4
+1 D w A
+2 F s D
+3 E n B
+4 F n E
+5 eval path F B	n,n	3 4
+1 D e G
+2 F s B
+3 B w A
+4 D w F
+5 eval path D B	w,s	2 4
+1 E n G
+2 B w F
+3 E s A
+4 G w B
+5 eval path E B	n,w	1 4
+1 F n E
+2 D w G
+3 E n D
+4 F s B
+5 eval path F D	n,n	1 3
+1 D n G
+2 F n E
+3 D w B
+4 B w F
+5 eval path D F	w,w	4 3
+1 F w G
+2 D e A
+3 B w F
+4 D s B
+5 eval path D F	s,w	4 3
+1 G s E
+2 G e F
+3 E s B
+4 A e G
+5 eval path A E	e,s	1 4
+1 F s G
+2 B n A
+3 A w D
+4 B e F
+5 eval path B G	e,s	1 4
+1 G n B
+2 G e E
+3 B w F
+4 B n D
+5 eval path G D	n,n	1 4
+1 E n G
+2 A w B
+3 D w A
+4 G w D
+5 eval path E D	n,w	1 4
+1 A n D
+2 F s E
+3 A s F
+4 G e A
+5 eval path G D	e,n	4 1
+1 F s G
+2 D n B
+3 E n D
+4 F e E
+5 eval path F D	e,n	3 4
+1 A s F
+2 G s A
+3 B w G
+4 G n D
+5 eval path B A	w,s	3 2
+1 G e B
+2 B s E
+3 G w D
+4 D n F
+5 eval path G F	w,n	3 4
+1 B s A
+2 A e G
+3 B n E
+4 G s D
+5 eval path B G	s,e	2 1
+1 D n E
+2 F w B
+3 G n D
+4 G s F
+5 eval path G B	s,w	4 2
+1 D n B
+2 D e G
+3 E s A
+4 E e D
+5 eval path E G	e,e	4 2
+1 A w D
+2 B w A
+3 G n F
+4 B e G
+5 eval path B F	e,n	4 3
+1 F w B
+2 B s D
+3 B n G
+4 D s A
+5 eval path F D	w,s	2 1
+1 B n D
+2 B w F
+3 F s A
+4 F w G
+5 eval path B A	w,s	3 2
+1 B w F
+2 B s A
+3 B e E
+4 E e D
+5 eval path B D	e,e	3 4
+1 A w F
+2 F w D
+3 F s G
+4 G s E
+5 eval path A D	w,w	2 1
+1 E n A
+2 B n F
+3 A n G
+4 F w E
+5 eval path B E	n,w	4 2
+1 E s B
+2 G w A
+3 B w D
+4 A s E
+5 eval path G E	w,s	2 4
+1 B w D
+2 E s F
+3 E n B
+4 G w E
+5 eval path G B	w,n	4 3
+1 E n A
+2 E s B
+3 B e G
+4 B w D
+5 eval path E G	s,e	3 2
+1 E w B
+2 G e F
+3 G s D
+4 E s G
+5 eval path E D	s,s	3 4
+1 A e D
+2 E n A
+3 D e B
+4 D n G
+5 eval path E D	n,e	2 1
+1 B e A
+2 E e D
+3 A s G
+4 A n E
+5 eval path B E	e,n	4 1
+1 G e F
+2 D s G
+3 F e E
+4 F s B
+5 eval path D F	s,e	2 1
+1 E e A
+2 F w G
+3 G n D
+4 E n F
+5 eval path E G	n,w	2 4
+1 G e E
+2 G w D
+3 G n A
+4 B n G
+5 eval path B E	n,e	4 1
+1 D s A
+2 A s B
+3 A w G
+4 D n E
+5 eval path D G	s,w	1 3
+1 D s A
+2 G s B
+3 B e D
+4 G n E
+5 eval path G D	s,e	2 3
+1 B n G
+2 B s F
+3 G n A
+4 B e D
+5 eval path B A	n,n	3 1
+1 E n A
+2 E w F
+3 B e G
+4 B n E
+5 eval path B A	n,n	4 1
+1 F w G
+2 F s A
+3 E e D
+4 F n E
+5 eval path F D	n,e	4 3
+1 E e F
+2 F e A
+3 E n B
+4 E s D
+5 eval path E A	e,e	1 2
+1 D e A
+2 F n B
+3 B e E
+4 A n F
+5 eval path D F	e,n	1 4
+1 D s F
+2 F s G
+3 E s B
+4 G e E
+5 eval path D G	s,s	1 2
+1 F n A
+2 F s D
+3 D e G
+4 D s B
+5 eval path F G	s,e	3 2
+1 A e D
+2 E n F
+3 D s G
+4 A n E
+5 eval path A G	e,s	1 3
+1 G e D
+2 A n G
+3 G n F
+4 G w E
+5 eval path A E	n,w	2 4
+1 D n B
+2 E n D
+3 E w F
+4 A w E
+5 eval path A F	w,w	4 3
+1 B s A
+2 E s B
+3 B w D
+4 F s E
+5 eval path F B	s,s	4 2
+1 G e D
+2 A e G
+3 B e A
+4 F n B
+5 eval path F A	n,e	3 4
+1 F e B
+2 F w E
+3 B n D
+4 E n G
+5 eval path F G	w,n	2 4
+1 G s E
+2 B w A
+3 D s B
+4 E w D
+5 eval path G D	s,w	4 1
+1 B n G
+2 A w F
+3 A n B
+4 A s E
+5 eval path A G	n,n	3 1
+1 F n D
+2 F s B
+3 B w G
+4 E w F
+5 eval path E D	w,n	1 4
+1 F w E
+2 F n G
+3 F e A
+4 E s D
+5 eval path F D	w,s	4 1
+1 D n G
+2 E e B
+3 D e E
+4 G w A
+5 eval path D A	n,w	4 1
+1 B n F
+2 F n A
+3 E s D
+4 E n B
+5 eval path E F	n,n	1 4
+1 B w D
+2 E w B
+3 B n A
+4 D s F
+5 eval path E D	w,w	2 1
+1 B s E
+2 G w D
+3 D n F
+4 G e B
+5 eval path G F	w,n	3 2
+1 F s G
+2 A n D
+3 F w A
+4 D w E
+5 eval path F D	w,n	3 2
+1 F w E
+2 G w F
+3 A n G
+4 G e B
+5 eval path A B	n,e	3 4
+1 G e E
+2 B s F
+3 B e G
+4 D e B
+5 eval path D G	e,e	4 3
+1 B n D
+2 B s G
+3 F w B
+4 G w A
+5 eval path F G	w,s	2 3
+1 D w G
+2 A w D
+3 B w A
+4 F w B
+5 eval path F A	w,w	3 4
+1 E e A
+2 G s E
+3 B e D
+4 A s B
+5 eval path G A	s,e	2 1
+1 A e D
+2 A n B
+3 B n G
+4 G n E
+5 eval path A G	n,n	3 2
+1 A s G
+2 D n B
+3 D w F
+4 F s A
+5 eval path D A	w,s	4 3
+1 A e G
+2 D w B
+3 D s A
+4 B n F
+5 eval path D G	s,e	1 3
+1 A w F
+2 B n G
+3 B s A
+4 B e E
+5 eval path B F	s,w	1 3
+1 F s G
+2 F e D
+3 G s B
+4 D e E
+5 eval path F E	e,e	4 2
+1 A n G
+2 B e A
+3 E e F
+4 A s E
+5 eval path B E	e,s	2 4
+1 G w E
+2 A s F
+3 E s A
+4 E w D
+5 eval path G A	w,s	3 1
+1 E w D
+2 A s G
+3 A n F
+4 E e A
+5 eval path E G	e,s	4 2
+1 D n A
+2 D e G
+3 A n F
+4 A w B
+5 eval path D B	n,w	1 4
+1 A n G
+2 F n A
+3 A w E
+4 F s D
+5 eval path F E	n,w	2 3
+1 B w F
+2 D n G
+3 F n D
+4 F s E
+5 eval path B D	w,n	3 1
+1 A w E
+2 E n G
+3 E w F
+4 E s D
+5 eval path A G	w,n	2 1
+1 F e E
+2 E s A
+3 A e D
+4 D s B
+5 eval path F A	e,s	1 2
+1 G n E
+2 G w B
+3 D e F
+4 E n D
+5 eval path G D	n,n	4 1
+1 B s G
+2 B n E
+3 F w D
+4 E n F
+5 eval path B F	n,n	2 4
+1 B s G
+2 G e A
+3 B n E
+4 G w D
+5 eval path B D	s,w	1 4
+1 B s G
+2 G w F
+3 A s B
+4 G s E
+5 eval path A G	s,s	1 3
+1 B s A
+2 E s D
+3 G w B
+4 D s G
+5 eval path E G	s,s	4 2
+1 F e B
+2 F w G
+3 E n A
+4 B n E
+5 eval path F E	e,n	4 1
+1 A e G
+2 A n F
+3 F n D
+4 D n E
+5 eval path A D	n,n	3 2
+1 F e A
+2 E w B
+3 D n E
+4 D s F
+5 eval path D A	s,e	1 4
+1 D n F
+2 F e A
+3 A e E
+4 E e B
+5 eval path D A	n,e	1 2
+1 A s G
+2 B n D
+3 E w B
+4 A n E
+5 eval path A B	n,w	4 3
+1 E e A
+2 A e G
+3 G s B
+4 B s D
+5 eval path E G	e,e	2 1
+1 B e E
+2 D s G
+3 B w D
+4 F s B
+5 eval path F D	s,w	3 4
+1 B n G
+2 G n F
+3 G e E
+4 B w D
+5 eval path B E	n,e	1 3
+1 G w A
+2 B s G
+3 D n E
+4 B n D
+5 eval path B A	s,w	1 2
+1 E s B
+2 B w F
+3 G n D
+4 E e G
+5 eval path E D	e,n	3 4
+1 E e F
+2 E s G
+3 A s E
+4 D e A
+5 eval path D E	e,s	3 4
+1 D e B
+2 D w G
+3 F s E
+4 F n D
+5 eval path F G	n,w	4 2
+1 B w A
+2 G s B
+3 D e E
+4 G n D
+5 eval path G A	s,w	1 2
+1 E e B
+2 D e E
+3 D w F
+4 G s D
+5 eval path G F	s,w	4 3
+1 A s B
+2 E e D
+3 A w F
+4 E s A
+5 eval path E F	s,w	4 3
+1 A w G
+2 A n B
+3 B e F
+4 F n E
+5 eval path A F	n,e	2 3
+1 B w A
+2 D e F
+3 D w B
+4 G s D
+5 eval path G B	s,w	3 4
+1 B w F
+2 B e G
+3 A n B
+4 G e D
+5 eval path A F	n,w	1 3
+1 E n D
+2 A s B
+3 F e A
+4 F n E
+5 eval path F B	e,s	2 3
+1 B w A
+2 E e D
+3 B e E
+4 B n F
+5 eval path B D	e,e	2 3
+1 E n B
+2 E s G
+3 F e E
+4 F w D
+5 eval path F B	e,n	1 3
+1 E w B
+2 A s F
+3 A n D
+4 F s E
+5 eval path A E	s,s	4 2
+1 A s G
+2 E e F
+3 F s A
+4 F e B
+5 eval path E A	e,s	2 3
+1 A s F
+2 G w E
+3 A n G
+4 F s D
+5 eval path A D	s,s	4 1
+1 F e E
+2 D e F
+3 G s B
+4 D w G
+5 eval path D B	w,s	3 4
+1 D s A
+2 A e E
+3 A s F
+4 A w G
+5 eval path D F	s,s	3 1
+1 F e A
+2 D s G
+3 A n B
+4 G e F
+5 eval path D F	s,e	4 2
+1 A n B
+2 D e A
+3 A e F
+4 D s G
+5 eval path D B	e,n	2 1
+1 E s F
+2 B s E
+3 A e B
+4 A w G
+5 eval path A E	e,s	3 2
+1 B n G
+2 D w E
+3 B w D
+4 F w B
+5 eval path F D	w,w	4 3
+1 B e A
+2 D n F
+3 D s B
+4 F n G
+5 eval path D A	s,e	3 1
+1 A e F
+2 D e E
+3 F s D
+4 E e B
+5 eval path A D	e,s	1 3
+1 G w B
+2 D n G
+3 E n D
+4 D e A
+5 eval path E A	n,e	3 4
+1 A w G
+2 B e D
+3 E s B
+4 A e E
+5 eval path A B	e,s	4 3
+1 F s E
+2 A w F
+3 E s D
+4 A e B
+5 eval path A E	w,s	2 1
+1 G n D
+2 G s F
+3 A e B
+4 A w G
+5 eval path A F	w,s	4 2
+1 A w D
+2 A e E
+3 D n F
+4 G n A
+5 eval path G D	n,w	4 1
+1 B w A
+2 E w B
+3 G e D
+4 E n G
+5 eval path E D	n,e	3 4
+1 E w B
+2 A s E
+3 E e D
+4 B s G
+5 eval path A B	s,w	1 2
+1 D s F
+2 G e E
+3 D n G
+4 G n B
+5 eval path D E	n,e	3 2
+1 F s A
+2 F n G
+3 F e D
+4 E e F
+5 eval path E G	e,n	4 2
+1 A s G
+2 D n F
+3 A e E
+4 D e A
+5 eval path D G	e,s	1 4
+1 A w B
+2 G n D
+3 E n G
+4 A n E
+5 eval path A G	n,n	3 4
+1 D n F
+2 F e B
+3 D s G
+4 F n A
+5 eval path D B	n,e	2 1
+1 F n E
+2 G n D
+3 E e G
+4 E w B
+5 eval path F G	n,e	3 1
+1 G s B
+2 B w F
+3 D s E
+4 F w D
+5 eval path G F	s,w	2 1
+1 D w B
+2 E w D
+3 E e F
+4 F s G
+5 eval path E G	e,s	4 3
+1 G n E
+2 E e B
+3 E w D
+4 B n F
+5 eval path G D	n,w	3 1
+1 B n D
+2 B e F
+3 E n B
+4 D w A
+5 eval path E F	n,e	2 3
+1 F s A
+2 D n G
+3 D e B
+4 B s F
+5 eval path D F	e,s	4 3
+1 A w G
+2 G w F
+3 B s A
+4 F w E
+5 eval path B G	s,w	3 1
+1 D s F
+2 B e E
+3 E s D
+4 B n G
+5 eval path B D	e,s	3 2
+1 F s G
+2 E w B
+3 G s E
+4 F e D
+5 eval path F E	s,s	1 3
+1 F s G
+2 D w B
+3 D s F
+4 A w D
+5 eval path A B	w,w	2 4
+1 G w D
+2 F n G
+3 A e E
+4 A n F
+5 eval path A G	n,n	2 4
+1 E w G
+2 D w A
+3 D n B
+4 G w D
+5 eval path E D	w,w	4 1
+1 B n F
+2 E s A
+3 D w E
+4 D e B
+5 eval path D A	w,s	2 3
+1 A e F
+2 A w G
+3 F s E
+4 F e D
+5 eval path A E	e,s	3 1
+1 D w E
+2 E n F
+3 E w B
+4 F n G
+5 eval path D F	w,n	2 1
+1 G w D
+2 B n G
+3 E w A
+4 D w E
+5 eval path B D	n,w	1 2
+1 G e D
+2 D e E
+3 E e F
+4 E s B
+5 eval path G E	e,e	2 1
+1 F w E
+2 F e A
+3 F n G
+4 A s D
+5 eval path F D	e,s	2 4
+1 E n D
+2 A n E
+3 A s B
+4 D n G
+5 eval path A D	n,n	2 1
+1 B s D
+2 D s A
+3 F e E
+4 D e F
+5 eval path B F	s,e	1 4
+1 A e D
+2 A s G
+3 E s B
+4 B s A
+5 eval path E A	s,s	4 3
+1 E n B
+2 F w A
+3 B n F
+4 A w D
+5 eval path E F	n,n	1 3
+1 G n A
+2 D w G
+3 G w F
+4 G s B
+5 eval path D B	w,s	4 2
+1 E w B
+2 E e G
+3 B w D
+4 E n F
+5 eval path E D	w,w	1 3
+1 G n A
+2 A w B
+3 E n G
+4 F w E
+5 eval path F G	w,n	4 3
+1 D n A
+2 B w D
+3 D s F
+4 F w G
+5 eval path B A	w,n	2 1
+1 F s B
+2 G e A
+3 B s G
+4 F n E
+5 eval path F G	s,s	1 3
+1 B w F
+2 D e G
+3 G e E
+4 D s B
+5 eval path D F	s,w	1 4
+1 F s B
+2 B w E
+3 G s A
+4 A w F
+5 eval path G F	s,w	4 3
+1 D w B
+2 E s A
+3 F w E
+4 E n D
+5 eval path F D	w,n	3 4
+1 A e G
+2 G e F
+3 G s E
+4 B e A
+5 eval path B G	e,e	1 4
+1 D n F
+2 A w E
+3 F e G
+4 E n D
+5 eval path A D	w,n	4 2
+1 A e F
+2 G s B
+3 E n A
+4 G e E
+5 eval path G A	e,n	3 4
+1 F e D
+2 A e F
+3 A s E
+4 F n B
+5 eval path A B	e,n	2 4
+1 E s F
+2 G w E
+3 G e B
+4 F w A
+5 eval path G F	w,s	2 1
+1 E e F
+2 G n E
+3 A e G
+4 E n D
+5 eval path A E	e,n	3 2
+1 B w E
+2 F w B
+3 F s A
+4 G s F
+5 eval path G A	s,s	3 4
+1 D s G
+2 G e A
+3 F e D
+4 D n E
+5 eval path F G	e,s	1 3
+1 D e F
+2 A w E
+3 A n G
+4 A e D
+5 eval path A F	e,e	1 4
+1 D e A
+2 G s E
+3 B e G
+4 A s B
+5 eval path D B	e,s	4 1
+1 F e D
+2 A s B
+3 B e F
+4 D s E
+5 eval path A F	s,e	2 3
+1 A w G
+2 D s F
+3 G s D
+4 G w B
+5 eval path A D	w,s	1 3
+1 E n B
+2 B n A
+3 G n D
+4 D e E
+5 eval path G E	n,e	4 3
+1 A s F
+2 A w G
+3 E n D
+4 E s A
+5 eval path E G	s,w	2 4
+1 F e D
+2 E e F
+3 E n G
+4 E s A
+5 eval path E D	e,e	1 2
+1 G e E
+2 A e G
+3 A s D
+4 G n F
+5 eval path A F	e,n	2 4
+1 B e A
+2 A n G
+3 E e B
+4 E s F
+5 eval path E A	e,e	1 3
+1 A w B
+2 E w F
+3 F w A
+4 A n D
+5 eval path E A	w,w	2 3
+1 D s A
+2 E w D
+3 E e B
+4 F s E
+5 eval path F D	s,w	4 2
+1 D n F
+2 E e A
+3 D e E
+4 G e D
+5 eval path G E	e,e	3 4
+1 A n E
+2 E w B
+3 G w A
+4 G e F
+5 eval path G E	w,n	3 1
+1 B e D
+2 B w A
+3 A n F
+4 A s E
+5 eval path B E	w,s	2 4
+1 F e A
+2 A n G
+3 A s B
+4 B s E
+5 eval path F B	e,s	3 1
+1 G e F
+2 D e G
+3 B w E
+4 D s B
+5 eval path D E	s,w	4 3
+1 F w B
+2 D w F
+3 A s D
+4 A n E
+5 eval path A F	s,w	2 3
+1 E w B
+2 B n G
+3 B w F
+4 E e D
+5 eval path E G	w,n	2 1
+1 B e A
+2 E e B
+3 B s F
+4 D e E
+5 eval path D B	e,e	4 2
+1 B s E
+2 F e A
+3 D e B
+4 A e D
+5 eval path F D	e,e	2 4
+1 A w F
+2 D s G
+3 B s D
+4 F w B
+5 eval path A B	w,w	4 1
+1 G e D
+2 A w F
+3 B n A
+4 B s G
+5 eval path B D	s,e	1 4
+1 E n F
+2 B w E
+3 A n D
+4 F w A
+5 eval path B F	w,n	2 1
+1 G w D
+2 E s F
+3 E n G
+4 G e A
+5 eval path E A	n,e	4 3
+1 A n E
+2 B w A
+3 E n G
+4 A w D
+5 eval path B E	w,n	2 1
+1 A s G
+2 G e E
+3 D e A
+4 D n B
+5 eval path D G	e,s	3 1
+1 A s E
+2 G w A
+3 A n F
+4 F n B
+5 eval path G F	w,n	3 2
+1 B s G
+2 E e A
+3 D n E
+4 D w B
+5 eval path D A	n,e	3 2
+1 E n A
+2 G e E
+3 E e F
+4 A n B
+5 eval path G A	e,n	1 2
+1 E e B
+2 E w A
+3 E n F
+4 G n E
+5 eval path G B	n,e	1 4
+1 B n D
+2 B e E
+3 E s A
+4 E e F
+5 eval path B F	e,e	2 4
+1 G e D
+2 B n E
+3 B s G
+4 A e B
+5 eval path A G	e,s	3 4
+1 G w D
+2 B n E
+3 G n B
+4 B e A
+5 eval path G A	n,e	3 4
+1 D w E
+2 F n A
+3 F w D
+4 B w F
+5 eval path B D	w,w	3 4
+1 D w E
+2 D e F
+3 E s A
+4 F s G
+5 eval path D A	w,s	1 3
+1 A n B
+2 D s G
+3 E e D
+4 A s E
+5 eval path A D	s,e	4 3
+1 A s E
+2 E s F
+3 A e D
+4 F e B
+5 eval path A F	s,s	2 1
+1 D s F
+2 F s B
+3 E e A
+4 E s D
+5 eval path E F	s,s	1 4
+1 G w E
+2 D w G
+3 G n A
+4 D s F
+5 eval path D A	w,n	3 2
+1 B s D
+2 D s A
+3 D w E
+4 G w B
+5 eval path G D	w,s	4 1
+1 B e G
+2 F n B
+3 E e F
+4 F s D
+5 eval path E B	e,n	2 3
+1 E n D
+2 D n G
+3 E s A
+4 A s F
+5 eval path E G	n,n	2 1
+1 A e G
+2 F s E
+3 A n B
+4 F e A
+5 eval path F B	e,n	3 4
+1 E n D
+2 A e F
+3 A s G
+4 E s A
+5 eval path E F	s,e	2 4
+1 B s D
+2 F s G
+3 D s F
+4 B e E
+5 eval path B F	s,s	1 3
+1 G w E
+2 E w D
+3 F w G
+4 F n B
+5 eval path F E	w,w	1 3
+1 F e A
+2 F n B
+3 D e F
+4 F s G
+5 eval path D A	e,e	1 3
+1 A n E
+2 D w A
+3 E w F
+4 A s G
+5 eval path D E	w,n	1 2
+1 D e G
+2 B s D
+3 E e A
+4 G s E
+5 eval path B G	s,e	1 2
+1 G w A
+2 A n E
+3 G s F
+4 A w D
+5 eval path G E	w,n	2 1
+1 A s B
+2 D e F
+3 D n E
+4 A e D
+5 eval path A E	e,n	3 4
+1 G w D
+2 E n B
+3 A s G
+4 A e E
+5 eval path A B	e,n	2 4
+1 A e G
+2 G e D
+3 A w E
+4 B s A
+5 eval path B G	s,e	1 4
+1 G s E
+2 A e G
+3 G n F
+4 G e D
+5 eval path A E	e,s	2 1
+1 F e A
+2 A n D
+3 E w G
+4 E e F
+5 eval path E A	e,e	1 4
+1 D w E
+2 B w A
+3 E w B
+4 A n F
+5 eval path D B	w,w	1 3
+1 B s G
+2 G s E
+3 D s B
+4 G w F
+5 eval path D G	s,s	3 1
+1 B e E
+2 A s D
+3 B w G
+4 D s B
+5 eval path A B	s,s	2 4
+1 E e A
+2 D n G
+3 B n E
+4 E w D
+5 eval path B A	n,e	1 3
+1 B s A
+2 A e G
+3 F s B
+4 D e F
+5 eval path D B	e,s	3 4
+1 B s G
+2 B w E
+3 B n D
+4 E w F
+5 eval path B F	w,w	2 4
+1 D e A
+2 G e F
+3 A s G
+4 A n E
+5 eval path D G	e,s	3 1
+1 B e F
+2 D e B
+3 F e A
+4 D w E
+5 eval path D F	e,e	1 2
+1 F w G
+2 G w E
+3 E s A
+4 A w B
+5 eval path F E	w,w	1 2
+1 F n D
+2 A s E
+3 D n B
+4 A e F
+5 eval path A D	e,n	4 1
+1 G n D
+2 G w B
+3 B s E
+4 B w F
+5 eval path G E	w,s	3 2
+1 B e F
+2 D n G
+3 D e B
+4 G w A
+5 eval path D A	n,w	2 4
+1 E e G
+2 G e D
+3 G s B
+4 D e A
+5 eval path E B	e,s	1 3
+1 B s E
+2 F e B
+3 D s G
+4 G e F
+5 eval path D F	s,e	4 3
+1 G e A
+2 G w D
+3 D s B
+4 B w E
+5 eval path G B	w,s	3 2
+1 G w F
+2 F n A
+3 D n G
+4 D e B
+5 eval path D F	n,w	1 3
+1 G w F
+2 F w A
+3 B w G
+4 G n E
+5 eval path B F	w,w	3 1
+1 E e F
+2 A e E
+3 A s D
+4 B e A
+5 eval path B D	e,s	4 3
+1 E n B
+2 E w A
+3 F w E
+4 B n G
+5 eval path F B	w,n	3 1
+1 E s B
+2 F e E
+3 B e G
+4 E n A
+5 eval path F B	e,s	2 1
+1 E s D
+2 G n B
+3 E e F
+4 G s E
+5 eval path G F	s,e	3 4
+1 B s F
+2 D e E
+3 E e A
+4 F e D
+5 eval path B D	s,e	4 1
+1 G n E
+2 D s F
+3 D e B
+4 G s D
+5 eval path G B	s,e	3 4
+1 A s G
+2 E e F
+3 E s B
+4 B s A
+5 eval path E A	s,s	4 3
+1 E e A
+2 F w B
+3 B n G
+4 E n F
+5 eval path E B	n,w	4 2
+1 G e A
+2 B w E
+3 G n D
+4 B n G
+5 eval path B D	n,n	3 4
+1 A w E
+2 F s A
+3 A s D
+4 F n B
+5 eval path F D	s,s	2 3
+1 B n A
+2 E w B
+3 B w D
+4 A n G
+5 eval path E A	w,n	1 2
+1 F w B
+2 F n D
+3 A s E
+4 A n F
+5 eval path A D	n,n	4 2
+1 F n A
+2 E w F
+3 D w E
+4 F s B
+5 eval path D F	w,w	3 2
+1 A s E
+2 A n G
+3 D w B
+4 G w D
+5 eval path A D	n,w	2 4
+1 B w A
+2 G s F
+3 G w B
+4 G n D
+5 eval path G A	w,w	1 3
+1 G s B
+2 G e F
+3 F e A
+4 E s G
+5 eval path E B	s,s	1 4
+1 E e A
+2 F s E
+3 D w B
+4 E w D
+5 eval path F D	s,w	4 2
+1 E e D
+2 F e E
+3 E s G
+4 F w A
+5 eval path F G	e,s	3 2
+1 F w E
+2 B n G
+3 G n A
+4 G w F
+5 eval path B F	n,w	4 2
+1 B e D
+2 B w F
+3 A s E
+4 F s A
+5 eval path B A	w,s	4 2
+1 G w A
+2 D w G
+3 F e B
+4 D n F
+5 eval path D B	n,e	4 3
+1 D w E
+2 F s D
+3 G w F
+4 G e B
+5 eval path G D	w,s	3 2
+1 F n G
+2 E e F
+3 E w D
+4 D n A
+5 eval path E G	e,n	1 2
+1 A e E
+2 D w F
+3 E s G
+4 A w D
+5 eval path A F	w,w	2 4
+1 F s A
+2 F n B
+3 B n G
+4 A w D
+5 eval path F D	s,w	4 1
+1 G e E
+2 B e G
+3 D e B
+4 G s F
+5 eval path D G	e,e	3 2
+1 A w E
+2 A s G
+3 A e D
+4 D e B
+5 eval path A B	e,e	4 3
+1 A w D
+2 G s F
+3 G n A
+4 G e E
+5 eval path G D	n,w	3 1
+1 D e G
+2 G s F
+3 D w A
+4 E s D
+5 eval path E G	s,e	1 4
+1 D w A
+2 B e G
+3 B s D
+4 B n F
+5 eval path B A	s,w	1 3
+1 A e D
+2 A n B
+3 A w E
+4 D e F
+5 eval path A F	e,e	1 4
+1 D s E
+2 E s G
+3 G w F
+4 E e B
+5 eval path D G	s,s	2 1
+1 A s E
+2 F e D
+3 F s A
+4 B e F
+5 eval path B A	e,s	3 4
+1 B s D
+2 F e B
+3 F n G
+4 D s E
+5 eval path F D	e,s	1 2
+1 F s E
+2 F e D
+3 F n A
+4 D e B
+5 eval path F B	e,e	4 2
+1 G n B
+2 B e E
+3 E n A
+4 G w F
+5 eval path G E	n,e	2 1
+1 D n G
+2 G w B
+3 B w E
+4 A w D
+5 eval path A G	w,n	4 1
+1 F s B
+2 D e F
+3 B e A
+4 D w G
+5 eval path D B	e,s	2 1
+1 G e E
+2 F s G
+3 G w D
+4 E s A
+5 eval path F E	s,e	1 2
+1 A w B
+2 G w D
+3 D s F
+4 D w A
+5 eval path G F	w,s	3 2
+1 D s A
+2 D n E
+3 A w F
+4 F s B
+5 eval path D F	s,w	1 3
+1 G w F
+2 A w E
+3 A s D
+4 E w G
+5 eval path A G	w,w	4 2
+1 E n B
+2 A n F
+3 B e D
+4 B n A
+5 eval path E A	n,n	4 1
+1 F n E
+2 F w B
+3 B w G
+4 B s A
+5 eval path F A	w,s	4 2
+1 A n G
+2 F e E
+3 F s B
+4 E e A
+5 eval path F A	e,e	2 4
+1 B e A
+2 B s E
+3 A e F
+4 F n D
+5 eval path B F	e,e	3 1
+1 F s G
+2 D s A
+3 A e F
+4 G e E
+5 eval path D F	s,e	2 3
+1 E e B
+2 E s D
+3 G w F
+4 G e E
+5 eval path G D	e,s	2 4
+1 A s D
+2 F n E
+3 B w A
+4 F w B
+5 eval path F A	w,w	3 4
+1 A e D
+2 F n G
+3 A w F
+4 D e B
+5 eval path A B	e,e	4 1
+1 E w A
+2 A w D
+3 A n B
+4 E s G
+5 eval path E B	w,n	3 1
+1 D n A
+2 A e E
+3 A w F
+4 F w G
+5 eval path D F	n,w	3 1
+1 D s A
+2 B s F
+3 A s B
+4 D n G
+5 eval path D B	s,s	3 1
+1 B e A
+2 F n G
+3 F s B
+4 B s E
+5 eval path F E	s,s	3 4
+1 D e E
+2 D s A
+3 F e G
+4 A s F
+5 eval path D F	s,s	2 4
+1 B n F
+2 B e E
+3 E s D
+4 E e A
+5 eval path B D	e,s	3 2
+1 E n B
+2 B e G
+3 B w F
+4 B n A
+5 eval path E G	n,e	2 1
+1 A e D
+2 A n G
+3 G n B
+4 G w E
+5 eval path A E	n,w	2 4
+1 A n E
+2 D s G
+3 G e B
+4 B e A
+5 eval path D B	s,e	3 2
+1 D s E
+2 G e A
+3 D n G
+4 F e D
+5 eval path F G	e,n	3 4
+1 E n A
+2 E e F
+3 B w G
+4 E s B
+5 eval path E G	s,w	4 3
+1 E s D
+2 F n G
+3 E e B
+4 F s E
+5 eval path F B	s,e	3 4
+1 A w G
+2 G s F
+3 D w A
+4 D e E
+5 eval path D G	w,w	1 3
+1 A w G
+2 A s E
+3 D s A
+4 G w B
+5 eval path D G	s,w	3 1
+1 B n D
+2 F e G
+3 F w B
+4 F s A
+5 eval path F D	w,n	1 3
+1 A e B
+2 F n E
+3 B n D
+4 D e F
+5 eval path A D	e,n	1 3
+1 D w A
+2 D n F
+3 F n G
+4 D s E
+5 eval path D G	n,n	3 2
+1 B w E
+2 D n B
+3 E n F
+4 A n D
+5 eval path A B	n,n	2 4
+1 E w A
+2 A n G
+3 B n E
+4 E e F
+5 eval path B A	n,w	3 1
+1 D w A
+2 A s E
+3 A w B
+4 B w G
+5 eval path D B	w,w	1 3
+1 F n A
+2 F e D
+3 G w E
+4 A n G
+5 eval path F G	n,n	4 1
+1 G w F
+2 B n D
+3 G n E
+4 E e B
+5 eval path G B	n,e	3 4
+1 D w G
+2 F s D
+3 A w E
+4 E w F
+5 eval path A F	w,w	4 3
+1 B n D
+2 E e F
+3 F n B
+4 D e G
+5 eval path E B	e,n	3 2
+1 E s B
+2 E w G
+3 D w E
+4 G n F
+5 eval path D G	w,w	3 2
+1 E s F
+2 D w A
+3 A s E
+4 A w B
+5 eval path D E	w,s	2 3
+1 B n A
+2 E n B
+3 E e G
+4 A n F
+5 eval path E A	n,n	1 2
+1 G e A
+2 B n E
+3 B e G
+4 D e B
+5 eval path D G	e,e	3 4
+1 E w B
+2 G s A
+3 E e G
+4 B s F
+5 eval path E F	w,s	1 4
+1 E s B
+2 E e G
+3 E w D
+4 F s E
+5 eval path F B	s,s	4 1
+1 D w G
+2 B s D
+3 D s E
+4 D e F
+5 eval path B G	s,w	2 1
+1 E n G
+2 A e F
+3 B e A
+4 E e B
+5 eval path E A	e,e	4 3
+1 F e E
+2 B w G
+3 F n D
+4 D w B
+5 eval path F B	n,w	3 4
+1 F s G
+2 B e D
+3 B w F
+4 F w E
+5 eval path B E	w,w	3 4
+1 E s A
+2 G n F
+3 G e E
+4 G w B
+5 eval path G A	e,s	3 1
+1 F n B
+2 F s D
+3 D w G
+4 D e A
+5 eval path F G	s,w	3 2
+1 G n E
+2 F w G
+3 G s A
+4 E w B
+5 eval path F E	w,n	1 2
+1 A w E
+2 G s A
+3 A e B
+4 A s D
+5 eval path G E	s,w	2 1
+1 B s E
+2 A s B
+3 A w F
+4 B e D
+5 eval path A E	s,s	2 1
+1 F e D
+2 D s E
+3 F n G
+4 E s A
+5 eval path F E	e,s	2 1
+1 D w B
+2 D n A
+3 A n F
+4 D e G
+5 eval path D F	n,n	3 2
+1 E w B
+2 G n E
+3 G s A
+4 A w F
+5 eval path G F	s,w	4 3
+1 D s G
+2 D e B
+3 B e F
+4 G s A
+5 eval path D F	e,e	2 3
+1 B s D
+2 F e B
+3 E e G
+4 B n E
+5 eval path F E	e,n	2 4
+1 A n F
+2 D n A
+3 D e G
+4 G e E
+5 eval path D F	n,n	2 1
+1 F n B
+2 D n F
+3 E n G
+4 G w D
+5 eval path E D	n,w	4 3
+1 F w A
+2 F n D
+3 D e E
+4 B n F
+5 eval path B D	n,n	2 4
+1 G w A
+2 D n E
+3 A s F
+4 G e D
+5 eval path G E	e,n	4 2
+1 F w A
+2 A w B
+3 F s E
+4 D s F
+5 eval path D A	s,w	4 1
+1 E n F
+2 F w G
+3 E e A
+4 A e B
+5 eval path E G	n,w	2 1
+1 B e E
+2 F s D
+3 G n B
+4 G w F
+5 eval path G E	n,e	3 1
+1 E w G
+2 E n B
+3 G s D
+4 G w F
+5 eval path E D	w,s	3 1
+1 B s D
+2 B w E
+3 D s F
+4 A w B
+5 eval path A D	w,s	4 1
+1 A w E
+2 D e B
+3 D s F
+4 A s D
+5 eval path A F	s,s	4 3
+1 D e A
+2 G w E
+3 D n B
+4 G e D
+5 eval path G B	e,n	3 4
+1 D w G
+2 G s B
+3 D e A
+4 B w F
+5 eval path D B	w,s	2 1
+1 B e F
+2 E s G
+3 G e B
+4 E w A
+5 eval path E B	s,e	3 2
+1 B e A
+2 B n D
+3 A e F
+4 A s E
+5 eval path B F	e,e	1 3
+1 G e B
+2 B s E
+3 F s G
+4 F w A
+5 eval path F B	s,e	3 1
+1 B w E
+2 B e D
+3 D n A
+4 D s F
+5 eval path B F	e,s	4 2
+1 E e A
+2 D n E
+3 D s F
+4 F s B
+5 eval path D A	n,e	2 1
+1 E s G
+2 G w D
+3 G s A
+4 A e F
+5 eval path E A	s,s	3 1
+1 D s B
+2 D w F
+3 B e A
+4 A e G
+5 eval path D A	s,e	3 1
+1 D e F
+2 G n A
+3 A w E
+4 G e D
+5 eval path G F	e,e	4 1
+1 F s G
+2 A w E
+3 B s A
+4 A s F
+5 eval path B E	s,w	3 2
+1 D n B
+2 B e E
+3 B w A
+4 A n G
+5 eval path D E	n,e	1 2
+1 D w F
+2 B n A
+3 B s E
+4 E w D
+5 eval path B D	s,w	4 3
+1 B w G
+2 E w F
+3 F s B
+4 E n D
+5 eval path E B	w,s	3 2
+1 A n E
+2 E w G
+3 D w A
+4 A s F
+5 eval path D E	w,n	1 3
+1 A s B
+2 G w A
+3 G n E
+4 F w G
+5 eval path F A	w,w	4 2
+1 G w B
+2 E w G
+3 E e A
+4 G s F
+5 eval path E B	w,w	1 2
+1 G e D
+2 A w B
+3 A e E
+4 E n G
+5 eval path A G	e,n	3 4
+1 E w G
+2 E n A
+3 A n D
+4 E e F
+5 eval path E D	n,n	3 2
+1 E s F
+2 D n A
+3 D s E
+4 E w G
+5 eval path D G	s,w	3 4
+1 E n A
+2 D s G
+3 D n E
+4 E w B
+5 eval path D A	n,n	1 3
+1 A s D
+2 F n E
+3 F e A
+4 D s B
+5 eval path F D	e,s	1 3
+1 G e F
+2 E e B
+3 B n G
+4 E w A
+5 eval path E G	e,n	3 2
+1 F e B
+2 F w E
+3 B n G
+4 B e D
+5 eval path F D	e,e	4 1
+1 D s F
+2 F e A
+3 G s E
+4 F s G
+5 eval path D G	s,s	4 1
+1 G n E
+2 E n D
+3 F e A
+4 F w G
+5 eval path F E	w,n	4 1
+1 D e G
+2 D n A
+3 F n E
+4 A n F
+5 eval path D F	n,n	2 4
+1 E w D
+2 E n F
+3 F n G
+4 D s A
+5 eval path E A	w,s	1 4
+1 F w B
+2 D n A
+3 D s E
+4 A w F
+5 eval path D F	n,w	4 2
+1 G w D
+2 G e A
+3 F s G
+4 G s E
+5 eval path F E	s,s	3 4
+1 F w D
+2 B n F
+3 F e A
+4 F n E
+5 eval path B A	n,e	3 2
+1 D w B
+2 D n F
+3 F n G
+4 D e A
+5 eval path D G	n,n	3 2
+1 D s E
+2 E s G
+3 F w B
+4 D w F
+5 eval path D G	s,s	2 1
+1 B w F
+2 F s D
+3 F w A
+4 A w G
+5 eval path B A	w,w	3 1
+1 D n F
+2 G s B
+3 D e G
+4 F w A
+5 eval path D B	e,s	2 3
+1 B n E
+2 B s A
+3 E e D
+4 E w G
+5 eval path B D	n,e	1 3
+1 A w G
+2 G w F
+3 A e D
+4 E n A
+5 eval path E G	n,w	1 4
+1 F n B
+2 B e E
+3 F s G
+4 G s A
+5 eval path F E	n,e	2 1
+1 D n E
+2 D w G
+3 A w F
+4 F n D
+5 eval path A D	w,n	3 4
+1 B n G
+2 G w D
+3 D n E
+4 D w F
+5 eval path B D	n,w	2 1
+1 G e D
+2 A w E
+3 F w A
+4 F n G
+5 eval path F D	n,e	4 1
+1 F e A
+2 B e G
+3 E n B
+4 A e E
+5 eval path F E	e,e	4 1
+1 F w D
+2 D s A
+3 D w G
+4 F n B
+5 eval path F G	w,w	1 3
+1 G w E
+2 A s F
+3 G e A
+4 G n B
+5 eval path G F	e,s	3 2
+1 E e A
+2 A s F
+3 D w B
+4 E w D
+5 eval path E B	w,w	3 4
+1 F w G
+2 E w B
+3 G n E
+4 F s D
+5 eval path F E	w,n	1 3
+1 G n B
+2 E e D
+3 B n E
+4 B w F
+5 eval path G F	n,w	4 1
+1 G s E
+2 F e D
+3 F w G
+4 E s A
+5 eval path F E	w,s	3 1
+1 E w B
+2 A s D
+3 A e F
+4 E e A
+5 eval path E F	e,e	4 3
+1 F w G
+2 F e D
+3 G w B
+4 E n F
+5 eval path E D	n,e	4 2
+1 F w A
+2 F e E
+3 E e D
+4 G n F
+5 eval path G E	n,e	2 4
+1 F w G
+2 A n B
+3 A s F
+4 F e D
+5 eval path A D	s,e	4 3
+1 A n F
+2 G s B
+3 D w A
+4 D s G
+5 eval path D F	w,n	1 3
+1 F e E
+2 A w D
+3 F n A
+4 B n F
+5 eval path B A	n,n	3 4
+1 G e E
+2 B w D
+3 F s G
+4 G s B
+5 eval path F B	s,s	4 3
+1 B e A
+2 G w D
+3 B s G
+4 B n E
+5 eval path B D	s,w	3 2
+1 A n D
+2 G w A
+3 A w B
+4 G s E
+5 eval path G D	w,n	1 2
+1 G n A
+2 E e F
+3 G s D
+4 E w G
+5 eval path E D	w,s	3 4
+1 D e E
+2 A n D
+3 A s G
+4 D w B
+5 eval path A E	n,e	1 2
+1 G w D
+2 B w A
+3 A w G
+4 E s B
+5 eval path E A	s,w	2 4
+1 B n G
+2 E e D
+3 G e F
+4 D e B
+5 eval path E B	e,e	2 4
+1 G w B
+2 B s F
+3 A s G
+4 E w A
+5 eval path E G	w,s	4 3
+1 E e G
+2 A n F
+3 D e E
+4 E n A
+5 eval path D A	e,n	4 3
+1 F s E
+2 A e G
+3 B s F
+4 E e A
+5 eval path B E	s,s	1 3
+1 B n A
+2 G w F
+3 B w G
+4 G s D
+5 eval path B D	w,s	4 3
+1 B n E
+2 F e B
+3 B e G
+4 G s D
+5 eval path F E	e,n	2 1
+1 D e A
+2 D n F
+3 F w E
+4 E n G
+5 eval path D E	n,w	3 2
+1 G n E
+2 F s A
+3 E e B
+4 F e G
+5 eval path F E	e,n	4 1
+1 A n G
+2 B e E
+3 B s D
+4 A e B
+5 eval path A E	e,e	2 4
+1 B e E
+2 E s G
+3 E n F
+4 E e D
+5 eval path B G	e,s	2 1
+1 B n A
+2 G e B
+3 B e F
+4 G s D
+5 eval path G F	e,e	2 3
+1 E e B
+2 E w A
+3 A n G
+4 G w D
+5 eval path E G	w,n	2 3
+1 A s E
+2 G e A
+3 A e F
+4 A n D
+5 eval path G D	e,n	4 2
+1 B e A
+2 E e F
+3 B s G
+4 A e E
+5 eval path B E	e,e	4 1
+1 E s B
+2 F w E
+3 F e D
+4 E w A
+5 eval path F A	w,w	2 4
+1 D s G
+2 G s A
+3 B s D
+4 G w F
+5 eval path B G	s,s	3 1
+1 D e F
+2 G n B
+3 G e D
+4 D s A
+5 eval path G F	e,e	3 1
+1 F s E
+2 F w A
+3 D e B
+4 E e D
+5 eval path F D	s,e	1 4
+1 F w E
+2 E n G
+3 E w A
+4 E s D
+5 eval path F D	w,s	4 1
+1 G w A
+2 D s G
+3 D e B
+4 G s F
+5 eval path D F	s,s	4 2
+1 G w E
+2 B s F
+3 G e B
+4 E w D
+5 eval path G F	e,s	3 2
+1 F s A
+2 F e B
+3 B e E
+4 A s D
+5 eval path F D	s,s	4 1
+1 E w F
+2 F n A
+3 G w E
+4 E s B
+5 eval path G B	w,s	3 4
+1 G s B
+2 F e E
+3 A s G
+4 F w A
+5 eval path F G	w,s	4 3
+1 B w G
+2 G w D
+3 D w F
+4 A s B
+5 eval path A G	s,w	4 1
+1 F w G
+2 B w E
+3 E s D
+4 G s B
+5 eval path F B	w,s	1 4
+1 A n D
+2 G e E
+3 G w A
+4 A s B
+5 eval path G D	w,n	1 3
+1 F s E
+2 B e F
+3 F e A
+4 A n G
+5 eval path B E	e,s	2 1
+1 G e A
+2 F s E
+3 F n G
+4 G n D
+5 eval path F A	n,e	1 3
+1 A e G
+2 B s A
+3 F n E
+4 F s B
+5 eval path F A	s,s	4 2
+1 D w F
+2 E w D
+3 F s G
+4 B n E
+5 eval path B D	n,w	2 4
+1 G e B
+2 D w A
+3 E s D
+4 D e G
+5 eval path E G	s,e	4 3
+1 B s A
+2 D w F
+3 F s B
+4 F w E
+5 eval path D E	w,w	2 4
+1 D w F
+2 G w D
+3 B n E
+4 G e B
+5 eval path G E	e,n	4 3
+1 G n E
+2 G w F
+3 G s D
+4 E e B
+5 eval path G B	n,e	4 1
+1 F w D
+2 F n A
+3 D s B
+4 A n E
+5 eval path F B	w,s	3 1
+1 E n F
+2 F e B
+3 F n A
+4 B e D
+5 eval path E A	n,n	1 3
+1 B s G
+2 F e D
+3 G w A
+4 F s B
+5 eval path F G	s,s	1 4
+1 F n B
+2 A w E
+3 B n D
+4 F s A
+5 eval path F E	s,w	2 4
+1 F w E
+2 F n D
+3 B n F
+4 B e A
+5 eval path B D	n,n	2 3
+1 E s A
+2 A s G
+3 E e F
+4 D e E
+5 eval path D A	e,s	1 4
+1 D w G
+2 E w D
+3 B s E
+4 E e F
+5 eval path B D	s,w	3 2
+1 A w D
+2 G n E
+3 G s A
+4 D s F
+5 eval path G D	s,w	3 1
+1 B w F
+2 E n D
+3 F n E
+4 G n B
+5 eval path G F	n,w	1 4
+1 A e B
+2 D e A
+3 A s F
+4 G s D
+5 eval path G A	s,e	4 2
+1 D s E
+2 E e A
+3 D n F
+4 E s B
+5 eval path D B	s,s	4 1
+1 A w E
+2 D w G
+3 E s D
+4 E n B
+5 eval path A D	w,s	3 1
+1 D s A
+2 D e F
+3 A w E
+4 E s B
+5 eval path D E	s,w	3 1
+1 D s A
+2 F w D
+3 G n E
+4 F n G
+5 eval path F A	w,s	1 2
+1 D n G
+2 B s A
+3 D e B
+4 D w E
+5 eval path D A	e,s	3 2
+1 F s D
+2 G s F
+3 E s A
+4 A w G
+5 eval path E G	s,w	4 3
+1 F s B
+2 B s A
+3 A s E
+4 F w G
+5 eval path F A	s,s	1 2
+1 G w E
+2 E w B
+3 E n A
+4 G s D
+5 eval path G B	w,w	2 1
+1 E w B
+2 B s G
+3 B w D
+4 E e A
+5 eval path E G	w,s	2 1
+1 B w E
+2 G e A
+3 E w F
+4 B n G
+5 eval path B A	n,e	4 2
+1 B n D
+2 G n E
+3 A e B
+4 A w G
+5 eval path A E	w,n	2 4
+1 F n E
+2 A w F
+3 D e B
+4 D n A
+5 eval path D F	n,w	2 4
+1 A s F
+2 F e D
+3 D e E
+4 E e G
+5 eval path A D	s,e	2 1
+1 B w G
+2 F w A
+3 A n B
+4 A s E
+5 eval path F B	w,n	2 3
+1 E w F
+2 F s A
+3 F n G
+4 G w D
+5 eval path E G	w,n	1 3
+1 G e E
+2 E e A
+3 D n G
+4 A s B
+5 eval path D E	n,e	1 3
+1 F e G
+2 E s B
+3 G s E
+4 G e A
+5 eval path F E	e,s	3 1
+1 G e E
+2 B n G
+3 F e A
+4 B s F
+5 eval path B A	s,e	4 3
+1 D s B
+2 E s G
+3 B e F
+4 B s E
+5 eval path D E	s,s	1 4
+1 D n F
+2 D e E
+3 E s A
+4 E e B
+5 eval path D A	e,s	3 2
+1 E w A
+2 D e F
+3 A s B
+4 D w E
+5 eval path D A	w,w	4 1
+1 G w B
+2 E n G
+3 E s D
+4 G e A
+5 eval path E B	n,w	2 1
+1 G n A
+2 D e F
+3 A n D
+4 D w E
+5 eval path G D	n,n	1 3
+1 D w G
+2 F s D
+3 G w E
+4 A s F
+5 eval path A D	s,s	2 4
+1 A w E
+2 G w F
+3 G e D
+4 F w A
+5 eval path G A	w,w	4 2
+1 A n B
+2 D e G
+3 G e A
+4 G s F
+5 eval path D A	e,e	3 2
+1 A n F
+2 D n E
+3 F n B
+4 B e D
+5 eval path A B	n,n	1 3
+1 G s A
+2 G e F
+3 D s G
+4 G w B
+5 eval path D A	s,s	1 3
+1 A n B
+2 F w A
+3 D w E
+4 A w D
+5 eval path F B	w,n	1 2
+1 B s A
+2 G s D
+3 A e F
+4 A s G
+5 eval path B G	s,s	1 4
+1 E n F
+2 B e G
+3 G n E
+4 G e D
+5 eval path B D	e,e	4 2
+1 G s E
+2 D e F
+3 B e D
+4 B s G
+5 eval path B F	e,e	2 3
+1 G e E
+2 A n D
+3 A s G
+4 E e F
+5 eval path A E	s,e	3 1
+1 A w E
+2 B n G
+3 A e D
+4 D e B
+5 eval path A B	e,e	3 4
+1 A n E
+2 D e B
+3 E e D
+4 E w G
+5 eval path A D	n,e	1 3
+1 A n G
+2 E w B
+3 E n A
+4 G e F
+5 eval path E G	n,n	3 1
+1 G s A
+2 A s B
+3 F w E
+4 F s G
+5 eval path F A	s,s	1 4
+1 B e D
+2 E w G
+3 B w E
+4 B s F
+5 eval path B G	w,w	2 3
+1 A w B
+2 E s G
+3 A n D
+4 B s E
+5 eval path A E	w,s	4 1
+1 B e F
+2 B n A
+3 A n D
+4 E n B
+5 eval path E F	n,e	4 1
+1 A s G
+2 G s B
+3 E e A
+4 B w F
+5 eval path E G	e,s	3 1
+1 D s G
+2 A w E
+3 E s D
+4 G e F
+5 eval path A D	w,s	2 3
+1 B s A
+2 G n F
+3 B e E
+4 E n G
+5 eval path B G	e,n	3 4
+1 F n G
+2 D e F
+3 E n A
+4 D w E
+5 eval path D A	w,n	3 4
+1 B s E
+2 G e D
+3 F s B
+4 B e G
+5 eval path F G	s,e	3 4
+1 A n G
+2 D e F
+3 B e A
+4 A e D
+5 eval path B G	e,n	3 1
+1 F s A
+2 D e E
+3 B e F
+4 F n D
+5 eval path B D	e,n	4 3
+1 F w D
+2 D w G
+3 D n B
+4 D s A
+5 eval path F A	w,s	4 1
+1 A s B
+2 B s E
+3 E w G
+4 E e D
+5 eval path A E	s,s	2 1
+1 D e E
+2 G n D
+3 D n B
+4 G w F
+5 eval path G E	n,e	1 2
+1 D e B
+2 G e D
+3 A n G
+4 B e E
+5 eval path A D	n,e	3 2
+1 E w F
+2 G w B
+3 E n A
+4 F w G
+5 eval path E G	w,w	4 1
+1 F n B
+2 B e E
+3 E e G
+4 B w D
+5 eval path F E	n,e	2 1
+1 E e B
+2 E w G
+3 B s D
+4 E n A
+5 eval path E D	e,s	3 1
+1 A s B
+2 E w A
+3 B s G
+4 A w F
+5 eval path E F	w,w	4 2
+1 B w D
+2 A s G
+3 B e E
+4 E s A
+5 eval path B A	e,s	4 3
+1 B e G
+2 F e A
+3 G s D
+4 G e F
+5 eval path B D	e,s	3 1
+1 G s A
+2 G e B
+3 B e F
+4 F e E
+5 eval path G F	e,e	3 2
+1 E n F
+2 E s B
+3 G e E
+4 B s D
+5 eval path G B	e,s	3 2
+1 G n A
+2 D e G
+3 D s F
+4 D w E
+5 eval path D A	e,n	1 2
+1 E w A
+2 G n E
+3 E e D
+4 E n F
+5 eval path G A	n,w	1 2
+1 B w E
+2 G n B
+3 E n D
+4 G e A
+5 eval path G E	n,w	1 2
+1 G e D
+2 A w E
+3 A s G
+4 G s F
+5 eval path A F	s,s	3 4
+1 B e E
+2 A w F
+3 B s A
+4 B n D
+5 eval path B F	s,w	2 3
+1 A w E
+2 D s B
+3 D n A
+4 A e F
+5 eval path D F	n,e	4 3
+1 B n G
+2 B w A
+3 F w E
+4 A s F
+5 eval path B F	w,s	4 2
+1 A e B
+2 D s E
+3 B s D
+4 E s G
+5 eval path A D	e,s	1 3
+1 G n D
+2 A e G
+3 G e F
+4 G s E
+5 eval path A E	e,s	4 2
+1 E e B
+2 B n A
+3 G n E
+4 E w F
+5 eval path G B	n,e	3 1
+1 G w D
+2 G n E
+3 F w G
+4 B n F
+5 eval path B G	n,w	3 4
+1 E e G
+2 G e A
+3 G n D
+4 A s B
+5 eval path E A	e,e	1 2
+1 E w A
+2 E n B
+3 A s D
+4 B e F
+5 eval path E F	n,e	2 4
+1 D s E
+2 D e G
+3 E w F
+4 A s D
+5 eval path A E	s,s	4 1
+1 A w B
+2 D e F
+3 D w A
+4 G n D
+5 eval path G A	n,w	3 4
+1 D w G
+2 D n A
+3 G s F
+4 D e E
+5 eval path D F	w,s	1 3
+1 F e B
+2 A e F
+3 B s D
+4 A n G
+5 eval path A B	e,e	1 2
+1 G w E
+2 D w G
+3 F e A
+4 F n D
+5 eval path F G	n,w	4 2
+1 D n G
+2 B s E
+3 F w B
+4 D w F
+5 eval path D B	w,w	3 4
+1 A e B
+2 B n G
+3 D e E
+4 B s D
+5 eval path A D	e,s	4 1
+1 G n D
+2 E n B
+3 B w G
+4 D n F
+5 eval path E G	n,w	3 2
+1 G n A
+2 G w D
+3 E n G
+4 D w F
+5 eval path E A	n,n	1 3
+1 A n B
+2 B e E
+3 F w D
+4 D n A
+5 eval path F A	w,n	4 3
+1 F n D
+2 D n G
+3 F s A
+4 A e B
+5 eval path F B	s,e	3 4
+1 B s D
+2 B n F
+3 G w B
+4 G e E
+5 eval path G D	w,s	1 3
+1 G e D
+2 A n G
+3 A w F
+4 E n A
+5 eval path E G	n,n	4 2
+1 A e D
+2 B n F
+3 D e E
+4 D n B
+5 eval path A B	e,n	1 4
+1 B e F
+2 F s G
+3 B w D
+4 D s E
+5 eval path B E	w,s	3 4
+1 F s B
+2 E w F
+3 F n A
+4 A n D
+5 eval path E A	w,n	3 2
+1 E n A
+2 B e E
+3 B s G
+4 B w D
+5 eval path B A	e,n	1 2
+1 A e E
+2 A n B
+3 G n A
+4 G w F
+5 eval path G B	n,n	3 2
+1 A w B
+2 D w G
+3 D n E
+4 G s A
+5 eval path D A	w,s	4 2
+1 F n G
+2 D e F
+3 G n E
+4 E e B
+5 eval path D G	e,n	2 1
+1 D n B
+2 F n A
+3 B n G
+4 A e D
+5 eval path F D	n,e	2 4
+1 D w G
+2 G w F
+3 G n B
+4 G s E
+5 eval path D B	w,n	3 1
+1 G w F
+2 A w G
+3 A e E
+4 G n B
+5 eval path A B	w,n	4 2
+1 F w B
+2 D w F
+3 B s E
+4 F n A
+5 eval path D A	w,n	4 2
+1 E s F
+2 B n G
+3 A s E
+4 A e B
+5 eval path A F	s,s	3 1
+1 F e G
+2 D s A
+3 A s B
+4 D e F
+5 eval path D B	s,s	3 2
+1 B e D
+2 E s G
+3 A e B
+4 A w E
+5 eval path A G	w,s	2 4
+1 F n B
+2 B n A
+3 G w E
+4 B w G
+5 eval path F A	n,n	2 1
+1 F e E
+2 B s D
+3 D e F
+4 E e G
+5 eval path B F	s,e	2 3
+1 B s G
+2 D n A
+3 E s B
+4 D e E
+5 eval path D B	e,s	3 4
+1 D n F
+2 E w A
+3 A n D
+4 E e B
+5 eval path E D	w,n	2 3
+1 A w E
+2 B n F
+3 E n D
+4 F n A
+5 eval path B A	n,n	2 4
+1 G n D
+2 B w G
+3 B s A
+4 B e F
+5 eval path B D	w,n	2 1
+1 D n F
+2 B e A
+3 A n D
+4 F e E
+5 eval path B D	e,n	2 3
+1 F e A
+2 D s F
+3 D n E
+4 F s B
+5 eval path D B	s,s	4 2
+1 G e F
+2 A s B
+3 E w A
+4 B s G
+5 eval path E B	w,s	3 2
+1 A n G
+2 E n A
+3 A w D
+4 G n B
+5 eval path E G	n,n	2 1
+1 A n F
+2 A s D
+3 G n E
+4 F w G
+5 eval path A G	n,w	4 1
+1 B s A
+2 G s D
+3 D w B
+4 A s E
+5 eval path G B	s,w	2 3
+1 A n F
+2 A s G
+3 B w E
+4 G w B
+5 eval path A B	s,w	4 2
+1 B e G
+2 E e D
+3 D n B
+4 E w A
+5 eval path E B	e,n	2 3
+1 F w G
+2 D n A
+3 D s E
+4 D w F
+5 eval path D G	w,w	1 4
+1 A w E
+2 D s G
+3 A e F
+4 E s D
+5 eval path A D	w,s	4 1
+1 E e D
+2 G n B
+3 E n G
+4 B w A
+5 eval path E B	n,n	3 2
+1 F e E
+2 E n D
+3 F w B
+4 E e A
+5 eval path F A	e,e	4 1
+1 F n E
+2 E n B
+3 B e G
+4 A w F
+5 eval path A E	w,n	1 4
+1 B e E
+2 B w F
+3 D n B
+4 B n A
+5 eval path D F	n,w	2 3
+1 E w G
+2 D e B
+3 E e D
+4 E s A
+5 eval path E B	e,e	3 2
+1 F w A
+2 F s G
+3 A n E
+4 D w F
+5 eval path D A	w,w	4 1
+1 E e B
+2 B s D
+3 A e E
+4 B n F
+5 eval path A B	e,e	3 1
+1 E n G
+2 E w D
+3 D s A
+4 D w F
+5 eval path E A	w,s	3 2
+1 D e F
+2 B e D
+3 D s G
+4 F n A
+5 eval path B G	e,s	2 3
+1 E w A
+2 B n F
+3 F w E
+4 A s G
+5 eval path B E	n,w	3 2
+1 G n A
+2 E w B
+3 A w E
+4 B s F
+5 eval path G E	n,w	1 3
+1 A s B
+2 E w D
+3 G s A
+4 E e G
+5 eval path E A	e,s	3 4
+1 E s A
+2 G s B
+3 E w D
+4 B w E
+5 eval path G E	s,w	4 2
+1 E e A
+2 D n B
+3 F e D
+4 A e F
+5 eval path E F	e,e	4 1
+1 E e A
+2 A e B
+3 A n G
+4 A s F
+5 eval path E F	e,s	1 4
+1 D s E
+2 D n A
+3 F w B
+4 E s F
+5 eval path D F	s,s	1 4
+1 A w F
+2 D w E
+3 E w A
+4 E n G
+5 eval path D G	w,n	4 2
+1 D e F
+2 F n G
+3 A n D
+4 D w E
+5 eval path A F	n,e	3 1
+1 G w B
+2 F e A
+3 F w G
+4 D n F
+5 eval path D A	n,e	2 4
+1 D n G
+2 E w A
+3 E s B
+4 A w D
+5 eval path E D	w,w	2 4
+1 D e F
+2 A s D
+3 F s G
+4 A w E
+5 eval path A F	s,e	2 1
+1 E w F
+2 A n G
+3 A w E
+4 A s D
+5 eval path A F	w,w	1 3
+1 D e B
+2 B n F
+3 G w A
+4 G n D
+5 eval path G B	n,e	4 1
+1 F s A
+2 F e B
+3 B n D
+4 D e G
+5 eval path F D	e,n	3 2
+1 F n G
+2 B n A
+3 F e D
+4 A e F
+5 eval path B F	n,e	4 2
+1 B s E
+2 E w G
+3 F s D
+4 D w B
+5 eval path F B	s,w	4 3
+1 F s A
+2 F e B
+3 B n G
+4 A s D
+5 eval path F G	e,n	3 2
+1 F n A
+2 A n G
+3 F e E
+4 A w B
+5 eval path F B	n,w	4 1
+1 B w A
+2 B n D
+3 E e G
+4 E n B
+5 eval path E A	n,w	1 4
+1 G s D
+2 F n A
+3 G e F
+4 A n B
+5 eval path G A	e,n	3 2
+1 B e D
+2 E e B
+3 E n A
+4 D e F
+5 eval path E D	e,e	1 2
+1 G w F
+2 F w A
+3 A w B
+4 D n G
+5 eval path D F	n,w	4 1
+1 D n A
+2 G s E
+3 D e G
+4 E s B
+5 eval path D E	e,s	2 3
+1 G n F
+2 G e D
+3 E e G
+4 G s A
+5 eval path E F	e,n	3 1
+1 G s F
+2 D s A
+3 F w D
+4 G n E
+5 eval path G D	s,w	3 1
+1 F e E
+2 A n B
+3 B w D
+4 B e F
+5 eval path A F	n,e	2 4
+1 G w A
+2 G s B
+3 E w G
+4 E n F
+5 eval path E A	w,w	3 1
+1 G n F
+2 D e A
+3 B e D
+4 B w G
+5 eval path B A	e,e	3 2
+1 B w G
+2 B e F
+3 F e A
+4 E n B
+5 eval path E G	n,w	1 4
+1 G w F
+2 G s D
+3 B n E
+4 B w G
+5 eval path B F	w,w	1 4
+1 G n F
+2 B n G
+3 F n A
+4 F e D
+5 eval path B F	n,n	2 1
+1 D n E
+2 G w D
+3 E n B
+4 G e F
+5 eval path G E	w,n	2 1
+1 B s D
+2 G e F
+3 A n G
+4 B e A
+5 eval path B G	e,n	3 4
+1 E n G
+2 F s D
+3 E e A
+4 F e E
+5 eval path F G	e,n	1 4
+1 D w B
+2 D e A
+3 D s G
+4 E s D
+5 eval path E B	s,w	1 4
+1 B s E
+2 E s G
+3 B e D
+4 F s B
+5 eval path F E	s,s	4 1
+1 E w F
+2 E n G
+3 B w E
+4 B e A
+5 eval path B F	w,w	1 3
+1 D s A
+2 F n G
+3 F s E
+4 E w D
+5 eval path F D	s,w	4 3
+1 E s D
+2 F e B
+3 E n F
+4 D e A
+5 eval path E A	s,e	4 1
+1 A e E
+2 E s F
+3 A n D
+4 A w G
+5 eval path A F	e,s	2 1
+1 A s D
+2 D w F
+3 D e E
+4 D s B
+5 eval path A F	s,w	2 1
+1 B w D
+2 E n G
+3 G e A
+4 G n B
+5 eval path E B	n,n	2 4
+1 D s F
+2 G n A
+3 F e E
+4 G s D
+5 eval path G F	s,s	1 4
+1 A w D
+2 B n E
+3 B w A
+4 B s G
+5 eval path B D	w,w	3 1
+1 F s G
+2 A w E
+3 A e F
+4 A n D
+5 eval path A G	e,s	3 1
+1 D w A
+2 D s G
+3 G s B
+4 G e F
+5 eval path D B	s,s	3 2
+1 G w D
+2 G n A
+3 B w G
+4 D s F
+5 eval path B D	w,w	1 3
+1 B w A
+2 G s D
+3 A s G
+4 B n F
+5 eval path B G	w,s	1 3
+1 E w F
+2 D w E
+3 D s G
+4 B w D
+5 eval path B G	w,s	4 3
+1 B s F
+2 D e G
+3 B n A
+4 D w B
+5 eval path D A	w,n	4 3
+1 A e G
+2 G n B
+3 D w F
+4 D e A
+5 eval path D G	e,e	1 4
+1 E e F
+2 B n E
+3 G e B
+4 F n D
+5 eval path G E	e,n	3 2
+1 D e G
+2 D s F
+3 B e D
+4 B n A
+5 eval path B G	e,e	3 1
+1 G n A
+2 G e F
+3 F s E
+4 E s D
+5 eval path G E	e,s	2 3
+1 G w A
+2 G s B
+3 B e D
+4 G n F
+5 eval path G D	s,e	2 3
+1 E n G
+2 F e E
+3 F w A
+4 A w D
+5 eval path F D	w,w	3 4
+1 F w G
+2 F s D
+3 D e E
+4 E e B
+5 eval path F E	s,e	3 2
+1 G e E
+2 F s G
+3 G w B
+4 B s D
+5 eval path F B	s,w	2 3
+1 A n F
+2 A s E
+3 E s D
+4 B e A
+5 eval path B F	e,n	4 1
+1 B n E
+2 B w G
+3 A w B
+4 E n D
+5 eval path A G	w,w	2 3
+1 G s E
+2 E s A
+3 D e B
+4 G n D
+5 eval path G A	s,s	1 2
+1 A w G
+2 A s F
+3 B e D
+4 B w A
+5 eval path B G	w,w	1 4
+1 B s F
+2 F s D
+3 D w A
+4 B n E
+5 eval path B D	s,s	2 1
+1 D e E
+2 F n D
+3 F w G
+4 E e A
+5 eval path F E	n,e	1 2
+1 D w F
+2 B e A
+3 E s B
+4 B w D
+5 eval path E D	s,w	4 3
+1 A n D
+2 F n B
+3 F w G
+4 D w F
+5 eval path A F	n,w	1 4
+1 G n B
+2 A n E
+3 F n A
+4 E w G
+5 eval path F E	n,n	3 2
+1 F w A
+2 B e D
+3 G e B
+4 G s F
+5 eval path G A	s,w	1 4
+1 A w F
+2 D w G
+3 D e B
+4 G n A
+5 eval path D A	w,n	4 2
+1 A s E
+2 B s A
+3 E s D
+4 D s G
+5 eval path B E	s,s	2 1
+1 E w F
+2 E s A
+3 E e B
+4 G s E
+5 eval path G A	s,s	2 4
+1 E w D
+2 A w E
+3 F w A
+4 F e B
+5 eval path F E	w,w	3 2
+1 E n B
+2 B w D
+3 D n F
+4 E s A
+5 eval path E D	n,w	2 1
+1 F e G
+2 A e E
+3 F n D
+4 E e F
+5 eval path A F	e,e	2 4
+1 F e G
+2 F w B
+3 D s F
+4 G s E
+5 eval path D G	s,e	1 3
+1 G s D
+2 B s E
+3 A e B
+4 E s G
+5 eval path A E	e,s	3 2
+1 B e F
+2 E w D
+3 B s E
+4 G s B
+5 eval path G E	s,s	3 4
+1 E s B
+2 D w F
+3 F w G
+4 F s E
+5 eval path D E	w,s	4 2
+1 A s G
+2 E w B
+3 A e D
+4 G s E
+5 eval path A E	s,s	1 4
+1 E s G
+2 F n A
+3 F w E
+4 D w F
+5 eval path D A	w,n	2 4
+1 E s B
+2 G w E
+3 E w A
+4 A w F
+5 eval path G B	w,s	1 2
+1 A n E
+2 E n D
+3 E w F
+4 B w A
+5 eval path B E	w,n	1 4
+1 G n D
+2 A w G
+3 A s F
+4 F s B
+5 eval path A D	w,n	2 1
+1 B e G
+2 F w E
+3 B w F
+4 F s D
+5 eval path B D	w,s	3 4
+1 E s B
+2 E e G
+3 A n F
+4 E n A
+5 eval path E F	n,n	4 3
+1 D n G
+2 A n F
+3 F n D
+4 A e B
+5 eval path A D	n,n	3 2
+1 E e A
+2 G n F
+3 G e D
+4 F n E
+5 eval path G E	n,n	4 2
+1 B e A
+2 F s E
+3 F e G
+4 E s B
+5 eval path F B	s,s	4 2
+1 A e F
+2 A w E
+3 E s D
+4 F s G
+5 eval path A D	w,s	3 2
+1 E e A
+2 B n E
+3 G e B
+4 A n F
+5 eval path G E	e,n	2 3
+1 G e A
+2 A s B
+3 G n E
+4 A e F
+5 eval path G F	e,e	1 4
+1 E s D
+2 B s F
+3 F e E
+4 B n G
+5 eval path B E	s,e	2 3
+1 G e E
+2 A s G
+3 A n F
+4 G w B
+5 eval path A B	s,w	2 4
+1 E w F
+2 E e A
+3 G n E
+4 F n B
+5 eval path G A	n,e	2 3
+1 B s E
+2 G s B
+3 A w G
+4 D w A
+5 eval path D G	w,w	4 3
+1 D n G
+2 F w D
+3 D s B
+4 E w F
+5 eval path E D	w,w	2 4
+1 E e D
+2 E s F
+3 F s G
+4 E n B
+5 eval path E G	s,s	3 2
+1 F n G
+2 F e A
+3 B n E
+4 E e F
+5 eval path B F	n,e	4 3
+1 D n A
+2 D e F
+3 G n D
+4 G w E
+5 eval path G F	n,e	3 2
+1 E s A
+2 E w D
+3 A s G
+4 D w F
+5 eval path E F	w,w	4 2
+1 G w B
+2 G e D
+3 A s F
+4 D e A
+5 eval path G A	e,e	2 4
+1 D s G
+2 F e E
+3 D n F
+4 A e D
+5 eval path A G	e,s	4 1
+1 B w G
+2 F n B
+3 D n F
+4 D s A
+5 eval path D B	n,n	2 3
+1 F w E
+2 D n G
+3 D w F
+4 D s A
+5 eval path D E	w,w	3 1
+1 A w B
+2 B n G
+3 F n D
+4 A e F
+5 eval path A G	w,n	2 1
+1 D n B
+2 E n G
+3 B w E
+4 D e F
+5 eval path D E	n,w	3 1
+1 A s D
+2 G w F
+3 G s B
+4 F w A
+5 eval path G A	w,w	2 4
+1 D w E
+2 E w A
+3 D s B
+4 A s G
+5 eval path D A	w,w	1 2
+1 E s F
+2 G w E
+3 E n B
+4 E w D
+5 eval path G B	w,n	3 2
+1 E n G
+2 A s F
+3 A e E
+4 G e B
+5 eval path A G	e,n	3 1
+1 E e G
+2 F n D
+3 D n E
+4 A e F
+5 eval path A D	e,n	4 2
+1 E e D
+2 D n B
+3 F e G
+4 B e F
+5 eval path E B	e,n	1 2
+1 D e F
+2 D w B
+3 A n D
+4 D n E
+5 eval path A E	n,n	3 4
+1 A e B
+2 D e A
+3 E s D
+4 E n F
+5 eval path E A	s,e	3 2
+1 D e B
+2 E s D
+3 B e G
+4 B s A
+5 eval path E B	s,e	1 2
+1 B e E
+2 E e D
+3 B s A
+4 E n F
+5 eval path B D	e,e	1 2
+1 G n D
+2 B s A
+3 E n G
+4 E w B
+5 eval path E A	w,s	2 4
+1 A e D
+2 B e A
+3 A s E
+4 A n F
+5 eval path B F	e,n	4 2
+1 F e A
+2 F n E
+3 E w G
+4 D n F
+5 eval path D A	n,e	4 1
+1 E n A
+2 G s D
+3 D w F
+4 G e E
+5 eval path G A	e,n	1 4
+1 B w F
+2 F s E
+3 B e D
+4 A s B
+5 eval path A F	s,w	1 4
+1 B e A
+2 A e E
+3 G e D
+4 D s B
+5 eval path G B	e,s	4 3
+1 A w G
+2 A n B
+3 A e D
+4 B n F
+5 eval path A F	n,n	4 2
+1 G w E
+2 E s D
+3 D s A
+4 F s G
+5 eval path F E	s,w	1 4
+1 D s G
+2 G s E
+3 D n B
+4 A e D
+5 eval path A G	e,s	1 4
+1 G s D
+2 A w E
+3 G n A
+4 D e B
+5 eval path G B	s,e	4 1
+1 G n D
+2 F e E
+3 A n F
+4 F w G
+5 eval path A G	n,w	3 4
+1 G s A
+2 F w G
+3 F n E
+4 E e D
+5 eval path F A	w,s	2 1
+1 E e F
+2 E n A
+3 D n E
+4 D w B
+5 eval path D A	n,n	2 3
+1 F n D
+2 F e A
+3 D n B
+4 G e F
+5 eval path G D	e,n	4 1
+1 F w E
+2 D w B
+3 E s D
+4 F n A
+5 eval path F D	w,s	3 1
+1 B w D
+2 D n E
+3 G w B
+4 F s G
+5 eval path F B	s,w	3 4
+1 E s G
+2 G s A
+3 G e D
+4 G w F
+5 eval path E D	s,e	3 1
+1 A e F
+2 B e A
+3 A n E
+4 F s D
+5 eval path B F	e,e	2 1
+1 A n D
+2 D w B
+3 E n A
+4 E s G
+5 eval path E D	n,n	1 3
+1 B n A
+2 A w D
+3 B s E
+4 B e F
+5 eval path B D	n,w	1 2
+1 D w G
+2 F w E
+3 B w D
+4 E n B
+5 eval path F B	w,n	2 4
+1 F s G
+2 G e B
+3 G s E
+4 B e D
+5 eval path F B	s,e	2 1
+1 D w E
+2 B n F
+3 D e B
+4 F e A
+5 eval path D F	e,n	2 3
+1 G s F
+2 G e D
+3 F s E
+4 F w A
+5 eval path G A	s,w	4 1
+1 B s G
+2 E w B
+3 B w D
+4 E n A
+5 eval path E G	w,s	2 1
+1 G n A
+2 A n F
+3 G w B
+4 A e E
+5 eval path G F	n,n	1 2
+1 E w G
+2 A w E
+3 G w D
+4 A e F
+5 eval path A G	w,w	1 2
+1 G n D
+2 G e A
+3 B n F
+4 F n G
+5 eval path B G	n,n	4 3
+1 D e B
+2 B e G
+3 A n D
+4 D n E
+5 eval path A B	n,e	1 3
+1 A s G
+2 F e D
+3 D s A
+4 G e B
+5 eval path F A	e,s	3 2
+1 F n D
+2 A w F
+3 A s G
+4 D n B
+5 eval path A D	w,n	2 1
+1 G s B
+2 E w A
+3 E e D
+4 G n E
+5 eval path G A	n,w	4 2
+1 D w G
+2 G n E
+3 G w F
+4 G s A
+5 eval path D F	w,w	3 1
+1 F s G
+2 G e B
+3 E e F
+4 G s A
+5 eval path E G	e,s	3 1
+1 D e E
+2 E n B
+3 D w G
+4 F n D
+5 eval path F E	n,e	1 4
+1 F w A
+2 F s B
+3 E w F
+4 B s G
+5 eval path E A	w,w	1 3
+1 F w G
+2 F e B
+3 B s D
+4 G w E
+5 eval path F D	e,s	2 3
+1 E e F
+2 A e E
+3 A w B
+4 D n A
+5 eval path D B	n,w	3 4
+1 F w A
+2 F s E
+3 G w F
+4 F n B
+5 eval path G E	w,s	2 3
+1 F n G
+2 F e A
+3 G n D
+4 F w B
+5 eval path F D	n,n	3 1
+1 G w E
+2 G s A
+3 G n B
+4 F w G
+5 eval path F A	w,s	4 2
+1 D w F
+2 G e B
+3 D n G
+4 F s E
+5 eval path D B	n,e	2 3
+1 A n B
+2 D s F
+3 D e G
+4 A e D
+5 eval path A F	e,s	2 4
+1 B s D
+2 B e F
+3 A w G
+4 B w A
+5 eval path B G	w,w	3 4
+1 D w E
+2 E n B
+3 B w F
+4 B n G
+5 eval path D B	w,n	2 1
+1 D e F
+2 B n A
+3 B w G
+4 A e D
+5 eval path B D	n,e	4 2
+1 B w D
+2 B e E
+3 D w A
+4 E s G
+5 eval path B G	e,s	2 4
+1 B n E
+2 B s G
+3 E n D
+4 E e A
+5 eval path B D	n,n	3 1
+1 B s F
+2 B e A
+3 B w E
+4 G s B
+5 eval path G A	s,e	4 2
+1 G s F
+2 A s D
+3 D s E
+4 E w G
+5 eval path A E	s,s	2 3
+1 G e B
+2 A w D
+3 G s F
+4 A s G
+5 eval path A F	s,s	4 3
+1 B s G
+2 D s B
+3 G e E
+4 E s F
+5 eval path D G	s,s	2 1
+1 G n D
+2 F e G
+3 E e F
+4 G e B
+5 eval path E G	e,e	2 3
+1 G w D
+2 E s F
+3 G e E
+4 E e B
+5 eval path G F	e,s	3 2
+1 G n B
+2 B e E
+3 D e G
+4 G s F
+5 eval path D F	e,s	4 3
+1 E w A
+2 B e G
+3 D s E
+4 B w D
+5 eval path B E	w,s	3 4
+1 A n G
+2 B w D
+3 B e F
+4 G n B
+5 eval path A B	n,n	4 1
+1 A s F
+2 B s A
+3 F w G
+4 B e D
+5 eval path B F	s,s	2 1
+1 G e A
+2 G w F
+3 F w D
+4 A s E
+5 eval path G D	w,w	3 2
+1 D s F
+2 D n E
+3 F e A
+4 F s G
+5 eval path D G	s,s	4 1
+1 G e A
+2 A n F
+3 G s B
+4 A e E
+5 eval path G E	e,e	1 4
+1 A w G
+2 A e B
+3 G n E
+4 A s F
+5 eval path A E	w,n	1 3
+1 A s D
+2 G w B
+3 D e E
+4 G s A
+5 eval path G D	s,s	1 4
+1 G w D
+2 G n F
+3 E n G
+4 F e B
+5 eval path E F	n,n	2 3
+1 G e B
+2 D e F
+3 F e G
+4 G s E
+5 eval path D G	e,e	2 3
+1 E n D
+2 E s F
+3 B w G
+4 B e E
+5 eval path B D	e,n	4 1
+1 A w G
+2 D n F
+3 G w D
+4 A e E
+5 eval path A D	w,w	3 1
+1 D e F
+2 G n A
+3 G e D
+4 D s B
+5 eval path G F	e,e	3 1
+1 D n A
+2 G e E
+3 D e G
+4 A w B
+5 eval path D E	e,e	3 2
+1 F w B
+2 E s G
+3 G e A
+4 E n F
+5 eval path E B	n,w	1 4
+1 E w F
+2 D s A
+3 E s D
+4 A w B
+5 eval path E A	s,s	2 3
+1 D w G
+2 F e E
+3 E e A
+4 F n D
+5 eval path F A	e,e	2 3
+1 F s D
+2 D s E
+3 A w G
+4 A e F
+5 eval path A D	e,s	4 1
+1 A e D
+2 E w F
+3 A n G
+4 G w E
+5 eval path A E	n,w	3 4
+1 G e E
+2 E s D
+3 E n B
+4 B e F
+5 eval path G B	e,n	3 1
+1 F s B
+2 F w G
+3 B s D
+4 A s F
+5 eval path A B	s,s	1 4
+1 F s G
+2 G s D
+3 D w A
+4 G e B
+5 eval path F D	s,s	2 1
+1 F w G
+2 A s D
+3 B w A
+4 A w F
+5 eval path B F	w,w	4 3
+1 D n G
+2 E n B
+3 F e D
+4 F w E
+5 eval path F G	e,n	3 1
+1 E n D
+2 E w G
+3 F w E
+4 A n F
+5 eval path A E	n,w	4 3
+1 F e G
+2 E s F
+3 A e B
+4 E n A
+5 eval path E B	n,e	4 3
+1 F e E
+2 A s G
+3 E s A
+4 E n D
+5 eval path F A	e,s	3 1
+1 D w E
+2 F s G
+3 F n D
+4 D n A
+5 eval path F A	n,n	4 3
+1 F s D
+2 D e A
+3 D s E
+4 E w G
+5 eval path F E	s,s	3 1
+1 B s A
+2 B w D
+3 F e E
+4 A s F
+5 eval path B F	s,s	1 4
+1 D e G
+2 A s D
+3 G e B
+4 D w F
+5 eval path A F	s,w	4 2
+1 F w D
+2 G e E
+3 D s A
+4 F n G
+5 eval path F A	w,s	1 3
+1 D w F
+2 E n D
+3 E s B
+4 D e A
+5 eval path E F	n,w	2 1
+1 F w E
+2 F s D
+3 E n B
+4 F e G
+5 eval path F B	w,n	1 3
+1 A e D
+2 F w G
+3 F s A
+4 D s E
+5 eval path F D	s,e	1 3
+1 G e B
+2 B n A
+3 F e G
+4 E s F
+5 eval path E G	s,e	3 4
+1 D n G
+2 B e E
+3 E n D
+4 D e A
+5 eval path B D	e,n	2 3
+1 A n G
+2 G e E
+3 A w B
+4 G n F
+5 eval path A E	n,e	1 2
+1 G n A
+2 D e E
+3 G s D
+4 A w F
+5 eval path G F	n,w	4 1
+1 D n A
+2 D w G
+3 D e E
+4 B n D
+5 eval path B G	n,w	4 2
+1 B e A
+2 D s E
+3 G n B
+4 G s D
+5 eval path G A	n,e	1 3
+1 D n B
+2 D s E
+3 D e A
+4 B w F
+5 eval path D F	n,w	4 1
+1 G n D
+2 A e B
+3 G s A
+4 A s E
+5 eval path G B	s,e	2 3
+1 A e B
+2 D e A
+3 B n G
+4 A s E
+5 eval path D E	e,s	4 2
+1 A e D
+2 A w E
+3 F n B
+4 E n F
+5 eval path A F	w,n	4 2
+1 E e D
+2 E s B
+3 G e E
+4 E n F
+5 eval path G F	e,n	4 3
+1 G w F
+2 G e E
+3 G n A
+4 E s D
+5 eval path G D	e,s	2 4
+1 G s B
+2 G e D
+3 B w F
+4 G n A
+5 eval path G F	s,w	3 1
+1 F e B
+2 B s D
+3 G s F
+4 F w A
+5 eval path G A	s,w	4 3
+1 E w D
+2 F w G
+3 G s B
+4 B s E
+5 eval path F B	w,s	3 2
+1 G w E
+2 D s A
+3 G e D
+4 E w B
+5 eval path G A	e,s	3 2
+1 F w A
+2 E w D
+3 A s E
+4 A n B
+5 eval path F E	w,s	3 1
+1 A w F
+2 A n E
+3 E n G
+4 G n B
+5 eval path A G	n,n	2 3
+1 G e B
+2 B s F
+3 G w A
+4 B n D
+5 eval path G D	e,n	1 4
+1 F s B
+2 D e F
+3 B s A
+4 A w G
+5 eval path D B	e,s	1 2
+1 B s A
+2 E w G
+3 E e D
+4 B n E
+5 eval path B D	n,e	3 4
+1 G n B
+2 G e A
+3 G w E
+4 D n G
+5 eval path D A	n,e	2 4
+1 B w A
+2 A s F
+3 D s B
+4 D e E
+5 eval path D A	s,w	3 1
+1 E e G
+2 B s A
+3 G s B
+4 A e D
+5 eval path E B	e,s	1 3
+1 A n E
+2 B e D
+3 E e B
+4 D s G
+5 eval path A B	n,e	3 1
+1 E n D
+2 B w E
+3 B s A
+4 B e G
+5 eval path B D	w,n	1 2
+1 G n D
+2 F w E
+3 A w G
+4 G s F
+5 eval path A F	w,s	4 3
+1 F s E
+2 E e G
+3 A n D
+4 F w A
+5 eval path F D	w,n	3 4
+1 D w F
+2 E w D
+3 E s B
+4 D n G
+5 eval path E G	w,n	4 2
+1 G s D
+2 B s E
+3 D w B
+4 D e F
+5 eval path G B	s,w	3 1
+1 E n D
+2 G w A
+3 E e B
+4 G e E
+5 eval path G B	e,e	4 3
+1 D s B
+2 D n G
+3 B s E
+4 A e D
+5 eval path A B	e,s	1 4
+1 A e D
+2 B s G
+3 B n A
+4 D n E
+5 eval path B D	n,e	3 1
+1 D e B
+2 F w G
+3 G n A
+4 F s D
+5 eval path F A	w,n	3 2
+1 A w G
+2 G w D
+3 E n A
+4 F w E
+5 eval path F A	w,n	4 3
+1 D e G
+2 B s F
+3 D n E
+4 B e D
+5 eval path B E	e,n	3 4
+1 D n G
+2 F w B
+3 A n F
+4 F n D
+5 eval path A B	n,w	2 3
+1 A e D
+2 F s A
+3 D e E
+4 D s G
+5 eval path F D	s,e	1 2
+1 D w G
+2 F s D
+3 B e A
+4 F n B
+5 eval path F G	s,w	1 2
+1 F s B
+2 G w A
+3 A s F
+4 D s G
+5 eval path D A	s,w	4 2
+1 D s G
+2 B w D
+3 D w A
+4 B e E
+5 eval path B A	w,w	3 2
+1 A e B
+2 E s A
+3 B s D
+4 E w F
+5 eval path E B	s,e	1 2
+1 B s G
+2 B n E
+3 A w B
+4 E w F
+5 eval path A G	w,s	1 3
+1 F e D
+2 G w B
+3 E s F
+4 F w G
+5 eval path E G	s,w	4 3
+1 F e A
+2 F n E
+3 A s G
+4 A e D
+5 eval path F G	e,s	1 3
+1 G e F
+2 A s D
+3 G s A
+4 D e B
+5 eval path G D	s,s	3 2
+1 F s D
+2 F w G
+3 E e B
+4 D e E
+5 eval path F E	s,e	4 1
+1 B e D
+2 B n F
+3 F n A
+4 D e E
+5 eval path B A	n,n	3 2
+1 D e G
+2 G n A
+3 F s B
+4 F n D
+5 eval path F G	n,e	1 4
+1 D w G
+2 A n B
+3 B w D
+4 D n E
+5 eval path A D	n,w	2 3
+1 D n B
+2 B n E
+3 E w F
+4 E e G
+5 eval path D E	n,n	1 2
+1 B e F
+2 F e G
+3 F s A
+4 G n E
+5 eval path B G	e,e	1 2
+1 F n A
+2 F s D
+3 F e G
+4 A w E
+5 eval path F E	n,w	1 4
+1 A e G
+2 B e A
+3 B w E
+4 A s F
+5 eval path B F	e,s	2 4
+1 G e F
+2 F n D
+3 G w B
+4 F s A
+5 eval path G D	e,n	2 1
+1 D s F
+2 F w G
+3 A w E
+4 G s A
+5 eval path D G	s,w	2 1
+1 D n G
+2 G e F
+3 G w A
+4 F e B
+5 eval path D F	n,e	1 2
+1 D s A
+2 B w G
+3 A s B
+4 D n E
+5 eval path D B	s,s	3 1
+1 A e F
+2 G e A
+3 D e G
+4 G n B
+5 eval path D A	e,e	3 2
+1 E n D
+2 F w E
+3 B s G
+4 G w F
+5 eval path B F	s,w	4 3
+1 A w D
+2 D n F
+3 D w B
+4 A e E
+5 eval path A B	w,w	3 1
+1 A e D
+2 A s G
+3 F s A
+4 G w E
+5 eval path F G	s,s	2 3
+1 B n F
+2 E w G
+3 F w E
+4 G s A
+5 eval path B E	n,w	3 1
+1 F e E
+2 E s B
+3 E n D
+4 B e G
+5 eval path F B	e,s	2 1
+1 D n B
+2 F n G
+3 G n A
+4 B e F
+5 eval path D F	n,e	4 1
+1 A w F
+2 G s E
+3 D s G
+4 A s D
+5 eval path A G	s,s	3 4
+1 D e E
+2 E e B
+3 E s A
+4 E n F
+5 eval path D B	e,e	2 1
+1 G n D
+2 G s F
+3 G w E
+4 D e B
+5 eval path G B	n,e	4 1
+1 F s B
+2 A s F
+3 F w G
+4 F e D
+5 eval path A D	s,e	2 4
+1 F w E
+2 B w F
+3 D w A
+4 A w B
+5 eval path D B	w,w	4 3
+1 E s B
+2 B s A
+3 E w F
+4 A e G
+5 eval path E A	s,s	2 1
+1 G n B
+2 A s F
+3 G w E
+4 A n G
+5 eval path A B	n,n	1 4
+1 A s E
+2 E e D
+3 B s F
+4 D s B
+5 eval path A D	s,e	2 1
+1 G w A
+2 A w F
+3 G s E
+4 E s D
+5 eval path G D	s,s	4 3
+1 F n G
+2 B n F
+3 E e D
+4 F e E
+5 eval path B G	n,n	2 1
+1 E w D
+2 D s G
+3 E n A
+4 D w B
+5 eval path E G	w,s	1 2
+1 B w D
+2 B e F
+3 B n A
+4 D w G
+5 eval path B G	w,w	4 1
+1 A s B
+2 A w E
+3 A n G
+4 D w A
+5 eval path D G	w,n	4 3
+1 A s B
+2 D w G
+3 D n E
+4 A w D
+5 eval path A G	w,w	2 4
+1 F s A
+2 D s F
+3 G e D
+4 D e E
+5 eval path G E	e,e	4 3
+1 D s G
+2 G e A
+3 D n B
+4 B w F
+5 eval path D A	s,e	2 1
+1 D n E
+2 D w A
+3 D e B
+4 B e F
+5 eval path D F	e,e	3 4
+1 G n E
+2 G s D
+3 F w A
+4 D w F
+5 eval path G F	s,w	2 4
+1 F w D
+2 A w F
+3 A s B
+4 F n G
+5 eval path A D	w,w	1 2
+1 B e E
+2 B s G
+3 D e B
+4 A s D
+5 eval path A B	s,e	4 3
+1 B w D
+2 B n A
+3 E w B
+4 B s F
+5 eval path E F	w,s	4 3
+1 G e A
+2 D e B
+3 B s G
+4 B n E
+5 eval path D G	e,s	3 2
+1 A e E
+2 D n G
+3 E s F
+4 E n D
+5 eval path A D	e,n	4 1
+1 A s D
+2 E n G
+3 D e B
+4 E s A
+5 eval path E D	s,s	4 1
+1 A s E
+2 A n B
+3 B w F
+4 B e D
+5 eval path A D	n,e	2 4
+1 A s E
+2 G w F
+3 F s A
+4 F n B
+5 eval path G A	w,s	2 3
+1 B e F
+2 F e G
+3 A s D
+4 A n B
+5 eval path A F	n,e	1 4
+1 B s G
+2 B n F
+3 A w B
+4 F n D
+5 eval path A G	w,s	1 3
+1 A s D
+2 D s F
+3 A e G
+4 B e A
+5 eval path B D	e,s	4 1
+1 D w G
+2 A s D
+3 A n F
+4 D s B
+5 eval path A B	s,s	2 4
+1 A w G
+2 A s B
+3 B s D
+4 F w A
+5 eval path F B	w,s	2 4
+1 F e B
+2 F n E
+3 F s A
+4 E w G
+5 eval path F G	n,w	4 2
+1 A e F
+2 F e E
+3 D n G
+4 D e A
+5 eval path D F	e,e	1 4
+1 E n A
+2 E e F
+3 E s G
+4 G w D
+5 eval path E D	s,w	4 3
+1 B n E
+2 B w D
+3 A w B
+4 B s G
+5 eval path A E	w,n	1 3
+1 A n B
+2 A s G
+3 D n F
+4 B n D
+5 eval path A D	n,n	4 1
+1 E e F
+2 F e B
+3 E s A
+4 F n D
+5 eval path E B	e,e	1 2
+1 E s A
+2 G s F
+3 E e D
+4 F e E
+5 eval path G E	s,e	4 2
+1 B s G
+2 A e F
+3 F s B
+4 F e D
+5 eval path A D	e,e	2 4
+1 G w D
+2 G s A
+3 F s G
+4 F e E
+5 eval path F A	s,s	2 3
+1 F e D
+2 A e B
+3 E s A
+4 B e F
+5 eval path E B	s,e	2 3
+1 F n G
+2 B e E
+3 B w F
+4 G w D
+5 eval path B G	w,n	1 3
+1 E w B
+2 B w F
+3 A n D
+4 D w E
+5 eval path A E	n,w	4 3
+1 E w B
+2 D n E
+3 D s F
+4 A w D
+5 eval path A E	w,n	4 2
+1 A e F
+2 D e B
+3 F e D
+4 B e G
+5 eval path A D	e,e	3 1
+1 F s E
+2 B s F
+3 D w B
+4 G s D
+5 eval path G B	s,w	3 4
+1 D n B
+2 F w D
+3 D s E
+4 B w G
+5 eval path F B	w,n	1 2
+1 G e F
+2 F n D
+3 A n G
+4 F e E
+5 eval path A F	n,e	1 3
+1 G e D
+2 F s G
+3 E e F
+4 E w B
+5 eval path E G	e,s	2 3
+1 B w F
+2 F w D
+3 F s G
+4 E s B
+5 eval path E F	s,w	4 1
+1 G w B
+2 E w D
+3 F w G
+4 D n F
+5 eval path E F	w,n	2 4
+1 B w E
+2 F s D
+3 B e F
+4 E s A
+5 eval path B A	w,s	4 1
+1 A w F
+2 D n A
+3 A n E
+4 E e B
+5 eval path D F	n,w	2 1
+1 A e F
+2 E e A
+3 A n D
+4 G e E
+5 eval path G A	e,e	4 2
+1 B w A
+2 A n G
+3 G w E
+4 B e F
+5 eval path B G	w,n	2 1
+1 E s A
+2 A e D
+3 E w B
+4 A s G
+5 eval path E G	s,s	1 4
+1 A s G
+2 G e E
+3 G w B
+4 B w F
+5 eval path A B	s,w	3 1
+1 A n F
+2 B e G
+3 G n A
+4 B s D
+5 eval path B A	e,n	3 2
+1 E w F
+2 A n G
+3 G w B
+4 A s E
+5 eval path A B	n,w	2 3
+1 D s G
+2 F n A
+3 D e F
+4 B e D
+5 eval path B F	e,e	3 4
+1 E w B
+2 G e F
+3 G n E
+4 D n G
+5 eval path D E	n,n	3 4
+1 A e B
+2 A w D
+3 B n G
+4 G e E
+5 eval path A G	e,n	3 1
+1 F s G
+2 A e E
+3 F n B
+4 B e A
+5 eval path F A	n,e	4 3
+1 E w F
+2 G n D
+3 E n B
+4 B e G
+5 eval path E G	n,e	3 4
+1 E e B
+2 E n F
+3 A n E
+4 B e G
+5 eval path A B	n,e	1 3
+1 A s G
+2 A w F
+3 A e E
+4 D s A
+5 eval path D E	s,e	3 4
+1 G n F
+2 F w E
+3 A w G
+4 G s D
+5 eval path A D	w,s	4 3
+1 B e D
+2 G s B
+3 B s F
+4 D e E
+5 eval path G F	s,s	3 2
+1 G n D
+2 E w G
+3 D n A
+4 G w F
+5 eval path E D	w,n	1 2
+1 D e E
+2 D w G
+3 G w A
+4 D s F
+5 eval path D A	w,w	3 2
+1 B e G
+2 B s F
+3 G e A
+4 G n E
+5 eval path B E	e,n	1 4
+1 D s A
+2 F s D
+3 G e F
+4 A w B
+5 eval path G D	e,s	2 3
+1 D s E
+2 G e D
+3 A w B
+4 E s A
+5 eval path G E	e,s	2 1
+1 F w B
+2 F s G
+3 D e A
+4 D s F
+5 eval path D B	s,w	1 4
+1 D n G
+2 F e E
+3 A e F
+4 A w D
+5 eval path A E	e,e	2 3
+1 B e F
+2 D w G
+3 B n A
+4 A n D
+5 eval path B D	n,n	4 3
+1 D n G
+2 A w E
+3 B w A
+4 E n D
+5 eval path B E	w,w	3 2
+1 G w A
+2 D s G
+3 E e F
+4 D n E
+5 eval path D A	s,w	2 1
+1 G n B
+2 G s F
+3 G e D
+4 E e G
+5 eval path E D	e,e	3 4
+1 G e E
+2 F n G
+3 D e F
+4 D w A
+5 eval path D G	e,n	2 3
+1 E s G
+2 E w D
+3 F w E
+4 A s F
+5 eval path A E	s,w	3 4
+1 A n D
+2 A e G
+3 G s F
+4 A w B
+5 eval path A F	e,s	3 2
+1 E w F
+2 A e B
+3 G s A
+4 E s G
+5 eval path E A	s,s	4 3
+1 A w B
+2 F e E
+3 F n A
+4 E s G
+5 eval path F B	n,w	1 3
+1 E n D
+2 A e G
+3 E e B
+4 G n E
+5 eval path A E	e,n	2 4
+1 D e B
+2 F w G
+3 A s F
+4 A n D
+5 eval path A G	s,w	2 3
+1 F n D
+2 B n F
+3 B e G
+4 D w A
+5 eval path B D	n,n	1 2
+1 E s B
+2 B s G
+3 G w D
+4 A e E
+5 eval path A B	e,s	1 4
+1 D w G
+2 B e F
+3 G w A
+4 B s D
+5 eval path B G	s,w	1 4
+1 F n G
+2 A s D
+3 A e F
+4 D w E
+5 eval path A E	s,w	4 2
+1 G w E
+2 D n F
+3 E w D
+4 G n A
+5 eval path G D	w,w	3 1
+1 E s G
+2 E e A
+3 F s E
+4 E w B
+5 eval path F B	s,w	4 3
+1 B e G
+2 D s E
+3 G e F
+4 D n B
+5 eval path D G	n,e	1 4
+1 A s B
+2 F w A
+3 D n E
+4 D w F
+5 eval path D A	w,w	4 2
+1 G n D
+2 D n A
+3 D w F
+4 D e B
+5 eval path G F	n,w	3 1
+1 A w G
+2 G n F
+3 G s D
+4 F n E
+5 eval path A F	w,n	1 2
+1 F w B
+2 D s F
+3 G w D
+4 B w E
+5 eval path G F	w,s	2 3
+1 F e D
+2 E w G
+3 F w B
+4 B n E
+5 eval path F E	w,n	4 3
+1 G w E
+2 F e A
+3 F n D
+4 G e F
+5 eval path G A	e,e	2 4
+1 E s D
+2 B n A
+3 B s E
+4 E e F
+5 eval path B F	s,e	3 4
+1 A n F
+2 A w B
+3 F n E
+4 G n A
+5 eval path G B	n,w	2 4
+1 E e G
+2 F w B
+3 B n D
+4 F s E
+5 eval path F D	w,n	3 2
+1 B w E
+2 B e D
+3 E w F
+4 B s A
+5 eval path B F	w,w	1 3
+1 A n E
+2 D e G
+3 G s B
+4 G n A
+5 eval path D A	e,n	2 4
+1 G e B
+2 G n E
+3 E n D
+4 G s A
+5 eval path G D	n,n	2 3
+1 E s A
+2 D e B
+3 A s G
+4 B e E
+5 eval path D E	e,e	4 2
+1 G n E
+2 B w G
+3 E w D
+4 D n F
+5 eval path B E	w,n	1 2
+1 A n E
+2 G w A
+3 F s D
+4 G e F
+5 eval path G D	e,s	4 3
+1 E w F
+2 F n A
+3 B s G
+4 E e B
+5 eval path E A	w,n	1 2
+1 F e D
+2 E n A
+3 G n E
+4 A e F
+5 eval path G A	n,n	3 2
+1 D s F
+2 E e G
+3 E s A
+4 A w D
+5 eval path E D	s,w	3 4
+1 D n B
+2 E n D
+3 B w G
+4 B n F
+5 eval path E B	n,n	1 2
+1 F w D
+2 D s G
+3 G s E
+4 D n B
+5 eval path F B	w,n	1 4
+1 E s F
+2 E w G
+3 D s E
+4 E e B
+5 eval path D G	s,w	3 2
+1 D s A
+2 B w F
+3 B e D
+4 F n E
+5 eval path B A	e,s	3 1
+1 A s F
+2 E w G
+3 E e A
+4 F s B
+5 eval path E F	e,s	1 3
+1 F n E
+2 B w F
+3 F w D
+4 B e A
+5 eval path B E	w,n	1 2
+1 E w D
+2 A n B
+3 F n A
+4 F s E
+5 eval path F D	s,w	1 4
+1 G n D
+2 D n E
+3 G w F
+4 F w A
+5 eval path G E	n,n	1 2
+1 A w D
+2 E w G
+3 E e B
+4 G n A
+5 eval path E A	w,n	4 2
+1 B n E
+2 F n B
+3 E e G
+4 B w A
+5 eval path F A	n,w	2 4
+1 F s A
+2 B s E
+3 D s B
+4 E e F
+5 eval path D E	s,s	2 3
+1 E w B
+2 A n F
+3 B n A
+4 B w G
+5 eval path E A	w,n	3 1
+1 E e B
+2 D n F
+3 E w D
+4 F n G
+5 eval path E F	w,n	2 3
+1 E s A
+2 G s D
+3 E n B
+4 A e G
+5 eval path E G	s,e	4 1
+1 F w D
+2 D n A
+3 D s E
+4 F e B
+5 eval path F E	w,s	3 1
+1 A s G
+2 B s D
+3 G s E
+4 E e B
+5 eval path A E	s,s	1 3
+1 G s A
+2 G n B
+3 A e E
+4 A w F
+5 eval path G F	s,w	4 1

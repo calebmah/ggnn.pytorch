@@ -13,6 +13,7 @@ from utils.data.dataloader import bAbIDataloader
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--task_id', type=int, default=4, help='bAbI task id')
+parser.add_argument('--processed_path', default='processed_1', help='path to processed data')
 parser.add_argument('--question_id', type=int, default=0, help='question types')
 parser.add_argument('--workers', type=int, help='number of data loading workers', default=2)
 parser.add_argument('--batchSize', type=int, default=10, help='input batch size')
@@ -33,7 +34,7 @@ print("Random Seed: ", opt.manualSeed)
 random.seed(opt.manualSeed)
 torch.manual_seed(opt.manualSeed)
 
-opt.dataroot = 'babi_data/processed_1/train/%d_graphs.txt' % opt.task_id
+opt.dataroot = 'babi_data/%s/train/%d_graphs.txt' % (opt.processed_path, opt.task_id)
 
 if opt.cuda:
     torch.cuda.manual_seed_all(opt.manualSeed)

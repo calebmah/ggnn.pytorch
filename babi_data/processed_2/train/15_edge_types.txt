@@ -1,2 +1,0 @@
-is=1
-has_fear=2

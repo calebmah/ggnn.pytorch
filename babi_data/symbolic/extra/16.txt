@@ -1,0 +1,10000 @@
+1 H has_color I
+2 J is M
+3 K has_color I
+4 H is E
+5 A is E
+6 J has_color N
+7 G has_color I
+8 G is E
+9 K is E
+10 eval A has_color	I	3 5 9 4 7 1 8
+1 H is C
+2 J has_color F
+3 G has_color F
+4 K has_color B
+5 K is C
+6 G is D
+7 A is D
+8 J is D
+9 A has_color F
+10 eval H has_color	B	1 4 5
+1 K has_color F
+2 K is M
+3 J has_color I
+4 J is C
+5 G has_color F
+6 A is D
+7 A has_color N
+8 G is M
+9 H is M
+10 eval H has_color	F	9 2 5 1 8
+1 H has_color I
+2 K has_color B
+3 J has_color B
+4 H is C
+5 A has_color F
+6 A is E
+7 J is D
+8 G is E
+9 K is D
+10 eval G has_color	F	5 8 6
+1 J is M
+2 K is D
+3 A has_color I
+4 G is D
+5 H is D
+6 J has_color N
+7 A is E
+8 G has_color F
+9 K has_color F
+10 eval H has_color	F	5 4 8 2 9
+1 G is C
+2 J is C
+3 A is E
+4 H has_color N
+5 K has_color B
+6 K is E
+7 G has_color I
+8 A has_color B
+9 H is D
+10 eval J has_color	I	7 2 1
+1 A has_color F
+2 G is M
+3 J has_color I
+4 G has_color N
+5 J is D
+6 K is C
+7 K has_color B
+8 H is D
+9 A is E
+10 eval H has_color	I	3 8 5
+1 H is E
+2 J has_color F
+3 K is E
+4 J is D
+5 A is E
+6 G has_color F
+7 K has_color I
+8 A has_color I
+9 G is D
+10 eval H has_color	I	7 1 3 8 5
+1 G is D
+2 H has_color N
+3 H is D
+4 J has_color N
+5 A is M
+6 J is D
+7 G has_color N
+8 K is M
+9 A has_color B
+10 eval K has_color	B	8 9 5
+1 H has_color I
+2 K has_color I
+3 G has_color F
+4 G is D
+5 H is E
+6 A is C
+7 A has_color N
+8 J is D
+9 K is E
+10 eval J has_color	F	3 4 8
+1 H is E
+2 J has_color F
+3 K has_color I
+4 A is D
+5 A has_color I
+6 J is C
+7 G has_color B
+8 G is E
+9 K is D
+10 eval H has_color	B	8 7 1
+1 G has_color B
+2 G is M
+3 K is M
+4 H is D
+5 A is E
+6 J is E
+7 H has_color F
+8 J has_color I
+9 A has_color I
+10 eval K has_color	B	3 2 1
+1 A has_color B
+2 G has_color B
+3 J is D
+4 A is D
+5 K has_color B
+6 H is D
+7 G is D
+8 K is D
+9 J has_color B
+10 eval H has_color	B	7 1 6 2 5 8 4 9 3
+1 A has_color B
+2 K is C
+3 G is E
+4 J has_color F
+5 J is C
+6 H is E
+7 G has_color B
+8 A is E
+9 K has_color F
+10 eval H has_color	B	1 8 7 3 6
+1 H has_color F
+2 G has_color B
+3 K has_color N
+4 G is C
+5 K is E
+6 A is M
+7 J has_color B
+8 J is C
+9 H is M
+10 eval A has_color	F	1 9 6
+1 G has_color F
+2 H is M
+3 K has_color N
+4 G is D
+5 K is C
+6 J has_color N
+7 J is C
+8 A is C
+9 H has_color B
+10 eval A has_color	N	8 6 3 7 5
+1 J has_color F
+2 K is C
+3 A has_color N
+4 K has_color I
+5 J is D
+6 G is C
+7 H is M
+8 A is M
+9 H has_color N
+10 eval G has_color	I	2 6 4
+1 H has_color F
+2 K is C
+3 G is E
+4 J is D
+5 A is E
+6 G has_color B
+7 H is M
+8 J has_color I
+9 K has_color N
+10 eval A has_color	B	5 6 3
+1 G is M
+2 K has_color F
+3 G has_color I
+4 K is C
+5 J has_color B
+6 A is E
+7 J is D
+8 H is C
+9 A has_color N
+10 eval H has_color	F	8 2 4
+1 A is M
+2 G is E
+3 K is E
+4 J has_color I
+5 A has_color I
+6 H is E
+7 J is M
+8 G has_color N
+9 K has_color N
+10 eval H has_color	N	6 8 9 2 3
+1 H is D
+2 A is C
+3 A has_color B
+4 K has_color I
+5 J is C
+6 G is E
+7 K is E
+8 H has_color F
+9 G has_color I
+10 eval J has_color	B	3 2 5
+1 J has_color N
+2 K has_color N
+3 G is D
+4 K is D
+5 H has_color N
+6 A is D
+7 H is D
+8 G has_color N
+9 J is D
+10 eval A has_color	N	3 5 4 8 2 7 9 6 1
+1 K has_color F
+2 J is C
+3 K is C
+4 G is E
+5 J has_color F
+6 H is D
+7 A is C
+8 H has_color B
+9 G has_color N
+10 eval A has_color	F	1 3 7 5 2
+1 J is C
+2 K is C
+3 K has_color I
+4 H is M
+5 H has_color F
+6 A is D
+7 A has_color B
+8 G is C
+9 G has_color I
+10 eval J has_color	I	2 3 9 8 1
+1 K has_color B
+2 G is D
+3 J has_color B
+4 J is C
+5 A is C
+6 K is C
+7 A has_color B
+8 G has_color I
+9 H is D
+10 eval H has_color	I	9 2 8
+1 K is M
+2 J has_color B
+3 G has_color B
+4 A has_color N
+5 A is D
+6 J is E
+7 G is E
+8 H is M
+9 H has_color F
+10 eval K has_color	F	8 9 1
+1 H is D
+2 G is D
+3 G has_color N
+4 A is M
+5 K has_color F
+6 J is D
+7 J has_color N
+8 A has_color B
+9 K is C
+10 eval H has_color	N	1 3 6 2 7
+1 H is M
+2 K is C
+3 H has_color B
+4 A is M
+5 K has_color F
+6 J is D
+7 J has_color I
+8 G is C
+9 A has_color B
+10 eval G has_color	F	2 8 5
+1 H is M
+2 G is C
+3 H has_color I
+4 A is E
+5 K has_color F
+6 J is M
+7 J has_color I
+8 A has_color B
+9 K is C
+10 eval G has_color	F	2 9 5
+1 J has_color I
+2 J is M
+3 G is D
+4 A is E
+5 K has_color B
+6 A has_color F
+7 H is E
+8 G has_color B
+9 K is D
+10 eval H has_color	F	6 7 4
+1 K has_color I
+2 H is E
+3 G has_color B
+4 A has_color B
+5 J is E
+6 H has_color N
+7 G is D
+8 K is M
+9 A is D
+10 eval J has_color	N	2 6 5
+1 J has_color F
+2 H has_color I
+3 K is E
+4 H is D
+5 J is E
+6 G has_color B
+7 G is M
+8 A has_color I
+9 A is D
+10 eval K has_color	F	1 3 5
+1 H is C
+2 K has_color B
+3 A has_color B
+4 G has_color F
+5 K is C
+6 H has_color B
+7 G is D
+8 A is C
+9 J is C
+10 eval J has_color	B	8 9 5 2 3 6 1
+1 H is D
+2 K is D
+3 G is D
+4 A has_color F
+5 H has_color B
+6 A is E
+7 J is E
+8 G has_color B
+9 K has_color B
+10 eval J has_color	F	6 7 4
+1 K is C
+2 G has_color I
+3 G is E
+4 J has_color I
+5 K has_color F
+6 A is C
+7 H is M
+8 H has_color N
+9 J is E
+10 eval A has_color	F	5 6 1
+1 A has_color F
+2 A is M
+3 H has_color N
+4 J is C
+5 H is C
+6 K is D
+7 G is M
+8 J has_color N
+9 K has_color B
+10 eval G has_color	F	7 1 2
+1 H has_color F
+2 K is D
+3 H is D
+4 J has_color F
+5 J is D
+6 G is E
+7 K has_color F
+8 G has_color N
+9 A is D
+10 eval A has_color	F	4 9 2 5 7 1 3
+1 A is E
+2 K is C
+3 G has_color F
+4 G is M
+5 J is E
+6 K has_color I
+7 H has_color F
+8 H is M
+9 J has_color N
+10 eval A has_color	N	5 1 9
+1 J has_color B
+2 J is M
+3 A has_color I
+4 H has_color B
+5 G is E
+6 G has_color F
+7 K is D
+8 H is M
+9 A is D
+10 eval K has_color	I	3 9 7
+1 A has_color B
+2 J has_color N
+3 H has_color N
+4 G has_color I
+5 K is C
+6 H is D
+7 G is C
+8 J is D
+9 A is M
+10 eval K has_color	I	4 7 5
+1 J is E
+2 A is M
+3 K is D
+4 G is E
+5 K has_color N
+6 G has_color B
+7 H is D
+8 A has_color I
+9 J has_color B
+10 eval H has_color	N	7 5 3
+1 A is M
+2 J is M
+3 G is E
+4 J has_color F
+5 K has_color F
+6 G has_color I
+7 A has_color F
+8 K is M
+9 H is E
+10 eval H has_color	I	9 6 3
+1 G has_color I
+2 K has_color B
+3 K is M
+4 G is C
+5 A is M
+6 H is D
+7 H has_color F
+8 J is C
+9 A has_color B
+10 eval J has_color	I	1 8 4
+1 G has_color I
+2 K has_color N
+3 J is E
+4 A is E
+5 G is E
+6 K is M
+7 H is C
+8 H has_color B
+9 A has_color I
+10 eval J has_color	I	4 1 9 3 5
+1 A has_color F
+2 G has_color I
+3 H has_color N
+4 H is M
+5 K is M
+6 J has_color B
+7 A is C
+8 G is E
+9 J is D
+10 eval K has_color	N	3 4 5
+1 J is M
+2 G has_color F
+3 H is C
+4 G is M
+5 J has_color F
+6 A is M
+7 K has_color N
+8 H has_color B
+9 K is D
+10 eval A has_color	F	6 2 5 1 4
+1 G is D
+2 K has_color B
+3 J is C
+4 A is C
+5 G has_color F
+6 K is M
+7 J has_color N
+8 H is D
+9 H has_color F
+10 eval A has_color	N	7 4 3
+1 G has_color I
+2 A is C
+3 J has_color F
+4 K is M
+5 A has_color B
+6 H is D
+7 G is D
+8 K has_color F
+9 J is M
+10 eval H has_color	I	7 1 6
+1 A is D
+2 K has_color F
+3 K is D
+4 H is D
+5 J is D
+6 G is M
+7 J has_color F
+8 G has_color B
+9 H has_color F
+10 eval A has_color	F	1 7 3 4 2 5 9
+1 G has_color F
+2 A is E
+3 A has_color F
+4 H is E
+5 J has_color I
+6 K has_color F
+7 J is D
+8 G is E
+9 K is E
+10 eval H has_color	F	4 8 9 1 6 3 2
+1 K is M
+2 A is D
+3 J has_color N
+4 H has_color F
+5 K has_color N
+6 J is M
+7 G has_color B
+8 H is D
+9 G is C
+10 eval A has_color	F	2 8 4
+1 H has_color B
+2 K has_color N
+3 J is C
+4 G has_color N
+5 H is M
+6 A has_color B
+7 G is C
+8 K is C
+9 A is M
+10 eval J has_color	N	8 2 3 4 7
+1 G is M
+2 A has_color I
+3 K is M
+4 K has_color I
+5 A is M
+6 H is M
+7 J is M
+8 H has_color I
+9 G has_color I
+10 eval J has_color	I	6 2 5 1 8 3 7 9 4
+1 J is D
+2 H is D
+3 A is E
+4 H has_color B
+5 K is E
+6 G is M
+7 G has_color I
+8 K has_color N
+9 A has_color N
+10 eval J has_color	B	2 4 1
+1 A is C
+2 H has_color N
+3 G has_color B
+4 K is C
+5 H is M
+6 A has_color B
+7 J is M
+8 K has_color B
+9 G is C
+10 eval J has_color	N	2 5 7
+1 H is M
+2 G is C
+3 H has_color N
+4 K has_color F
+5 K is C
+6 J is C
+7 G has_color F
+8 A is C
+9 J has_color F
+10 eval A has_color	F	5 6 9 8 2 7 4
+1 A is E
+2 H has_color I
+3 H is E
+4 G is C
+5 K has_color B
+6 J has_color I
+7 K is D
+8 G has_color N
+9 J is E
+10 eval A has_color	I	2 1 6 3 9
+1 H is E
+2 A is C
+3 J is M
+4 K is C
+5 H has_color I
+6 G is C
+7 J has_color N
+8 G has_color B
+9 K has_color B
+10 eval A has_color	B	8 9 4 2 6
+1 J is M
+2 H has_color N
+3 A is D
+4 G is C
+5 H is C
+6 G has_color N
+7 J has_color F
+8 A has_color I
+9 K is D
+10 eval K has_color	I	9 8 3
+1 A is E
+2 J is D
+3 K has_color I
+4 G has_color B
+5 H is M
+6 K is D
+7 H has_color F
+8 G is E
+9 J has_color I
+10 eval A has_color	B	4 8 1
+1 G has_color B
+2 J has_color I
+3 G is E
+4 A has_color N
+5 K is C
+6 A is C
+7 H is D
+8 K has_color N
+9 J is D
+10 eval H has_color	I	2 9 7
+1 K is D
+2 G has_color N
+3 H is E
+4 A is D
+5 H has_color N
+6 K has_color B
+7 G is E
+8 J has_color I
+9 J is M
+10 eval A has_color	B	6 4 1
+1 A is M
+2 G is D
+3 H has_color I
+4 K has_color N
+5 J is D
+6 G has_color N
+7 A has_color I
+8 H is M
+9 K is D
+10 eval J has_color	N	5 2 9 6 4
+1 J is C
+2 A has_color B
+3 G has_color N
+4 A is C
+5 H has_color I
+6 G is D
+7 J has_color B
+8 H is M
+9 K is D
+10 eval K has_color	N	3 9 6
+1 H has_color F
+2 J is E
+3 J has_color B
+4 H is D
+5 G is M
+6 K has_color B
+7 A is M
+8 G has_color I
+9 K is E
+10 eval A has_color	I	5 7 8
+1 H has_color N
+2 H is E
+3 K has_color I
+4 A is C
+5 J is C
+6 J has_color I
+7 G is C
+8 A has_color I
+9 K is C
+10 eval G has_color	I	8 4 6 3 9 5 7
+1 J has_color N
+2 H is D
+3 J is M
+4 K is M
+5 A is C
+6 G has_color F
+7 H has_color I
+8 G is C
+9 K has_color N
+10 eval A has_color	F	6 5 8
+1 H is E
+2 H has_color N
+3 A has_color I
+4 K is M
+5 G is D
+6 G has_color I
+7 J is M
+8 A is D
+9 J has_color F
+10 eval K has_color	F	9 7 4
+1 H is M
+2 J has_color I
+3 K is M
+4 A is M
+5 J is C
+6 K has_color F
+7 H has_color F
+8 G is M
+9 G has_color F
+10 eval A has_color	F	4 1 6 8 9 7 3
+1 A is D
+2 K is D
+3 J has_color F
+4 H is C
+5 G is C
+6 A has_color I
+7 G has_color F
+8 H has_color F
+9 J is C
+10 eval K has_color	I	1 2 6
+1 A is C
+2 H has_color F
+3 G is D
+4 G has_color I
+5 J is E
+6 J has_color N
+7 K is E
+8 H is C
+9 K has_color N
+10 eval A has_color	F	1 2 8
+1 G is E
+2 J has_color N
+3 H has_color B
+4 A is C
+5 H is M
+6 K has_color I
+7 K is C
+8 J is E
+9 A has_color I
+10 eval G has_color	N	2 8 1
+1 A is D
+2 J has_color I
+3 H is M
+4 A has_color I
+5 G is M
+6 K has_color N
+7 G has_color F
+8 J is D
+9 K is E
+10 eval H has_color	F	7 3 5
+1 J is D
+2 K has_color F
+3 A has_color N
+4 G is C
+5 H is E
+6 H has_color F
+7 A is C
+8 K is E
+9 J has_color B
+10 eval G has_color	N	3 7 4
+1 A is C
+2 G has_color N
+3 J is E
+4 G is D
+5 H has_color B
+6 K has_color B
+7 H is C
+8 K is C
+9 J has_color F
+10 eval A has_color	B	7 1 6 5 8
+1 G is E
+2 J is D
+3 H has_color B
+4 J has_color N
+5 G has_color F
+6 A is D
+7 K is D
+8 H is C
+9 K has_color N
+10 eval A has_color	N	6 4 9 2 7
+1 K is C
+2 G is E
+3 H is D
+4 G has_color B
+5 K has_color F
+6 A is C
+7 J is E
+8 H has_color I
+9 J has_color B
+10 eval A has_color	F	5 6 1
+1 G is M
+2 H is M
+3 J is C
+4 A is E
+5 A has_color N
+6 K is E
+7 K has_color N
+8 J has_color F
+9 G has_color B
+10 eval H has_color	B	9 1 2
+1 A has_color N
+2 K is D
+3 H is D
+4 G is C
+5 J is M
+6 A is E
+7 G has_color B
+8 J has_color I
+9 K has_color F
+10 eval H has_color	F	3 9 2
+1 K is D
+2 H is M
+3 A has_color B
+4 G is M
+5 A is M
+6 K has_color I
+7 H has_color B
+8 J is M
+9 J has_color B
+10 eval G has_color	B	9 5 7 8 3 2 4
+1 J has_color N
+2 J is D
+3 A is M
+4 K is E
+5 H has_color I
+6 G has_color F
+7 H is M
+8 A has_color I
+9 G is E
+10 eval K has_color	F	9 4 6
+1 G is C
+2 K is E
+3 G has_color F
+4 J has_color F
+5 K has_color I
+6 A is E
+7 A has_color I
+8 J is C
+9 H is E
+10 eval H has_color	I	2 9 5 6 7
+1 K has_color B
+2 G has_color I
+3 A is D
+4 G is M
+5 H has_color I
+6 H is M
+7 J is E
+8 J has_color F
+9 K is D
+10 eval A has_color	B	3 9 1
+1 G is D
+2 G has_color B
+3 H is E
+4 J is M
+5 K is C
+6 A is M
+7 K has_color N
+8 J has_color F
+9 H has_color I
+10 eval A has_color	F	8 4 6
+1 K is E
+2 H is M
+3 A has_color N
+4 J has_color N
+5 H has_color B
+6 G has_color B
+7 J is E
+8 G is M
+9 A is E
+10 eval K has_color	N	4 7 1 3 9
+1 J has_color B
+2 K is C
+3 K has_color N
+4 A has_color B
+5 G is M
+6 H is D
+7 H has_color I
+8 J is M
+9 A is M
+10 eval G has_color	B	4 9 1 5 8
+1 A is M
+2 G has_color I
+3 H is C
+4 A has_color N
+5 G is C
+6 J has_color B
+7 K is M
+8 J is D
+9 H has_color I
+10 eval K has_color	N	7 1 4
+1 H is E
+2 J has_color F
+3 G is D
+4 H has_color F
+5 A is C
+6 G has_color N
+7 A has_color B
+8 K is C
+9 J is E
+10 eval K has_color	B	5 7 8
+1 A is C
+2 K is C
+3 A has_color N
+4 G is D
+5 K has_color N
+6 J is C
+7 H has_color I
+8 H is D
+9 J has_color N
+10 eval G has_color	I	4 7 8
+1 J is E
+2 G is E
+3 A is M
+4 G has_color N
+5 H has_color B
+6 K is M
+7 H is D
+8 J has_color N
+9 K has_color I
+10 eval A has_color	I	9 3 6
+1 A has_color N
+2 G is D
+3 K is C
+4 A is D
+5 G has_color N
+6 H has_color B
+7 K has_color I
+8 J is C
+9 H is E
+10 eval J has_color	I	7 8 3
+1 K has_color B
+2 A has_color B
+3 J has_color I
+4 H has_color F
+5 G is C
+6 J is C
+7 K is D
+8 A is D
+9 H is E
+10 eval G has_color	I	5 3 6
+1 G has_color B
+2 J has_color F
+3 G is E
+4 H is E
+5 J is M
+6 K is C
+7 H has_color B
+8 A is M
+9 K has_color I
+10 eval A has_color	F	2 5 8
+1 J is C
+2 A is C
+3 G has_color F
+4 K has_color F
+5 H is E
+6 H has_color B
+7 G is D
+8 K is D
+9 J has_color N
+10 eval A has_color	N	9 2 1
+1 J is E
+2 G is M
+3 H is E
+4 G has_color F
+5 H has_color N
+6 A has_color I
+7 J has_color N
+8 A is C
+9 K is C
+10 eval K has_color	I	6 8 9
+1 H has_color F
+2 K has_color N
+3 J has_color B
+4 K is C
+5 H is M
+6 A is D
+7 G is D
+8 A has_color B
+9 J is D
+10 eval G has_color	B	9 6 3 8 7
+1 G is E
+2 G has_color I
+3 K has_color N
+4 H has_color B
+5 K is C
+6 J is D
+7 H is M
+8 A has_color F
+9 A is D
+10 eval J has_color	F	9 6 8
+1 K has_color I
+2 A is D
+3 H has_color I
+4 G has_color F
+5 G is D
+6 A has_color F
+7 K is C
+8 H is C
+9 J is D
+10 eval J has_color	F	4 9 6 2 5
+1 J has_color F
+2 K is C
+3 J is C
+4 G has_color I
+5 G is E
+6 H is C
+7 K has_color F
+8 A is E
+9 A has_color I
+10 eval H has_color	F	6 2 3 1 7
+1 J has_color F
+2 H is D
+3 A is M
+4 K has_color B
+5 G has_color I
+6 J is C
+7 K is E
+8 G is M
+9 H has_color N
+10 eval A has_color	I	3 5 8
+1 J is E
+2 J has_color F
+3 K has_color N
+4 G is E
+5 G has_color F
+6 A is M
+7 H is M
+8 K is M
+9 H has_color N
+10 eval A has_color	N	7 6 3 8 9
+1 J has_color B
+2 K has_color F
+3 K is M
+4 G has_color F
+5 J is E
+6 A has_color B
+7 A is E
+8 G is M
+9 H is E
+10 eval H has_color	B	9 7 5 6 1
+1 G is M
+2 H is M
+3 G has_color I
+4 J is C
+5 K has_color B
+6 J has_color N
+7 K is D
+8 A is M
+9 A has_color I
+10 eval H has_color	I	9 2 8 3 1
+1 G is M
+2 H has_color F
+3 G has_color I
+4 K is M
+5 J has_color B
+6 A has_color I
+7 A is M
+8 H is C
+9 J is D
+10 eval K has_color	I	3 6 4 7 1
+1 H is C
+2 K has_color B
+3 J is C
+4 A is E
+5 H has_color B
+6 G is E
+7 K is C
+8 A has_color I
+9 J has_color B
+10 eval G has_color	I	6 8 4
+1 K is C
+2 A has_color B
+3 A is C
+4 H is C
+5 G has_color N
+6 K has_color B
+7 J is D
+8 H has_color B
+9 G is D
+10 eval J has_color	N	7 5 9
+1 G has_color F
+2 H is D
+3 J has_color B
+4 K is M
+5 A has_color I
+6 J is M
+7 G is D
+8 A is E
+9 K has_color B
+10 eval H has_color	F	1 2 7
+1 J is D
+2 J has_color F
+3 H is E
+4 H has_color I
+5 K is D
+6 G has_color I
+7 G is E
+8 A is M
+9 A has_color N
+10 eval K has_color	F	2 5 1
+1 J has_color B
+2 J is E
+3 H is C
+4 H has_color F
+5 G has_color F
+6 K is E
+7 G is C
+8 A is E
+9 K has_color B
+10 eval A has_color	B	2 8 1 9 6
+1 A has_color B
+2 G has_color F
+3 J has_color N
+4 K has_color N
+5 A is E
+6 J is D
+7 G is M
+8 H is M
+9 K is D
+10 eval H has_color	F	8 7 2
+1 G is M
+2 J is E
+3 A is D
+4 J has_color I
+5 H is M
+6 A has_color N
+7 G has_color B
+8 K is E
+9 K has_color I
+10 eval H has_color	B	5 1 7
+1 J has_color I
+2 K is E
+3 G has_color B
+4 H has_color F
+5 J is M
+6 H is C
+7 K has_color B
+8 G is E
+9 A is E
+10 eval A has_color	B	3 9 2 8 7
+1 A is E
+2 J has_color I
+3 K has_color B
+4 A has_color I
+5 G is E
+6 H has_color I
+7 H is E
+8 K is D
+9 J is E
+10 eval G has_color	I	5 9 7 4 2 1 6
+1 G is M
+2 J is E
+3 A is C
+4 H has_color I
+5 A has_color F
+6 H is D
+7 J has_color B
+8 G has_color N
+9 K is D
+10 eval K has_color	I	9 4 6
+1 J has_color I
+2 G has_color F
+3 H has_color F
+4 J is E
+5 K is E
+6 A has_color F
+7 H is D
+8 G is D
+9 A is D
+10 eval K has_color	I	4 1 5
+1 H has_color N
+2 K is D
+3 H is M
+4 A is C
+5 J is C
+6 G has_color I
+7 K has_color I
+8 A has_color F
+9 G is D
+10 eval J has_color	F	5 8 4
+1 J has_color N
+2 A is E
+3 K is E
+4 H has_color I
+5 H is C
+6 K has_color N
+7 J is E
+8 A has_color N
+9 G is C
+10 eval G has_color	I	4 5 9
+1 H has_color F
+2 J has_color F
+3 K has_color B
+4 A has_color I
+5 A is E
+6 G is D
+7 H is D
+8 K is C
+9 J is D
+10 eval G has_color	F	6 2 7 1 9
+1 J is D
+2 A has_color I
+3 K has_color B
+4 K is E
+5 G has_color B
+6 G is E
+7 A is D
+8 H is D
+9 H has_color I
+10 eval J has_color	I	9 2 7 8 1
+1 H has_color B
+2 H is D
+3 G is C
+4 J has_color B
+5 K is C
+6 A is D
+7 A has_color B
+8 J is D
+9 K has_color I
+10 eval G has_color	I	9 5 3
+1 G is E
+2 K is M
+3 J has_color I
+4 K has_color F
+5 A has_color B
+6 H is D
+7 A is E
+8 G has_color B
+9 J is D
+10 eval H has_color	I	3 9 6
+1 G is C
+2 A has_color F
+3 J has_color N
+4 A is D
+5 H is C
+6 G has_color N
+7 J is C
+8 K is C
+9 K has_color N
+10 eval H has_color	N	8 9 6 3 5 1 7
+1 G is E
+2 G has_color B
+3 K is C
+4 A is C
+5 H has_color N
+6 J has_color B
+7 J is E
+8 H is C
+9 A has_color N
+10 eval K has_color	N	9 4 3 8 5
+1 K has_color N
+2 G is D
+3 J is E
+4 K is D
+5 H has_color N
+6 J has_color I
+7 A has_color B
+8 A is M
+9 H is D
+10 eval G has_color	N	2 5 9 4 1
+1 H is D
+2 G is C
+3 A is D
+4 J has_color N
+5 H has_color B
+6 A has_color B
+7 J is C
+8 K is M
+9 K has_color F
+10 eval G has_color	N	7 2 4
+1 A is M
+2 K is C
+3 H has_color I
+4 J is M
+5 G has_color I
+6 A has_color I
+7 G is M
+8 K has_color B
+9 H is M
+10 eval J has_color	I	5 7 1 4 6 3 9
+1 G has_color B
+2 A has_color N
+3 J is D
+4 G is C
+5 J has_color F
+6 A is E
+7 H has_color N
+8 K is E
+9 H is E
+10 eval K has_color	N	9 2 8 6 7
+1 A is D
+2 J has_color I
+3 K is E
+4 H is D
+5 G is C
+6 G has_color N
+7 A has_color I
+8 K has_color F
+9 J is D
+10 eval H has_color	I	1 7 2 4 9
+1 J has_color I
+2 A has_color B
+3 G is M
+4 J is D
+5 H has_color N
+6 H is E
+7 K has_color I
+8 A is M
+9 K is D
+10 eval G has_color	B	8 2 3
+1 H is C
+2 G has_color N
+3 A has_color F
+4 G is C
+5 J has_color F
+6 K has_color B
+7 J is D
+8 A is D
+9 K is M
+10 eval H has_color	N	1 4 2
+1 K has_color B
+2 G has_color I
+3 A is E
+4 G is E
+5 H is D
+6 J is D
+7 A has_color I
+8 K is C
+9 J has_color N
+10 eval H has_color	N	5 9 6
+1 G has_color N
+2 J is D
+3 A has_color B
+4 H is M
+5 H has_color B
+6 A is M
+7 J has_color F
+8 K is M
+9 G is E
+10 eval K has_color	B	3 5 6 8 4
+1 K is E
+2 A is D
+3 J has_color F
+4 G has_color I
+5 G is M
+6 J is D
+7 H is D
+8 K has_color B
+9 A has_color F
+10 eval H has_color	F	7 2 3 6 9
+1 J is M
+2 H has_color B
+3 A is M
+4 G has_color F
+5 A has_color F
+6 J has_color F
+7 K is D
+8 G is M
+9 H is D
+10 eval K has_color	B	2 7 9
+1 K has_color N
+2 G is M
+3 J has_color F
+4 A has_color I
+5 G has_color I
+6 A is M
+7 H is E
+8 J is E
+9 K is D
+10 eval H has_color	F	3 8 7
+1 J is D
+2 A has_color I
+3 J has_color I
+4 G is D
+5 K is D
+6 K has_color I
+7 H is D
+8 G has_color I
+9 A is D
+10 eval H has_color	I	4 9 3 1 8 5 2 7 6
+1 H has_color I
+2 J has_color B
+3 A has_color B
+4 G has_color I
+5 H is C
+6 J is E
+7 A is E
+8 K is C
+9 G is C
+10 eval K has_color	I	5 8 4 1 9
+1 J has_color N
+2 H is M
+3 J is D
+4 H has_color F
+5 A is E
+6 G is E
+7 A has_color I
+8 K has_color F
+9 K is M
+10 eval G has_color	I	6 7 5
+1 A has_color B
+2 K is E
+3 A is C
+4 H is C
+5 H has_color B
+6 J is M
+7 G is E
+8 J has_color I
+9 G has_color F
+10 eval K has_color	F	9 7 2
+1 H is E
+2 H has_color N
+3 J is M
+4 A has_color I
+5 A is C
+6 K is E
+7 G has_color I
+8 G is C
+9 J has_color F
+10 eval K has_color	N	2 1 6
+1 A is E
+2 K has_color B
+3 H is E
+4 J is C
+5 J has_color N
+6 K is M
+7 A has_color F
+8 G has_color N
+9 G is C
+10 eval H has_color	F	7 1 3
+1 H has_color I
+2 G is D
+3 A is D
+4 J is M
+5 A has_color B
+6 K is M
+7 K has_color F
+8 J has_color F
+9 H is C
+10 eval G has_color	B	5 2 3
+1 K is E
+2 G has_color F
+3 K has_color I
+4 H has_color I
+5 J is E
+6 G is C
+7 A has_color B
+8 H is E
+9 A is M
+10 eval J has_color	I	5 3 4 8 1
+1 G is D
+2 J has_color N
+3 A is M
+4 J is M
+5 A has_color N
+6 K is E
+7 K has_color B
+8 H is D
+9 H has_color F
+10 eval G has_color	F	9 8 1
+1 G is D
+2 H has_color I
+3 K is D
+4 J is M
+5 G has_color N
+6 H is C
+7 J has_color F
+8 A is M
+9 A has_color F
+10 eval K has_color	N	5 3 1
+1 J has_color B
+2 H is C
+3 K has_color I
+4 H has_color F
+5 G has_color B
+6 J is D
+7 G is D
+8 A is D
+9 K is M
+10 eval A has_color	B	8 1 5 7 6
+1 K has_color F
+2 K is M
+3 J has_color I
+4 G is M
+5 H is M
+6 G has_color F
+7 J is E
+8 A is E
+9 A has_color I
+10 eval H has_color	F	6 2 4 1 5
+1 K is D
+2 A is D
+3 H is C
+4 G has_color F
+5 G is E
+6 J has_color N
+7 H has_color N
+8 A has_color B
+9 J is C
+10 eval K has_color	B	2 8 1
+1 H is E
+2 J has_color N
+3 K is C
+4 A has_color I
+5 K has_color I
+6 J is E
+7 G has_color I
+8 G is C
+9 A is C
+10 eval H has_color	N	1 2 6
+1 G is D
+2 H has_color I
+3 J is D
+4 A has_color I
+5 G has_color N
+6 H is E
+7 K is D
+8 K has_color N
+9 A is E
+10 eval J has_color	N	1 5 8 7 3
+1 A has_color F
+2 A is C
+3 K has_color B
+4 H is D
+5 G has_color I
+6 J is M
+7 K is E
+8 J has_color N
+9 G is D
+10 eval H has_color	I	5 4 9
+1 H is E
+2 A is C
+3 G has_color F
+4 J is M
+5 H has_color I
+6 K is D
+7 G is D
+8 J has_color N
+9 A has_color B
+10 eval K has_color	F	7 3 6
+1 K has_color N
+2 K is D
+3 G is E
+4 H is E
+5 G has_color B
+6 J has_color B
+7 H has_color B
+8 A is E
+9 J is E
+10 eval A has_color	B	7 6 9 8 3 4 5
+1 A has_color I
+2 G is D
+3 A is M
+4 J is D
+5 G has_color N
+6 K is C
+7 K has_color B
+8 H is D
+9 J has_color N
+10 eval H has_color	N	5 8 4 2 9
+1 A is M
+2 K is E
+3 J has_color F
+4 K has_color N
+5 G is E
+6 J is D
+7 H is M
+8 G has_color N
+9 A has_color B
+10 eval H has_color	B	7 9 1
+1 H is C
+2 H has_color F
+3 A is D
+4 J has_color F
+5 G is D
+6 G has_color B
+7 K is D
+8 J is C
+9 K has_color B
+10 eval A has_color	B	5 9 6 3 7
+1 H is M
+2 G has_color N
+3 H has_color F
+4 K has_color B
+5 J has_color B
+6 A is C
+7 J is D
+8 K is D
+9 G is C
+10 eval A has_color	N	2 9 6
+1 K is E
+2 H has_color B
+3 G is C
+4 J has_color I
+5 A is E
+6 J is D
+7 H is M
+8 A has_color N
+9 G has_color F
+10 eval K has_color	N	5 8 1
+1 G is D
+2 K is D
+3 H is C
+4 H has_color N
+5 A is C
+6 J has_color N
+7 K has_color F
+8 A has_color N
+9 J is C
+10 eval G has_color	F	1 7 2
+1 H has_color I
+2 K is D
+3 G is E
+4 A is E
+5 A has_color I
+6 H is E
+7 J is D
+8 J has_color N
+9 G has_color I
+10 eval K has_color	N	8 2 7
+1 A is M
+2 K is M
+3 H has_color N
+4 K has_color N
+5 G is C
+6 J is D
+7 H is M
+8 J has_color B
+9 G has_color I
+10 eval A has_color	N	4 3 1 2 7
+1 G has_color B
+2 J has_color B
+3 K is C
+4 A has_color N
+5 G is C
+6 J is C
+7 A is M
+8 K has_color B
+9 H is C
+10 eval H has_color	B	9 3 8 6 2 5 1
+1 A has_color B
+2 J is E
+3 K has_color I
+4 A is E
+5 G has_color N
+6 H is E
+7 G is D
+8 K is M
+9 H has_color B
+10 eval J has_color	B	1 9 4 2 6
+1 J has_color B
+2 K is E
+3 G is E
+4 A has_color N
+5 H is D
+6 J is E
+7 K has_color B
+8 A is C
+9 H has_color I
+10 eval G has_color	B	3 1 2 6 7
+1 G is D
+2 A has_color B
+3 G has_color I
+4 K is M
+5 H has_color B
+6 J is M
+7 H is M
+8 A is M
+9 K has_color B
+10 eval J has_color	B	5 6 2 8 7 4 9
+1 H is D
+2 A has_color B
+3 K has_color B
+4 G is E
+5 K is E
+6 A is E
+7 J has_color I
+8 G has_color B
+9 J is D
+10 eval H has_color	I	1 7 9
+1 K is C
+2 A has_color F
+3 K has_color B
+4 G is M
+5 A is D
+6 H has_color B
+7 J is D
+8 H is C
+9 G has_color N
+10 eval J has_color	F	2 7 5
+1 H has_color F
+2 H is E
+3 K is M
+4 G is D
+5 G has_color I
+6 A is M
+7 J is E
+8 J has_color F
+9 A has_color B
+10 eval K has_color	B	3 9 6
+1 J has_color I
+2 A is D
+3 G has_color N
+4 J is D
+5 K is E
+6 H is M
+7 K has_color B
+8 G is M
+9 A has_color I
+10 eval H has_color	N	3 6 8
+1 G has_color F
+2 J has_color B
+3 H is C
+4 J is C
+5 G is D
+6 A is D
+7 A has_color F
+8 H has_color B
+9 K is D
+10 eval K has_color	F	7 5 9 6 1
+1 G is M
+2 J has_color B
+3 A is M
+4 G has_color B
+5 H is E
+6 A has_color B
+7 K has_color I
+8 J is M
+9 K is E
+10 eval H has_color	I	5 7 9
+1 G is E
+2 H has_color N
+3 G has_color F
+4 A has_color N
+5 H is C
+6 K is E
+7 J is E
+8 A is C
+9 K has_color F
+10 eval J has_color	F	1 9 6 7 3
+1 K is M
+2 J is D
+3 G has_color I
+4 A has_color I
+5 G is M
+6 H is M
+7 H has_color I
+8 J has_color B
+9 A is M
+10 eval K has_color	I	1 4 9 5 6 7 3
+1 J is E
+2 G has_color N
+3 G is C
+4 H is M
+5 H has_color B
+6 A is E
+7 J has_color F
+8 K is D
+9 K has_color I
+10 eval A has_color	F	7 6 1
+1 J has_color F
+2 A has_color B
+3 K is C
+4 H is M
+5 H has_color B
+6 G is M
+7 J is C
+8 A is M
+9 K has_color F
+10 eval G has_color	B	8 2 5 4 6
+1 H is D
+2 A is M
+3 G has_color B
+4 J is E
+5 A has_color N
+6 K is D
+7 G is E
+8 H has_color F
+9 J has_color B
+10 eval K has_color	F	6 1 8
+1 J is E
+2 K is E
+3 A has_color I
+4 G has_color N
+5 G is C
+6 A is E
+7 K has_color I
+8 J has_color I
+9 H is C
+10 eval H has_color	N	4 5 9
+1 K is E
+2 A is M
+3 J is E
+4 G is D
+5 H has_color I
+6 G has_color I
+7 A has_color N
+8 H is D
+9 J has_color B
+10 eval K has_color	B	3 1 9
+1 H is E
+2 A is M
+3 G is M
+4 K is M
+5 A has_color B
+6 J is M
+7 J has_color B
+8 G has_color B
+9 H has_color N
+10 eval K has_color	B	2 7 8 5 4 3 6
+1 H has_color B
+2 A is E
+3 G is E
+4 K is D
+5 G has_color F
+6 H is D
+7 A has_color F
+8 J is M
+9 J has_color N
+10 eval K has_color	B	4 6 1
+1 G has_color B
+2 J is E
+3 A is D
+4 K has_color B
+5 K is C
+6 A has_color I
+7 G is C
+8 H is D
+9 J has_color F
+10 eval H has_color	I	6 8 3
+1 G is E
+2 H has_color B
+3 K is D
+4 A has_color F
+5 A is M
+6 J has_color B
+7 G has_color N
+8 H is D
+9 J is D
+10 eval K has_color	B	9 6 3 2 8
+1 H is D
+2 J is E
+3 A has_color F
+4 J has_color B
+5 H has_color I
+6 K has_color B
+7 A is C
+8 K is E
+9 G is E
+10 eval G has_color	B	6 9 4 8 2
+1 K is C
+2 G has_color N
+3 A has_color B
+4 K has_color N
+5 J has_color I
+6 A is D
+7 J is M
+8 G is C
+9 H is M
+10 eval H has_color	I	5 7 9
+1 G has_color F
+2 K is E
+3 G is C
+4 J is C
+5 H has_color B
+6 A is C
+7 H is M
+8 K has_color N
+9 A has_color F
+10 eval J has_color	F	3 9 1 4 6
+1 K is D
+2 A is M
+3 G has_color N
+4 J has_color I
+5 A has_color I
+6 J is M
+7 H is M
+8 G is D
+9 H has_color I
+10 eval K has_color	N	1 3 8
+1 H is M
+2 A has_color B
+3 J is D
+4 A is M
+5 J has_color F
+6 H has_color B
+7 K is M
+8 G has_color F
+9 G is D
+10 eval K has_color	B	1 2 6 7 4
+1 A is D
+2 J is M
+3 H is D
+4 J has_color I
+5 G has_color I
+6 K is D
+7 K has_color F
+8 H has_color F
+9 G is M
+10 eval A has_color	F	7 3 6 1 8
+1 J has_color B
+2 G is M
+3 K is M
+4 H has_color N
+5 A has_color I
+6 K has_color N
+7 J is C
+8 H is M
+9 A is E
+10 eval G has_color	N	6 8 4 3 2
+1 K is D
+2 A has_color B
+3 H is D
+4 J has_color B
+5 J is C
+6 K has_color I
+7 G has_color B
+8 A is C
+9 G is C
+10 eval H has_color	I	6 1 3
+1 H is D
+2 G is C
+3 K is M
+4 J is M
+5 J has_color N
+6 K has_color N
+7 A is D
+8 A has_color I
+9 G has_color B
+10 eval H has_color	I	1 8 7
+1 G has_color N
+2 J is C
+3 K is C
+4 A is C
+5 J has_color I
+6 H has_color B
+7 G is E
+8 K has_color I
+9 H is D
+10 eval A has_color	I	3 4 2 5 8
+1 K has_color N
+2 J is M
+3 A is C
+4 H is D
+5 G has_color F
+6 J has_color I
+7 A has_color B
+8 K is D
+9 G is E
+10 eval H has_color	N	8 4 1
+1 J has_color B
+2 K has_color B
+3 K is C
+4 G is D
+5 A is M
+6 J is C
+7 H has_color F
+8 G has_color I
+9 H is M
+10 eval A has_color	F	7 9 5
+1 G is M
+2 J has_color N
+3 G has_color F
+4 H has_color I
+5 H is D
+6 A is D
+7 K has_color B
+8 K is E
+9 J is C
+10 eval A has_color	I	4 5 6
+1 G has_color N
+2 K has_color I
+3 A is E
+4 J is M
+5 H is D
+6 A has_color F
+7 K is D
+8 H has_color I
+9 G is M
+10 eval J has_color	N	1 4 9
+1 H is M
+2 J is C
+3 A is M
+4 K has_color F
+5 J has_color I
+6 G has_color I
+7 A has_color F
+8 K is M
+9 G is C
+10 eval H has_color	F	8 7 4 1 3
+1 K has_color F
+2 G has_color I
+3 H has_color B
+4 J is D
+5 K is E
+6 A is M
+7 J has_color N
+8 H is M
+9 G is C
+10 eval A has_color	B	6 3 8
+1 G is C
+2 J has_color N
+3 H is E
+4 A is C
+5 K is E
+6 G has_color I
+7 J is M
+8 H has_color B
+9 A has_color I
+10 eval K has_color	B	8 5 3
+1 G is E
+2 A is E
+3 H has_color F
+4 J is D
+5 K is M
+6 H is M
+7 K has_color F
+8 A has_color B
+9 J has_color I
+10 eval G has_color	B	1 2 8
+1 J is C
+2 G has_color B
+3 K has_color B
+4 H is D
+5 G is D
+6 J has_color I
+7 H has_color B
+8 A is C
+9 K is D
+10 eval A has_color	I	6 1 8
+1 A is M
+2 J is M
+3 A has_color F
+4 H is M
+5 K is E
+6 K has_color I
+7 J has_color F
+8 H has_color F
+9 G is M
+10 eval G has_color	F	7 2 8 3 9 1 4
+1 H has_color I
+2 A has_color B
+3 H is D
+4 J is E
+5 G has_color F
+6 K is E
+7 A is M
+8 K has_color N
+9 G is C
+10 eval J has_color	N	4 6 8
+1 J has_color F
+2 H is E
+3 J is E
+4 G is E
+5 K is E
+6 A is E
+7 K has_color F
+8 G has_color F
+9 H has_color F
+10 eval A has_color	F	1 5 3 8 2 7 6 9 4
+1 H has_color F
+2 K has_color N
+3 H is M
+4 A is M
+5 G is M
+6 G has_color F
+7 J is D
+8 K is E
+9 J has_color B
+10 eval A has_color	F	3 1 4 5 6
+1 G has_color F
+2 H has_color I
+3 H is C
+4 K has_color I
+5 A is M
+6 K is C
+7 A has_color B
+8 G is D
+9 J is M
+10 eval J has_color	B	5 9 7
+1 H has_color N
+2 A has_color F
+3 A is M
+4 G is E
+5 G has_color I
+6 K is D
+7 K has_color N
+8 J is E
+9 H is D
+10 eval J has_color	I	4 5 8
+1 H is C
+2 G is D
+3 K is D
+4 J is D
+5 A has_color N
+6 A is D
+7 H has_color B
+8 G has_color N
+9 J has_color N
+10 eval K has_color	N	4 2 9 6 8 5 3
+1 A is E
+2 K has_color B
+3 A has_color B
+4 H is C
+5 G is E
+6 J is E
+7 G has_color B
+8 H has_color I
+9 K is E
+10 eval J has_color	B	2 9 6 1 5 3 7
+1 J has_color I
+2 J is C
+3 K has_color B
+4 A has_color B
+5 A is D
+6 H is C
+7 G is D
+8 K is D
+9 G has_color B
+10 eval H has_color	I	2 6 1
+1 K has_color N
+2 J has_color N
+3 J is D
+4 A is D
+5 H is D
+6 G has_color F
+7 K is D
+8 G is E
+9 H has_color N
+10 eval A has_color	N	7 4 3 1 9 2 5
+1 K is C
+2 A is M
+3 H is D
+4 J has_color I
+5 H has_color F
+6 G has_color N
+7 A has_color B
+8 G is C
+9 J is E
+10 eval K has_color	N	6 1 8
+1 J has_color B
+2 K is C
+3 H has_color I
+4 G is M
+5 J is E
+6 A is D
+7 H is C
+8 G has_color F
+9 A has_color N
+10 eval K has_color	I	3 2 7
+1 G is D
+2 H is C
+3 J is C
+4 K is C
+5 A has_color I
+6 K has_color I
+7 H has_color I
+8 G has_color F
+9 A is C
+10 eval J has_color	I	7 3 9 4 5 6 2
+1 H is M
+2 G has_color F
+3 A is E
+4 J has_color B
+5 K is D
+6 A has_color B
+7 J is E
+8 K has_color I
+9 G is M
+10 eval H has_color	F	9 1 2
+1 K is C
+2 G is E
+3 J has_color N
+4 J is E
+5 K has_color B
+6 A is E
+7 A has_color N
+8 H is D
+9 H has_color I
+10 eval G has_color	N	7 2 4 6 3
+1 K has_color B
+2 G has_color F
+3 H has_color B
+4 A is C
+5 H is D
+6 K is D
+7 G is M
+8 J is C
+9 A has_color I
+10 eval J has_color	I	4 9 8
+1 H is C
+2 H has_color F
+3 K is M
+4 G has_color F
+5 G is C
+6 A has_color B
+7 A is M
+8 K has_color B
+9 J is M
+10 eval J has_color	B	3 7 8 6 9
+1 H is E
+2 J has_color N
+3 H has_color N
+4 K has_color I
+5 J is E
+6 K is M
+7 G is D
+8 A is D
+9 G has_color B
+10 eval A has_color	B	8 9 7
+1 K is C
+2 J is C
+3 A has_color N
+4 J has_color B
+5 H is C
+6 G is C
+7 H has_color B
+8 A is D
+9 G has_color B
+10 eval K has_color	B	9 7 1 6 2 5 4
+1 A has_color B
+2 H is M
+3 A is D
+4 G has_color F
+5 J has_color N
+6 H has_color N
+7 G is C
+8 K is C
+9 J is M
+10 eval K has_color	F	4 8 7
+1 H has_color N
+2 H is C
+3 J is D
+4 A has_color N
+5 K is M
+6 J has_color F
+7 G has_color B
+8 A is C
+9 G is M
+10 eval K has_color	B	7 5 9
+1 H has_color N
+2 J is C
+3 H is C
+4 J has_color N
+5 K is C
+6 A has_color N
+7 G has_color I
+8 A is C
+9 G is E
+10 eval K has_color	N	1 8 5 3 4 6 2
+1 G has_color I
+2 A has_color F
+3 K is D
+4 J has_color F
+5 K has_color B
+6 J is C
+7 G is M
+8 A is C
+9 H is M
+10 eval H has_color	I	7 1 9
+1 H is D
+2 K is C
+3 A is D
+4 H has_color B
+5 J has_color I
+6 J is C
+7 G has_color B
+8 G is D
+9 A has_color B
+10 eval K has_color	I	2 5 6
+1 G is E
+2 G has_color I
+3 J has_color I
+4 H is M
+5 K is D
+6 K has_color N
+7 H has_color F
+8 J is E
+9 A is M
+10 eval A has_color	F	7 9 4
+1 G has_color I
+2 K has_color I
+3 G is D
+4 A is D
+5 H is C
+6 H has_color F
+7 K is D
+8 J has_color N
+9 J is E
+10 eval A has_color	I	3 2 4 1 7
+1 G has_color B
+2 J is D
+3 H is C
+4 J has_color I
+5 H has_color F
+6 K is C
+7 A has_color I
+8 A is D
+9 G is M
+10 eval K has_color	F	3 6 5
+1 K is D
+2 G is E
+3 J has_color N
+4 K has_color F
+5 A is D
+6 H is D
+7 J is E
+8 A has_color F
+9 G has_color N
+10 eval H has_color	F	4 8 6 5 1
+1 G has_color N
+2 J is M
+3 K is E
+4 H has_color I
+5 H is E
+6 A has_color F
+7 A is M
+8 G is D
+9 J has_color F
+10 eval K has_color	I	4 5 3
+1 G is C
+2 A is D
+3 H is D
+4 J has_color B
+5 G has_color B
+6 H has_color N
+7 K is D
+8 J is C
+9 A has_color N
+10 eval K has_color	N	3 9 6 2 7
+1 A is D
+2 H is D
+3 G has_color I
+4 J has_color N
+5 H has_color I
+6 J is E
+7 K is D
+8 K has_color I
+9 G is D
+10 eval A has_color	I	7 8 3 5 9 2 1
+1 H is D
+2 H has_color F
+3 A is D
+4 G has_color B
+5 G is M
+6 K has_color F
+7 J is C
+8 K is D
+9 J has_color N
+10 eval A has_color	F	1 2 3 6 8
+1 K is E
+2 J is E
+3 G is M
+4 J has_color I
+5 A is M
+6 H has_color F
+7 H is D
+8 G has_color N
+9 A has_color N
+10 eval K has_color	I	4 1 2
+1 J has_color B
+2 G is D
+3 A is D
+4 K has_color I
+5 H is D
+6 H has_color B
+7 J is D
+8 G has_color B
+9 K is E
+10 eval A has_color	B	8 5 6 7 2 3 1
+1 K has_color I
+2 A has_color N
+3 A is M
+4 J is M
+5 H has_color N
+6 G has_color N
+7 H is M
+8 G is M
+9 K is E
+10 eval J has_color	N	3 8 6 4 5 7 2
+1 J is M
+2 J has_color N
+3 A is C
+4 H is D
+5 H has_color I
+6 G is D
+7 K has_color F
+8 K is C
+9 G has_color I
+10 eval A has_color	F	8 7 3
+1 K has_color B
+2 H has_color F
+3 K is M
+4 J has_color F
+5 H is C
+6 G is C
+7 J is C
+8 A is M
+9 A has_color B
+10 eval G has_color	F	7 4 6 2 5
+1 J has_color I
+2 H is C
+3 K is C
+4 J is C
+5 A is M
+6 G is D
+7 A has_color F
+8 K has_color I
+9 G has_color B
+10 eval H has_color	I	3 4 1 8 2
+1 J is M
+2 K has_color I
+3 G has_color F
+4 G is D
+5 A is E
+6 A has_color I
+7 K is E
+8 H is D
+9 J has_color N
+10 eval H has_color	F	3 8 4
+1 K is M
+2 G is M
+3 J is D
+4 J has_color I
+5 H has_color I
+6 A is M
+7 A has_color N
+8 H is D
+9 K has_color N
+10 eval G has_color	N	6 1 9 2 7
+1 K is D
+2 J has_color N
+3 G has_color N
+4 A is E
+5 H is E
+6 J is C
+7 K has_color I
+8 G is C
+9 H has_color B
+10 eval A has_color	B	9 5 4
+1 K is D
+2 J has_color F
+3 H is C
+4 A has_color I
+5 J is E
+6 A is D
+7 G is D
+8 K has_color I
+9 H has_color B
+10 eval G has_color	I	7 1 4 6 8
+1 A is D
+2 G has_color B
+3 G is C
+4 A has_color F
+5 K has_color B
+6 H has_color N
+7 K is C
+8 H is M
+9 J is D
+10 eval J has_color	F	4 1 9
+1 J is M
+2 G has_color B
+3 K is M
+4 A is M
+5 H has_color N
+6 H is M
+7 J has_color N
+8 G is C
+9 A has_color N
+10 eval K has_color	N	4 7 6 9 1 5 3
+1 H is E
+2 A has_color B
+3 J is M
+4 A is E
+5 J has_color I
+6 G is E
+7 G has_color B
+8 K is E
+9 H has_color B
+10 eval K has_color	B	4 7 8 2 9 1 6
+1 A has_color F
+2 G has_color F
+3 A is M
+4 J has_color N
+5 G is M
+6 K is M
+7 H has_color I
+8 J is E
+9 H is C
+10 eval K has_color	F	6 1 3 5 2
+1 G has_color F
+2 K is E
+3 K has_color F
+4 H is E
+5 J has_color N
+6 A is D
+7 J is M
+8 A has_color I
+9 G is E
+10 eval H has_color	F	1 4 2 9 3
+1 K has_color N
+2 J is C
+3 K is M
+4 J has_color B
+5 H has_color N
+6 G is C
+7 A has_color I
+8 A is D
+9 H is M
+10 eval G has_color	B	2 6 4
+1 K is D
+2 H has_color I
+3 G has_color I
+4 A is C
+5 J is D
+6 J has_color B
+7 H is C
+8 G is C
+9 K has_color B
+10 eval A has_color	I	8 4 3 7 2
+1 K has_color B
+2 A has_color N
+3 A is C
+4 G is D
+5 H is C
+6 G has_color I
+7 K is M
+8 J is M
+9 J has_color B
+10 eval H has_color	N	3 5 2
+1 K has_color I
+2 H has_color B
+3 A has_color F
+4 J is M
+5 K is D
+6 G is C
+7 J has_color N
+8 A is C
+9 H is E
+10 eval G has_color	F	8 6 3
+1 A is E
+2 G is M
+3 H is E
+4 J is D
+5 J has_color I
+6 H has_color B
+7 K is M
+8 G has_color N
+9 A has_color B
+10 eval K has_color	N	2 7 8
+1 J is M
+2 A is D
+3 K has_color B
+4 J has_color B
+5 H is M
+6 A has_color N
+7 K is M
+8 H has_color B
+9 G is D
+10 eval G has_color	N	6 9 2
+1 J is E
+2 H has_color N
+3 G is M
+4 G has_color F
+5 A has_color B
+6 A is D
+7 J has_color N
+8 H is E
+9 K is E
+10 eval K has_color	N	7 2 8 1 9
+1 H is M
+2 G has_color N
+3 J is M
+4 G is M
+5 H has_color N
+6 A is E
+7 J has_color N
+8 K is E
+9 A has_color I
+10 eval K has_color	I	9 6 8
+1 K is M
+2 G has_color I
+3 H has_color N
+4 H is C
+5 G is E
+6 K has_color F
+7 J has_color B
+8 J is D
+9 A is C
+10 eval A has_color	N	3 4 9
+1 J is C
+2 K has_color I
+3 G has_color I
+4 H has_color N
+5 J has_color N
+6 H is C
+7 K is E
+8 G is E
+9 A is C
+10 eval A has_color	N	4 1 6 9 5
+1 G has_color F
+2 H has_color N
+3 G is M
+4 K is M
+5 K has_color F
+6 A is C
+7 J is M
+8 A has_color N
+9 H is C
+10 eval J has_color	F	7 1 5 4 3
+1 G has_color F
+2 K has_color N
+3 G is M
+4 J is M
+5 K is C
+6 A has_color F
+7 H has_color F
+8 H is M
+9 A is M
+10 eval J has_color	F	3 6 7 4 1 8 9
+1 J is D
+2 H has_color F
+3 G has_color B
+4 A is E
+5 J has_color F
+6 K is E
+7 K has_color N
+8 G is M
+9 H is D
+10 eval A has_color	N	6 4 7
+1 G is M
+2 A is C
+3 H is M
+4 J has_color B
+5 K has_color I
+6 J is C
+7 K is M
+8 A has_color B
+9 H has_color I
+10 eval G has_color	I	9 7 1 5 3
+1 A has_color B
+2 H is E
+3 J is D
+4 G has_color F
+5 G is C
+6 J has_color I
+7 H has_color B
+8 A is E
+9 K is C
+10 eval K has_color	F	5 9 4
+1 G has_color F
+2 J has_color B
+3 K has_color F
+4 A is M
+5 G is M
+6 H has_color B
+7 K is M
+8 J is C
+9 H is C
+10 eval A has_color	F	1 7 3 4 5
+1 K has_color F
+2 G is M
+3 A has_color I
+4 G has_color B
+5 J is M
+6 H is C
+7 K is D
+8 A is C
+9 J has_color B
+10 eval H has_color	I	6 3 8
+1 H is C
+2 J is C
+3 A is C
+4 K has_color N
+5 H has_color B
+6 K is D
+7 G has_color N
+8 A has_color B
+9 G is D
+10 eval J has_color	B	1 3 2 8 5
+1 J has_color F
+2 J is C
+3 A is M
+4 G has_color N
+5 H has_color F
+6 K is D
+7 H is C
+8 G is M
+9 K has_color I
+10 eval A has_color	N	4 8 3
+1 K is M
+2 K has_color I
+3 J has_color B
+4 H is C
+5 G is D
+6 G has_color B
+7 J is D
+8 A is M
+9 H has_color N
+10 eval A has_color	I	2 8 1
+1 H is C
+2 J has_color F
+3 J is D
+4 A is C
+5 H has_color I
+6 K is C
+7 G is C
+8 K has_color I
+9 A has_color I
+10 eval G has_color	I	4 6 8 9 5 1 7
+1 A has_color B
+2 G is M
+3 A is M
+4 H has_color N
+5 J is E
+6 J has_color N
+7 K is E
+8 H is E
+9 K has_color N
+10 eval G has_color	B	3 1 2
+1 K is E
+2 G has_color B
+3 G is M
+4 A has_color B
+5 H is E
+6 J is E
+7 K has_color F
+8 J has_color F
+9 A is M
+10 eval H has_color	F	8 5 7 1 6
+1 A is E
+2 A has_color F
+3 H is E
+4 H has_color F
+5 K is M
+6 J is M
+7 J has_color I
+8 G is E
+9 K has_color I
+10 eval G has_color	F	4 1 8 2 3
+1 K is C
+2 J has_color I
+3 G is M
+4 H is M
+5 K has_color I
+6 J is C
+7 A has_color F
+8 G has_color F
+9 A is M
+10 eval H has_color	F	8 7 4 9 3
+1 A has_color N
+2 K is D
+3 A is M
+4 J is D
+5 G is E
+6 H is M
+7 J has_color I
+8 K has_color I
+9 G has_color B
+10 eval H has_color	N	1 6 3
+1 H is C
+2 A is D
+3 H has_color B
+4 J is D
+5 G is E
+6 A has_color F
+7 K has_color F
+8 K is D
+9 G has_color N
+10 eval J has_color	F	2 4 7 6 8
+1 H is E
+2 J has_color N
+3 K is E
+4 G has_color B
+5 H has_color F
+6 A is E
+7 K has_color F
+8 J is M
+9 G is C
+10 eval A has_color	F	7 5 6 1 3
+1 K has_color F
+2 A is M
+3 H is M
+4 K is M
+5 G is E
+6 A has_color F
+7 J has_color I
+8 J is E
+9 G has_color I
+10 eval H has_color	F	3 6 2 4 1
+1 H is C
+2 G has_color I
+3 H has_color N
+4 K is D
+5 G is E
+6 A is D
+7 K has_color B
+8 A has_color B
+9 J is E
+10 eval J has_color	I	9 5 2
+1 K is E
+2 J is C
+3 A is C
+4 A has_color B
+5 H has_color B
+6 J has_color B
+7 K has_color F
+8 H is C
+9 G is C
+10 eval G has_color	B	2 3 6 9 4 8 5
+1 K is M
+2 A has_color I
+3 J is M
+4 H has_color N
+5 A is C
+6 H is E
+7 G is E
+8 J has_color B
+9 K has_color B
+10 eval G has_color	N	4 6 7
+1 J is M
+2 J has_color N
+3 G is E
+4 H is C
+5 G has_color I
+6 A is E
+7 K is E
+8 H has_color F
+9 K has_color I
+10 eval A has_color	I	3 6 5 7 9
+1 G is M
+2 K has_color B
+3 K is D
+4 H is C
+5 J has_color B
+6 A is M
+7 H has_color F
+8 A has_color I
+9 J is D
+10 eval G has_color	I	6 8 1
+1 K is D
+2 G has_color I
+3 J is C
+4 G is M
+5 H has_color B
+6 J has_color B
+7 H is C
+8 A is C
+9 K has_color F
+10 eval A has_color	B	3 6 8 7 5
+1 G is E
+2 K has_color B
+3 J is D
+4 A is E
+5 H is C
+6 H has_color I
+7 K is M
+8 A has_color N
+9 J has_color F
+10 eval G has_color	N	8 1 4
+1 H has_color F
+2 K has_color N
+3 J is M
+4 K is E
+5 A has_color I
+6 G is D
+7 G has_color I
+8 A is D
+9 H is M
+10 eval J has_color	F	3 1 9
+1 G has_color N
+2 A has_color F
+3 H is C
+4 J is E
+5 A is C
+6 H has_color F
+7 G is E
+8 K is M
+9 K has_color I
+10 eval J has_color	N	7 4 1
+1 A is C
+2 J has_color I
+3 K has_color N
+4 J is C
+5 G has_color B
+6 H is E
+7 H has_color F
+8 K is M
+9 G is D
+10 eval A has_color	I	4 1 2
+1 G is D
+2 G has_color F
+3 J has_color B
+4 A is D
+5 A has_color F
+6 H is D
+7 H has_color F
+8 J is M
+9 K is D
+10 eval K has_color	F	2 5 9 7 1 4 6
+1 J has_color F
+2 A has_color B
+3 H is C
+4 J is D
+5 H has_color N
+6 K is D
+7 G is D
+8 K has_color F
+9 A is M
+10 eval G has_color	F	4 7 8 6 1
+1 G is M
+2 A has_color F
+3 J is C
+4 A is C
+5 K is M
+6 J has_color F
+7 H has_color F
+8 K has_color B
+9 H is C
+10 eval G has_color	B	1 5 8
+1 K has_color N
+2 G is D
+3 H has_color F
+4 G has_color F
+5 H is D
+6 K is M
+7 A is M
+8 J is M
+9 A has_color N
+10 eval J has_color	N	8 6 1 9 7
+1 J is D
+2 K has_color I
+3 K is M
+4 H is C
+5 A is E
+6 A has_color N
+7 J has_color B
+8 H has_color F
+9 G is M
+10 eval G has_color	I	2 9 3
+1 G is E
+2 H is M
+3 H has_color I
+4 A is D
+5 J is C
+6 G has_color B
+7 A has_color N
+8 K is M
+9 J has_color F
+10 eval K has_color	I	3 2 8
+1 G has_color F
+2 A is E
+3 K has_color N
+4 K is C
+5 G is D
+6 J has_color N
+7 J is C
+8 H is D
+9 A has_color B
+10 eval H has_color	F	8 5 1
+1 H is E
+2 G is E
+3 G has_color N
+4 J is C
+5 K is C
+6 H has_color N
+7 J has_color B
+8 A is E
+9 K has_color B
+10 eval A has_color	N	2 3 1 8 6
+1 H is M
+2 H has_color N
+3 G has_color F
+4 G is E
+5 K has_color N
+6 J has_color B
+7 A is M
+8 K is M
+9 J is C
+10 eval A has_color	N	5 1 7 8 2
+1 J is M
+2 G has_color B
+3 A is C
+4 K is D
+5 A has_color N
+6 H is D
+7 J has_color F
+8 K has_color B
+9 G is D
+10 eval H has_color	B	2 8 6 4 9
+1 J is C
+2 G has_color F
+3 J has_color I
+4 H is E
+5 H has_color N
+6 K is C
+7 G is M
+8 K has_color I
+9 A is M
+10 eval A has_color	F	2 9 7
+1 A is M
+2 G is D
+3 H has_color N
+4 K has_color B
+5 J is M
+6 J has_color I
+7 K is D
+8 H is C
+9 G has_color B
+10 eval A has_color	I	1 6 5
+1 J has_color I
+2 A is E
+3 H has_color I
+4 H is E
+5 K is E
+6 K has_color I
+7 G has_color I
+8 G is E
+9 J is E
+10 eval A has_color	I	8 4 9 5 3 6 1 7 2
+1 G is D
+2 H has_color N
+3 K is E
+4 G has_color B
+5 H is C
+6 K has_color F
+7 J is D
+8 A is M
+9 A has_color I
+10 eval J has_color	B	7 4 1
+1 G is M
+2 H is E
+3 K has_color B
+4 G has_color F
+5 K is D
+6 A has_color I
+7 A is E
+8 J is D
+9 H has_color I
+10 eval J has_color	B	8 5 3
+1 J has_color F
+2 H is C
+3 K is D
+4 J is M
+5 G is M
+6 G has_color F
+7 K has_color N
+8 A is M
+9 H has_color B
+10 eval A has_color	F	5 4 8 1 6
+1 K has_color I
+2 K is M
+3 G has_color B
+4 J is M
+5 A is C
+6 G is C
+7 A has_color B
+8 J has_color I
+9 H is M
+10 eval H has_color	I	2 9 4 8 1
+1 K is M
+2 J is C
+3 G has_color I
+4 K has_color I
+5 H has_color F
+6 G is M
+7 H is D
+8 A is C
+9 A has_color B
+10 eval J has_color	B	9 2 8
+1 K has_color B
+2 K is C
+3 A has_color I
+4 G is D
+5 J has_color I
+6 J is D
+7 H is D
+8 A is D
+9 G has_color I
+10 eval H has_color	I	4 5 6 7 8 9 3
+1 K has_color F
+2 G is D
+3 A is M
+4 H is D
+5 H has_color N
+6 G has_color N
+7 J is M
+8 K is C
+9 A has_color B
+10 eval J has_color	B	9 7 3
+1 G has_color B
+2 A is C
+3 A has_color F
+4 K is E
+5 J has_color I
+6 H has_color I
+7 J is D
+8 H is D
+9 G is E
+10 eval K has_color	B	1 9 4
+1 J is M
+2 A has_color N
+3 K is D
+4 G has_color N
+5 H has_color B
+6 A is M
+7 H is D
+8 G is M
+9 J has_color N
+10 eval K has_color	B	3 5 7
+1 A has_color F
+2 J is C
+3 H has_color B
+4 A is D
+5 G is C
+6 H is M
+7 K is M
+8 K has_color B
+9 J has_color N
+10 eval G has_color	N	9 2 5
+1 J is E
+2 J has_color N
+3 H has_color B
+4 G has_color B
+5 G is C
+6 A has_color B
+7 A is C
+8 H is C
+9 K is C
+10 eval K has_color	B	5 4 3 9 6 7 8
+1 H is E
+2 K is E
+3 G has_color F
+4 A is E
+5 A has_color B
+6 J is C
+7 J has_color F
+8 K has_color B
+9 G is C
+10 eval H has_color	B	8 5 1 4 2
+1 A is C
+2 H is E
+3 G has_color F
+4 A has_color F
+5 K is E
+6 J is C
+7 K has_color I
+8 G is C
+9 J has_color F
+10 eval H has_color	I	7 5 2
+1 A is M
+2 G is M
+3 K is C
+4 G has_color F
+5 K has_color B
+6 H is C
+7 J has_color N
+8 J is D
+9 A has_color F
+10 eval H has_color	B	6 3 5
+1 K is D
+2 H has_color I
+3 J is E
+4 H is M
+5 A is D
+6 A has_color F
+7 G is E
+8 G has_color B
+9 K has_color F
+10 eval J has_color	B	7 8 3
+1 K has_color F
+2 G is D
+3 J is C
+4 J has_color B
+5 H has_color N
+6 A is M
+7 K is M
+8 H is D
+9 A has_color F
+10 eval G has_color	N	8 2 5
+1 J is C
+2 H has_color N
+3 A has_color F
+4 K has_color B
+5 A is E
+6 G has_color B
+7 K is C
+8 H is M
+9 G is C
+10 eval J has_color	B	4 7 1 6 9
+1 K has_color B
+2 A is E
+3 J has_color B
+4 G is E
+5 A has_color F
+6 J is M
+7 H has_color B
+8 K is M
+9 H is M
+10 eval G has_color	F	4 5 2
+1 K is M
+2 H has_color B
+3 G is C
+4 A is E
+5 A has_color B
+6 K has_color N
+7 H is E
+8 J has_color I
+9 J is C
+10 eval G has_color	I	8 9 3
+1 H has_color I
+2 J is D
+3 A is E
+4 K is D
+5 G has_color F
+6 G is E
+7 H is D
+8 J has_color I
+9 K has_color I
+10 eval A has_color	F	5 3 6
+1 J has_color N
+2 K is D
+3 H is M
+4 H has_color I
+5 G is D
+6 K has_color N
+7 A has_color F
+8 J is D
+9 A is E
+10 eval G has_color	N	6 2 8 1 5
+1 J is C
+2 K is E
+3 A has_color F
+4 G is C
+5 G has_color B
+6 J has_color B
+7 H is D
+8 H has_color N
+9 A is E
+10 eval K has_color	F	2 3 9
+1 G is E
+2 H is C
+3 G has_color B
+4 H has_color N
+5 A is C
+6 A has_color N
+7 K has_color I
+8 K is D
+9 J is D
+10 eval J has_color	I	9 8 7
+1 A is M
+2 H is C
+3 H has_color I
+4 K is M
+5 K has_color F
+6 J has_color B
+7 G is C
+8 J is E
+9 A has_color F
+10 eval G has_color	I	7 3 2
+1 G is E
+2 G has_color N
+3 K is C
+4 H has_color N
+5 K has_color B
+6 A has_color I
+7 A is D
+8 H is E
+9 J is C
+10 eval J has_color	B	9 5 3
+1 H is D
+2 A has_color F
+3 K is D
+4 J is C
+5 G has_color I
+6 J has_color I
+7 A is D
+8 K has_color F
+9 G is C
+10 eval H has_color	F	7 2 8 3 1
+1 K is D
+2 J is D
+3 A has_color N
+4 A is C
+5 J has_color F
+6 H is M
+7 G has_color I
+8 K has_color F
+9 G is M
+10 eval H has_color	I	7 6 9
+1 K has_color F
+2 A has_color I
+3 J is M
+4 H has_color I
+5 G is C
+6 K is D
+7 A is C
+8 H is C
+9 J has_color B
+10 eval G has_color	I	2 8 4 5 7
+1 H has_color F
+2 J is E
+3 A is E
+4 J has_color F
+5 K is C
+6 G has_color F
+7 G is E
+8 K has_color B
+9 H is E
+10 eval A has_color	F	2 3 4 7 9 6 1
+1 J has_color N
+2 G is C
+3 H is C
+4 K has_color N
+5 A has_color B
+6 J is E
+7 K is E
+8 A is M
+9 G has_color I
+10 eval H has_color	I	2 9 3
+1 G is D
+2 K is C
+3 H is C
+4 H has_color F
+5 K has_color F
+6 J is C
+7 G has_color B
+8 A has_color N
+9 A is M
+10 eval J has_color	F	3 6 2 4 5
+1 K has_color B
+2 J is M
+3 A has_color N
+4 K is M
+5 H is E
+6 G is M
+7 A is E
+8 G has_color B
+9 H has_color N
+10 eval J has_color	B	6 8 1 4 2
+1 G is D
+2 J is D
+3 J has_color F
+4 H is E
+5 K has_color I
+6 G has_color F
+7 H has_color B
+8 K is M
+9 A is M
+10 eval A has_color	I	5 9 8
+1 K is M
+2 J is E
+3 G is C
+4 H is C
+5 J has_color N
+6 G has_color I
+7 A has_color F
+8 A is M
+9 K has_color F
+10 eval H has_color	I	4 6 3
+1 J has_color I
+2 J is E
+3 H has_color I
+4 H is E
+5 A is D
+6 K has_color F
+7 A has_color N
+8 K is M
+9 G is M
+10 eval G has_color	F	8 6 9
+1 A is M
+2 J is C
+3 H is D
+4 G is D
+5 G has_color I
+6 K has_color N
+7 H has_color I
+8 A has_color F
+9 K is C
+10 eval J has_color	N	6 9 2
+1 K has_color I
+2 A has_color F
+3 K is E
+4 G has_color N
+5 H has_color N
+6 A is D
+7 G is M
+8 J is M
+9 H is M
+10 eval J has_color	N	7 4 5 8 9
+1 A is M
+2 K has_color B
+3 H is C
+4 G is M
+5 K is C
+6 H has_color B
+7 J has_color I
+8 J is D
+9 A has_color F
+10 eval G has_color	F	4 9 1
+1 A is M
+2 J is M
+3 J has_color I
+4 K has_color N
+5 G is M
+6 K is E
+7 G has_color I
+8 H has_color B
+9 H is C
+10 eval A has_color	I	2 1 3 7 5
+1 H is M
+2 J is M
+3 K has_color N
+4 G has_color I
+5 G is E
+6 K is M
+7 J has_color N
+8 A is D
+9 A has_color F
+10 eval H has_color	N	6 7 1 3 2
+1 K is C
+2 H is M
+3 K has_color I
+4 G is M
+5 J is M
+6 H has_color B
+7 J has_color B
+8 A is M
+9 A has_color B
+10 eval G has_color	B	9 6 2 5 8 7 4
+1 A is C
+2 J is E
+3 J has_color B
+4 H is E
+5 K has_color F
+6 K is M
+7 G has_color B
+8 A has_color N
+9 G is E
+10 eval H has_color	B	9 3 7 2 4
+1 J is D
+2 G is E
+3 G has_color I
+4 K has_color N
+5 A is D
+6 K is M
+7 H is E
+8 J has_color F
+9 A has_color F
+10 eval H has_color	I	3 2 7
+1 H has_color B
+2 J has_color B
+3 G has_color B
+4 G is E
+5 J is E
+6 A is E
+7 H is E
+8 K is C
+9 K has_color I
+10 eval A has_color	B	2 6 5 7 3 4 1
+1 H is C
+2 J is M
+3 A is C
+4 A has_color N
+5 G is M
+6 J has_color B
+7 K has_color N
+8 K is C
+9 G has_color B
+10 eval H has_color	N	7 3 8 1 4
+1 G is D
+2 H is M
+3 K is M
+4 H has_color F
+5 A is M
+6 K has_color F
+7 J has_color F
+8 J is M
+9 G has_color B
+10 eval A has_color	F	8 2 3 6 4 7 5
+1 G is C
+2 K has_color F
+3 H is M
+4 A has_color I
+5 J has_color F
+6 A is D
+7 H has_color N
+8 J is C
+9 K is C
+10 eval G has_color	F	2 1 5 8 9
+1 H is C
+2 H has_color F
+3 K has_color F
+4 J has_color I
+5 K is C
+6 J is M
+7 A has_color N
+8 G is D
+9 A is D
+10 eval G has_color	N	9 7 8
+1 K is D
+2 J is E
+3 G is M
+4 K has_color F
+5 J has_color B
+6 G has_color I
+7 A is E
+8 H is E
+9 H has_color B
+10 eval A has_color	B	7 9 8 2 5
+1 J has_color I
+2 K has_color N
+3 G is C
+4 J is D
+5 K is E
+6 G has_color F
+7 H is D
+8 A is E
+9 A has_color N
+10 eval H has_color	I	1 7 4
+1 K is D
+2 G has_color N
+3 J is E
+4 H has_color B
+5 A is E
+6 A has_color B
+7 J has_color B
+8 G is D
+9 H is E
+10 eval K has_color	N	2 8 1
+1 K is D
+2 G is D
+3 J is E
+4 A has_color F
+5 A is C
+6 H is E
+7 K has_color N
+8 G has_color N
+9 H has_color B
+10 eval J has_color	B	6 3 9
+1 J is M
+2 A has_color B
+3 H has_color I
+4 H is C
+5 J has_color N
+6 G is E
+7 A is E
+8 K is C
+9 G has_color B
+10 eval K has_color	I	4 3 8
+1 G has_color F
+2 H has_color F
+3 H is C
+4 K has_color N
+5 K is E
+6 A is D
+7 G is C
+8 J is C
+9 A has_color I
+10 eval J has_color	F	7 1 2 3 8
+1 H is E
+2 K has_color F
+3 G has_color N
+4 A has_color B
+5 K is E
+6 A is M
+7 G is D
+8 J has_color I
+9 J is C
+10 eval H has_color	F	5 2 1
+1 A is D
+2 J has_color I
+3 H is C
+4 K has_color N
+5 A has_color N
+6 K is D
+7 J is C
+8 G is D
+9 G has_color N
+10 eval H has_color	I	7 3 2
+1 A is C
+2 H is E
+3 G is C
+4 J is D
+5 J has_color I
+6 G has_color B
+7 K is E
+8 A has_color B
+9 K has_color N
+10 eval H has_color	N	9 2 7
+1 G is E
+2 H has_color I
+3 J has_color I
+4 G has_color I
+5 A has_color B
+6 K is M
+7 A is M
+8 H is E
+9 J is E
+10 eval K has_color	B	7 6 5
+1 J has_color B
+2 J is C
+3 A is C
+4 K is C
+5 H is D
+6 G is E
+7 H has_color I
+8 A has_color B
+9 G has_color F
+10 eval K has_color	B	3 1 8 2 4
+1 J is M
+2 H has_color F
+3 K is C
+4 G is E
+5 J has_color B
+6 A is E
+7 K has_color I
+8 H is D
+9 G has_color N
+10 eval A has_color	N	9 6 4
+1 G has_color B
+2 K has_color I
+3 K is C
+4 J is M
+5 A has_color N
+6 A is M
+7 H is C
+8 G is E
+9 H has_color I
+10 eval J has_color	N	5 4 6
+1 K is D
+2 K has_color N
+3 J has_color F
+4 J is E
+5 H has_color I
+6 A is M
+7 A has_color I
+8 H is M
+9 G is D
+10 eval G has_color	N	1 2 9
+1 G has_color I
+2 H has_color F
+3 G is E
+4 A is E
+5 K has_color F
+6 A has_color I
+7 H is C
+8 K is C
+9 J is E
+10 eval J has_color	I	6 1 4 9 3
+1 J has_color N
+2 K is E
+3 J is C
+4 G is E
+5 H is C
+6 K has_color F
+7 A is C
+8 H has_color N
+9 A has_color N
+10 eval G has_color	F	2 6 4
+1 H is D
+2 H has_color N
+3 J is M
+4 K is C
+5 J has_color B
+6 G is D
+7 K has_color F
+8 A is D
+9 G has_color N
+10 eval A has_color	N	1 2 8 9 6
+1 A has_color F
+2 K is E
+3 H is C
+4 H has_color B
+5 A is M
+6 G has_color I
+7 J is C
+8 G is D
+9 K has_color N
+10 eval J has_color	B	4 3 7
+1 J has_color F
+2 K has_color N
+3 A has_color B
+4 J is C
+5 H is C
+6 A is M
+7 K is D
+8 G has_color F
+9 G is C
+10 eval H has_color	F	5 4 9 1 8
+1 J is E
+2 G is D
+3 H is M
+4 J has_color I
+5 A is C
+6 K is M
+7 G has_color N
+8 H has_color B
+9 A has_color F
+10 eval K has_color	B	8 3 6
+1 K has_color N
+2 G has_color N
+3 J is M
+4 A is M
+5 A has_color N
+6 G is M
+7 K is M
+8 J has_color N
+9 H is M
+10 eval H has_color	N	6 5 4 8 7 3 9 2 1
+1 J has_color F
+2 A is M
+3 G has_color F
+4 H has_color B
+5 H is M
+6 K is M
+7 J is D
+8 G is D
+9 A has_color B
+10 eval K has_color	B	5 9 4 6 2
+1 K has_color N
+2 H is E
+3 J has_color N
+4 G is E
+5 J is C
+6 H has_color F
+7 K is C
+8 A is C
+9 G has_color F
+10 eval A has_color	N	7 8 5 3 1
+1 G is C
+2 A is E
+3 J has_color N
+4 H is M
+5 H has_color I
+6 J is C
+7 A has_color F
+8 K has_color I
+9 K is M
+10 eval G has_color	N	1 3 6
+1 H is E
+2 J has_color B
+3 H has_color I
+4 A has_color B
+5 J is D
+6 A is D
+7 K has_color F
+8 G is C
+9 K is C
+10 eval G has_color	F	9 7 8
+1 A has_color N
+2 G has_color B
+3 K has_color F
+4 H has_color B
+5 G is C
+6 J is C
+7 A is M
+8 H is C
+9 K is E
+10 eval J has_color	B	8 4 6 5 2
+1 H is E
+2 K is M
+3 A has_color F
+4 J is M
+5 G is M
+6 K has_color N
+7 J has_color N
+8 A is E
+9 G has_color N
+10 eval H has_color	F	3 8 1
+1 K is E
+2 A is E
+3 A has_color B
+4 H has_color B
+5 J has_color B
+6 G is E
+7 H is E
+8 J is E
+9 G has_color B
+10 eval K has_color	B	3 7 2 6 4 8 1 5 9
+1 H has_color F
+2 G is D
+3 A is M
+4 G has_color I
+5 H is C
+6 A has_color N
+7 K is M
+8 K has_color N
+9 J is C
+10 eval J has_color	F	9 5 1
+1 J is M
+2 A is E
+3 H is E
+4 A has_color F
+5 J has_color N
+6 G has_color F
+7 G is E
+8 K has_color N
+9 K is M
+10 eval H has_color	F	2 7 4 6 3
+1 K is E
+2 G has_color B
+3 G is E
+4 J has_color B
+5 J is E
+6 A has_color F
+7 A is D
+8 H is D
+9 K has_color B
+10 eval H has_color	F	7 8 6
+1 A has_color B
+2 G is E
+3 H is D
+4 J has_color I
+5 A is E
+6 K is D
+7 H has_color I
+8 K has_color I
+9 J is D
+10 eval G has_color	B	2 1 5
+1 J is M
+2 K is M
+3 G is C
+4 H has_color F
+5 H is D
+6 K has_color I
+7 A has_color F
+8 A is D
+9 G has_color B
+10 eval J has_color	I	2 1 6
+1 J is C
+2 J has_color N
+3 G has_color B
+4 H has_color I
+5 K is C
+6 G is E
+7 A is E
+8 H is D
+9 K has_color N
+10 eval A has_color	B	3 6 7
+1 J has_color I
+2 J is E
+3 A is C
+4 G is D
+5 K is D
+6 G has_color B
+7 H is E
+8 A has_color N
+9 K has_color B
+10 eval H has_color	I	7 1 2
+1 H has_color F
+2 K is D
+3 J is E
+4 A has_color N
+5 H is E
+6 G has_color N
+7 K has_color I
+8 A is C
+9 G is C
+10 eval J has_color	F	1 5 3
+1 A has_color B
+2 J is E
+3 G is E
+4 G has_color F
+5 K is D
+6 K has_color I
+7 H has_color I
+8 H is D
+9 A is C
+10 eval J has_color	F	3 4 2
+1 A is D
+2 H has_color B
+3 J is D
+4 G has_color F
+5 A has_color I
+6 K is D
+7 K has_color I
+8 H is C
+9 G is E
+10 eval J has_color	I	5 1 7 3 6
+1 H has_color I
+2 A is C
+3 J has_color B
+4 G is E
+5 G has_color F
+6 A has_color B
+7 H is D
+8 K is E
+9 J is C
+10 eval K has_color	F	4 5 8
+1 A is D
+2 J is D
+3 H is M
+4 K is E
+5 G is C
+6 A has_color I
+7 G has_color B
+8 H has_color F
+9 K has_color N
+10 eval J has_color	I	6 2 1
+1 A has_color B
+2 J is C
+3 K has_color I
+4 H is E
+5 G has_color B
+6 K is M
+7 G is E
+8 J has_color N
+9 A is E
+10 eval H has_color	B	5 9 7 4 1
+1 K has_color I
+2 A has_color F
+3 J is M
+4 J has_color B
+5 G is C
+6 H has_color I
+7 A is C
+8 K is E
+9 H is E
+10 eval G has_color	F	2 7 5
+1 A is M
+2 J has_color F
+3 G has_color N
+4 A has_color F
+5 H has_color B
+6 J is M
+7 H is D
+8 G is E
+9 K is D
+10 eval K has_color	B	9 7 5
+1 A is D
+2 K is C
+3 G is D
+4 K has_color F
+5 J is E
+6 A has_color N
+7 J has_color B
+8 G has_color N
+9 H is D
+10 eval H has_color	N	9 1 8 3 6
+1 K has_color I
+2 A is E
+3 H has_color N
+4 H is C
+5 J has_color N
+6 G is E
+7 J is C
+8 K is D
+9 A has_color F
+10 eval G has_color	F	6 2 9
+1 G is E
+2 H is E
+3 K has_color B
+4 J has_color B
+5 H has_color B
+6 A is C
+7 A has_color F
+8 K is E
+9 J is E
+10 eval G has_color	B	1 8 5 3 2 9 4
+1 H is C
+2 A is C
+3 J is C
+4 A has_color B
+5 G has_color N
+6 G is E
+7 H has_color B
+8 K is E
+9 J has_color B
+10 eval K has_color	N	8 5 6
+1 G has_color B
+2 A is E
+3 G is E
+4 A has_color B
+5 K is M
+6 J has_color F
+7 H is M
+8 H has_color N
+9 J is C
+10 eval K has_color	N	5 7 8
+1 A has_color N
+2 H has_color F
+3 G is E
+4 G has_color F
+5 H is E
+6 A is M
+7 J is M
+8 K has_color I
+9 K is D
+10 eval J has_color	N	6 1 7
+1 K has_color B
+2 J is E
+3 J has_color B
+4 H is M
+5 H has_color I
+6 A is D
+7 G is M
+8 K is E
+9 A has_color N
+10 eval G has_color	I	4 5 7
+1 G is M
+2 K is D
+3 G has_color B
+4 H has_color N
+5 J has_color F
+6 A is E
+7 A has_color I
+8 J is C
+9 H is D
+10 eval K has_color	N	4 9 2
+1 A is E
+2 H is E
+3 A has_color I
+4 G is D
+5 K has_color B
+6 J has_color N
+7 H has_color I
+8 K is C
+9 J is D
+10 eval G has_color	N	9 6 4
+1 H is D
+2 G has_color N
+3 K is M
+4 J has_color N
+5 G is E
+6 J is E
+7 K has_color F
+8 H has_color B
+9 A is M
+10 eval A has_color	F	3 7 9
+1 H is D
+2 J has_color B
+3 K is M
+4 K has_color N
+5 A has_color N
+6 A is M
+7 G has_color I
+8 J is D
+9 G is E
+10 eval H has_color	B	2 8 1
+1 J has_color F
+2 G is D
+3 H is C
+4 J is M
+5 A has_color B
+6 A is E
+7 G has_color I
+8 H has_color N
+9 K is M
+10 eval K has_color	F	1 4 9
+1 J has_color F
+2 K has_color F
+3 K is M
+4 J is M
+5 H has_color F
+6 A is C
+7 A has_color B
+8 H is M
+9 G is C
+10 eval G has_color	B	7 9 6
+1 K has_color N
+2 G is E
+3 H is D
+4 A has_color B
+5 H has_color B
+6 A is D
+7 K is M
+8 J is E
+9 J has_color F
+10 eval G has_color	F	8 9 2
+1 K has_color N
+2 H is C
+3 A has_color F
+4 G is C
+5 J is M
+6 A is M
+7 H has_color N
+8 K is C
+9 J has_color F
+10 eval G has_color	N	7 8 2 4 1
+1 K is E
+2 H is C
+3 G is M
+4 A is D
+5 H has_color B
+6 J is C
+7 A has_color I
+8 G has_color N
+9 K has_color F
+10 eval J has_color	B	5 6 2
+1 A has_color F
+2 G is M
+3 G has_color N
+4 A is C
+5 J has_color N
+6 H is M
+7 H has_color N
+8 K is C
+9 J is M
+10 eval K has_color	F	1 4 8
+1 A has_color B
+2 K is E
+3 A is M
+4 G has_color F
+5 K has_color I
+6 H has_color B
+7 G is D
+8 H is M
+9 J is M
+10 eval J has_color	B	6 8 3 1 9
+1 J is C
+2 A has_color B
+3 A is M
+4 G is E
+5 H is D
+6 J has_color N
+7 H has_color I
+8 K is M
+9 G has_color F
+10 eval K has_color	B	2 8 3
+1 A has_color I
+2 H is D
+3 K has_color B
+4 G has_color I
+5 K is M
+6 H has_color F
+7 G is E
+8 J is D
+9 A is E
+10 eval J has_color	F	2 8 6
+1 G is C
+2 H has_color I
+3 A is E
+4 K has_color B
+5 J has_color F
+6 K is M
+7 J is E
+8 A has_color F
+9 H is C
+10 eval G has_color	I	1 2 9
+1 H has_color B
+2 K is D
+3 J has_color B
+4 J is D
+5 A has_color N
+6 H is D
+7 G is M
+8 G has_color N
+9 A is M
+10 eval K has_color	B	1 2 3 4 6
+1 H has_color I
+2 G is E
+3 H is M
+4 G has_color F
+5 K has_color N
+6 K is D
+7 A is M
+8 J is E
+9 A has_color I
+10 eval J has_color	F	8 2 4
+1 J has_color B
+2 J is M
+3 A is C
+4 G has_color F
+5 K is M
+6 H has_color B
+7 G is E
+8 A has_color N
+9 H is M
+10 eval K has_color	B	1 9 6 5 2
+1 A is D
+2 G has_color N
+3 G is E
+4 A has_color I
+5 K is M
+6 H is D
+7 K has_color F
+8 J has_color I
+9 J is D
+10 eval H has_color	I	1 8 4 6 9
+1 H is C
+2 K is C
+3 H has_color I
+4 A has_color F
+5 G is M
+6 J is C
+7 J has_color I
+8 A is M
+9 K has_color I
+10 eval G has_color	F	4 8 5
+1 H has_color N
+2 J has_color I
+3 K has_color N
+4 H is C
+5 K is C
+6 G is C
+7 A has_color B
+8 J is D
+9 A is E
+10 eval G has_color	N	1 5 6 4 3
+1 K is D
+2 J has_color F
+3 H is E
+4 A is E
+5 H has_color B
+6 G is D
+7 G has_color N
+8 J is C
+9 A has_color B
+10 eval K has_color	N	1 6 7
+1 J has_color I
+2 G is C
+3 A is C
+4 K is E
+5 H is C
+6 H has_color I
+7 J is C
+8 K has_color F
+9 G has_color I
+10 eval A has_color	I	6 7 3 1 9 5 2
+1 H has_color B
+2 K is C
+3 J has_color N
+4 G is M
+5 J is E
+6 A has_color I
+7 H is C
+8 G has_color F
+9 A is D
+10 eval K has_color	B	7 1 2
+1 A is E
+2 H has_color B
+3 H is C
+4 K has_color N
+5 K is D
+6 G is E
+7 G has_color F
+8 J is M
+9 J has_color I
+10 eval A has_color	F	7 1 6
+1 A is E
+2 G is M
+3 A has_color F
+4 K has_color B
+5 H is D
+6 H has_color B
+7 G has_color N
+8 K is D
+9 J is M
+10 eval J has_color	N	9 7 2
+1 K is M
+2 A is C
+3 J is D
+4 G has_color F
+5 H has_color F
+6 A has_color I
+7 J has_color B
+8 H is M
+9 G is M
+10 eval K has_color	F	9 4 1 8 5
+1 J is E
+2 K is E
+3 G has_color F
+4 A is E
+5 H is C
+6 G is E
+7 A has_color F
+8 H has_color B
+9 K has_color F
+10 eval J has_color	F	6 4 7 9 3 2 1
+1 A has_color B
+2 J is M
+3 G has_color I
+4 G is M
+5 H is E
+6 K is D
+7 A is D
+8 J has_color I
+9 H has_color N
+10 eval K has_color	B	1 7 6
+1 J is C
+2 K has_color N
+3 A has_color I
+4 K is E
+5 G is M
+6 A is D
+7 J has_color F
+8 G has_color B
+9 H is M
+10 eval H has_color	B	8 9 5
+1 H is D
+2 G is E
+3 G has_color I
+4 H has_color B
+5 J has_color N
+6 K is D
+7 A has_color I
+8 A is E
+9 J is M
+10 eval K has_color	B	1 6 4
+1 H is C
+2 J is M
+3 H has_color I
+4 K is E
+5 K has_color N
+6 G is D
+7 G has_color B
+8 A has_color F
+9 A is M
+10 eval J has_color	F	9 2 8
+1 H is C
+2 J is M
+3 A is C
+4 G is M
+5 K has_color I
+6 H has_color N
+7 A has_color N
+8 K is E
+9 G has_color F
+10 eval J has_color	F	4 9 2
+1 H is M
+2 K has_color F
+3 G is D
+4 K is M
+5 A has_color I
+6 A is D
+7 H has_color F
+8 J is M
+9 J has_color F
+10 eval G has_color	I	5 6 3
+1 H is M
+2 H has_color I
+3 K is D
+4 J is C
+5 G is D
+6 G has_color B
+7 J has_color N
+8 A is E
+9 A has_color F
+10 eval K has_color	B	6 3 5
+1 H is D
+2 K is M
+3 G is E
+4 G has_color I
+5 A is M
+6 K has_color B
+7 J is E
+8 A has_color B
+9 H has_color N
+10 eval J has_color	I	7 4 3
+1 H is M
+2 K is M
+3 K has_color N
+4 A is D
+5 G is E
+6 J has_color B
+7 A has_color F
+8 J is C
+9 G has_color I
+10 eval H has_color	N	3 1 2
+1 H is C
+2 J has_color F
+3 J is C
+4 K is M
+5 K has_color I
+6 A has_color N
+7 G has_color N
+8 A is E
+9 G is E
+10 eval H has_color	F	2 3 1
+1 K has_color N
+2 A has_color F
+3 K is D
+4 G is D
+5 J is M
+6 J has_color F
+7 H is D
+8 A is M
+9 H has_color N
+10 eval G has_color	N	7 9 1 3 4
+1 G is M
+2 K is M
+3 K has_color I
+4 H has_color F
+5 J is C
+6 A has_color N
+7 A is D
+8 H is E
+9 J has_color B
+10 eval G has_color	I	3 1 2
+1 K has_color F
+2 J is E
+3 K is D
+4 H is E
+5 A has_color B
+6 A is C
+7 G has_color B
+8 G is C
+9 H has_color I
+10 eval J has_color	I	4 9 2
+1 H has_color F
+2 G has_color I
+3 J is D
+4 K is D
+5 A is C
+6 H is C
+7 G is E
+8 J has_color N
+9 K has_color N
+10 eval A has_color	F	6 1 5
+1 G is C
+2 K is D
+3 G has_color I
+4 H is C
+5 A has_color N
+6 J has_color I
+7 J is C
+8 K has_color B
+9 A is M
+10 eval H has_color	I	1 4 3 6 7
+1 H has_color N
+2 K is C
+3 A has_color B
+4 H is M
+5 K has_color I
+6 J has_color F
+7 J is D
+8 A is E
+9 G is M
+10 eval G has_color	N	9 1 4
+1 A is E
+2 H is D
+3 A has_color I
+4 K has_color B
+5 K is D
+6 J has_color I
+7 H has_color B
+8 J is E
+9 G is E
+10 eval G has_color	I	9 3 8 6 1
+1 J is C
+2 J has_color I
+3 G is D
+4 A has_color B
+5 H is M
+6 A is E
+7 K has_color F
+8 K is D
+9 H has_color N
+10 eval G has_color	F	3 7 8
+1 J is D
+2 K has_color I
+3 K is E
+4 J has_color N
+5 H has_color I
+6 H is E
+7 G is C
+8 A is C
+9 G has_color F
+10 eval A has_color	F	8 7 9
+1 K has_color B
+2 K is M
+3 A is M
+4 J is E
+5 H has_color B
+6 H is M
+7 G is D
+8 J has_color I
+9 G has_color F
+10 eval A has_color	B	1 6 5 2 3
+1 J is D
+2 H has_color F
+3 K is M
+4 J has_color B
+5 A has_color N
+6 H is E
+7 G has_color B
+8 A is M
+9 G is D
+10 eval K has_color	N	3 8 5
+1 A is C
+2 H has_color F
+3 K has_color B
+4 K is M
+5 A has_color I
+6 G is D
+7 G has_color F
+8 H is D
+9 J is C
+10 eval J has_color	I	1 9 5
+1 H is M
+2 K is E
+3 A is C
+4 G is C
+5 J is M
+6 G has_color I
+7 J has_color N
+8 A has_color I
+9 K has_color B
+10 eval H has_color	N	5 1 7
+1 K is C
+2 G is C
+3 J is M
+4 A is M
+5 G has_color N
+6 A has_color I
+7 K has_color N
+8 H has_color F
+9 H is E
+10 eval J has_color	I	6 3 4
+1 A is E
+2 A has_color F
+3 K is M
+4 K has_color I
+5 H is M
+6 G has_color F
+7 H has_color I
+8 G is E
+9 J is E
+10 eval J has_color	F	9 8 6 2 1
+1 H has_color I
+2 A has_color B
+3 K is M
+4 H is M
+5 J is D
+6 A is D
+7 J has_color B
+8 G is M
+9 K has_color I
+10 eval G has_color	I	8 9 1 3 4
+1 A is C
+2 H has_color B
+3 A has_color I
+4 J has_color I
+5 K has_color I
+6 H is E
+7 G is E
+8 J is C
+9 K is C
+10 eval G has_color	B	6 7 2
+1 K is E
+2 G is E
+3 A has_color B
+4 J has_color B
+5 J is M
+6 K has_color F
+7 A is M
+8 H is C
+9 H has_color I
+10 eval G has_color	F	1 2 6
+1 J is E
+2 A is M
+3 H is E
+4 A has_color F
+5 G has_color B
+6 G is C
+7 J has_color N
+8 K is M
+9 K has_color F
+10 eval H has_color	N	7 1 3
+1 H has_color B
+2 K is E
+3 A is E
+4 G has_color F
+5 A has_color I
+6 J is E
+7 H is M
+8 K has_color I
+9 G is C
+10 eval J has_color	I	3 5 8 2 6
+1 J is D
+2 H is E
+3 K has_color N
+4 A is E
+5 H has_color F
+6 K is D
+7 G has_color N
+8 G is D
+9 J has_color N
+10 eval A has_color	F	5 2 4
+1 K has_color N
+2 K is E
+3 A is M
+4 J has_color I
+5 H has_color B
+6 G has_color N
+7 H is D
+8 G is E
+9 J is M
+10 eval A has_color	I	3 4 9
+1 J is M
+2 H is M
+3 K is M
+4 K has_color N
+5 G has_color B
+6 A is M
+7 H has_color N
+8 G is E
+9 A has_color N
+10 eval J has_color	N	2 7 3 1 6 4 9
+1 J is E
+2 H has_color F
+3 G is M
+4 A has_color N
+5 H is E
+6 K is E
+7 K has_color F
+8 A is C
+9 G has_color I
+10 eval J has_color	F	1 7 2 5 6
+1 H is C
+2 K has_color I
+3 K is D
+4 J is D
+5 G has_color N
+6 J has_color I
+7 A is C
+8 A has_color N
+9 G is C
+10 eval H has_color	N	8 7 5 1 9
+1 J is C
+2 A is D
+3 G has_color N
+4 H is D
+5 J has_color I
+6 K is E
+7 H has_color B
+8 G is M
+9 K has_color F
+10 eval A has_color	B	2 4 7
+1 H is C
+2 A is E
+3 K has_color N
+4 J has_color N
+5 H has_color F
+6 G is E
+7 G has_color N
+8 J is E
+9 K is E
+10 eval A has_color	N	6 8 2 9 4 3 7
+1 K is M
+2 G is D
+3 J has_color F
+4 K has_color F
+5 J is M
+6 A has_color B
+7 G has_color I
+8 A is C
+9 H is M
+10 eval H has_color	F	9 1 5 3 4
+1 K is E
+2 G is E
+3 J is E
+4 A is C
+5 J has_color B
+6 A has_color I
+7 K has_color B
+8 H has_color B
+9 H is E
+10 eval G has_color	B	5 9 7 8 3 1 2
+1 A is C
+2 J has_color B
+3 J is E
+4 K has_color F
+5 K is D
+6 A has_color I
+7 G is D
+8 H has_color N
+9 H is M
+10 eval G has_color	F	5 4 7
+1 G has_color N
+2 G is M
+3 H has_color B
+4 J has_color N
+5 J is M
+6 K is D
+7 A is M
+8 H is D
+9 A has_color N
+10 eval K has_color	B	8 6 3
+1 H is M
+2 A is C
+3 K has_color B
+4 J has_color B
+5 G has_color N
+6 A has_color I
+7 J is E
+8 K is E
+9 G is M
+10 eval H has_color	N	5 1 9
+1 G has_color I
+2 J is M
+3 H has_color I
+4 A is E
+5 K has_color N
+6 J has_color F
+7 G is C
+8 K is E
+9 H is C
+10 eval A has_color	N	5 4 8
+1 G is M
+2 G has_color I
+3 A is C
+4 H is C
+5 K is M
+6 H has_color N
+7 K has_color I
+8 A has_color N
+9 J is M
+10 eval J has_color	I	9 1 7 2 5
+1 J is C
+2 G is E
+3 K has_color I
+4 H is C
+5 H has_color I
+6 K is C
+7 A is E
+8 A has_color F
+9 G has_color F
+10 eval J has_color	I	4 5 1 3 6
+1 A has_color B
+2 J has_color F
+3 J is M
+4 H is C
+5 A is D
+6 K is D
+7 G has_color I
+8 K has_color B
+9 G is C
+10 eval H has_color	I	7 9 4
+1 A is E
+2 H has_color I
+3 A has_color I
+4 K is E
+5 G is D
+6 J is D
+7 G has_color F
+8 J has_color F
+9 H is E
+10 eval K has_color	I	2 3 1 4 9
+1 G has_color F
+2 H is E
+3 K has_color F
+4 J is C
+5 G is D
+6 H has_color I
+7 J has_color N
+8 A is E
+9 K is D
+10 eval A has_color	I	2 8 6
+1 A is C
+2 J is E
+3 G is D
+4 G has_color N
+5 K is D
+6 H is C
+7 A has_color I
+8 J has_color F
+9 H has_color I
+10 eval K has_color	N	5 4 3
+1 H is M
+2 K is E
+3 K has_color B
+4 A is E
+5 G has_color B
+6 J is M
+7 A has_color B
+8 G is E
+9 J has_color F
+10 eval H has_color	F	9 1 6
+1 K has_color N
+2 K is C
+3 J is E
+4 H is C
+5 H has_color N
+6 G has_color F
+7 A has_color I
+8 A is M
+9 G is E
+10 eval J has_color	F	9 3 6
+1 H is C
+2 A is C
+3 G is E
+4 H has_color B
+5 K is E
+6 A has_color B
+7 J has_color B
+8 J is C
+9 G has_color I
+10 eval K has_color	I	9 3 5
+1 G has_color N
+2 J has_color F
+3 A has_color F
+4 A is C
+5 H has_color B
+6 K is C
+7 G is M
+8 J is C
+9 H is D
+10 eval K has_color	F	3 8 2 4 6
+1 H is E
+2 K has_color F
+3 J has_color I
+4 K is E
+5 H has_color F
+6 J is C
+7 A has_color B
+8 G is E
+9 A is D
+10 eval G has_color	F	5 1 2 4 8
+1 A has_color N
+2 A is M
+3 G has_color B
+4 H is E
+5 K is M
+6 J has_color F
+7 H has_color I
+8 J is D
+9 G is C
+10 eval K has_color	N	5 2 1
+1 H is C
+2 K is E
+3 G has_color N
+4 J has_color N
+5 A is M
+6 K has_color B
+7 G is C
+8 J is C
+9 A has_color I
+10 eval H has_color	N	3 7 1 8 4
+1 J is C
+2 G has_color F
+3 A has_color N
+4 K has_color B
+5 A is M
+6 G is C
+7 K is E
+8 H has_color B
+9 H is E
+10 eval J has_color	F	6 2 1
+1 G has_color B
+2 H is C
+3 A has_color B
+4 A is M
+5 K has_color B
+6 G is M
+7 J is C
+8 J has_color I
+9 K is M
+10 eval H has_color	I	8 2 7
+1 J has_color B
+2 G has_color F
+3 A is D
+4 K is C
+5 J is M
+6 K has_color F
+7 H is D
+8 G is C
+9 H has_color I
+10 eval A has_color	I	9 3 7
+1 J is D
+2 A has_color N
+3 H is D
+4 J has_color I
+5 G has_color F
+6 A is M
+7 G is C
+8 K has_color N
+9 K is M
+10 eval H has_color	I	1 3 4
+1 J has_color F
+2 K has_color I
+3 K is M
+4 H is E
+5 A has_color N
+6 A is C
+7 G is D
+8 H has_color B
+9 J is D
+10 eval G has_color	F	1 7 9
+1 G is E
+2 J is D
+3 A has_color F
+4 K has_color N
+5 H is C
+6 A is C
+7 G has_color I
+8 K is M
+9 J has_color B
+10 eval H has_color	F	3 5 6
+1 H has_color I
+2 G is M
+3 J has_color B
+4 A has_color I
+5 K is M
+6 G has_color I
+7 J is C
+8 A is M
+9 H is M
+10 eval K has_color	I	2 4 9 5 8 1 6
+1 H is E
+2 G has_color N
+3 K has_color B
+4 H has_color B
+5 A has_color B
+6 A is E
+7 G is C
+8 J is E
+9 K is E
+10 eval J has_color	B	4 1 8 6 9 5 3
+1 A has_color N
+2 G is C
+3 H has_color N
+4 K is C
+5 K has_color N
+6 J has_color F
+7 J is E
+8 H is C
+9 A is C
+10 eval G has_color	N	9 5 8 4 2 1 3
+1 K is E
+2 H is M
+3 A has_color F
+4 G is M
+5 A is D
+6 G has_color B
+7 K has_color I
+8 J has_color N
+9 J is C
+10 eval H has_color	B	4 2 6
+1 G is C
+2 A is M
+3 G has_color I
+4 A has_color B
+5 J is C
+6 K is M
+7 H has_color I
+8 K has_color B
+9 H is C
+10 eval J has_color	I	9 1 3 7 5
+1 A has_color N
+2 J is E
+3 K is C
+4 K has_color B
+5 H is M
+6 A is M
+7 G is E
+8 H has_color N
+9 J has_color F
+10 eval G has_color	F	2 9 7
+1 K is M
+2 H has_color N
+3 J is D
+4 G has_color F
+5 H is D
+6 A has_color F
+7 A is M
+8 G is M
+9 J has_color N
+10 eval K has_color	F	4 6 8 1 7
+1 A is C
+2 A has_color B
+3 K is E
+4 G has_color F
+5 J has_color F
+6 H is E
+7 J is M
+8 G is M
+9 K has_color I
+10 eval H has_color	I	6 9 3
+1 K has_color N
+2 H has_color N
+3 A is C
+4 K is E
+5 J has_color B
+6 G has_color B
+7 J is C
+8 G is C
+9 H is E
+10 eval A has_color	B	3 7 5 8 6
+1 A is C
+2 J is E
+3 J has_color F
+4 G is D
+5 G has_color N
+6 K is E
+7 A has_color B
+8 H is E
+9 K has_color F
+10 eval H has_color	F	3 9 8 2 6
+1 G is C
+2 H has_color B
+3 J is C
+4 K has_color N
+5 A has_color I
+6 A is M
+7 K is D
+8 G has_color F
+9 H is E
+10 eval J has_color	F	1 8 3
+1 A is M
+2 H is D
+3 J has_color N
+4 J is D
+5 G has_color F
+6 K has_color N
+7 K is D
+8 G is E
+9 A has_color I
+10 eval H has_color	N	7 6 3 2 4
+1 K has_color N
+2 G has_color N
+3 J is E
+4 H is E
+5 J has_color N
+6 A is E
+7 K is E
+8 G is E
+9 A has_color N
+10 eval H has_color	N	6 5 8 7 2 9 4 1 3
+1 K has_color B
+2 G is E
+3 H is E
+4 A has_color I
+5 H has_color B
+6 A is D
+7 J is D
+8 J has_color I
+9 K is E
+10 eval G has_color	B	2 3 9 5 1
+1 K is C
+2 J has_color F
+3 J is M
+4 A is C
+5 H is E
+6 A has_color N
+7 G is C
+8 H has_color I
+9 K has_color N
+10 eval G has_color	N	1 4 7 6 9
+1 G has_color F
+2 K is D
+3 A is E
+4 H is E
+5 H has_color I
+6 J is D
+7 A has_color I
+8 G is C
+9 K has_color N
+10 eval J has_color	N	2 6 9
+1 A has_color N
+2 J is E
+3 J has_color F
+4 H has_color B
+5 A is M
+6 G has_color I
+7 H is D
+8 K is D
+9 G is C
+10 eval K has_color	B	4 8 7
+1 G is E
+2 A is M
+3 A has_color B
+4 H is E
+5 J is C
+6 J has_color F
+7 G has_color I
+8 K has_color B
+9 K is M
+10 eval H has_color	I	7 4 1
+1 H is D
+2 K is M
+3 H has_color F
+4 G has_color B
+5 J has_color B
+6 G is M
+7 A has_color F
+8 J is M
+9 A is D
+10 eval K has_color	B	2 8 5 6 4
+1 K has_color N
+2 J is D
+3 A has_color I
+4 H is C
+5 A is C
+6 G is D
+7 K is D
+8 J has_color N
+9 G has_color N
+10 eval H has_color	I	5 3 4
+1 J is E
+2 K has_color N
+3 A has_color I
+4 H is M
+5 H has_color B
+6 G is E
+7 G has_color N
+8 K is E
+9 A is C
+10 eval J has_color	N	2 8 1 7 6
+1 J is D
+2 G is E
+3 H is D
+4 K has_color I
+5 J has_color F
+6 G has_color B
+7 H has_color F
+8 A is M
+9 K is M
+10 eval A has_color	I	4 8 9
+1 A is M
+2 H has_color B
+3 J has_color I
+4 K is D
+5 K has_color I
+6 J is D
+7 A has_color F
+8 G is D
+9 H is C
+10 eval G has_color	I	8 3 5 4 6
+1 J has_color F
+2 K is M
+3 H is M
+4 G is E
+5 J is E
+6 A has_color I
+7 H has_color I
+8 A is M
+9 G has_color F
+10 eval K has_color	I	8 2 6 7 3
+1 K has_color F
+2 A is D
+3 J has_color N
+4 G has_color B
+5 H is E
+6 G is E
+7 J is M
+8 K is D
+9 A has_color F
+10 eval H has_color	B	5 6 4
+1 H has_color N
+2 A is C
+3 K is M
+4 G is C
+5 G has_color B
+6 J is M
+7 J has_color N
+8 K has_color N
+9 H is M
+10 eval A has_color	B	2 4 5
+1 H is D
+2 A is M
+3 K is D
+4 H has_color B
+5 G is D
+6 A has_color N
+7 J has_color B
+8 K has_color B
+9 J is D
+10 eval G has_color	B	7 1 8 4 9 3 5
+1 A is C
+2 H is D
+3 G is M
+4 H has_color F
+5 K is E
+6 A has_color N
+7 J is C
+8 K has_color I
+9 G has_color B
+10 eval J has_color	N	6 1 7
+1 H is C
+2 H has_color B
+3 A is D
+4 G is D
+5 K is D
+6 A has_color F
+7 G has_color F
+8 J is D
+9 K has_color F
+10 eval J has_color	F	6 9 5 7 8 4 3
+1 J is M
+2 G has_color N
+3 A is E
+4 K has_color I
+5 H has_color F
+6 G is D
+7 K is E
+8 H is M
+9 J has_color F
+10 eval A has_color	I	3 7 4
+1 H has_color F
+2 K is E
+3 H is E
+4 G is D
+5 A is D
+6 K has_color F
+7 J has_color N
+8 J is D
+9 G has_color N
+10 eval A has_color	N	7 9 5 8 4
+1 J is D
+2 A has_color N
+3 H is E
+4 K is M
+5 J has_color B
+6 G is E
+7 G has_color I
+8 A is M
+9 H has_color I
+10 eval K has_color	N	8 4 2
+1 H has_color B
+2 J has_color F
+3 A has_color B
+4 G is D
+5 G has_color B
+6 H is D
+7 K is D
+8 A is D
+9 J is M
+10 eval K has_color	B	8 6 7 3 1 5 4
+1 J is E
+2 K is C
+3 J has_color N
+4 A is D
+5 H has_color N
+6 H is E
+7 G is C
+8 A has_color I
+9 K has_color B
+10 eval G has_color	B	9 7 2
+1 H has_color I
+2 J has_color F
+3 G has_color B
+4 K is M
+5 J is C
+6 A has_color I
+7 A is M
+8 G is D
+9 H is M
+10 eval K has_color	I	9 4 7 6 1
+1 J has_color N
+2 K has_color N
+3 A is E
+4 J is D
+5 K is D
+6 H has_color B
+7 A has_color B
+8 H is E
+9 G is D
+10 eval G has_color	N	9 4 1 2 5
+1 K has_color F
+2 H is C
+3 A is E
+4 A has_color I
+5 K is M
+6 J is C
+7 G has_color F
+8 J has_color N
+9 G is M
+10 eval H has_color	N	6 2 8
+1 G is C
+2 J has_color N
+3 K is D
+4 H is D
+5 K has_color I
+6 J is M
+7 A is D
+8 G has_color B
+9 H has_color I
+10 eval A has_color	I	5 9 3 7 4
+1 K is M
+2 H has_color F
+3 H is C
+4 J is E
+5 G has_color I
+6 A has_color N
+7 A is E
+8 K has_color I
+9 G is M
+10 eval J has_color	N	4 6 7
+1 A is E
+2 K is C
+3 J is C
+4 H has_color N
+5 G is M
+6 G has_color F
+7 H is E
+8 A has_color N
+9 J has_color B
+10 eval K has_color	B	2 9 3
+1 G is E
+2 J is E
+3 A is E
+4 J has_color B
+5 A has_color B
+6 K has_color I
+7 H has_color B
+8 H is E
+9 K is M
+10 eval G has_color	B	1 7 8 2 3 4 5
+1 G has_color F
+2 A is D
+3 H is E
+4 G is E
+5 K has_color F
+6 J is D
+7 K is E
+8 H has_color F
+9 A has_color I
+10 eval J has_color	I	6 2 9
+1 G is C
+2 K has_color F
+3 H has_color I
+4 A is C
+5 G has_color F
+6 H is E
+7 J has_color F
+8 J is C
+9 K is C
+10 eval A has_color	F	9 5 2 7 4 8 1
+1 H is C
+2 J has_color I
+3 A has_color N
+4 H has_color N
+5 K has_color B
+6 G is E
+7 A is C
+8 J is D
+9 K is E
+10 eval G has_color	B	5 9 6
+1 A is M
+2 A has_color I
+3 G is E
+4 H is C
+5 J is C
+6 H has_color B
+7 K is M
+8 G has_color N
+9 K has_color I
+10 eval J has_color	B	6 5 4
+1 A is E
+2 J has_color B
+3 H has_color N
+4 H is D
+5 K is D
+6 G has_color F
+7 J is E
+8 G is M
+9 K has_color N
+10 eval A has_color	B	7 1 2
+1 J is C
+2 K has_color F
+3 A is M
+4 H has_color N
+5 K is D
+6 J has_color B
+7 G is D
+8 H is M
+9 G has_color F
+10 eval A has_color	N	8 3 4
+1 A has_color N
+2 A is M
+3 J has_color N
+4 G is D
+5 K has_color N
+6 J is M
+7 G has_color I
+8 H is M
+9 K is M
+10 eval H has_color	N	6 2 9 3 5 1 8
+1 J is C
+2 H is D
+3 K is M
+4 H has_color N
+5 G has_color F
+6 A is E
+7 A has_color I
+8 G is M
+9 J has_color B
+10 eval K has_color	F	3 5 8
+1 J has_color F
+2 K has_color F
+3 G has_color F
+4 J is M
+5 H has_color F
+6 G is M
+7 K is M
+8 A is M
+9 H is M
+10 eval A has_color	F	3 2 6 8 1 4 7 5 9
+1 H has_color B
+2 A is M
+3 J is D
+4 G has_color I
+5 A has_color I
+6 J has_color F
+7 H is E
+8 K is E
+9 G is M
+10 eval K has_color	B	7 1 8
+1 A is M
+2 G is M
+3 K is M
+4 G has_color F
+5 H is M
+6 J has_color I
+7 K has_color F
+8 A has_color F
+9 J is C
+10 eval H has_color	F	4 8 1 3 2 7 5
+1 G has_color B
+2 H is M
+3 K has_color B
+4 J has_color I
+5 G is C
+6 A is C
+7 K is C
+8 J is M
+9 H has_color I
+10 eval A has_color	B	7 6 5 3 1
+1 H is M
+2 A has_color B
+3 K has_color B
+4 A is E
+5 K is E
+6 H has_color N
+7 G has_color B
+8 G is E
+9 J is E
+10 eval J has_color	B	7 3 2 5 4 8 9
+1 J has_color N
+2 A is E
+3 K is E
+4 K has_color B
+5 H has_color B
+6 J is D
+7 G is C
+8 G has_color I
+9 H is E
+10 eval A has_color	B	2 3 4 5 9
+1 K is C
+2 A has_color B
+3 J is M
+4 A is D
+5 G is M
+6 H has_color F
+7 J has_color N
+8 H is C
+9 G has_color N
+10 eval K has_color	F	1 6 8
+1 K has_color I
+2 H has_color B
+3 A has_color B
+4 G is C
+5 K is C
+6 J is C
+7 H is D
+8 J has_color I
+9 A is D
+10 eval G has_color	I	6 4 8 5 1
+1 H is D
+2 J is D
+3 K has_color F
+4 G is E
+5 H has_color I
+6 G has_color B
+7 K is M
+8 A has_color I
+9 A is D
+10 eval J has_color	I	9 2 5 1 8
+1 A is M
+2 A has_color F
+3 H is D
+4 J has_color N
+5 G is D
+6 K is D
+7 G has_color B
+8 J is C
+9 K has_color B
+10 eval H has_color	B	3 6 9 5 7
+1 K is D
+2 A is M
+3 K has_color N
+4 H is M
+5 G has_color N
+6 A has_color B
+7 H has_color B
+8 J is D
+9 G is D
+10 eval J has_color	N	5 3 1 9 8
+1 H has_color N
+2 J is D
+3 A is E
+4 K is D
+5 G is C
+6 H is E
+7 J has_color B
+8 G has_color I
+9 K has_color B
+10 eval A has_color	N	3 1 6
+1 H has_color F
+2 K has_color N
+3 A has_color B
+4 G is D
+5 A is C
+6 H is M
+7 J is D
+8 K is E
+9 J has_color I
+10 eval G has_color	I	7 9 4
+1 A has_color F
+2 J is M
+3 A is M
+4 K has_color F
+5 J has_color F
+6 H is E
+7 H has_color B
+8 K is M
+9 G is M
+10 eval G has_color	F	3 5 4 1 8 2 9
+1 J is D
+2 G has_color F
+3 G is C
+4 J has_color B
+5 K is C
+6 K has_color F
+7 A is D
+8 H has_color I
+9 H is E
+10 eval A has_color	B	1 7 4
+1 K is E
+2 A has_color I
+3 A is C
+4 G is D
+5 K has_color B
+6 J is D
+7 G has_color F
+8 H is D
+9 H has_color F
+10 eval J has_color	F	4 7 6 9 8
+1 K has_color B
+2 A is D
+3 H is E
+4 G is D
+5 J is E
+6 H has_color N
+7 K is D
+8 G has_color B
+9 J has_color N
+10 eval A has_color	B	2 8 1 7 4
+1 K has_color N
+2 A is M
+3 G has_color B
+4 G is M
+5 H is C
+6 K is C
+7 J is E
+8 A has_color B
+9 J has_color F
+10 eval H has_color	N	5 1 6
+1 A is C
+2 G has_color N
+3 K is C
+4 H is C
+5 J has_color I
+6 A has_color I
+7 K has_color I
+8 G is E
+9 J is C
+10 eval H has_color	I	7 4 1 3 9 6 5
+1 A has_color N
+2 G is E
+3 H is E
+4 J has_color F
+5 A is E
+6 J is M
+7 K has_color F
+8 K is M
+9 H has_color N
+10 eval G has_color	N	2 9 3 1 5
+1 G is E
+2 K has_color F
+3 H has_color B
+4 J is M
+5 A is M
+6 K is E
+7 J has_color N
+8 H is C
+9 G has_color F
+10 eval A has_color	N	4 5 7
+1 G has_color I
+2 H is E
+3 J has_color F
+4 A is M
+5 G is C
+6 J is E
+7 K is M
+8 A has_color N
+9 K has_color N
+10 eval H has_color	F	3 6 2
+1 H is E
+2 A has_color N
+3 K is E
+4 H has_color F
+5 K has_color F
+6 G is M
+7 G has_color B
+8 A is D
+9 J is M
+10 eval J has_color	B	6 9 7
+1 K has_color N
+2 J has_color F
+3 J is M
+4 H has_color I
+5 G is D
+6 H is C
+7 K is E
+8 G has_color B
+9 A is D
+10 eval A has_color	B	8 5 9
+1 G has_color I
+2 G is E
+3 A has_color I
+4 K has_color N
+5 J is E
+6 A is E
+7 H is E
+8 J has_color I
+9 K is M
+10 eval H has_color	I	8 7 2 5 1 3 6
+1 A has_color I
+2 K is D
+3 G is D
+4 A is E
+5 J is M
+6 J has_color B
+7 G has_color N
+8 K has_color N
+9 H is E
+10 eval H has_color	I	4 1 9
+1 A is M
+2 J has_color I
+3 J is D
+4 H has_color B
+5 G has_color B
+6 A has_color F
+7 K is M
+8 G is E
+9 H is E
+10 eval K has_color	F	1 7 6
+1 K has_color N
+2 A is E
+3 G is C
+4 J has_color F
+5 A has_color I
+6 H is C
+7 K is D
+8 H has_color F
+9 J is C
+10 eval G has_color	F	3 8 6 4 9
+1 G has_color I
+2 H has_color B
+3 K is M
+4 A has_color F
+5 A is E
+6 K has_color B
+7 G is D
+8 H is M
+9 J is D
+10 eval J has_color	I	1 9 7
+1 J has_color F
+2 K has_color F
+3 J is M
+4 G is M
+5 G has_color F
+6 H is D
+7 A has_color N
+8 A is D
+9 K is M
+10 eval H has_color	N	7 6 8
+1 K has_color I
+2 A has_color N
+3 J is D
+4 A is D
+5 H is C
+6 G has_color F
+7 K is C
+8 G is M
+9 J has_color N
+10 eval H has_color	I	1 7 5
+1 G is M
+2 K is C
+3 J is D
+4 H has_color I
+5 G has_color I
+6 A is D
+7 K has_color B
+8 H is M
+9 J has_color N
+10 eval A has_color	N	6 3 9
+1 G is C
+2 J has_color F
+3 J is M
+4 A is E
+5 H is C
+6 K has_color N
+7 A has_color I
+8 K is C
+9 G has_color N
+10 eval H has_color	N	1 9 6 5 8
+1 G is C
+2 A has_color B
+3 J is M
+4 G has_color I
+5 J has_color N
+6 K is E
+7 H is D
+8 K has_color F
+9 A is D
+10 eval H has_color	B	7 9 2
+1 J has_color I
+2 A has_color N
+3 A is C
+4 H is D
+5 K is M
+6 J is D
+7 K has_color F
+8 G is C
+9 H has_color I
+10 eval G has_color	N	8 2 3
+1 G has_color I
+2 H has_color I
+3 A has_color B
+4 J has_color B
+5 G is D
+6 J is E
+7 H is D
+8 A is E
+9 K is E
+10 eval K has_color	B	6 3 8 9 4
+1 K has_color N
+2 H is C
+3 A has_color I
+4 G has_color I
+5 A is E
+6 G is E
+7 J is D
+8 K is D
+9 H has_color F
+10 eval J has_color	N	1 7 8
+1 A is D
+2 K has_color B
+3 J has_color F
+4 K is D
+5 G has_color F
+6 G is E
+7 H is M
+8 J is E
+9 H has_color N
+10 eval A has_color	B	1 2 4
+1 G has_color I
+2 A has_color N
+3 J has_color I
+4 H is C
+5 K is D
+6 J is D
+7 H has_color N
+8 G is D
+9 A is C
+10 eval K has_color	I	5 1 8 3 6
+1 J is D
+2 H is E
+3 K is C
+4 A is M
+5 H has_color I
+6 G has_color N
+7 G is C
+8 J has_color B
+9 A has_color F
+10 eval K has_color	N	6 7 3
+1 A is D
+2 K has_color F
+3 J has_color I
+4 G is D
+5 H has_color F
+6 H is C
+7 G has_color N
+8 K is C
+9 J is E
+10 eval A has_color	N	1 7 4
+1 G is M
+2 J is E
+3 H has_color B
+4 K is C
+5 A has_color F
+6 G has_color I
+7 A is E
+8 J has_color F
+9 H is C
+10 eval K has_color	B	4 9 3
+1 H is E
+2 A has_color N
+3 K is D
+4 A is E
+5 H has_color N
+6 G is D
+7 J is E
+8 J has_color N
+9 G has_color F
+10 eval K has_color	F	9 6 3
+1 J is E
+2 A is E
+3 K is M
+4 K has_color B
+5 G is M
+6 J has_color I
+7 A has_color I
+8 H has_color B
+9 H is M
+10 eval G has_color	B	8 9 3 5 4
+1 J has_color N
+2 G is E
+3 H has_color I
+4 A has_color B
+5 A is M
+6 G has_color N
+7 J is E
+8 K is D
+9 H is D
+10 eval K has_color	I	8 9 3
+1 A is E
+2 H has_color N
+3 J has_color F
+4 G has_color I
+5 J is M
+6 G is C
+7 K is C
+8 H is E
+9 A has_color N
+10 eval K has_color	I	4 6 7
+1 A has_color F
+2 G has_color B
+3 K has_color B
+4 H is E
+5 J is E
+6 A is E
+7 G is M
+8 K is M
+9 H has_color F
+10 eval J has_color	F	4 5 9 6 1
+1 A has_color F
+2 J has_color I
+3 H is E
+4 A is C
+5 G has_color B
+6 J is E
+7 G is D
+8 K is E
+9 K has_color I
+10 eval H has_color	I	2 9 6 3 8
+1 K is D
+2 J is E
+3 H is E
+4 J has_color B
+5 A is D
+6 G has_color I
+7 G is C
+8 H has_color B
+9 A has_color F
+10 eval K has_color	F	5 9 1
+1 J has_color N
+2 J is E
+3 K is D
+4 K has_color B
+5 H has_color B
+6 A is M
+7 G is E
+8 A has_color I
+9 H is D
+10 eval G has_color	N	7 2 1
+1 H is D
+2 J has_color I
+3 J is D
+4 A is C
+5 H has_color I
+6 K is D
+7 G is C
+8 A has_color N
+9 G has_color N
+10 eval K has_color	I	6 3 2 5 1
+1 A is C
+2 K is C
+3 G has_color N
+4 A has_color F
+5 H is C
+6 J is D
+7 J has_color B
+8 G is M
+9 K has_color F
+10 eval H has_color	F	9 5 4 2 1
+1 H is E
+2 K is C
+3 J is E
+4 A is C
+5 G is D
+6 A has_color I
+7 K has_color I
+8 J has_color F
+9 G has_color B
+10 eval H has_color	F	1 8 3
+1 G is M
+2 J is E
+3 H is C
+4 J has_color N
+5 H has_color F
+6 G has_color B
+7 K has_color N
+8 K is E
+9 A is M
+10 eval A has_color	B	6 9 1
+1 A is M
+2 H has_color I
+3 G is M
+4 K is M
+5 H is C
+6 J is E
+7 A has_color F
+8 K has_color F
+9 J has_color B
+10 eval G has_color	F	8 7 1 4 3
+1 K has_color B
+2 J is M
+3 A has_color F
+4 G is M
+5 A is E
+6 K is C
+7 H is M
+8 G has_color I
+9 H has_color I
+10 eval J has_color	I	9 2 4 8 7
+1 J has_color F
+2 J is C
+3 A is E
+4 K is D
+5 H is C
+6 K has_color N
+7 G has_color N
+8 A has_color B
+9 G is D
+10 eval H has_color	F	1 5 2
+1 A is D
+2 H is D
+3 K has_color B
+4 G has_color N
+5 J is C
+6 G is C
+7 J has_color N
+8 H has_color F
+9 K is M
+10 eval A has_color	F	2 1 8
+1 A has_color N
+2 K is C
+3 J has_color F
+4 H is E
+5 H has_color F
+6 A is C
+7 J is E
+8 G is M
+9 G has_color B
+10 eval K has_color	N	2 1 6
+1 K has_color F
+2 H has_color F
+3 A has_color I
+4 H is E
+5 J is E
+6 G is C
+7 A is D
+8 G has_color N
+9 K is E
+10 eval J has_color	F	1 2 4 9 5
+1 A is M
+2 H is C
+3 K has_color F
+4 J is M
+5 K is E
+6 G has_color B
+7 H has_color I
+8 G is D
+9 J has_color N
+10 eval A has_color	N	4 1 9
+1 K is D
+2 H has_color F
+3 J is M
+4 J has_color I
+5 A has_color B
+6 G is M
+7 G has_color I
+8 A is C
+9 H is D
+10 eval K has_color	F	9 2 1
+1 A is C
+2 G has_color I
+3 H has_color F
+4 A has_color F
+5 J is D
+6 K is M
+7 G is D
+8 K has_color N
+9 H is C
+10 eval J has_color	I	2 7 5
+1 J is M
+2 J has_color B
+3 H has_color N
+4 A has_color N
+5 G is D
+6 K is D
+7 G has_color I
+8 A is C
+9 H is C
+10 eval K has_color	I	7 5 6
+1 K is D
+2 H has_color I
+3 J is E
+4 J has_color I
+5 H is E
+6 G has_color F
+7 K has_color B
+8 A is C
+9 G is C
+10 eval A has_color	F	9 8 6
+1 J is E
+2 G is D
+3 K has_color B
+4 A is E
+5 J has_color N
+6 H is D
+7 K is D
+8 H has_color B
+9 A has_color N
+10 eval G has_color	B	7 2 3 8 6
+1 H has_color F
+2 H is C
+3 J is C
+4 G is M
+5 J has_color F
+6 A has_color N
+7 A is M
+8 K has_color N
+9 K is M
+10 eval G has_color	N	4 8 6 9 7
+1 J is E
+2 H is M
+3 A is M
+4 K has_color N
+5 G has_color F
+6 J has_color N
+7 G is M
+8 H has_color F
+9 K is E
+10 eval A has_color	F	5 8 7 3 2
+1 A is C
+2 A has_color F
+3 K is M
+4 H has_color N
+5 G is C
+6 J is M
+7 H is D
+8 K has_color I
+9 G has_color F
+10 eval J has_color	I	8 3 6
+1 H is M
+2 H has_color B
+3 G is M
+4 K has_color N
+5 J is C
+6 K is D
+7 J has_color I
+8 A is E
+9 A has_color F
+10 eval G has_color	B	1 3 2
+1 G is D
+2 H is E
+3 K is D
+4 A has_color B
+5 A is M
+6 G has_color N
+7 J has_color I
+8 H has_color I
+9 J is E
+10 eval K has_color	N	1 6 3
+1 J has_color I
+2 G is D
+3 H is E
+4 K is E
+5 A has_color B
+6 G has_color B
+7 A is D
+8 H has_color N
+9 J is C
+10 eval K has_color	N	4 8 3
+1 J is E
+2 A has_color N
+3 H has_color B
+4 G is D
+5 G has_color B
+6 K is E
+7 K has_color F
+8 H is D
+9 A is C
+10 eval J has_color	F	7 1 6
+1 H has_color F
+2 H is C
+3 K is E
+4 J is D
+5 A has_color F
+6 A is C
+7 G is E
+8 J has_color N
+9 K has_color I
+10 eval G has_color	I	9 7 3
+1 H is E
+2 A has_color B
+3 J has_color B
+4 J is C
+5 K is D
+6 G has_color N
+7 H has_color I
+8 G is D
+9 A is C
+10 eval K has_color	N	6 8 5
+1 J is C
+2 A has_color N
+3 K has_color I
+4 H has_color N
+5 G is E
+6 K is E
+7 H is C
+8 A is C
+9 G has_color I
+10 eval J has_color	N	4 7 1 2 8
+1 A is C
+2 A has_color F
+3 J is M
+4 G has_color I
+5 G is M
+6 J has_color I
+7 H is D
+8 K is M
+9 H has_color N
+10 eval K has_color	I	3 6 4 8 5
+1 G has_color B
+2 A has_color B
+3 A is M
+4 J has_color B
+5 G is M
+6 J is M
+7 H is C
+8 K is M
+9 H has_color F
+10 eval K has_color	B	4 5 1 2 6 8 3
+1 A has_color N
+2 G has_color N
+3 H has_color I
+4 H is M
+5 J is M
+6 G is D
+7 A is D
+8 K is E
+9 K has_color B
+10 eval J has_color	I	3 4 5
+1 G is C
+2 J is D
+3 H has_color F
+4 A has_color I
+5 H is E
+6 G has_color N
+7 J has_color B
+8 K is M
+9 A is M
+10 eval K has_color	I	9 8 4
+1 J has_color B
+2 J is M
+3 K is D
+4 A has_color F
+5 A is D
+6 H has_color N
+7 K has_color F
+8 G is M
+9 H is C
+10 eval G has_color	B	8 2 1
+1 A is M
+2 H has_color N
+3 J is E
+4 K has_color N
+5 G is M
+6 J has_color I
+7 A has_color N
+8 H is M
+9 K is M
+10 eval G has_color	N	7 9 5 4 2 8 1
+1 A has_color I
+2 J has_color B
+3 J is C
+4 H is M
+5 A is D
+6 K is E
+7 H has_color N
+8 G is E
+9 K has_color F
+10 eval G has_color	F	9 8 6
+1 G is E
+2 K has_color F
+3 K is E
+4 H has_color I
+5 A is C
+6 J is E
+7 J has_color F
+8 A has_color N
+9 H is D
+10 eval G has_color	F	3 2 6 1 7
+1 H has_color N
+2 J is M
+3 A has_color F
+4 K has_color B
+5 H is C
+6 G is M
+7 G has_color F
+8 A is M
+9 K is E
+10 eval J has_color	F	7 3 2 8 6
+1 G has_color I
+2 J is C
+3 K is D
+4 G is C
+5 A is M
+6 H is E
+7 A has_color B
+8 H has_color F
+9 K has_color N
+10 eval J has_color	I	1 4 2
+1 A is D
+2 K has_color B
+3 J is M
+4 J has_color N
+5 A has_color I
+6 G is C
+7 G has_color F
+8 K is E
+9 H is E
+10 eval H has_color	B	9 8 2
+1 J has_color B
+2 H is C
+3 H has_color N
+4 K has_color I
+5 K is E
+6 A is E
+7 J is D
+8 A has_color I
+9 G is C
+10 eval G has_color	N	3 9 2
+1 H has_color B
+2 A is M
+3 K is E
+4 A has_color F
+5 G is M
+6 K has_color N
+7 J is D
+8 H is D
+9 J has_color B
+10 eval G has_color	F	4 5 2
+1 G is E
+2 K is M
+3 A has_color I
+4 H has_color B
+5 H is D
+6 J is M
+7 G has_color N
+8 A is M
+9 J has_color I
+10 eval K has_color	I	9 6 3 2 8
+1 A is D
+2 J is D
+3 A has_color B
+4 H is C
+5 K is M
+6 H has_color I
+7 G is M
+8 J has_color B
+9 K has_color F
+10 eval G has_color	F	5 9 7
+1 A has_color I
+2 G is C
+3 K is D
+4 J is C
+5 G has_color B
+6 H has_color I
+7 K has_color N
+8 A is E
+9 H is E
+10 eval J has_color	B	5 2 4
+1 H is E
+2 G has_color F
+3 A has_color I
+4 J is M
+5 A is D
+6 J has_color B
+7 K is M
+8 K has_color B
+9 G is E
+10 eval H has_color	F	2 1 9
+1 G is D
+2 J is D
+3 A is E
+4 A has_color N
+5 H has_color N
+6 K is E
+7 J has_color B
+8 H is E
+9 G has_color B
+10 eval K has_color	N	6 4 8 5 3
+1 J has_color N
+2 K is D
+3 A is E
+4 G is E
+5 H has_color N
+6 K has_color N
+7 G has_color F
+8 H is D
+9 J is D
+10 eval A has_color	F	7 4 3
+1 H is C
+2 A is C
+3 J is M
+4 G has_color F
+5 J has_color N
+6 A has_color I
+7 G is D
+8 K is E
+9 K has_color B
+10 eval H has_color	I	2 6 1
+1 J has_color B
+2 A has_color B
+3 K is D
+4 H is E
+5 H has_color I
+6 K has_color N
+7 G is C
+8 A is C
+9 J is C
+10 eval G has_color	B	2 8 1 7 9
+1 A is D
+2 A has_color N
+3 K is E
+4 G is E
+5 H is D
+6 K has_color F
+7 J has_color F
+8 J is E
+9 G has_color F
+10 eval H has_color	N	1 2 5
+1 H is E
+2 G is D
+3 G has_color F
+4 K is M
+5 H has_color B
+6 A is M
+7 J is M
+8 A has_color I
+9 J has_color I
+10 eval K has_color	I	8 6 9 4 7
+1 A is D
+2 H has_color B
+3 K has_color F
+4 H is M
+5 J has_color I
+6 J is D
+7 K is C
+8 G is E
+9 G has_color N
+10 eval A has_color	I	1 5 6
+1 G has_color F
+2 H is C
+3 J is D
+4 K is C
+5 A is D
+6 K has_color F
+7 H has_color F
+8 A has_color B
+9 G is C
+10 eval J has_color	B	8 3 5
+1 G is M
+2 A has_color I
+3 K has_color I
+4 J is M
+5 H is E
+6 K is E
+7 G has_color N
+8 H has_color I
+9 A is E
+10 eval J has_color	N	7 4 1
+1 J is D
+2 G is C
+3 H has_color B
+4 H is M
+5 A is D
+6 G has_color N
+7 A has_color I
+8 K is D
+9 K has_color I
+10 eval J has_color	I	9 7 1 8 5
+1 A is C
+2 A has_color F
+3 K has_color F
+4 G has_color I
+5 H is D
+6 J has_color I
+7 G is D
+8 J is D
+9 K is C
+10 eval H has_color	I	7 4 5 8 6
+1 A has_color B
+2 K is E
+3 H is E
+4 J has_color F
+5 A is C
+6 G has_color I
+7 K has_color F
+8 G is M
+9 J is E
+10 eval H has_color	F	9 4 3 2 7
+1 J is C
+2 K has_color F
+3 H is C
+4 A has_color N
+5 J has_color I
+6 G is C
+7 G has_color I
+8 A is M
+9 K is E
+10 eval H has_color	I	7 3 1 6 5
+1 J is M
+2 H is C
+3 K is E
+4 H has_color N
+5 A has_color I
+6 J has_color F
+7 K has_color B
+8 A is D
+9 G is M
+10 eval G has_color	F	9 6 1
+1 G is E
+2 A has_color N
+3 J is D
+4 H has_color F
+5 K is D
+6 H is D
+7 K has_color F
+8 A is C
+9 G has_color I
+10 eval J has_color	F	6 4 5 7 3
+1 G is M
+2 K has_color N
+3 H has_color B
+4 J is D
+5 H is E
+6 J has_color N
+7 G has_color F
+8 K is D
+9 A is D
+10 eval A has_color	N	4 9 6 2 8
+1 A has_color I
+2 A is C
+3 K has_color F
+4 J has_color N
+5 H is D
+6 J is E
+7 G is E
+8 G has_color N
+9 K is D
+10 eval H has_color	F	9 5 3
+1 H is M
+2 G has_color F
+3 K has_color F
+4 J is M
+5 J has_color N
+6 G is C
+7 H has_color N
+8 A is M
+9 K is C
+10 eval A has_color	N	5 7 4 1 8
+1 J has_color I
+2 A is M
+3 K is M
+4 G has_color N
+5 J is E
+6 A has_color N
+7 H has_color I
+8 H is E
+9 G is M
+10 eval K has_color	N	2 6 4 3 9
+1 G has_color I
+2 H is M
+3 K has_color I
+4 G is D
+5 J is M
+6 A is M
+7 K is D
+8 A has_color N
+9 J has_color N
+10 eval H has_color	N	6 9 2 8 5
+1 H has_color I
+2 A is M
+3 G is E
+4 H is D
+5 J has_color F
+6 A has_color B
+7 K has_color F
+8 K is E
+9 J is E
+10 eval G has_color	F	9 3 5 7 8
+1 G has_color N
+2 J is M
+3 K is C
+4 J has_color F
+5 G is D
+6 A is M
+7 H is C
+8 K has_color I
+9 A has_color F
+10 eval H has_color	I	8 3 7
+1 K has_color N
+2 J has_color I
+3 H is M
+4 A is D
+5 G has_color B
+6 J is D
+7 K is E
+8 A has_color I
+9 G is M
+10 eval H has_color	B	3 9 5
+1 A is E
+2 G has_color F
+3 J has_color F
+4 K is E
+5 G is E
+6 H has_color F
+7 J is E
+8 H is E
+9 K has_color F
+10 eval A has_color	F	3 4 2 9 7 6 8 5 1
+1 J is C
+2 H has_color N
+3 K has_color N
+4 G is M
+5 J has_color N
+6 A is C
+7 G has_color F
+8 K is C
+9 H is C
+10 eval A has_color	N	6 5 2 3 9 1 8
+1 K is E
+2 J has_color F
+3 A is E
+4 A has_color N
+5 K has_color N
+6 H is C
+7 G is C
+8 J is D
+9 H has_color I
+10 eval G has_color	I	6 7 9
+1 H is D
+2 K is M
+3 G is D
+4 J has_color N
+5 J is M
+6 H has_color I
+7 A has_color N
+8 G has_color I
+9 A is M
+10 eval K has_color	N	5 7 9 4 2
+1 G has_color I
+2 H is C
+3 G is C
+4 H has_color I
+5 J has_color I
+6 J is C
+7 K is M
+8 A is M
+9 A has_color N
+10 eval K has_color	N	7 8 9
+1 J has_color I
+2 J is M
+3 A is E
+4 G has_color F
+5 H is E
+6 K has_color F
+7 H has_color F
+8 K is E
+9 G is E
+10 eval A has_color	F	5 6 8 9 3 7 4
+1 J is C
+2 K has_color F
+3 H has_color B
+4 A is C
+5 A has_color B
+6 K is D
+7 G has_color F
+8 H is C
+9 G is D
+10 eval J has_color	B	1 5 8 4 3
+1 H is C
+2 J has_color I
+3 A is M
+4 G is C
+5 J is E
+6 A has_color F
+7 H has_color N
+8 K has_color F
+9 K is M
+10 eval G has_color	N	7 1 4
+1 A is D
+2 K is C
+3 J has_color N
+4 H is C
+5 H has_color I
+6 G is C
+7 A has_color F
+8 G has_color I
+9 J is M
+10 eval K has_color	I	4 2 8 6 5
+1 A has_color B
+2 H has_color B
+3 G is D
+4 G has_color I
+5 H is C
+6 A is C
+7 J has_color F
+8 J is E
+9 K is E
+10 eval K has_color	F	8 9 7
+1 A has_color F
+2 K has_color N
+3 A is E
+4 J is E
+5 H is M
+6 J has_color F
+7 K is C
+8 G is M
+9 H has_color B
+10 eval G has_color	B	9 8 5
+1 G is D
+2 K has_color B
+3 J is C
+4 J has_color B
+5 G has_color F
+6 A is D
+7 K is C
+8 H is E
+9 H has_color N
+10 eval A has_color	F	6 5 1
+1 A is E
+2 G has_color I
+3 K is M
+4 H has_color I
+5 G is E
+6 J is E
+7 A has_color I
+8 H is E
+9 K has_color N
+10 eval J has_color	I	8 6 1 2 7 4 5
+1 G has_color F
+2 G is M
+3 J has_color F
+4 K is M
+5 A is M
+6 J is M
+7 H is M
+8 K has_color F
+9 A has_color F
+10 eval H has_color	F	7 5 9 8 3 4 6 2 1
+1 J is E
+2 G has_color I
+3 A is M
+4 H is M
+5 K is D
+6 K has_color F
+7 G is M
+8 A has_color I
+9 J has_color N
+10 eval H has_color	I	2 8 3 4 7
+1 J has_color B
+2 H is M
+3 A has_color N
+4 K is E
+5 G is M
+6 K has_color F
+7 A is M
+8 J is C
+9 H has_color N
+10 eval G has_color	N	7 5 3 9 2
+1 A has_color F
+2 K is E
+3 J has_color I
+4 A is D
+5 H has_color B
+6 H is E
+7 K has_color B
+8 J is M
+9 G is D
+10 eval G has_color	F	9 4 1
+1 J is D
+2 G has_color B
+3 A is M
+4 K is M
+5 H is C
+6 G is C
+7 A has_color I
+8 J has_color N
+9 K has_color I
+10 eval H has_color	B	5 6 2
+1 H is E
+2 K has_color N
+3 K is C
+4 J has_color I
+5 J is E
+6 A has_color B
+7 A is M
+8 G has_color B
+9 G is M
+10 eval H has_color	I	1 4 5
+1 J has_color F
+2 K is C
+3 H is M
+4 G has_color B
+5 K has_color N
+6 G is M
+7 A is M
+8 H has_color B
+9 J is D
+10 eval A has_color	B	3 8 7 6 4
+1 G has_color B
+2 J has_color I
+3 H is M
+4 G is M
+5 J is E
+6 A has_color N
+7 A is D
+8 H has_color B
+9 K is E
+10 eval K has_color	I	2 5 9
+1 K is E
+2 H has_color F
+3 J has_color N
+4 G is C
+5 K has_color B
+6 A has_color N
+7 J is D
+8 A is D
+9 H is C
+10 eval G has_color	F	4 2 9
+1 H has_color I
+2 J is E
+3 G is M
+4 A has_color F
+5 K has_color F
+6 A is D
+7 K is D
+8 G has_color B
+9 H is E
+10 eval J has_color	I	1 9 2
+1 A has_color I
+2 K is D
+3 H is E
+4 A is M
+5 G is M
+6 J has_color I
+7 K has_color F
+8 H has_color B
+9 J is M
+10 eval G has_color	I	1 4 6 5 9
+1 J has_color N
+2 A is C
+3 H is E
+4 G is D
+5 G has_color I
+6 A has_color N
+7 J is C
+8 K is E
+9 H has_color B
+10 eval K has_color	B	9 8 3
+1 H is E
+2 H has_color N
+3 K has_color I
+4 A has_color N
+5 J is C
+6 K is D
+7 G is C
+8 A is E
+9 G has_color F
+10 eval J has_color	F	5 7 9
+1 J is C
+2 K has_color I
+3 J has_color F
+4 H is C
+5 G is M
+6 G has_color N
+7 K is E
+8 H has_color F
+9 A is C
+10 eval A has_color	F	9 3 8 4 1
+1 G has_color N
+2 A is C
+3 H is E
+4 K has_color F
+5 K is E
+6 G is M
+7 A has_color B
+8 J is D
+9 J has_color I
+10 eval H has_color	F	3 5 4
+1 H has_color N
+2 G has_color N
+3 J has_color B
+4 A is D
+5 H is C
+6 J is E
+7 K is E
+8 A has_color F
+9 G is C
+10 eval K has_color	B	6 3 7
+1 H is C
+2 K is E
+3 J is C
+4 H has_color N
+5 A has_color B
+6 K has_color I
+7 G is C
+8 J has_color N
+9 A is M
+10 eval G has_color	N	3 8 7 4 1
+1 G is D
+2 K is E
+3 J is M
+4 J has_color I
+5 H is E
+6 H has_color F
+7 A is D
+8 K has_color F
+9 A has_color B
+10 eval G has_color	B	1 9 7
+1 J has_color B
+2 K is C
+3 G is E
+4 K has_color F
+5 A has_color N
+6 H is E
+7 J is E
+8 G has_color B
+9 A is M
+10 eval H has_color	B	3 1 8 6 7
+1 J is E
+2 H is D
+3 A has_color I
+4 J has_color B
+5 G is C
+6 K is E
+7 H has_color I
+8 G has_color N
+9 A is D
+10 eval K has_color	B	4 6 1
+1 J is M
+2 H has_color F
+3 G has_color I
+4 K has_color I
+5 G is M
+6 A is M
+7 K is M
+8 A has_color I
+9 H is E
+10 eval J has_color	I	8 5 4 3 6 1 7
+1 G has_color I
+2 J is D
+3 G is M
+4 K is M
+5 A is D
+6 K has_color I
+7 A has_color F
+8 H has_color I
+9 H is M
+10 eval J has_color	F	2 7 5
+1 K has_color F
+2 H has_color I
+3 A is C
+4 J is C
+5 J has_color N
+6 K is D
+7 G is D
+8 A has_color N
+9 H is M
+10 eval G has_color	F	1 6 7
+1 J is C
+2 K has_color N
+3 J has_color B
+4 G has_color I
+5 A is C
+6 G is M
+7 K is E
+8 A has_color B
+9 H is E
+10 eval H has_color	N	2 7 9
+1 J is M
+2 G has_color I
+3 A is C
+4 H has_color N
+5 J has_color F
+6 A has_color N
+7 H is C
+8 K is M
+9 G is D
+10 eval K has_color	F	5 8 1
+1 K is M
+2 J is M
+3 J has_color N
+4 A is M
+5 H is M
+6 H has_color N
+7 G has_color F
+8 G is E
+9 A has_color N
+10 eval K has_color	N	4 3 9 2 6 5 1
+1 H is M
+2 J is M
+3 G is D
+4 H has_color B
+5 A is D
+6 A has_color F
+7 J has_color B
+8 K has_color I
+9 K is E
+10 eval G has_color	F	6 5 3
+1 A has_color B
+2 K has_color F
+3 G is C
+4 K is E
+5 H is C
+6 J has_color F
+7 A is M
+8 G has_color I
+9 J is E
+10 eval H has_color	I	8 5 3
+1 H is M
+2 J has_color B
+3 G is E
+4 K has_color F
+5 K is D
+6 G has_color N
+7 J is C
+8 H has_color I
+9 A is M
+10 eval A has_color	I	1 8 9
+1 A is C
+2 J is E
+3 K has_color F
+4 G is C
+5 A has_color F
+6 H is C
+7 K is C
+8 G has_color F
+9 J has_color N
+10 eval H has_color	F	8 6 3 7 5 1 4
+1 A has_color F
+2 A is D
+3 H is E
+4 H has_color B
+5 G is D
+6 G has_color F
+7 J is D
+8 K has_color B
+9 K is E
+10 eval J has_color	F	1 7 2 5 6
+1 K is E
+2 J is D
+3 G is D
+4 H has_color F
+5 J has_color F
+6 A is D
+7 K has_color B
+8 A has_color F
+9 H is D
+10 eval G has_color	F	8 6 5 9 3 4 2
+1 G has_color F
+2 H has_color F
+3 K has_color B
+4 G is D
+5 J has_color B
+6 K is E
+7 J is E
+8 A is D
+9 H is D
+10 eval A has_color	F	8 1 9 4 2
+1 A is D
+2 G is M
+3 H is D
+4 J has_color N
+5 H has_color I
+6 K has_color F
+7 G has_color B
+8 J is C
+9 K is E
+10 eval A has_color	I	3 5 1
+1 A is D
+2 K is C
+3 A has_color F
+4 G is C
+5 K has_color N
+6 G has_color N
+7 J has_color N
+8 H is D
+9 J is C
+10 eval H has_color	F	8 1 3
+1 H is C
+2 G has_color F
+3 A is C
+4 A has_color F
+5 J is M
+6 K has_color I
+7 K is M
+8 H has_color F
+9 G is C
+10 eval J has_color	I	6 5 7
+1 H is D
+2 K has_color I
+3 A is E
+4 H has_color I
+5 K is D
+6 J has_color B
+7 G has_color I
+8 J is E
+9 G is D
+10 eval A has_color	B	8 6 3
+1 G has_color N
+2 K has_color B
+3 J is C
+4 H is M
+5 G is M
+6 H has_color N
+7 A is E
+8 J has_color F
+9 K is E
+10 eval A has_color	B	2 7 9
+1 A is D
+2 K is E
+3 G has_color N
+4 J has_color F
+5 J is E
+6 H is E
+7 G is C
+8 A has_color B
+9 K has_color F
+10 eval H has_color	F	9 5 6 2 4
+1 H is C
+2 A has_color I
+3 J has_color B
+4 H has_color N
+5 K is C
+6 G is C
+7 A is E
+8 J is D
+9 G has_color N
+10 eval K has_color	N	5 6 1 9 4
+1 H is C
+2 H has_color I
+3 G has_color I
+4 G is C
+5 J has_color F
+6 A is M
+7 A has_color B
+8 J is E
+9 K is E
+10 eval K has_color	F	5 9 8
+1 A is C
+2 H is C
+3 G is D
+4 J has_color I
+5 H has_color B
+6 K is D
+7 J is E
+8 G has_color F
+9 A has_color B
+10 eval K has_color	F	3 6 8
+1 A is D
+2 G is C
+3 A has_color N
+4 K is D
+5 G has_color I
+6 K has_color N
+7 J is D
+8 H has_color I
+9 H is C
+10 eval J has_color	N	3 1 6 4 7
+1 H has_color B
+2 K has_color F
+3 H is E
+4 A is C
+5 J has_color B
+6 J is E
+7 K is D
+8 G is E
+9 A has_color N
+10 eval G has_color	B	6 5 1 8 3
+1 A has_color N
+2 J is E
+3 H has_color F
+4 H is E
+5 K has_color I
+6 A is D
+7 G is E
+8 G has_color F
+9 K is M
+10 eval J has_color	F	7 4 3 2 8
+1 H is M
+2 K has_color N
+3 A has_color N
+4 G has_color I
+5 K is M
+6 G is C
+7 J is D
+8 A is M
+9 J has_color B
+10 eval H has_color	N	3 8 2 5 1
+1 K has_color F
+2 G is M
+3 H has_color F
+4 A has_color N
+5 H is C
+6 K is C
+7 A is E
+8 J is M
+9 G has_color I
+10 eval J has_color	I	8 2 9
+1 H has_color B
+2 A is E
+3 J is C
+4 G has_color F
+5 J has_color F
+6 G is C
+7 K is C
+8 H is M
+9 A has_color N
+10 eval K has_color	F	6 4 5 3 7
+1 A is M
+2 K has_color I
+3 G has_color I
+4 H has_color F
+5 J is M
+6 G is E
+7 K is E
+8 A has_color F
+9 H is M
+10 eval J has_color	F	8 4 1 9 5
+1 A has_color F
+2 H is D
+3 G is D
+4 J has_color F
+5 K is M
+6 G has_color F
+7 A is D
+8 J is D
+9 K has_color B
+10 eval H has_color	F	4 8 1 6 7 3 2
+1 J is C
+2 K has_color I
+3 H has_color B
+4 A has_color B
+5 G is M
+6 K is D
+7 A is M
+8 J has_color N
+9 H is M
+10 eval G has_color	B	9 3 4 5 7
+1 H has_color F
+2 H is D
+3 G is M
+4 J is M
+5 J has_color B
+6 A is M
+7 K is D
+8 K has_color F
+9 A has_color B
+10 eval G has_color	B	6 4 3 5 9
+1 J has_color I
+2 G has_color N
+3 K has_color I
+4 G is M
+5 H is M
+6 J is E
+7 A is M
+8 H has_color N
+9 K is E
+10 eval A has_color	N	8 7 2 5 4
+1 J is E
+2 G has_color N
+3 H has_color I
+4 A is D
+5 G is E
+6 J has_color N
+7 A has_color F
+8 H is M
+9 K is D
+10 eval K has_color	F	7 9 4
+1 H has_color N
+2 H is D
+3 A is M
+4 J is M
+5 K has_color B
+6 G has_color N
+7 J has_color I
+8 G is D
+9 K is E
+10 eval A has_color	I	3 7 4
+1 A has_color I
+2 H has_color N
+3 J is E
+4 K has_color I
+5 A is E
+6 G is E
+7 J has_color I
+8 H is C
+9 K is E
+10 eval G has_color	I	7 6 1 3 4 5 9
+1 H has_color B
+2 H is D
+3 A has_color I
+4 G has_color B
+5 J is M
+6 K has_color F
+7 A is C
+8 G is D
+9 K is M
+10 eval J has_color	F	5 6 9
+1 J has_color N
+2 G has_color B
+3 A is C
+4 K has_color B
+5 K is M
+6 G is M
+7 H is M
+8 J is C
+9 A has_color N
+10 eval H has_color	B	7 4 2 6 5
+1 J has_color N
+2 K is E
+3 G is D
+4 A has_color I
+5 H is D
+6 G has_color N
+7 A is E
+8 J is D
+9 H has_color N
+10 eval K has_color	I	4 2 7
+1 A is E
+2 H has_color I
+3 K is C
+4 J has_color B
+5 H is M
+6 J is C
+7 G is E
+8 G has_color N
+9 K has_color B
+10 eval A has_color	N	8 1 7
+1 G is M
+2 A is D
+3 K is C
+4 K has_color B
+5 G has_color I
+6 A has_color N
+7 J is C
+8 H is E
+9 H has_color F
+10 eval J has_color	B	7 3 4
+1 H is E
+2 K has_color B
+3 G has_color N
+4 J has_color F
+5 K is D
+6 A has_color B
+7 J is M
+8 A is D
+9 G is E
+10 eval H has_color	N	9 3 1
+1 J is C
+2 G has_color F
+3 K has_color I
+4 A is C
+5 G is D
+6 H is M
+7 H has_color B
+8 J has_color I
+9 K is C
+10 eval A has_color	I	4 8 9 3 1
+1 K has_color I
+2 K is D
+3 H is E
+4 J has_color I
+5 G is M
+6 A is M
+7 A has_color N
+8 H has_color B
+9 J is D
+10 eval G has_color	N	5 6 7
+1 J is D
+2 A is D
+3 H is C
+4 A has_color F
+5 K is E
+6 G is E
+7 K has_color I
+8 J has_color F
+9 H has_color B
+10 eval G has_color	I	6 7 5
+1 G has_color N
+2 H is M
+3 H has_color B
+4 J is M
+5 A is E
+6 G is C
+7 A has_color I
+8 J has_color B
+9 K is E
+10 eval K has_color	I	5 7 9
+1 G is C
+2 K is M
+3 A is M
+4 G has_color F
+5 H is E
+6 H has_color I
+7 J has_color I
+8 K has_color N
+9 J is E
+10 eval A has_color	N	3 2 8
+1 G is M
+2 K has_color I
+3 K is D
+4 H is E
+5 H has_color F
+6 J is D
+7 A is M
+8 G has_color N
+9 A has_color N
+10 eval J has_color	I	2 6 3
+1 K has_color N
+2 A has_color B
+3 G is M
+4 J is E
+5 G has_color N
+6 J has_color F
+7 K is M
+8 H is E
+9 A is D
+10 eval H has_color	F	4 8 6
+1 H is E
+2 A is E
+3 G is E
+4 H has_color B
+5 K is M
+6 K has_color I
+7 J is E
+8 A has_color B
+9 J has_color B
+10 eval G has_color	B	9 3 1 7 4 8 2
+1 G has_color F
+2 J is D
+3 A has_color I
+4 A is E
+5 K has_color F
+6 G is M
+7 H has_color N
+8 H is D
+9 K is M
+10 eval J has_color	N	7 8 2
+1 H is C
+2 G has_color B
+3 A is C
+4 J has_color I
+5 K has_color N
+6 K is E
+7 J is C
+8 A has_color I
+9 G is D
+10 eval H has_color	I	3 4 1 7 8
+1 G is D
+2 K has_color F
+3 A is C
+4 J is D
+5 H is M
+6 H has_color F
+7 A has_color I
+8 J has_color B
+9 K is M
+10 eval G has_color	B	1 4 8
+1 J is E
+2 K is E
+3 K has_color N
+4 H is D
+5 H has_color F
+6 G has_color N
+7 G is E
+8 J has_color N
+9 A is D
+10 eval A has_color	F	5 4 9
+1 A is E
+2 K is M
+3 H has_color B
+4 K has_color B
+5 G has_color I
+6 J is E
+7 H is M
+8 A has_color N
+9 G is D
+10 eval J has_color	N	6 8 1
+1 H is C
+2 K is M
+3 G has_color I
+4 K has_color B
+5 H has_color I
+6 J has_color B
+7 A is C
+8 G is C
+9 J is M
+10 eval A has_color	I	1 5 3 8 7
+1 H is M
+2 A is D
+3 K has_color N
+4 G is D
+5 J has_color F
+6 J is D
+7 G has_color F
+8 H has_color B
+9 K is E
+10 eval A has_color	F	5 7 6 4 2
+1 H has_color F
+2 H is E
+3 K has_color F
+4 A is M
+5 G is M
+6 G has_color I
+7 J is D
+8 K is E
+9 J has_color N
+10 eval A has_color	I	5 4 6
+1 K has_color B
+2 K is E
+3 H is C
+4 G is D
+5 A has_color I
+6 A is C
+7 J has_color N
+8 H has_color I
+9 J is D
+10 eval G has_color	N	4 9 7
+1 K is E
+2 J is D
+3 A has_color I
+4 G has_color N
+5 G is D
+6 K has_color I
+7 H is E
+8 A is E
+9 J has_color N
+10 eval H has_color	I	8 3 6 1 7
+1 H is C
+2 A has_color I
+3 J has_color I
+4 A is D
+5 H has_color N
+6 K is E
+7 J is D
+8 G is C
+9 K has_color F
+10 eval G has_color	N	5 8 1
+1 G is E
+2 H has_color N
+3 J is E
+4 A is E
+5 K has_color B
+6 H is E
+7 K is C
+8 G has_color N
+9 J has_color N
+10 eval A has_color	N	4 1 6 9 3 8 2
+1 J has_color N
+2 K is D
+3 G is C
+4 K has_color I
+5 A has_color N
+6 H is M
+7 G has_color F
+8 A is M
+9 J is M
+10 eval H has_color	N	1 5 9 8 6
+1 A is M
+2 H has_color B
+3 H is E
+4 K has_color N
+5 J is C
+6 G is M
+7 K is M
+8 J has_color F
+9 A has_color N
+10 eval G has_color	N	6 1 9 4 7
+1 H is M
+2 G is D
+3 J is M
+4 A has_color B
+5 G has_color I
+6 K is M
+7 H has_color N
+8 J has_color N
+9 A is C
+10 eval K has_color	N	1 6 7 3 8
+1 J is D
+2 A is C
+3 G is D
+4 A has_color B
+5 G has_color I
+6 K is D
+7 H is C
+8 J has_color I
+9 H has_color B
+10 eval K has_color	I	1 8 3 5 6
+1 G has_color F
+2 K has_color I
+3 J is D
+4 G is M
+5 J has_color N
+6 K is E
+7 H is E
+8 A is M
+9 H has_color I
+10 eval A has_color	F	8 1 4
+1 J is D
+2 H is E
+3 K has_color I
+4 H has_color B
+5 G is D
+6 A is D
+7 K is M
+8 G has_color N
+9 A has_color N
+10 eval J has_color	N	8 1 5 9 6
+1 J is C
+2 H has_color I
+3 K has_color N
+4 A is M
+5 G has_color F
+6 A has_color F
+7 K is C
+8 H is D
+9 G is M
+10 eval J has_color	N	7 3 1
+1 J is E
+2 J has_color N
+3 K is E
+4 G is C
+5 A has_color N
+6 A is E
+7 G has_color F
+8 H is C
+9 K has_color N
+10 eval H has_color	F	8 4 7
+1 K is D
+2 K has_color B
+3 J is E
+4 H has_color B
+5 H is D
+6 G is E
+7 J has_color F
+8 A is E
+9 G has_color F
+10 eval A has_color	F	8 7 3 6 9
+1 J is D
+2 K is M
+3 K has_color I
+4 G is M
+5 G has_color I
+6 H has_color F
+7 H is E
+8 J has_color B
+9 A is E
+10 eval A has_color	F	6 7 9
+1 H has_color I
+2 G has_color I
+3 H is D
+4 A is M
+5 K is M
+6 G is D
+7 J has_color I
+8 J is D
+9 A has_color B
+10 eval K has_color	B	5 9 4
+1 H has_color B
+2 G has_color N
+3 K has_color I
+4 H is D
+5 A is M
+6 J has_color N
+7 G is M
+8 J is M
+9 K is C
+10 eval A has_color	N	5 8 6 7 2
+1 J has_color N
+2 K has_color I
+3 J is M
+4 K is C
+5 A is E
+6 H has_color I
+7 A has_color F
+8 H is C
+9 G is C
+10 eval G has_color	I	8 6 9 2 4
+1 G is E
+2 H has_color F
+3 J is C
+4 K is D
+5 H is M
+6 A has_color N
+7 G has_color B
+8 A is D
+9 J has_color I
+10 eval K has_color	N	6 4 8
+1 A has_color I
+2 J has_color N
+3 H is M
+4 A is C
+5 K is E
+6 K has_color B
+7 G has_color B
+8 J is M
+9 G is E
+10 eval H has_color	N	8 3 2
+1 G is C
+2 H has_color I
+3 A has_color F
+4 K is M
+5 G has_color F
+6 A is C
+7 J has_color N
+8 J is M
+9 H is E
+10 eval K has_color	N	7 4 8
+1 A is D
+2 G is D
+3 J has_color B
+4 H is C
+5 K is C
+6 K has_color N
+7 G has_color F
+8 A has_color F
+9 J is M
+10 eval H has_color	N	5 4 6
+1 K has_color N
+2 G is M
+3 H has_color N
+4 J has_color I
+5 K is D
+6 J is M
+7 H is D
+8 A has_color N
+9 A is D
+10 eval G has_color	I	6 2 4
+1 G has_color N
+2 H has_color B
+3 J has_color F
+4 G is C
+5 J is E
+6 K is E
+7 H is D
+8 A is D
+9 K has_color F
+10 eval A has_color	B	2 8 7
+1 J is C
+2 G has_color I
+3 H has_color N
+4 A is D
+5 K has_color N
+6 K is D
+7 G is M
+8 J has_color B
+9 H is D
+10 eval A has_color	N	3 6 4 9 5
+1 A has_color F
+2 K is C
+3 A is C
+4 H is M
+5 J has_color F
+6 J is C
+7 G is C
+8 H has_color I
+9 G has_color F
+10 eval K has_color	F	5 1 7 6 9 3 2
+1 G is C
+2 J is E
+3 H is D
+4 K has_color F
+5 G has_color I
+6 A is E
+7 H has_color B
+8 K is E
+9 A has_color F
+10 eval J has_color	F	9 8 6 2 4
+1 K is D
+2 J has_color B
+3 G is D
+4 K has_color B
+5 J is D
+6 A has_color B
+7 H is E
+8 A is D
+9 H has_color I
+10 eval G has_color	B	8 3 2 4 6 1 5
+1 J is M
+2 H has_color B
+3 A is C
+4 K has_color N
+5 G has_color B
+6 A has_color I
+7 H is E
+8 G is E
+9 K is M
+10 eval J has_color	N	4 1 9
+1 A has_color I
+2 G is D
+3 H is M
+4 G has_color F
+5 K is D
+6 H has_color N
+7 K has_color F
+8 J is D
+9 A is E
+10 eval J has_color	F	7 8 5 2 4
+1 H is D
+2 A is D
+3 K has_color B
+4 J is M
+5 J has_color I
+6 G has_color N
+7 G is C
+8 K is D
+9 A has_color B
+10 eval H has_color	B	9 8 2 3 1
+1 A is D
+2 H has_color I
+3 J has_color B
+4 H is D
+5 K has_color B
+6 G is M
+7 J is M
+8 A has_color I
+9 K is M
+10 eval G has_color	B	9 7 3 6 5
+1 K has_color B
+2 J is D
+3 A has_color I
+4 G has_color N
+5 K is C
+6 H is C
+7 A is M
+8 J has_color N
+9 G is D
+10 eval H has_color	B	6 1 5
+1 G is C
+2 J is M
+3 G has_color F
+4 H has_color I
+5 K is D
+6 A is M
+7 K has_color N
+8 H is M
+9 J has_color I
+10 eval A has_color	I	8 6 9 2 4
+1 A is C
+2 G has_color F
+3 A has_color I
+4 K is C
+5 J is C
+6 J has_color I
+7 G is M
+8 H is E
+9 H has_color B
+10 eval K has_color	I	5 6 3 4 1
+1 K has_color N
+2 K is C
+3 H has_color B
+4 H is D
+5 A is D
+6 G has_color B
+7 J has_color B
+8 G is D
+9 J is D
+10 eval A has_color	B	6 4 3 9 8 5 7
+1 G has_color I
+2 H is M
+3 H has_color I
+4 J is M
+5 K is E
+6 G is M
+7 A is E
+8 J has_color I
+9 K has_color B
+10 eval A has_color	B	5 9 7
+1 H has_color I
+2 J has_color B
+3 H is E
+4 A is C
+5 A has_color N
+6 K is E
+7 J is D
+8 G is C
+9 K has_color I
+10 eval G has_color	N	4 8 5
+1 H is D
+2 G is M
+3 A has_color B
+4 J has_color F
+5 A is M
+6 H has_color N
+7 K is D
+8 K has_color N
+9 J is C
+10 eval G has_color	B	5 2 3
+1 G is M
+2 J is C
+3 K is C
+4 H has_color B
+5 J has_color I
+6 A is M
+7 H is M
+8 A has_color B
+9 G has_color B
+10 eval K has_color	I	5 3 2
+1 H is C
+2 J is M
+3 J has_color B
+4 K has_color B
+5 G has_color N
+6 G is C
+7 K is M
+8 A is M
+9 H has_color N
+10 eval A has_color	B	3 4 2 7 8
+1 J has_color I
+2 H has_color F
+3 K is M
+4 G is E
+5 A is C
+6 A has_color I
+7 H is E
+8 K has_color N
+9 J is C
+10 eval G has_color	F	2 7 4
+1 H has_color N
+2 J has_color N
+3 A is E
+4 G is D
+5 K is E
+6 K has_color I
+7 H is D
+8 A has_color I
+9 J is D
+10 eval G has_color	N	1 9 4 2 7
+1 H has_color N
+2 K has_color F
+3 H is D
+4 J is C
+5 A is M
+6 A has_color I
+7 K is E
+8 G is E
+9 J has_color B
+10 eval G has_color	F	2 8 7
+1 K is C
+2 H is E
+3 J is C
+4 H has_color I
+5 A is D
+6 G is D
+7 K has_color B
+8 G has_color N
+9 A has_color N
+10 eval J has_color	B	7 1 3
+1 G has_color F
+2 J is M
+3 H has_color I
+4 K is D
+5 K has_color I
+6 G is E
+7 J has_color N
+8 A is M
+9 H is D
+10 eval A has_color	N	7 2 8
+1 G has_color B
+2 J has_color I
+3 K is M
+4 J is D
+5 A is M
+6 A has_color N
+7 H is M
+8 G is C
+9 H has_color N
+10 eval K has_color	N	6 9 3 5 7
+1 A has_color N
+2 J is M
+3 G is M
+4 A is E
+5 H is E
+6 K has_color N
+7 G has_color I
+8 H has_color N
+9 K is E
+10 eval J has_color	I	3 2 7
+1 J has_color I
+2 A is D
+3 H has_color B
+4 G is C
+5 K is M
+6 J is C
+7 K has_color B
+8 A has_color F
+9 H is M
+10 eval G has_color	I	4 6 1
+1 K has_color B
+2 G is C
+3 K is D
+4 G has_color I
+5 H has_color F
+6 H is E
+7 J is M
+8 J has_color N
+9 A is C
+10 eval A has_color	I	9 2 4
+1 G is D
+2 J has_color N
+3 K has_color N
+4 K is D
+5 G has_color N
+6 A is D
+7 H is C
+8 H has_color B
+9 J is D
+10 eval A has_color	N	4 5 1 2 3 6 9
+1 K has_color B
+2 A is C
+3 K is E
+4 H has_color F
+5 H is D
+6 J is D
+7 G is E
+8 G has_color B
+9 A has_color I
+10 eval J has_color	F	4 5 6
+1 J is D
+2 J has_color I
+3 K is C
+4 A is D
+5 H has_color N
+6 A has_color I
+7 G is D
+8 G has_color I
+9 H is C
+10 eval K has_color	N	9 5 3
+1 H has_color I
+2 H is E
+3 J has_color I
+4 K is E
+5 A has_color B
+6 A is C
+7 G is E
+8 J is E
+9 G has_color I
+10 eval K has_color	I	7 1 4 8 9 2 3
+1 H is M
+2 K has_color I
+3 J has_color F
+4 K is E
+5 G has_color B
+6 J is D
+7 G is M
+8 A is E
+9 H has_color B
+10 eval A has_color	I	4 2 8
+1 K has_color F
+2 A is D
+3 H is D
+4 G has_color F
+5 J has_color F
+6 K is E
+7 G is E
+8 A has_color B
+9 J is E
+10 eval H has_color	B	3 8 2
+1 G is E
+2 K is E
+3 A has_color B
+4 H is E
+5 K has_color N
+6 A is C
+7 G has_color N
+8 H has_color N
+9 J is C
+10 eval J has_color	B	9 6 3
+1 G has_color N
+2 H has_color B
+3 A is C
+4 H is D
+5 J is M
+6 G is C
+7 J has_color I
+8 A has_color N
+9 K is D
+10 eval K has_color	B	4 2 9
+1 J has_color I
+2 J is M
+3 H is C
+4 A has_color B
+5 G has_color B
+6 K is E
+7 A is C
+8 K has_color N
+9 G is C
+10 eval H has_color	B	9 5 7 4 3
+1 K has_color I
+2 G is C
+3 G has_color F
+4 J is D
+5 K is E
+6 H is D
+7 H has_color B
+8 A is M
+9 A has_color N
+10 eval J has_color	B	7 4 6
+1 A is M
+2 H has_color F
+3 G is E
+4 K is E
+5 G has_color B
+6 H is C
+7 J is M
+8 J has_color N
+9 A has_color N
+10 eval K has_color	B	5 3 4
+1 K is C
+2 H is E
+3 K has_color B
+4 H has_color F
+5 A has_color N
+6 G is D
+7 J has_color I
+8 A is M
+9 J is D
+10 eval G has_color	I	9 6 7
+1 J is C
+2 A is C
+3 H is C
+4 G is M
+5 A has_color I
+6 J has_color I
+7 K has_color I
+8 G has_color N
+9 K is C
+10 eval H has_color	I	3 7 1 9 6 2 5
+1 G has_color N
+2 K is M
+3 A is M
+4 K has_color F
+5 H is D
+6 A has_color F
+7 J has_color B
+8 J is E
+9 G is D
+10 eval H has_color	N	9 1 5
+1 J is C
+2 G is M
+3 K is E
+4 K has_color B
+5 A has_color N
+6 A is D
+7 H is C
+8 G has_color F
+9 J has_color I
+10 eval H has_color	I	1 7 9
+1 G has_color I
+2 H has_color F
+3 A is M
+4 H is E
+5 A has_color N
+6 K is C
+7 G is D
+8 J has_color B
+9 J is C
+10 eval K has_color	B	8 6 9
+1 J has_color B
+2 A has_color F
+3 K has_color I
+4 G has_color N
+5 A is C
+6 G is M
+7 J is E
+8 K is D
+9 H is M
+10 eval H has_color	N	4 9 6
+1 A is D
+2 K is D
+3 G has_color F
+4 J has_color N
+5 A has_color I
+6 H is E
+7 G is C
+8 H has_color N
+9 J is E
+10 eval K has_color	I	5 2 1
+1 G is M
+2 H has_color F
+3 J has_color B
+4 G has_color B
+5 A has_color N
+6 H is E
+7 J is M
+8 A is D
+9 K is D
+10 eval K has_color	N	8 9 5
+1 H has_color I
+2 H is D
+3 G is D
+4 G has_color I
+5 A has_color N
+6 A is C
+7 J is D
+8 K is C
+9 J has_color I
+10 eval K has_color	N	5 6 8
+1 H is D
+2 A is M
+3 A has_color I
+4 G has_color N
+5 J is M
+6 G is D
+7 K has_color N
+8 K is D
+9 J has_color I
+10 eval H has_color	N	8 6 4 1 7
+1 G has_color I
+2 A has_color I
+3 A is D
+4 K is D
+5 G is D
+6 J is C
+7 J has_color B
+8 H is C
+9 H has_color B
+10 eval K has_color	I	2 5 4 1 3
+1 H is C
+2 H has_color B
+3 K has_color N
+4 G is C
+5 A is D
+6 A has_color N
+7 K is D
+8 G has_color B
+9 J is C
+10 eval J has_color	B	9 4 8 1 2
+1 J is M
+2 K is M
+3 H is M
+4 A has_color N
+5 J has_color B
+6 K has_color B
+7 G has_color B
+8 G is M
+9 A is E
+10 eval H has_color	B	3 6 2 1 5 8 7
+1 K is C
+2 J has_color F
+3 G is D
+4 A is E
+5 K has_color F
+6 H is D
+7 H has_color N
+8 A has_color I
+9 J is C
+10 eval G has_color	N	6 3 7
+1 K has_color B
+2 G is C
+3 G has_color B
+4 A has_color B
+5 H has_color F
+6 K is C
+7 H is D
+8 A is C
+9 J is D
+10 eval J has_color	F	9 7 5
+1 H has_color N
+2 A has_color N
+3 A is M
+4 G is C
+5 J is C
+6 G has_color F
+7 H is M
+8 K is C
+9 J has_color F
+10 eval K has_color	F	4 9 6 8 5
+1 K has_color F
+2 H is E
+3 J is D
+4 A is D
+5 J has_color B
+6 A has_color B
+7 K is E
+8 G has_color N
+9 G is M
+10 eval H has_color	F	2 7 1
+1 H is D
+2 A has_color N
+3 K is D
+4 K has_color F
+5 J is C
+6 A is E
+7 H has_color F
+8 J has_color I
+9 G is D
+10 eval G has_color	F	7 3 4 9 1
+1 G is M
+2 H is D
+3 A is C
+4 J has_color F
+5 H has_color B
+6 G has_color F
+7 J is M
+8 A has_color I
+9 K is D
+10 eval K has_color	B	5 9 2
+1 K is D
+2 H is E
+3 A is C
+4 A has_color F
+5 G is M
+6 J has_color N
+7 K has_color I
+8 G has_color B
+9 J is E
+10 eval H has_color	N	9 2 6
+1 K has_color B
+2 G is E
+3 H is E
+4 G has_color I
+5 K is C
+6 A is M
+7 J is C
+8 A has_color N
+9 J has_color B
+10 eval H has_color	I	3 4 2
+1 K is C
+2 K has_color I
+3 A is D
+4 A has_color N
+5 G has_color B
+6 H is M
+7 G is M
+8 J has_color N
+9 J is D
+10 eval H has_color	B	6 5 7
+1 H has_color F
+2 J is D
+3 A has_color N
+4 A is D
+5 G has_color F
+6 K is C
+7 H is E
+8 G is E
+9 K has_color B
+10 eval J has_color	N	3 4 2
+1 H has_color N
+2 J is E
+3 G is C
+4 G has_color N
+5 J has_color I
+6 K is C
+7 H is C
+8 A has_color I
+9 A is E
+10 eval K has_color	N	6 3 4 7 1
+1 A is E
+2 J is D
+3 J has_color F
+4 G has_color B
+5 K is E
+6 H is D
+7 G is M
+8 H has_color F
+9 A has_color I
+10 eval K has_color	I	9 1 5
+1 K has_color B
+2 K is C
+3 G is D
+4 H is D
+5 A has_color F
+6 J has_color B
+7 H has_color F
+8 A is D
+9 J is C
+10 eval G has_color	F	7 8 3 4 5
+1 G is M
+2 H has_color F
+3 G has_color N
+4 K is D
+5 J is M
+6 J has_color N
+7 H is E
+8 K has_color I
+9 A is M
+10 eval A has_color	N	9 3 5 6 1
+1 A is M
+2 J is C
+3 G has_color N
+4 J has_color N
+5 A has_color B
+6 H is D
+7 G is C
+8 K has_color I
+9 K is D
+10 eval H has_color	I	8 6 9
+1 A is C
+2 J has_color I
+3 H is D
+4 K is C
+5 H has_color I
+6 J is D
+7 G is E
+8 K has_color B
+9 G has_color F
+10 eval A has_color	B	1 4 8
+1 K has_color B
+2 K is E
+3 A has_color I
+4 J is E
+5 G has_color B
+6 A is M
+7 H is M
+8 H has_color I
+9 G is E
+10 eval J has_color	B	9 5 2 4 1
+1 G has_color N
+2 K is M
+3 G is C
+4 A is E
+5 J has_color I
+6 J is D
+7 A has_color F
+8 H is M
+9 H has_color B
+10 eval K has_color	B	9 8 2
+1 G is D
+2 A is C
+3 H has_color B
+4 J is M
+5 K is D
+6 G has_color F
+7 H is M
+8 K has_color F
+9 A has_color N
+10 eval J has_color	B	4 3 7
+1 A has_color I
+2 H has_color B
+3 K is M
+4 G has_color B
+5 H is D
+6 K has_color F
+7 G is D
+8 A is C
+9 J is D
+10 eval J has_color	B	2 5 7 4 9
+1 G is M
+2 A has_color B
+3 H is C
+4 G has_color F
+5 A is E
+6 J is D
+7 J has_color N
+8 K is E
+9 H has_color I
+10 eval K has_color	B	2 8 5
+1 G has_color B
+2 J is C
+3 G is M
+4 K has_color N
+5 A has_color N
+6 J has_color F
+7 A is D
+8 K is D
+9 H is M
+10 eval H has_color	B	9 1 3
+1 K is D
+2 J is D
+3 J has_color I
+4 G is C
+5 H is C
+6 A has_color I
+7 G has_color N
+8 K has_color I
+9 A is D
+10 eval H has_color	N	4 7 5
+1 J is M
+2 A has_color I
+3 H has_color I
+4 K is D
+5 G is D
+6 A is E
+7 G has_color N
+8 H is E
+9 J has_color F
+10 eval K has_color	N	5 7 4
+1 G has_color N
+2 A has_color B
+3 G is D
+4 K is D
+5 A is M
+6 J is E
+7 H is E
+8 J has_color F
+9 K has_color N
+10 eval H has_color	F	8 7 6
+1 J has_color F
+2 J is C
+3 K is D
+4 G is E
+5 A is M
+6 H is D
+7 A has_color N
+8 H has_color I
+9 G has_color B
+10 eval K has_color	I	8 6 3
+1 H is C
+2 K is C
+3 J has_color F
+4 A is D
+5 G has_color I
+6 H has_color F
+7 K has_color F
+8 J is C
+9 G is D
+10 eval A has_color	I	4 9 5
+1 H is D
+2 J is C
+3 G is D
+4 A has_color N
+5 H has_color F
+6 A is E
+7 G has_color F
+8 J has_color I
+9 K is E
+10 eval K has_color	N	9 6 4
+1 G has_color F
+2 J is E
+3 H has_color N
+4 J has_color F
+5 H is C
+6 K is C
+7 A has_color N
+8 A is C
+9 G is E
+10 eval K has_color	N	7 3 8 5 6
+1 A has_color B
+2 H has_color I
+3 J has_color B
+4 A is C
+5 H is M
+6 J is C
+7 K is C
+8 G is C
+9 G has_color B
+10 eval K has_color	B	7 4 3 1 6 9 8
+1 J has_color B
+2 G is E
+3 G has_color F
+4 A has_color F
+5 K has_color N
+6 H is E
+7 K is M
+8 J is D
+9 A is E
+10 eval H has_color	F	6 2 3 9 4
+1 G is M
+2 A is C
+3 J is M
+4 H has_color I
+5 K has_color B
+6 A has_color N
+7 K is E
+8 H is M
+9 J has_color I
+10 eval G has_color	I	1 9 3 4 8
+1 K is M
+2 G is E
+3 J is M
+4 H has_color N
+5 K has_color F
+6 G has_color I
+7 A is M
+8 H is C
+9 A has_color F
+10 eval J has_color	F	5 9 7 1 3
+1 A has_color F
+2 A is C
+3 J has_color B
+4 H has_color N
+5 G is C
+6 K has_color B
+7 K is E
+8 H is D
+9 J is E
+10 eval G has_color	F	5 2 1
+1 J has_color N
+2 J is E
+3 H is D
+4 A is E
+5 K is D
+6 G is C
+7 G has_color I
+8 A has_color N
+9 K has_color F
+10 eval H has_color	F	5 3 9
+1 H has_color B
+2 G has_color N
+3 G is C
+4 J is D
+5 A is C
+6 K has_color F
+7 J has_color B
+8 K is E
+9 H is D
+10 eval A has_color	N	5 3 2
+1 G is D
+2 A has_color F
+3 J is M
+4 H has_color I
+5 A is C
+6 G has_color N
+7 H is E
+8 J has_color B
+9 K is C
+10 eval K has_color	F	9 5 2
+1 A has_color B
+2 H has_color N
+3 G has_color B
+4 K is E
+5 H is C
+6 G is E
+7 J is C
+8 K has_color B
+9 A is E
+10 eval J has_color	N	2 5 7
+1 J is M
+2 G is M
+3 H is E
+4 A is C
+5 K has_color N
+6 A has_color B
+7 K is E
+8 J has_color F
+9 H has_color N
+10 eval G has_color	F	1 8 2
+1 A has_color F
+2 J is E
+3 J has_color N
+4 G is D
+5 H is D
+6 G has_color B
+7 K has_color N
+8 A is C
+9 K is E
+10 eval H has_color	B	6 5 4
+1 H is E
+2 A has_color B
+3 J has_color I
+4 K is E
+5 J is E
+6 A is C
+7 G is E
+8 G has_color I
+9 H has_color I
+10 eval K has_color	I	3 7 4 9 8 1 5
+1 G is M
+2 J is C
+3 G has_color I
+4 K is M
+5 K has_color I
+6 J has_color N
+7 H is M
+8 H has_color I
+9 A is C
+10 eval A has_color	N	6 9 2
+1 A has_color I
+2 K has_color F
+3 A is M
+4 J is M
+5 K is C
+6 H is M
+7 G has_color I
+8 J has_color I
+9 G is M
+10 eval H has_color	I	6 4 3 8 9 1 7
+1 G is E
+2 H has_color F
+3 A is E
+4 K has_color B
+5 G has_color F
+6 J is E
+7 H is E
+8 K is M
+9 A has_color F
+10 eval J has_color	F	7 9 2 6 3 1 5
+1 H has_color B
+2 G is D
+3 K is M
+4 J has_color I
+5 K has_color I
+6 J is M
+7 A is C
+8 H is C
+9 G has_color N
+10 eval A has_color	B	7 8 1
+1 H is C
+2 J has_color B
+3 J is E
+4 K is E
+5 A is E
+6 K has_color B
+7 G has_color F
+8 G is M
+9 H has_color N
+10 eval A has_color	B	4 5 2 3 6
+1 J is M
+2 K is E
+3 H is C
+4 H has_color B
+5 G has_color B
+6 A is C
+7 K has_color N
+8 G is C
+9 J has_color F
+10 eval A has_color	B	6 8 5 4 3
+1 G has_color B
+2 K is E
+3 A has_color F
+4 J has_color B
+5 H is M
+6 A is M
+7 G is C
+8 K has_color I
+9 J is C
+10 eval H has_color	F	3 5 6
+1 G has_color I
+2 H is C
+3 K is C
+4 H has_color I
+5 J has_color I
+6 J is C
+7 G is C
+8 A has_color N
+9 A is M
+10 eval K has_color	I	1 3 4 2 7 6 5
+1 K is M
+2 H is E
+3 A is C
+4 G is E
+5 J has_color B
+6 K has_color N
+7 J is C
+8 A has_color B
+9 G has_color F
+10 eval H has_color	F	2 4 9
+1 J is M
+2 K is M
+3 A is M
+4 G is M
+5 H has_color I
+6 H is D
+7 J has_color N
+8 G has_color N
+9 K has_color N
+10 eval A has_color	N	3 1 7 4 9 8 2
+1 J is E
+2 H has_color N
+3 K is M
+4 K has_color I
+5 G has_color N
+6 J has_color F
+7 A is D
+8 H is D
+9 G is D
+10 eval A has_color	N	7 5 2 8 9
+1 H has_color I
+2 G has_color B
+3 A is D
+4 J has_color I
+5 J is E
+6 G is M
+7 K is D
+8 H is E
+9 A has_color N
+10 eval K has_color	N	3 7 9
+1 G is E
+2 K is C
+3 H has_color B
+4 K has_color B
+5 H is C
+6 J is D
+7 J has_color N
+8 A is C
+9 G has_color F
+10 eval A has_color	B	3 2 8 4 5
+1 G is C
+2 K is C
+3 G has_color N
+4 K has_color N
+5 H has_color N
+6 J has_color F
+7 A is C
+8 H is C
+9 J is E
+10 eval A has_color	N	2 7 8 1 4 3 5
+1 G is C
+2 G has_color F
+3 K has_color B
+4 A has_color B
+5 K is M
+6 J is C
+7 A is M
+8 H is E
+9 H has_color N
+10 eval J has_color	F	6 1 2
+1 J is E
+2 A is M
+3 H has_color F
+4 K has_color F
+5 G has_color N
+6 J has_color B
+7 K is M
+8 G is C
+9 H is M
+10 eval A has_color	F	3 2 4 9 7
+1 K has_color N
+2 J is D
+3 A is D
+4 H is D
+5 G is D
+6 A has_color F
+7 H has_color F
+8 K is E
+9 J has_color F
+10 eval G has_color	F	7 6 3 9 4 2 5
+1 H is E
+2 G has_color N
+3 A has_color N
+4 H has_color N
+5 G is E
+6 J is E
+7 J has_color N
+8 A is E
+9 K is E
+10 eval K has_color	N	4 6 2 1 9 3 8 7 5
+1 G has_color N
+2 K has_color B
+3 K is C
+4 A is E
+5 A has_color I
+6 J has_color N
+7 H is M
+8 G is M
+9 J is M
+10 eval H has_color	N	6 8 1 7 9
+1 J is E
+2 H is M
+3 H has_color N
+4 J has_color I
+5 A is C
+6 G is C
+7 K is M
+8 A has_color F
+9 G has_color F
+10 eval K has_color	N	2 7 3
+1 H has_color B
+2 K has_color N
+3 A is C
+4 J has_color F
+5 H is C
+6 A has_color B
+7 G is C
+8 J is D
+9 K is M
+10 eval G has_color	B	7 6 1 5 3
+1 G is C
+2 K is C
+3 A has_color B
+4 J is M
+5 J has_color F
+6 K has_color B
+7 G has_color B
+8 H is C
+9 A is C
+10 eval H has_color	B	6 8 1 2 7 3 9
+1 K has_color F
+2 G is E
+3 J is E
+4 G has_color F
+5 A is D
+6 H is E
+7 K is E
+8 H has_color F
+9 A has_color N
+10 eval J has_color	F	4 1 7 6 3 8 2
+1 K has_color I
+2 G is M
+3 H is C
+4 A is E
+5 J has_color F
+6 G has_color N
+7 A has_color I
+8 K is E
+9 J is C
+10 eval H has_color	F	5 3 9
+1 H has_color I
+2 K is E
+3 H is C
+4 G is C
+5 A is C
+6 K has_color F
+7 A has_color I
+8 J is E
+9 G has_color I
+10 eval J has_color	F	2 8 6
+1 A is D
+2 J is D
+3 H is M
+4 K has_color F
+5 G is D
+6 A has_color I
+7 G has_color I
+8 K is M
+9 H has_color F
+10 eval J has_color	I	5 7 2 6 1
+1 K has_color B
+2 H has_color B
+3 J has_color N
+4 A is M
+5 H is M
+6 G is D
+7 J is E
+8 K is M
+9 G has_color I
+10 eval A has_color	B	2 1 4 8 5
+1 G has_color N
+2 H has_color F
+3 K has_color I
+4 K is E
+5 H is D
+6 A is M
+7 J is E
+8 G is C
+9 A has_color B
+10 eval J has_color	I	3 4 7
+1 H is M
+2 K is M
+3 J is M
+4 A has_color B
+5 G is C
+6 G has_color F
+7 J has_color B
+8 K has_color B
+9 A is M
+10 eval H has_color	B	4 9 2 8 7 1 3
+1 G has_color N
+2 G is C
+3 H has_color N
+4 A is C
+5 K is D
+6 H is C
+7 J is C
+8 K has_color B
+9 J has_color N
+10 eval A has_color	N	1 9 4 3 2 7 6
+1 K is D
+2 J is M
+3 G has_color N
+4 A is M
+5 K has_color I
+6 G is E
+7 H is D
+8 J has_color B
+9 H has_color I
+10 eval A has_color	B	8 2 4
+1 G is D
+2 J has_color B
+3 A has_color N
+4 J is E
+5 K is M
+6 G has_color N
+7 H is D
+8 K has_color I
+9 A is D
+10 eval H has_color	N	3 7 9 1 6
+1 G is D
+2 J has_color B
+3 K has_color N
+4 G has_color B
+5 J is D
+6 A has_color B
+7 H is C
+8 A is D
+9 K is C
+10 eval H has_color	N	7 9 3
+1 G is M
+2 H has_color N
+3 K is C
+4 J is E
+5 K has_color N
+6 A has_color I
+7 A is M
+8 H is C
+9 J has_color F
+10 eval G has_color	I	7 6 1
+1 H is E
+2 H has_color N
+3 K is D
+4 J is E
+5 G is E
+6 J has_color N
+7 G has_color N
+8 A is E
+9 K has_color I
+10 eval A has_color	N	5 7 2 8 6 1 4
+1 G has_color B
+2 G is C
+3 A is C
+4 K has_color N
+5 J is E
+6 H is C
+7 K is D
+8 H has_color B
+9 J has_color I
+10 eval A has_color	B	2 8 1 3 6
+1 A has_color B
+2 A is M
+3 G is C
+4 H has_color F
+5 K is C
+6 J is M
+7 K has_color F
+8 H is C
+9 J has_color B
+10 eval G has_color	F	4 3 7 8 5
+1 A is E
+2 H has_color I
+3 K has_color F
+4 J has_color I
+5 A has_color F
+6 J is C
+7 H is C
+8 G is E
+9 K is E
+10 eval G has_color	F	5 1 8 3 9
+1 G has_color F
+2 A is D
+3 K is D
+4 J has_color I
+5 H has_color F
+6 J is E
+7 G is D
+8 K has_color F
+9 H is D
+10 eval A has_color	F	5 8 2 3 7 9 1
+1 A has_color B
+2 A is M
+3 H has_color B
+4 K has_color I
+5 G has_color B
+6 K is D
+7 G is M
+8 H is M
+9 J is D
+10 eval J has_color	I	4 9 6
+1 A has_color I
+2 J has_color I
+3 H is M
+4 J is D
+5 H has_color F
+6 K has_color F
+7 A is D
+8 G is D
+9 K is M
+10 eval G has_color	I	1 7 8 2 4
+1 A has_color I
+2 K has_color N
+3 J has_color N
+4 H is E
+5 G is C
+6 A is E
+7 K is M
+8 G has_color B
+9 J is M
+10 eval H has_color	I	1 4 6
+1 H is C
+2 H has_color I
+3 J has_color N
+4 J is E
+5 K has_color F
+6 G has_color F
+7 K is D
+8 A is E
+9 G is D
+10 eval A has_color	N	3 8 4
+1 K has_color F
+2 G has_color B
+3 J is M
+4 H has_color N
+5 K is E
+6 G is C
+7 A is M
+8 H is M
+9 A has_color N
+10 eval J has_color	N	9 7 3 4 8
+1 H is E
+2 H has_color N
+3 A has_color B
+4 G is C
+5 K is C
+6 J has_color B
+7 A is C
+8 K has_color B
+9 J is C
+10 eval G has_color	B	9 6 4 8 3 5 7
+1 A has_color N
+2 H has_color N
+3 K is C
+4 H is E
+5 K has_color B
+6 A is E
+7 G has_color B
+8 G is C
+9 J is C
+10 eval J has_color	B	7 9 3 8 5
+1 J has_color B
+2 G has_color F
+3 K has_color I
+4 H is M
+5 H has_color I
+6 G is E
+7 J is C
+8 A is C
+9 K is M
+10 eval A has_color	B	1 8 7
+1 K is E
+2 G is E
+3 H is M
+4 J has_color N
+5 H has_color I
+6 A has_color F
+7 A is C
+8 K has_color B
+9 J is D
+10 eval G has_color	B	2 8 1
+1 K is E
+2 J is C
+3 K has_color B
+4 G is D
+5 A has_color N
+6 J has_color N
+7 A is C
+8 H is D
+9 G has_color I
+10 eval H has_color	I	9 8 4
+1 H has_color N
+2 G has_color N
+3 A has_color I
+4 A is D
+5 G is C
+6 J is E
+7 H is C
+8 K is D
+9 J has_color B
+10 eval K has_color	I	8 3 4
+1 G is E
+2 A has_color F
+3 H has_color N
+4 A is E
+5 G has_color F
+6 K is E
+7 J is E
+8 K has_color F
+9 H is C
+10 eval J has_color	F	4 2 5 6 7 8 1
+1 H has_color I
+2 J is M
+3 K is C
+4 H is C
+5 A has_color B
+6 K has_color I
+7 G is C
+8 J has_color N
+9 A is D
+10 eval G has_color	I	1 4 6 3 7
+1 G has_color B
+2 J is C
+3 G is C
+4 K is E
+5 H is D
+6 A has_color N
+7 J has_color B
+8 K has_color F
+9 A is D
+10 eval H has_color	N	6 9 5
+1 K has_color F
+2 A is E
+3 H has_color B
+4 J is M
+5 H is D
+6 J has_color N
+7 K is C
+8 A has_color I
+9 G is M
+10 eval G has_color	N	6 9 4
+1 H has_color I
+2 G has_color F
+3 A is D
+4 K has_color N
+5 J is C
+6 H is M
+7 A has_color B
+8 K is E
+9 G is C
+10 eval J has_color	F	9 5 2
+1 A has_color F
+2 H is E
+3 G has_color F
+4 A is M
+5 J is M
+6 G is M
+7 K is E
+8 K has_color N
+9 J has_color F
+10 eval H has_color	N	7 2 8
+1 K has_color N
+2 A is C
+3 J is C
+4 K is E
+5 G has_color B
+6 H has_color I
+7 A has_color F
+8 G is D
+9 H is M
+10 eval J has_color	F	3 2 7
+1 K has_color N
+2 G has_color I
+3 A is E
+4 H is D
+5 K is M
+6 A has_color B
+7 G is D
+8 J has_color B
+9 J is E
+10 eval H has_color	I	2 4 7
+1 G has_color N
+2 H is E
+3 A has_color F
+4 A is C
+5 K has_color F
+6 K is C
+7 H has_color N
+8 G is E
+9 J is E
+10 eval J has_color	N	2 9 7 8 1
+1 A has_color F
+2 A is C
+3 J has_color F
+4 K is C
+5 G has_color I
+6 J is C
+7 H is C
+8 G is M
+9 K has_color F
+10 eval H has_color	F	6 1 2 9 3 7 4
+1 J is M
+2 J has_color N
+3 G is C
+4 A is E
+5 G has_color I
+6 A has_color F
+7 K has_color F
+8 K is E
+9 H is M
+10 eval H has_color	N	2 9 1
+1 A is D
+2 A has_color N
+3 H is M
+4 H has_color B
+5 J is E
+6 J has_color F
+7 G has_color N
+8 G is D
+9 K is M
+10 eval K has_color	B	4 9 3
+1 A is M
+2 H has_color F
+3 J has_color N
+4 K has_color B
+5 K is M
+6 G is E
+7 G has_color F
+8 J is C
+9 H is E
+10 eval A has_color	B	1 5 4
+1 H has_color I
+2 J is C
+3 K has_color I
+4 J has_color F
+5 H is E
+6 K is E
+7 A is C
+8 A has_color F
+9 G is C
+10 eval G has_color	F	2 7 4 9 8
+1 H is D
+2 A has_color N
+3 K is E
+4 K has_color F
+5 A is D
+6 J has_color N
+7 G has_color N
+8 G is D
+9 J is D
+10 eval H has_color	N	5 7 1 9 6 8 2
+1 J is E
+2 G has_color N
+3 H has_color F
+4 A is C
+5 H is E
+6 J has_color F
+7 K is M
+8 G is M
+9 A has_color B
+10 eval K has_color	N	8 7 2
+1 J has_color F
+2 G is C
+3 H is C
+4 K is M
+5 A is C
+6 H has_color N
+7 J is M
+8 A has_color N
+9 K has_color F
+10 eval G has_color	N	6 5 2 8 3
+1 H is C
+2 H has_color B
+3 A is C
+4 G has_color F
+5 J has_color I
+6 G is E
+7 A has_color B
+8 J is M
+9 K is M
+10 eval K has_color	I	5 9 8
+1 K has_color B
+2 J has_color I
+3 K is E
+4 G is E
+5 A has_color F
+6 J is M
+7 H has_color I
+8 A is C
+9 H is M
+10 eval G has_color	B	4 1 3
+1 K is E
+2 H has_color F
+3 K has_color B
+4 G has_color B
+5 J is M
+6 H is D
+7 J has_color I
+8 G is E
+9 A is D
+10 eval A has_color	F	2 9 6
+1 G has_color I
+2 H has_color N
+3 G is C
+4 A is C
+5 K is M
+6 J is D
+7 H is D
+8 K has_color F
+9 J has_color N
+10 eval A has_color	I	3 4 1
+1 A has_color I
+2 G is E
+3 A is C
+4 H has_color I
+5 H is C
+6 K is E
+7 G has_color N
+8 J has_color I
+9 J is C
+10 eval K has_color	N	7 6 2
+1 K has_color I
+2 G is E
+3 H has_color N
+4 A has_color F
+5 J is E
+6 G has_color B
+7 H is M
+8 A is C
+9 K is D
+10 eval J has_color	B	6 5 2
+1 A is M
+2 G has_color N
+3 H is M
+4 J has_color F
+5 K has_color F
+6 A has_color I
+7 G is D
+8 J is C
+9 K is C
+10 eval H has_color	I	6 3 1
+1 J is C
+2 A has_color F
+3 G is E
+4 K has_color N
+5 H has_color I
+6 A is C
+7 G has_color I
+8 H is E
+9 K is D
+10 eval J has_color	F	6 2 1
+1 G is D
+2 A is C
+3 J has_color N
+4 J is C
+5 G has_color B
+6 H has_color N
+7 K is D
+8 H is C
+9 A has_color N
+10 eval K has_color	B	1 7 5
+1 H is C
+2 G is D
+3 K has_color I
+4 H has_color F
+5 J has_color N
+6 J is M
+7 K is E
+8 A is M
+9 G has_color B
+10 eval A has_color	N	5 6 8
+1 G has_color F
+2 A is D
+3 K is D
+4 H has_color I
+5 J is M
+6 J has_color I
+7 G is D
+8 K has_color F
+9 H is M
+10 eval A has_color	F	2 1 7 8 3
+1 J has_color N
+2 A is C
+3 G has_color N
+4 J is C
+5 G is C
+6 H is C
+7 A has_color N
+8 K is C
+9 K has_color N
+10 eval H has_color	N	7 2 9 6 8 5 1 3 4
+1 J is D
+2 K is M
+3 A is E
+4 K has_color B
+5 G is E
+6 H has_color B
+7 J has_color F
+8 A has_color I
+9 H is M
+10 eval G has_color	I	8 5 3
+1 A is E
+2 A has_color F
+3 G is D
+4 J has_color N
+5 H is E
+6 J is M
+7 K has_color N
+8 G has_color I
+9 K is M
+10 eval H has_color	F	1 5 2
+1 K is D
+2 A is E
+3 K has_color N
+4 A has_color F
+5 J has_color I
+6 G has_color B
+7 G is C
+8 H is D
+9 J is M
+10 eval H has_color	N	3 8 1
+1 H is M
+2 G has_color N
+3 K has_color I
+4 K is M
+5 A is D
+6 H has_color I
+7 G is E
+8 J is D
+9 J has_color B
+10 eval A has_color	B	9 8 5
+1 G has_color I
+2 A is C
+3 H is M
+4 J has_color F
+5 K has_color I
+6 G is M
+7 J is E
+8 A has_color N
+9 K is M
+10 eval H has_color	I	9 6 5 3 1
+1 H is C
+2 K has_color F
+3 A is M
+4 A has_color N
+5 G is M
+6 G has_color N
+7 J is C
+8 K is C
+9 J has_color F
+10 eval H has_color	F	1 8 7 9 2
+1 G is M
+2 H has_color I
+3 H is E
+4 J is E
+5 K has_color N
+6 A has_color B
+7 K is M
+8 A is D
+9 J has_color I
+10 eval G has_color	N	7 5 1
+1 J is D
+2 G is M
+3 J has_color N
+4 A is D
+5 H is M
+6 K has_color I
+7 H has_color B
+8 K is E
+9 A has_color N
+10 eval G has_color	B	7 5 2
+1 K is M
+2 J has_color F
+3 H is M
+4 J is C
+5 A has_color I
+6 G has_color N
+7 G is M
+8 A is D
+9 H has_color N
+10 eval K has_color	N	3 6 1 9 7
+1 G has_color F
+2 A is M
+3 G is C
+4 J is M
+5 K is M
+6 H is C
+7 J has_color N
+8 A has_color N
+9 K has_color N
+10 eval H has_color	F	1 6 3
+1 J has_color B
+2 G has_color N
+3 A is C
+4 H is M
+5 H has_color N
+6 K has_color F
+7 J is C
+8 G is M
+9 K is D
+10 eval A has_color	B	1 7 3
+1 A is M
+2 K is M
+3 K has_color F
+4 G is C
+5 H is E
+6 H has_color N
+7 G has_color I
+8 J has_color I
+9 J is C
+10 eval A has_color	F	3 1 2
+1 G has_color F
+2 H is C
+3 A is M
+4 G is C
+5 A has_color N
+6 H has_color F
+7 K is C
+8 J is M
+9 J has_color N
+10 eval K has_color	F	7 4 6 2 1
+1 J has_color I
+2 K is E
+3 A is M
+4 H has_color I
+5 J is D
+6 K has_color N
+7 H is D
+8 G is E
+9 A has_color F
+10 eval G has_color	N	6 2 8
+1 G has_color F
+2 H is E
+3 K is E
+4 G is D
+5 J has_color B
+6 A is C
+7 A has_color B
+8 H has_color I
+9 J is C
+10 eval K has_color	I	3 2 8
+1 G has_color I
+2 J has_color I
+3 J is D
+4 A has_color F
+5 G is D
+6 K is E
+7 K has_color N
+8 A is M
+9 H is D
+10 eval H has_color	I	9 2 3 1 5
+1 H has_color F
+2 A is M
+3 J is M
+4 K is D
+5 G has_color B
+6 K has_color B
+7 H is M
+8 G is D
+9 A has_color F
+10 eval J has_color	F	9 7 3 1 2
+1 K has_color B
+2 A is E
+3 H is C
+4 J is M
+5 J has_color N
+6 G has_color F
+7 G is C
+8 K is E
+9 A has_color B
+10 eval H has_color	F	7 3 6
+1 J has_color N
+2 K is M
+3 G is D
+4 K has_color F
+5 J is C
+6 H is D
+7 G has_color B
+8 H has_color B
+9 A is C
+10 eval A has_color	N	5 9 1
+1 H is C
+2 H has_color B
+3 G is E
+4 A is C
+5 K has_color N
+6 A has_color B
+7 K is E
+8 J is C
+9 J has_color B
+10 eval G has_color	N	5 7 3
+1 A has_color F
+2 K has_color B
+3 H is E
+4 G has_color B
+5 K is C
+6 H has_color N
+7 J is E
+8 A is D
+9 G is C
+10 eval J has_color	N	7 6 3
+1 G is D
+2 A is D
+3 A has_color N
+4 J is D
+5 H has_color F
+6 H is M
+7 K has_color F
+8 G has_color N
+9 K is M
+10 eval J has_color	N	8 2 3 4 1
+1 J is E
+2 A has_color I
+3 G is C
+4 H is C
+5 A is D
+6 K is E
+7 K has_color F
+8 H has_color N
+9 G has_color N
+10 eval J has_color	F	1 7 6
+1 J is C
+2 A is E
+3 K is C
+4 G is M
+5 H is C
+6 J has_color F
+7 G has_color N
+8 K has_color F
+9 A has_color B
+10 eval H has_color	F	5 1 8 3 6
+1 J is M
+2 A has_color N
+3 G is C
+4 H is M
+5 J has_color N
+6 K has_color I
+7 A is M
+8 K is E
+9 G has_color F
+10 eval H has_color	N	2 7 5 4 1
+1 J has_color N
+2 H has_color N
+3 A is M
+4 G has_color F
+5 H is C
+6 J is C
+7 K has_color I
+8 K is E
+9 G is M
+10 eval A has_color	F	9 3 4
+1 H is C
+2 A is D
+3 H has_color N
+4 K has_color I
+5 K is D
+6 A has_color I
+7 G is M
+8 J has_color B
+9 J is M
+10 eval G has_color	B	9 8 7
+1 G is D
+2 G has_color F
+3 K has_color F
+4 J is M
+5 H is M
+6 K is D
+7 A is M
+8 A has_color I
+9 J has_color I
+10 eval H has_color	I	4 8 9 5 7
+1 H is C
+2 A is D
+3 K is C
+4 G has_color B
+5 J has_color F
+6 J is D
+7 A has_color F
+8 K has_color I
+9 G is M
+10 eval H has_color	I	8 1 3
+1 G is E
+2 K is E
+3 A is E
+4 H is M
+5 J has_color N
+6 A has_color B
+7 K has_color B
+8 H has_color N
+9 J is M
+10 eval G has_color	B	2 1 3 7 6
+1 G has_color F
+2 A is E
+3 J has_color B
+4 K is C
+5 J is M
+6 G is D
+7 K has_color I
+8 A has_color N
+9 H is D
+10 eval H has_color	F	1 9 6
+1 J has_color N
+2 K has_color B
+3 K is M
+4 G is E
+5 H is D
+6 A is E
+7 J is D
+8 H has_color N
+9 A has_color I
+10 eval G has_color	I	9 6 4
+1 A is C
+2 G has_color N
+3 J has_color N
+4 H has_color N
+5 J is C
+6 A has_color N
+7 K is C
+8 H is C
+9 G is C
+10 eval K has_color	N	1 9 7 6 2 3 8 5 4
+1 K has_color N
+2 J is E
+3 G is E
+4 G has_color N
+5 H has_color I
+6 H is C
+7 A has_color F
+8 A is D
+9 K is E
+10 eval J has_color	N	3 9 2 4 1
+1 K is M
+2 K has_color F
+3 J has_color F
+4 H is M
+5 G is E
+6 A is E
+7 H has_color F
+8 J is M
+9 A has_color N
+10 eval G has_color	N	9 5 6
+1 A has_color B
+2 K is C
+3 G is C
+4 J is C
+5 H is D
+6 G has_color N
+7 A is D
+8 K has_color N
+9 J has_color N
+10 eval H has_color	B	5 7 1
+1 K has_color I
+2 H is C
+3 K is E
+4 G has_color I
+5 A has_color F
+6 H has_color B
+7 J is E
+8 A is D
+9 G is E
+10 eval J has_color	I	1 9 7 4 3
+1 J is E
+2 K has_color I
+3 K is M
+4 H is C
+5 J has_color N
+6 A has_color F
+7 H has_color F
+8 G is C
+9 A is C
+10 eval G has_color	F	9 8 7 4 6
+1 H is M
+2 K has_color I
+3 A is D
+4 J is M
+5 G has_color B
+6 J has_color I
+7 A has_color B
+8 G is D
+9 K is M
+10 eval H has_color	I	4 2 6 9 1
+1 G has_color I
+2 K has_color N
+3 A has_color N
+4 G is M
+5 A is C
+6 H is M
+7 H has_color I
+8 J is C
+9 K is C
+10 eval J has_color	N	2 9 3 5 8
+1 K has_color B
+2 K is D
+3 H is D
+4 G is E
+5 G has_color F
+6 H has_color B
+7 A is E
+8 J has_color F
+9 J is E
+10 eval A has_color	F	5 8 7 9 4
+1 A has_color I
+2 H is D
+3 G has_color I
+4 J has_color I
+5 G is M
+6 K is D
+7 J is M
+8 K has_color F
+9 A is M
+10 eval H has_color	F	6 8 2
+1 J is C
+2 K has_color F
+3 H has_color N
+4 A has_color N
+5 H is D
+6 J has_color F
+7 G is D
+8 K is C
+9 A is D
+10 eval G has_color	N	9 7 4 5 3
+1 G is D
+2 K is E
+3 K has_color I
+4 H is M
+5 G has_color N
+6 H has_color F
+7 A is D
+8 J is C
+9 J has_color B
+10 eval A has_color	N	7 5 1
+1 K is M
+2 G is C
+3 A has_color B
+4 A is C
+5 J has_color I
+6 H is M
+7 K has_color I
+8 G has_color B
+9 J is M
+10 eval H has_color	I	6 1 9 7 5
+1 H has_color B
+2 G is D
+3 A has_color B
+4 H is M
+5 K has_color F
+6 J is D
+7 K is D
+8 A is M
+9 G has_color F
+10 eval J has_color	F	6 2 7 9 5
+1 A is M
+2 H is D
+3 A has_color N
+4 H has_color I
+5 K has_color B
+6 J is E
+7 K is E
+8 G has_color F
+9 G is C
+10 eval J has_color	B	5 7 6
+1 J has_color F
+2 H has_color I
+3 A is M
+4 G has_color F
+5 K is D
+6 G is M
+7 H is D
+8 A has_color F
+9 J is M
+10 eval K has_color	I	7 5 2
+1 A is C
+2 K is D
+3 H has_color N
+4 J is D
+5 K has_color N
+6 J has_color N
+7 G is C
+8 A has_color I
+9 H is D
+10 eval G has_color	I	1 8 7
+1 H has_color F
+2 A is M
+3 J has_color B
+4 H is E
+5 G is D
+6 K is E
+7 K has_color F
+8 J is D
+9 A has_color I
+10 eval G has_color	B	8 3 5
+1 G has_color N
+2 H is D
+3 K is M
+4 J is E
+5 K has_color B
+6 G is E
+7 A has_color F
+8 A is D
+9 J has_color N
+10 eval H has_color	F	2 8 7
+1 J has_color B
+2 G has_color N
+3 G is M
+4 K has_color N
+5 J is E
+6 H is C
+7 A is C
+8 K is M
+9 H has_color F
+10 eval A has_color	F	7 9 6
+1 J is C
+2 J has_color I
+3 H is C
+4 K is E
+5 K has_color N
+6 G has_color I
+7 A is E
+8 A has_color N
+9 G is C
+10 eval H has_color	I	3 9 1 6 2
+1 G is D
+2 H has_color B
+3 K is D
+4 A is E
+5 J is M
+6 H is E
+7 A has_color B
+8 J has_color I
+9 K has_color F
+10 eval G has_color	F	9 3 1
+1 J is E
+2 A has_color I
+3 K has_color I
+4 A is E
+5 H is E
+6 G is D
+7 H has_color I
+8 K is E
+9 G has_color B
+10 eval J has_color	I	2 4 1 8 5 3 7
+1 A has_color N
+2 K is D
+3 G is M
+4 A is M
+5 J is C
+6 K has_color I
+7 H is C
+8 H has_color F
+9 G has_color N
+10 eval J has_color	F	5 7 8
+1 H is M
+2 G is M
+3 J is E
+4 H has_color F
+5 K is E
+6 J has_color I
+7 K has_color I
+8 A has_color I
+9 A is E
+10 eval G has_color	F	4 2 1
+1 H is E
+2 A is M
+3 K has_color N
+4 G has_color B
+5 J is M
+6 J has_color F
+7 H has_color N
+8 K is E
+9 G is D
+10 eval A has_color	F	6 2 5
+1 J is M
+2 A is M
+3 A has_color B
+4 G is M
+5 K has_color B
+6 H has_color F
+7 K is M
+8 G has_color B
+9 H is D
+10 eval J has_color	B	8 2 3 5 7 4 1
+1 G has_color F
+2 G is D
+3 A has_color I
+4 J has_color B
+5 K is E
+6 K has_color N
+7 H is M
+8 A is C
+9 J is M
+10 eval H has_color	B	7 4 9
+1 J has_color N
+2 K has_color I
+3 A has_color B
+4 H is E
+5 A is C
+6 K is D
+7 G has_color F
+8 G is E
+9 J is M
+10 eval H has_color	F	7 4 8
+1 K has_color N
+2 G is D
+3 A has_color I
+4 J has_color B
+5 J is C
+6 A is M
+7 H is C
+8 G has_color F
+9 K is E
+10 eval H has_color	B	7 4 5
+1 J has_color B
+2 H has_color I
+3 K has_color I
+4 A is E
+5 A has_color N
+6 H is C
+7 K is C
+8 G is E
+9 J is D
+10 eval G has_color	N	8 5 4
+1 K is D
+2 J has_color N
+3 J is M
+4 H is E
+5 G has_color B
+6 G is E
+7 K has_color F
+8 A has_color B
+9 A is E
+10 eval H has_color	B	6 5 4 8 9
