@@ -21,7 +21,7 @@ def test(dataloader, net, criterion, optimizer, opt):
 
         output = net(init_input, annotation, adj_matrix)
 
-        test_loss += criterion(output, target).data[0]
+        test_loss += criterion(output, target).item()
         pred = output.data.max(1, keepdim=True)[1]
 
         correct += pred.eq(target.data.view_as(pred)).cpu().sum()

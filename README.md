@@ -11,10 +11,10 @@ This is a PyTorch implementation of the Gated Graph Sequence Neural Networks (GG
 - An output model to make predictions on nodes
 
 ## Requirements
-- python==2.7
+- python==3.7
 - PyTorch>=0.2
 
-## Run 
+## Run
 Train and test the GGNN:
 ```
 python main.py --cuda (use GPUs or not)
@@ -35,8 +35,8 @@ I followed the paper, randomly picking only 50 training examples for training.
 Performances are evaluated on 50 random validation examples.
 
 | bAbI Task | Performance |
-| ------| ------ | 
-| 4 | 100% | 
+| ------| ------ |
+| 4 | 100% |
 | 15 | 100% |
 | 16 | 100% |
 
@@ -47,7 +47,7 @@ Here's an example of bAbI deduction task (task 15)
 ## Disclaimer
 The data processing codes are from official implementation [yujiali/ggnn](https://github.com/yujiali/ggnn).
 
-## TODO 
+## TODO
 - [ ] GraphLevel Output
 
 ## References
