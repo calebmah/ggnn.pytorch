@@ -27,4 +27,6 @@ def train(epoch, dataloader, net, criterion, optimizer, opt):
         optimizer.step()
 
         if i % int(len(dataloader) / 10 + 1) == 0 and opt.verbal:
-            print('[%d/%d][%d/%d] Loss: %.4f' % (epoch, opt.niter, i, len(dataloader), loss.data[0]))
+            print('[%d/%d][%d/%d] Loss: %.4f' % (epoch, opt.niter, i, len(dataloader), loss.item()))
+
+    return loss.item()

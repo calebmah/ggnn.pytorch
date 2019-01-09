@@ -13,7 +13,7 @@ from utils.data.dataloader import bAbIDataloader
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--task_id', type=int, default=4, help='bAbI task id')
-parser.add_argument('--processed_path', default='processed_1', help='path to processed data')
+parser.add_argument('--processed_path', default='processed', help='path to processed data')
 parser.add_argument('--question_id', type=int, default=0, help='question types')
 parser.add_argument('--workers', type=int, help='number of data loading workers', default=2)
 parser.add_argument('--batchSize', type=int, default=10, help='input batch size')
@@ -27,20 +27,20 @@ parser.add_argument('--verbal', action='store_true', help='print training info o
 parser.add_argument('--manualSeed', type=int, help='manual seed')
 
 opt = parser.parse_args()
-print(opt)
 
 if opt.manualSeed is None:
     opt.manualSeed = random.randint(1, 10000)
-print("Random Seed: ", opt.manualSeed)
+#print("Random Seed: ", opt.manualSeed)
 random.seed(opt.manualSeed)
 torch.manual_seed(opt.manualSeed)
-
-opt.dataroot = 'babi_data/%s/train/%d_graphs.txt' % (opt.processed_path, opt.task_id)
 
 if opt.cuda:
     torch.cuda.manual_seed_all(opt.manualSeed)
 
-def main(opt):
+def run(opt):
+    print(opt)
+    opt.dataroot = 'babi_data/%s/train/%d_graphs.txt' % (opt.processed_path, opt.task_id)
+
     train_dataset = bAbIDataset(opt.dataroot, opt.question_id, True, opt.train_size)
     train_dataloader = bAbIDataloader(train_dataset, batch_size=opt.batchSize, \
                                       shuffle=True, num_workers=2)
@@ -66,9 +66,28 @@ def main(opt):
     optimizer = optim.Adam(net.parameters(), lr=opt.lr)
 
     for epoch in range(0, opt.niter):
-        train(epoch, train_dataloader, net, criterion, optimizer, opt)
-        test(test_dataloader, net, criterion, optimizer, opt)
+        train_loss = train(epoch, train_dataloader, net, criterion, optimizer, opt)
+        test_loss, accuracy = test(test_dataloader, net, criterion, optimizer, opt)
 
+    return train_loss, test_loss, accuracy
+
+def main(opt):
+    TASK_IDS = [1, 2, 4, 9, 11, 12, 13, 15, 16, 17, 18]
+
+    train_losses = []
+    test_losses = []
+    accuracies = []
+
+    for task_id in TASK_IDS:
+        opt.task_id = task_id
+        train_loss, test_loss, accuracy = run(opt)
+        train_losses.append(train_loss)
+        test_losses.append(test_loss)
+        accuracies.append(accuracy)
+
+    print('Results:')
+    for i, task_id in enumerate(TASK_IDS):
+        print('Task %2d Train loss %.4f Test loss %.4f Accuracy %.0f%%' % (task_id, train_losses[i], test_losses[i], accuracies[i]))
 
 if __name__ == "__main__":
     main(opt)
