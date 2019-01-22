@@ -71,7 +71,7 @@ def run(opt):
 
     return train_loss, test_loss, accuracy
 
-def main(opt):
+def grid(opt):
     TASK_IDS = [1, 2, 4, 9, 11, 12, 13, 15, 16, 17, 18]
 
     train_losses = []
@@ -85,9 +85,38 @@ def main(opt):
         test_losses.append(test_loss)
         accuracies.append(accuracy)
 
+    print('learning rate = %f, train_size = %d, state_dim = %d, niter = %d' % (opt.lr, opt.train_size, opt.state_dim, opt.niter))
     print('Results:')
     for i, task_id in enumerate(TASK_IDS):
         print('Task %2d Train loss %.4f Test loss %.4f Accuracy %.0f%%' % (task_id, train_losses[i], test_losses[i], accuracies[i]))
+    return accuracies
+
+def main(opt):
+    TASK_IDS = [1, 2, 4, 9, 11, 12, 13, 15, 16, 17, 18]
+    LEARNING_RATES = [0.001, 0.005, 0.01, 0.05, 0.1]
+    TRAIN_SIZES = [50, 100, 250, 500, 950]
+    STATE_DIMS = [3, 4, 5, 6]
+    NITERS = [10, 20, 50, 100]
+
+    accuracies = []
+
+    # for lr in LEARNING_RATES:
+    #     opt.lr = lr
+    #     accuracies.append(grid(opt))
+    #
+    # print('learning rate = %f, train_size = %d, state_dim = %d, niter = %d' % (opt.lr, opt.train_size, opt.state_dim, opt.niter))
+    # print('Learning Rates:\t0.001\t0.005\t0.01\t0.05\t0.1')
+    # for i, task_id in enumerate(TASK_IDS):
+    #     print('Task %2d \t%.0f%%\t%.0f%%\t%.0f%%\t%.0f%%\t%.0f%%' % (task_id, accuracies[0][i], accuracies[1][i], accuracies[2][i], accuracies[3][i], accuracies[4][i]))
+
+    for train_size in TRAIN_SIZES:
+        opt.train_size = train_size
+        accuracies.append(grid(opt))
+
+    print('learning rate = %f, train_size = %d, state_dim = %d, niter = %d' % (opt.lr, opt.train_size, opt.state_dim, opt.niter))
+    print('train size:\t50\t100\t250\t500\t950')
+    for i, task_id in enumerate(TASK_IDS):
+        print('Task %2d \t%.0f%%\t%.0f%%\t%.0f%%\t%.0f%%\t%.0f%%' % (task_id, accuracies[0][i], accuracies[1][i], accuracies[2][i], accuracies[3][i], accuracies[4][i]))
 
 if __name__ == "__main__":
     main(opt)
