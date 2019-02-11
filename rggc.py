@@ -25,7 +25,7 @@ import block
 import graph_generator as g
 
 from sklearn.metrics import confusion_matrix
-from model import Graph_OurConvNet
+from old_model import Graph_OurConvNet
 
 #################
 # select task and task parameters

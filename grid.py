@@ -72,24 +72,20 @@ def run(opt):
     return train_loss, test_loss, accuracy
 
 def grid(opt):
-    TASK_IDS = [1, 2, 4, 9, 11, 12, 13, 15, 16, 17, 18]
 
     train_losses = []
     test_losses = []
     accuracies = []
 
-    for task_id in TASK_IDS:
-        opt.task_id = task_id
-        train_loss, test_loss, accuracy = run(opt)
-        train_losses.append(train_loss)
-        test_losses.append(test_loss)
-        accuracies.append(accuracy)
+    train_loss, test_loss, accuracy = run(opt)
+    train_losses.append(train_loss)
+    test_losses.append(test_loss)
+    accuracies.append(accuracy)
 
     print('learning rate = %f, train_size = %d, state_dim = %d, niter = %d' % (opt.lr, opt.train_size, opt.state_dim, opt.niter))
     print('Results:')
-    for i, task_id in enumerate(TASK_IDS):
-        print('Task %2d Train loss %.4f Test loss %.4f Accuracy %.0f%%' % (task_id, train_losses[i], test_losses[i], accuracies[i]))
-    return accuracies
+    print('Task %2d Train loss %.4f Test loss %.4f Accuracy %.0f%%' % (opt.task_id, train_losses[0], test_losses[0], accuracies[0]))
+    return accuracy
 
 def main(opt):
     TASK_IDS = [1, 2, 4, 9, 11, 12, 13, 15, 16, 17, 18]
@@ -108,10 +104,22 @@ def main(opt):
     # print('Learning Rates:\t0.001\t0.005\t0.01\t0.05\t0.1')
     # for i, task_id in enumerate(TASK_IDS):
     #     print('Task %2d \t%.0f%%\t%.0f%%\t%.0f%%\t%.0f%%\t%.0f%%' % (task_id, accuracies[0][i], accuracies[1][i], accuracies[2][i], accuracies[3][i], accuracies[4][i]))
-
-    for train_size in TRAIN_SIZES:
-        opt.train_size = train_size
-        accuracies.append(grid(opt))
+    a = []
+    for lr in LEARNING_RATES:
+        opt.lr = lr
+        b= []
+        for train_size in TRAIN_SIZES:
+            opt.train_size = train_size
+            c = []
+            for state_dim in STATE_DIMS:
+                opt.state_dim = state_dim
+                d = []
+                for niter in NITERS:
+                    opt.niter = niter
+                    d.append(grid(opt))
+                c.append(d)
+            b.append(c)
+        a.append(b)
 
     print('learning rate = %f, train_size = %d, state_dim = %d, niter = %d' % (opt.lr, opt.train_size, opt.state_dim, opt.niter))
     print('train size:\t50\t100\t250\t500\t950')

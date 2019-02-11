@@ -4,10 +4,20 @@ from torch.autograd import Variable
 def train(epoch, dataloader, net, criterion, optimizer, opt):
     net.train()
     for i, (adj_matrix, annotation, target) in enumerate(dataloader, 0):
+        
+        print("annotation", annotation)
+        print(annotation.size())
+        
         net.zero_grad()
 
         padding = torch.zeros(len(annotation), opt.n_node, opt.state_dim - opt.annotation_dim).double()
+        print("padding", padding)
+        print(padding.size())
         init_input = torch.cat((annotation, padding), 2)
+        print("init_input", init_input)
+        print(init_input.size())
+        print("target", target)
+        print(target.size())
         if opt.cuda:
             init_input = init_input.cuda()
             adj_matrix = adj_matrix.cuda()
@@ -20,6 +30,9 @@ def train(epoch, dataloader, net, criterion, optimizer, opt):
         target = Variable(target)
 
         output = net(init_input, annotation, adj_matrix)
+        
+        print("output", output)
+        print(output.size())
 
         loss = criterion(output, target)
 

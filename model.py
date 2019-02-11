@@ -3,6 +3,7 @@ import torch.nn as nn
 import numpy as np
 from torch.autograd import Variable
 import torch.nn.functional as F
+import scipy.sparse as sp
 
 if torch.cuda.is_available():
     #print('cuda available')
@@ -242,17 +243,17 @@ class OurConvNetcell(nn.Module):
 ##############################
 class Graph_OurConvNet(nn.Module):
 
-    def __init__(self, net_parameters):
+    def __init__(self, opt):
 
         super(Graph_OurConvNet, self).__init__()
 
         # parameters
         #flag_task = task_parameters['flag_task']
-        Voc = net_parameters['Voc']
-        D = net_parameters['D']
-        nb_clusters_target = net_parameters['nb_clusters_target']
-        H = net_parameters['H']
-        L = net_parameters['L']
+        Voc = opt.vocab
+        D = opt.D
+        nb_clusters_target = opt.nb_clusters_target
+        H = opt.H
+        L = opt.L
 
         # vector of hidden dimensions
         net_layers = []
@@ -301,21 +302,31 @@ class Graph_OurConvNet(nn.Module):
         self.fc.bias.data.fill_(0)
 
 
-    def forward(self, G):
+    def forward(self, prop_state, annotation, A):
 
         # signal
-        x = G.signal  # V-dim
-        x = Variable( torch.LongTensor(x).type(dtypeLong) , requires_grad=False)
+        x = annotation  # V-dim
+        x = x.to(torch.long)
+        x = Variable( torch.LongTensor(x).type(torch.LongTensor) , requires_grad=False)
 
         # encoder
         x_emb = self.encoder(x) # V x D
+
+        
+        W_coo=sp.coo_matrix(A)
+        nb_edges=W_coo.nnz
+        nb_vertices=A.shape[0]
+        edge_to_starting_vertex=sp.coo_matrix( ( np.ones(nb_edges) ,(np.arange(nb_edges), W_coo.row) ),
+                                               shape=(nb_edges, nb_vertices) )
+        edge_to_ending_vertex=sp.coo_matrix( ( np.ones(nb_edges) ,(np.arange(nb_edges), W_coo.col) ),
+                                               shape=(nb_edges, nb_vertices) )
 
         # graph operators
         # Edge = start vertex to end vertex
         # E_start = E x V mapping matrix from edge index to corresponding start vertex
         # E_end = E x V mapping matrix from edge index to corresponding end vertex
-        E_start = G.edge_to_starting_vertex
-        E_end   = G.edge_to_ending_vertex
+        E_start = edge_to_starting_vertex
+        E_end   = edge_to_ending_vertex
         E_start = torch.from_numpy(E_start.toarray()).type(dtypeFloat)
         E_end = torch.from_numpy(E_end.toarray()).type(dtypeFloat)
         E_start = Variable( E_start , requires_grad=False)

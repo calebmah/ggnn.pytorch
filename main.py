@@ -6,6 +6,7 @@ import torch.nn as nn
 import torch.optim as optim
 
 from model import GGNN
+from model import Graph_OurConvNet
 from utils.train import train
 from utils.test import test
 from utils.data.dataset import bAbIDataset
@@ -25,6 +26,12 @@ parser.add_argument('--lr', type=float, default=0.01, help='learning rate')
 parser.add_argument('--cuda', action='store_true', help='enables cuda')
 parser.add_argument('--verbal', action='store_true', help='print training info or not')
 parser.add_argument('--manualSeed', type=int, help='manual seed')
+
+parser.add_argument('--vocab', type=int, default=3, help='size of vocabulary')
+parser.add_argument('--nb_clusters_target', type=int, default=2, help='number of target clusters')
+parser.add_argument('--D', type=int, default=50, help='Dimensions')
+parser.add_argument('--H', type=int, default=50, help='Hidden layer size')
+parser.add_argument('--L', type=int, default=10, help='Number of layers')
 
 opt = parser.parse_args()
 print(opt)
@@ -54,6 +61,7 @@ def main(opt):
     opt.n_node = train_dataset.n_node
 
     net = GGNN(opt)
+    #net = Graph_OurConvNet(opt)
     net.double()
     print(net)
 
