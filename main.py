@@ -17,7 +17,7 @@ parser.add_argument('--task_id', type=int, default=4, help='bAbI task id')
 parser.add_argument('--processed_path', default='processed_1', help='path to processed data')
 parser.add_argument('--question_id', type=int, default=0, help='question types')
 parser.add_argument('--workers', type=int, help='number of data loading workers', default=2)
-parser.add_argument('--batchSize', type=int, default=10, help='input batch size')
+parser.add_argument('--batchSize', type=int, default=1, help='input batch size')
 parser.add_argument('--train_size', type=int, default=50, help='number of training data')
 parser.add_argument('--state_dim', type=int, default=4, help='GGNN hidden state size')
 parser.add_argument('--n_steps', type=int, default=5, help='propogation steps number of GGNN')
@@ -28,10 +28,12 @@ parser.add_argument('--verbal', action='store_true', help='print training info o
 parser.add_argument('--manualSeed', type=int, help='manual seed')
 
 parser.add_argument('--vocab', type=int, default=3, help='size of vocabulary')
-parser.add_argument('--nb_clusters_target', type=int, default=2, help='number of target clusters')
+parser.add_argument('--nb_clusters_target', type=int, default=1, help='number of target clusters')
 parser.add_argument('--D', type=int, default=50, help='Dimensions')
 parser.add_argument('--H', type=int, default=50, help='Hidden layer size')
 parser.add_argument('--L', type=int, default=10, help='Number of layers')
+
+parser.add_argument('--debug', action='store_true', help='print debug')
 
 opt = parser.parse_args()
 print(opt)
@@ -60,9 +62,9 @@ def main(opt):
     opt.n_edge_types = train_dataset.n_edge_types
     opt.n_node = train_dataset.n_node
 
-    net = GGNN(opt)
-    #net = Graph_OurConvNet(opt)
-    net.double()
+    #net = GGNN(opt)
+    net = Graph_OurConvNet(opt)
+#    net.double()
     print(net)
 
     criterion = nn.CrossEntropyLoss()

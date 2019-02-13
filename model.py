@@ -5,16 +5,7 @@ from torch.autograd import Variable
 import torch.nn.functional as F
 import scipy.sparse as sp
 
-if torch.cuda.is_available():
-    #print('cuda available')
-    dtypeFloat = torch.cuda.FloatTensor
-    dtypeLong = torch.cuda.LongTensor
-    #torch.cuda.manual_seed(1)
-else:
-    #print('cuda not available')
-    dtypeFloat = torch.FloatTensor
-    dtypeLong = torch.LongTensor
-    #torch.manual_seed(1)
+
 
 class AttrProxy(object):
     """
@@ -254,6 +245,17 @@ class Graph_OurConvNet(nn.Module):
         nb_clusters_target = opt.nb_clusters_target
         H = opt.H
         L = opt.L
+        
+        if opt.cuda:
+            #print('cuda available')
+            self.dtypeFloat = torch.cuda.FloatTensor
+            self.dtypeLong = torch.cuda.LongTensor
+            #torch.cuda.manual_seed(1)
+        else:
+            #print('cuda not available')
+            self.dtypeFloat = torch.FloatTensor
+            self.dtypeLong = torch.LongTensor
+            #torch.manual_seed(1)
 
         # vector of hidden dimensions
         net_layers = []
@@ -303,19 +305,33 @@ class Graph_OurConvNet(nn.Module):
 
 
     def forward(self, prop_state, annotation, A):
+        
+        n_nodes = len(annotation[0])
 
         # signal
-        x = annotation  # V-dim
+        x = annotation[0].reshape(n_nodes)  # V-dim
         x = x.to(torch.long)
         x = Variable( torch.LongTensor(x).type(torch.LongTensor) , requires_grad=False)
 
+
         # encoder
         x_emb = self.encoder(x) # V x D
+        
+        # adj_matrix
+        A = A[0]
+        n_nodes = A.shape[0]
+        n_col = A.shape[1]
+        A_left = A[:,:int(n_col/2)]
+        A_right = A[:,int(-n_col/2):]
+        A_new = np.where(A_left != 1, A_right, A_left)
+        # self loop
+        for i in range(A_new.shape[0]):
+            A_new[i,i]=1
 
         
-        W_coo=sp.coo_matrix(A)
+        W_coo=sp.coo_matrix(A_new)
         nb_edges=W_coo.nnz
-        nb_vertices=A.shape[0]
+        nb_vertices=A_new.shape[0]
         edge_to_starting_vertex=sp.coo_matrix( ( np.ones(nb_edges) ,(np.arange(nb_edges), W_coo.row) ),
                                                shape=(nb_edges, nb_vertices) )
         edge_to_ending_vertex=sp.coo_matrix( ( np.ones(nb_edges) ,(np.arange(nb_edges), W_coo.col) ),
@@ -327,8 +343,8 @@ class Graph_OurConvNet(nn.Module):
         # E_end = E x V mapping matrix from edge index to corresponding end vertex
         E_start = edge_to_starting_vertex
         E_end   = edge_to_ending_vertex
-        E_start = torch.from_numpy(E_start.toarray()).type(dtypeFloat)
-        E_end = torch.from_numpy(E_end.toarray()).type(dtypeFloat)
+        E_start = torch.from_numpy(E_start.toarray()).type(self.dtypeFloat)
+        E_end = torch.from_numpy(E_end.toarray()).type(self.dtypeFloat)
         E_start = Variable( E_start , requires_grad=False)
         E_end = Variable( E_end , requires_grad=False)
 
@@ -340,13 +356,14 @@ class Graph_OurConvNet(nn.Module):
 
         # FC
         x = self.fc(x)
+        x = x.view(-1, nb_vertices)
 
         return x
 
 
     def loss(self, y, y_target, weight):
 
-        loss = nn.CrossEntropyLoss(weight=weight.type(dtypeFloat))(y,y_target)
+        loss = nn.CrossEntropyLoss(weight=weight.type(self.dtypeFloat))(y,y_target)
 
         return loss
 
