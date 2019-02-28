@@ -30,6 +30,12 @@ python main.py --task_id 15 --state_dim 5 --niter 10
 python main.py --task_id 16 --state_dim 10 --niter 150
 ```
 
+Others:
+```
+# task 1
+python main.py --state_dim 4 --niter 10 --task_id 1 --cuda
+```
+
 ## Results
 I followed the paper, randomly picking only 50 training examples for training.
 Performances are evaluated on 50 random validation examples.

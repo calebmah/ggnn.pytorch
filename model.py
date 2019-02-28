@@ -311,14 +311,14 @@ class Graph_OurConvNet(nn.Module):
         # signal
         x = annotation[0].reshape(n_nodes)  # V-dim
         x = x.to(torch.long)
-        x = Variable( torch.LongTensor(x).type(torch.LongTensor) , requires_grad=False)
+        x = Variable( self.dtypeLong(x).type(self.dtypeLong) , requires_grad=False)
 
 
         # encoder
         x_emb = self.encoder(x) # V x D
         
         # adj_matrix
-        A = A[0]
+        A = A[0].cpu().numpy()
         n_nodes = A.shape[0]
         n_col = A.shape[1]
         A_left = A[:,:int(n_col/2)]
@@ -327,14 +327,31 @@ class Graph_OurConvNet(nn.Module):
         # self loop
         for i in range(A_new.shape[0]):
             A_new[i,i]=1
+            
+#        edge_types = torch.tensor([[x//A_new.shape[0] + 1 for x in range(A_new.shape[1])]] * A_new.shape[0], device=A_new.device, dtype=torch.float64)
+#        A_new = torch.where(A_new == 1, edge_types, A_new)
+#
+#        
+#        W_coo=sp.coo_matrix(A_new)
+#        nb_edges=W_coo.nnz
+#        nb_vertices=A_new.shape[0]
+#        edge_to_starting_vertex=sp.coo_matrix( ( W_coo.data ,(np.arange(nb_edges), W_coo.row) ),
+#                                               shape=(nb_edges, nb_vertices) )
+#        new_col = np.where(W_coo.col >= nb_vertices, W_coo.col % nb_vertices, W_coo.col)
+#        edge_to_ending_vertex=sp.coo_matrix( ( W_coo.data ,(np.arange(nb_edges), new_col) ),
+#                                               shape=(nb_edges, nb_vertices) )
+            
+        edge_types = np.array([[x//A_new.shape[0] + 1 for x in range(A_new.shape[1])]] * A_new.shape[0])
+        A_new = np.where(A_new == 1, edge_types, A_new)
 
         
         W_coo=sp.coo_matrix(A_new)
         nb_edges=W_coo.nnz
         nb_vertices=A_new.shape[0]
-        edge_to_starting_vertex=sp.coo_matrix( ( np.ones(nb_edges) ,(np.arange(nb_edges), W_coo.row) ),
+        edge_to_starting_vertex=sp.coo_matrix( ( W_coo.data ,(np.arange(nb_edges), W_coo.row) ),
                                                shape=(nb_edges, nb_vertices) )
-        edge_to_ending_vertex=sp.coo_matrix( ( np.ones(nb_edges) ,(np.arange(nb_edges), W_coo.col) ),
+        new_col = np.where(W_coo.col >= nb_vertices, W_coo.col % nb_vertices, W_coo.col)
+        edge_to_ending_vertex=sp.coo_matrix( ( W_coo.data ,(np.arange(nb_edges), new_col) ),
                                                shape=(nb_edges, nb_vertices) )
 
         # graph operators

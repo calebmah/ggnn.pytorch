@@ -1,5 +1,6 @@
 import argparse
 import random
+import time
 
 import torch
 import torch.nn as nn
@@ -74,10 +75,14 @@ def main(opt):
         criterion.cuda()
 
     optimizer = optim.Adam(net.parameters(), lr=opt.lr)
+    
+    start_time = time.time()
 
     for epoch in range(0, opt.niter):
         train(epoch, train_dataloader, net, criterion, optimizer, opt)
         test(test_dataloader, net, criterion, optimizer, opt)
+        
+    print("--- Run time: %s seconds ---" % (time.time() - start_time))
 
 
 if __name__ == "__main__":
