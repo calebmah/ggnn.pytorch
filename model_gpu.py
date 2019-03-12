@@ -201,7 +201,7 @@ class OurConvNetcell(nn.Module):
         Vix = self.Vi1(x)  #  V x H_out
         Vjx = self.Vj1(x)  #  V x H_out
         x1 = torch.mm(E_end,Vix) + torch.mm(E_start,Vjx) + self.bv1  # E x H_out
-        x1 = torch.sigmoid(x1)
+        x1 = F.sigmoid(x1)
         Ujx = self.Uj1(x)  #  V x H_out
         x2 = torch.mm(E_start, Ujx)  #  V x H_out
         Uix = self.Ui1(x)  #  V x H_out
@@ -214,7 +214,7 @@ class OurConvNetcell(nn.Module):
         Vix = self.Vi2(x)  #  V x H_out
         Vjx = self.Vj2(x)  #  V x H_out
         x1 = torch.mm(E_end,Vix) + torch.mm(E_start,Vjx) + self.bv2  # E x H_out
-        x1 = torch.sigmoid(x1)
+        x1 = F.sigmoid(x1)
         Ujx = self.Uj2(x)  #  V x H_out
         x2 = torch.mm(E_start, Ujx)  #  V x H_out
         Uix = self.Ui2(x)  #  V x H_out
@@ -245,19 +245,18 @@ class Graph_OurConvNet(nn.Module):
         nb_clusters_target = opt.nb_clusters_target
         H = opt.H
         L = opt.L
-        if opt.self_loop:
-            self.self_loop = True
-        else:
-            self.self_loop = False
+        
         if opt.cuda:
             #print('cuda available')
             self.dtypeFloat = torch.cuda.FloatTensor
             self.dtypeLong = torch.cuda.LongTensor
+            self.device = torch.device('cuda')
             #torch.cuda.manual_seed(1)
         else:
             #print('cuda not available')
             self.dtypeFloat = torch.FloatTensor
             self.dtypeLong = torch.LongTensor
+            self.device = torch.device('cpu')
             #torch.manual_seed(1)
 
         # vector of hidden dimensions
@@ -321,12 +320,12 @@ class Graph_OurConvNet(nn.Module):
         x_emb = self.encoder(x) # V x D
         
         # adj_matrix
-        A = A[0].cpu().numpy()
+        A = A[0]
         n_nodes = A.shape[0]
         n_col = A.shape[1]
         A_left = A[:,:int(n_col/2)]
         A_right = A[:,int(-n_col/2):]
-        A_new = np.where(A_left != 1, A_right, A_left)
+        A_new = torch.where(A_left != 1, A_right, A_left).float()
 
             
 #        edge_types = torch.tensor([[x//A_new.shape[0] + 1 for x in range(A_new.shape[1])]] * A_new.shape[0], device=A_new.device, dtype=torch.float64)
@@ -342,23 +341,32 @@ class Graph_OurConvNet(nn.Module):
 #        edge_to_ending_vertex=sp.coo_matrix( ( W_coo.data ,(np.arange(nb_edges), new_col) ),
 #                                               shape=(nb_edges, nb_vertices) )
             
-        edge_types = np.array([[x//A_new.shape[0] + 1 for x in range(A_new.shape[1])]] * A_new.shape[0])
-        A_new = np.where(A_new == 1, edge_types, A_new)
+        edge_types = torch.tensor([[x//A_new.shape[0] + 1 for x in range(A_new.shape[1])]] * A_new.shape[0], device=self.device, dtype=torch.float)
+#        print("edge_types", edge_types.device, edge_types.dtype)
+#        print("A_new", A_new.device, A_new.dtype)
+        A_new = torch.where(A_new == 1, edge_types, A_new)
         
         # self loop
-        if self.self_loop:
-            for i in range(A_new.shape[1]):
-                A_new[i%A_new.shape[0],i]=i//A_new.shape[0]+1
-
+        for i in range(A_new.shape[1]):
+            A_new[i%A_new.shape[0],i]=i//A_new.shape[0]+1
         
-        W_coo=sp.coo_matrix(A_new)
-        nb_edges=W_coo.nnz
-        nb_vertices=A_new.shape[0]
-        edge_to_starting_vertex=sp.coo_matrix( ( W_coo.data ,(np.arange(nb_edges), W_coo.row) ),
-                                               shape=(nb_edges, nb_vertices) )
-        new_col = np.where(W_coo.col >= nb_vertices, W_coo.col % nb_vertices, W_coo.col)
-        edge_to_ending_vertex=sp.coo_matrix( ( W_coo.data ,(np.arange(nb_edges), new_col) ),
-                                               shape=(nb_edges, nb_vertices) )
+        indices = torch.nonzero(A_new)
+        values = torch.take(A_new, torch.tensor([indice[0]*A_new.shape[1] + indice[1] for indice in indices], device=self.device))
+        nb_edges = len(indices)
+        nb_vertices = A_new.shape[0]
+        start_indices = torch.tensor([[i for i in range(nb_edges)],indices.t()[0]])
+        edge_to_starting_vertex = torch.sparse_coo_tensor(start_indices, values, [nb_edges, nb_vertices], device=self.device).to_dense()
+        end_indices = torch.tensor([[i for i in range(nb_edges)],[indice%nb_vertices for indice in indices.t()[1]]])
+        edge_to_ending_vertex = torch.sparse_coo_tensor(end_indices, values, [nb_edges, nb_vertices], device=self.device).to_dense()
+        
+#        W_coo=sp.coo_matrix(A_new)
+#        nb_edges=W_coo.nnz
+#        nb_vertices=A_new.shape[0]
+#        edge_to_starting_vertex=sp.coo_matrix( ( W_coo.data ,(np.arange(nb_edges), W_coo.row) ),
+#                                               shape=(nb_edges, nb_vertices) )
+#        new_col = np.where(W_coo.col >= nb_vertices, W_coo.col % nb_vertices, W_coo.col)
+#        edge_to_ending_vertex=sp.coo_matrix( ( W_coo.data ,(np.arange(nb_edges), new_col) ),
+#                                               shape=(nb_edges, nb_vertices) )
 
         # graph operators
         # Edge = start vertex to end vertex
@@ -366,13 +374,16 @@ class Graph_OurConvNet(nn.Module):
         # E_end = E x V mapping matrix from edge index to corresponding end vertex
         E_start = edge_to_starting_vertex
         E_end   = edge_to_ending_vertex
-        E_start = torch.from_numpy(E_start.toarray()).type(self.dtypeFloat)
-        E_end = torch.from_numpy(E_end.toarray()).type(self.dtypeFloat)
+#        E_start = torch.from_numpy(E_start.toarray()).type(self.dtypeFloat)
+#        E_end = torch.from_numpy(E_end.toarray()).type(self.dtypeFloat)
         E_start = Variable( E_start , requires_grad=False)
         E_end = Variable( E_end , requires_grad=False)
 
         # convnet cells
         x = x_emb
+#        print("x", x.device, x.dtype)
+#        print("E_start", E_start.device, E_start.dtype)
+#        print("E_end", E_end.device, E_end.dtype)
         for layer in range(self.L//2):
             gnn_layer = self.gnn_cells[layer]
             x = gnn_layer(x,E_start,E_end) # V x Hfinal

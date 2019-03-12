@@ -33,6 +33,8 @@ parser.add_argument('--nb_clusters_target', type=int, default=1, help='number of
 parser.add_argument('--D', type=int, default=50, help='Dimensions')
 parser.add_argument('--H', type=int, default=50, help='Hidden layer size')
 parser.add_argument('--L', type=int, default=10, help='Number of layers')
+parser.add_argument('--self_loop', type=bool, default=True, help='Self loop nodes with edges')
+parser.add_argument('--net', type=str, default='RGGC', choices=['GGNN','RGGC'], help='GGNN or RGGC')
 
 parser.add_argument('--debug', action='store_true', help='print debug')
 
@@ -49,6 +51,7 @@ opt.dataroot = 'babi_data/%s/train/%d_graphs.txt' % (opt.processed_path, opt.tas
 
 if opt.cuda:
     torch.cuda.manual_seed_all(opt.manualSeed)
+    #torch.set_default_tensor_type(torch.cuda.FloatTensor)
 
 def main(opt):
     train_dataset = bAbIDataset(opt.dataroot, opt.question_id, True, opt.train_size)
@@ -63,8 +66,10 @@ def main(opt):
     opt.n_edge_types = train_dataset.n_edge_types
     opt.n_node = train_dataset.n_node
 
-    #net = GGNN(opt)
-    net = Graph_OurConvNet(opt)
+    if opt.net == 'GGNN':
+        net = GGNN(opt)
+    else:
+        net = Graph_OurConvNet(opt)
 #    net.double()
     print(net)
 
