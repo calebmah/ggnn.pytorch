@@ -110,6 +110,9 @@ class GGNN(nn.Module):
                 m.bias.data.fill_(0)
 
     def forward(self, prop_state, annotation, A):
+#        prop_state = prop_state.to(torch.float32)
+#        annotation = annotation.to(torch.float32)
+#        A = A.to(torch.float32)
         for i_step in range(self.n_steps):
             in_states = []
             out_states = []
@@ -251,12 +254,12 @@ class Graph_OurConvNet(nn.Module):
             self.self_loop = False
         if opt.cuda:
             #print('cuda available')
-            self.dtypeFloat = torch.cuda.FloatTensor
+            self.dtypeFloat = torch.cuda.DoubleTensor
             self.dtypeLong = torch.cuda.LongTensor
             #torch.cuda.manual_seed(1)
         else:
             #print('cuda not available')
-            self.dtypeFloat = torch.FloatTensor
+            self.dtypeFloat = torch.DoubleTensor
             self.dtypeLong = torch.LongTensor
             #torch.manual_seed(1)
 

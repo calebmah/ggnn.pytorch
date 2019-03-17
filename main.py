@@ -1,6 +1,8 @@
 import argparse
 import random
 import time
+from datetime import datetime
+import xlsxwriter
 
 import torch
 import torch.nn as nn
@@ -37,6 +39,7 @@ parser.add_argument('--self_loop', type=bool, default=True, help='Self loop node
 parser.add_argument('--net', type=str, default='RGGC', choices=['GGNN','RGGC'], help='GGNN or RGGC')
 
 parser.add_argument('--debug', action='store_true', help='print debug')
+parser.add_argument('--save_all', action='store_true', help='print debug')
 
 opt = parser.parse_args()
 print(opt)
@@ -53,7 +56,11 @@ if opt.cuda:
     torch.cuda.manual_seed_all(opt.manualSeed)
     #torch.set_default_tensor_type(torch.cuda.FloatTensor)
 
-def main(opt):
+def run(opt):
+    start_time = time.time()
+    opt.dataroot = 'babi_data/%s/train/%d_graphs.txt' % (opt.processed_path, opt.task_id)
+    print(opt)
+
     train_dataset = bAbIDataset(opt.dataroot, opt.question_id, True, opt.train_size)
     train_dataloader = bAbIDataloader(train_dataset, batch_size=opt.batchSize, \
                                       shuffle=True, num_workers=2)
@@ -68,9 +75,10 @@ def main(opt):
 
     if opt.net == 'GGNN':
         net = GGNN(opt)
+        net.double()
     else:
         net = Graph_OurConvNet(opt)
-#    net.double()
+        net.double()
     print(net)
 
     criterion = nn.CrossEntropyLoss()
@@ -80,15 +88,91 @@ def main(opt):
         criterion.cuda()
 
     optimizer = optim.Adam(net.parameters(), lr=opt.lr)
-    
-    start_time = time.time()
 
     for epoch in range(0, opt.niter):
-        train(epoch, train_dataloader, net, criterion, optimizer, opt)
-        test(test_dataloader, net, criterion, optimizer, opt)
-        
-    print("--- Run time: %s seconds ---" % (time.time() - start_time))
+        train_loss = train(epoch, train_dataloader, net, criterion, optimizer, opt)
+        test_loss, numerator, denominator = test(test_dataloader, net, criterion, optimizer, opt)
 
+    return train_loss, test_loss, numerator, denominator, time.time() - start_time
+
+def main(opt):
+#    train_dataset = bAbIDataset(opt.dataroot, opt.question_id, True, opt.train_size)
+#    train_dataloader = bAbIDataloader(train_dataset, batch_size=opt.batchSize, \
+#                                      shuffle=True, num_workers=2)
+#
+#    test_dataset = bAbIDataset(opt.dataroot, opt.question_id, False, opt.train_size)
+#    test_dataloader = bAbIDataloader(test_dataset, batch_size=opt.batchSize, \
+#                                     shuffle=False, num_workers=2)
+#
+#    opt.annotation_dim = 1  # for bAbI
+#    opt.n_edge_types = train_dataset.n_edge_types
+#    opt.n_node = train_dataset.n_node
+#
+#    if opt.net == 'GGNN':
+#        net = GGNN(opt)
+#    else:
+#        net = Graph_OurConvNet(opt)
+##    net.double()
+#    print(net)
+#
+#    criterion = nn.CrossEntropyLoss()
+#
+#    if opt.cuda:
+#        net.cuda()
+#        criterion.cuda()
+#
+#    optimizer = optim.Adam(net.parameters(), lr=opt.lr)
+#    
+#    start_time = time.time()
+#
+#    for epoch in range(0, opt.niter):
+#        train(epoch, train_dataloader, net, criterion, optimizer, opt)
+#        test(test_dataloader, net, criterion, optimizer, opt)
+
+    if opt.save_all:
+        TASK_IDS = [1, 2, 4, 9, 11, 12, 13, 15, 16, 17, 18]
+        results = []
+        for i in TASK_IDS:
+            opt.task_id = i
+            results.append(run(opt))
+            
+        # Create a workbook and add a worksheet.
+        name = datetime.now().strftime("%d-%m-%Y %H.%M.%S")
+        workbook = xlsxwriter.Workbook('{} {} {} {} {}.xlsx'.format(name,opt.net, opt.train_size, opt.niter, opt.state_dim))
+        worksheet = workbook.add_worksheet()
+        
+        # Add a bold format to use to highlight cells.
+        bold = workbook.add_format({'bold': True})
+        
+        # Iterate over the data and write it out row by row.
+        worksheet.write(0, 0, name)
+        worksheet.write(1, 0, "Parameters", bold)
+        worksheet.write(1, 3, "Task", bold)
+        worksheet.write(1, 4, "Average Loss", bold)
+        worksheet.write(1, 6, "Accuracy", bold)
+        worksheet.write(1, 7, "Time", bold)
+        for row, item in enumerate(["net","cuda","train_size", "niter", "n_steps","state_dim","lr"],2):
+            worksheet.write(row, 0, item)
+            worksheet.write(row, 1, vars(opt)[item])
+
+        row = 2
+        col = 3 
+        
+        for i, (train_loss, test_loss, numerator, denominator, clock) in enumerate(results):
+            worksheet.write(row, col,     TASK_IDS[i])
+            worksheet.write(row, col + 1, train_loss)
+            worksheet.write(row, col + 2, "{}/{}".format(numerator,denominator))
+            worksheet.write(row, col + 3, numerator.item()/denominator, workbook.add_format({'num_format': '0.00%'}))
+            worksheet.write(row, col + 4, clock)
+            row += 1
+        
+        workbook.close()
+        print('{}.xlsx saved'.format(name))
+    else:
+        start_time = time.time()
+        train_loss, test_loss, numerator, denominator, clock = run(opt)
+        print("--- Run time: %s seconds ---" % (time.time() - start_time))
+        
 
 if __name__ == "__main__":
     main(opt)

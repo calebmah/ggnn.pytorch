@@ -30,4 +30,4 @@ def test(dataloader, net, criterion, optimizer, opt):
     print('Test set: Average loss: {:.4f}, Accuracy: {}/{} ({:.0f}%)'.format(
         test_loss, correct, len(dataloader.dataset),
         100. * correct / len(dataloader.dataset)))
-    return test_loss, 100. * correct / len(dataloader.dataset)
+    return test_loss, correct , len(dataloader.dataset)

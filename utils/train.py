@@ -34,7 +34,7 @@ def train(epoch, dataloader, net, criterion, optimizer, opt):
         adj_matrix = Variable(adj_matrix)
         annotation = Variable(annotation)
         target = Variable(target)
-
+        
         output = net(init_input, annotation, adj_matrix)
 
         if opt.debug:
