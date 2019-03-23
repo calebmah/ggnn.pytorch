@@ -53,27 +53,27 @@ python main.py --net "GGNN" --task_id 16 --lr 0.005 --state_dim 8 --n_steps 5 --
 Suggesting configurations for each task (RGGC):
 ```
 # task 1
-python main.py --net "GGNN" --task_id 16 --lr 0.05 --state_dim 10 --n_steps 5 --niter 100 --cuda
+python main.py --net "RGGC" --task_id 16 --lr 0.05 --state_dim 10 --n_steps 5 --niter 100 --cuda
 # task 2
-python main.py --net "GGNN" --task_id 16 --lr 0.05 --state_dim 8 --n_steps 10 --niter 100 --cuda
+python main.py --net "RGGC" --task_id 16 --lr 0.05 --state_dim 8 --n_steps 10 --niter 100 --cuda
 # task 4
-python main.py --net "GGNN" --task_id 16 --lr 0.01 --state_dim 8 --n_steps 10 --niter 100 --cuda
+python main.py --net "RGGC" --task_id 16 --lr 0.01 --state_dim 8 --n_steps 10 --niter 100 --cuda
 # task 9
-python main.py --net "GGNN" --task_id 16 --lr 0.005 --state_dim 8 --n_steps 5 --niter 100 --cuda
+python main.py --net "RGGC" --task_id 16 --lr 0.005 --state_dim 8 --n_steps 5 --niter 100 --cuda
 # task 11
-python main.py --net "GGNN" --task_id 16 --lr 0.01 --state_dim 10 --n_steps 10 --niter 100 --cuda
+python main.py --net "RGGC" --task_id 16 --lr 0.01 --state_dim 10 --n_steps 10 --niter 100 --cuda
 # task 12
-python main.py --net "GGNN" --task_id 16 --lr 0.005 --state_dim 4 --n_steps 10 --niter 100 --cuda
+python main.py --net "RGGC" --task_id 16 --lr 0.005 --state_dim 4 --n_steps 10 --niter 100 --cuda
 # task 13
-python main.py --net "GGNN" --task_id 16 --lr 0.005 --state_dim 4 --n_steps 5 --niter 100 --cuda
+python main.py --net "RGGC" --task_id 16 --lr 0.005 --state_dim 4 --n_steps 5 --niter 100 --cuda
 # task 15
-python main.py --net "GGNN" --task_id 16 --lr 0.05 --state_dim 10 --n_steps 10 --niter 100 --cuda
+python main.py --net "RGGC" --task_id 16 --lr 0.05 --state_dim 10 --n_steps 10 --niter 100 --cuda
 # task 16
-python main.py --net "GGNN" --task_id 16 --lr 0.01 --state_dim 4 --n_steps 5 --niter 100 --cuda
+python main.py --net "RGGC" --task_id 16 --lr 0.01 --state_dim 4 --n_steps 5 --niter 100 --cuda
 # task 17
-python main.py --net "GGNN" --task_id 16 --lr 0.01 --state_dim 4 --n_steps 5 --niter 100 --cuda
+python main.py --net "RGGC" --task_id 16 --lr 0.01 --state_dim 4 --n_steps 5 --niter 100 --cuda
 # task 18
-python main.py --net "GGNN" --task_id 16 --lr 0.005 --state_dim 10 --n_steps 10 --niter 100 --cuda
+python main.py --net "RGGC" --task_id 16 --lr 0.005 --state_dim 10 --n_steps 10 --niter 100 --cuda
 ```
 
 ## Results
