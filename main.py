@@ -1,8 +1,6 @@
 import argparse
 import random
 import time
-from datetime import datetime
-import xlsxwriter
 
 import torch
 import torch.nn as nn
@@ -14,6 +12,7 @@ from utils.train import train
 from utils.test import test
 from utils.data.dataset import bAbIDataset
 from utils.data.dataloader import bAbIDataloader
+from utils.save_results import save_results
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--task_id', type=int, default=4, help='bAbI task id')
@@ -34,7 +33,7 @@ parser.add_argument('--vocab', type=int, default=3, help='size of vocabulary')
 parser.add_argument('--nb_clusters_target', type=int, default=1, help='number of target clusters')
 parser.add_argument('--D', type=int, default=50, help='Dimensions')
 parser.add_argument('--H', type=int, default=50, help='Hidden layer size')
-parser.add_argument('--L', type=int, default=10, help='Number of layers')
+#parser.add_argument('--L', type=int, default=10, help='Number of layers')
 parser.add_argument('--self_loop', type=bool, default=True, help='Self loop nodes with edges')
 parser.add_argument('--net', type=str, default='RGGC', choices=['GGNN','RGGC'], help='GGNN or RGGC')
 
@@ -116,44 +115,12 @@ def main(opt):
             opt.state_dim = STATE_DIMS[i]
             opt.lr = LRS[i]
             results.append(run(opt))
-            
-        # Create a workbook and add a worksheet.
-        name = datetime.now().strftime("%d-%m-%Y %H.%M.%S")
-        workbook = xlsxwriter.Workbook('{} {} {} {} {} {} {} {}.xlsx'.format(name,opt.net, opt.train_size, opt.niter, opt.n_steps, opt.state_dim, opt.lr, opt.L))
-        worksheet = workbook.add_worksheet()
+        save_results(opt, results)
         
-        # Add a bold format to use to highlight cells.
-        bold = workbook.add_format({'bold': True})
-        
-        # Iterate over the data and write it out row by row.
-        worksheet.write(0, 0, name)
-        worksheet.write(1, 0, "Parameters", bold)
-        worksheet.write(1, 3, "Task", bold)
-        worksheet.write(1, 4, "Average Loss", bold)
-        worksheet.write(1, 6, "Accuracy", bold)
-        worksheet.write(1, 7, "Time", bold)
-        for row, item in enumerate(["net","cuda","train_size", "niter", "n_steps","state_dim","lr","D","H","L"],2):
-            worksheet.write(row, 0, item)
-            worksheet.write(row, 1, vars(opt)[item])
-
-        row = 2
-        col = 3 
-        
-        for i, (train_loss, test_loss, numerator, denominator, clock) in enumerate(results):
-            worksheet.write(row, col,     TASK_IDS[i])
-            worksheet.write(row, col + 1, train_loss)
-            worksheet.write(row, col + 2, "{}/{}".format(numerator,denominator))
-            worksheet.write(row, col + 3, numerator.item()/denominator, workbook.add_format({'num_format': '0.00%'}))
-            worksheet.write(row, col + 4, clock)
-            row += 1
-        
-        workbook.close()
-        print('{}.xlsx saved'.format(name))
     else:
         start_time = time.time()
         train_loss, test_loss, numerator, denominator, clock = run(opt)
         print("--- Run time: %s seconds ---" % (time.time() - start_time))
-    
     
 def grid(opt):
     lrs = [0.005, 0.01, 0.05]
@@ -168,8 +135,6 @@ def grid(opt):
                 opt.n_steps = n_step
                 main(opt)
                     
-        
-
 if __name__ == "__main__":
     if opt.grid:
         grid(opt)
