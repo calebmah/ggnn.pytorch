@@ -56,7 +56,7 @@ def split_set(data_list, train_size):
     n_examples = len(data_list)
     idx = range(n_examples)
     train = idx[:train_size]
-    val = idx[-train_size:]
+    val = idx[-50:]
     return np.array(data_list)[train],np.array(data_list)[val]
 
 def data_convert(data_list, n_annotation_dim):

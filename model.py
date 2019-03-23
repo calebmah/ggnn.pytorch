@@ -247,7 +247,7 @@ class Graph_OurConvNet(nn.Module):
         D = opt.D
         nb_clusters_target = opt.nb_clusters_target
         H = opt.H
-        L = opt.L
+        L = opt.n_steps
         if opt.self_loop:
             self.self_loop = True
         else:

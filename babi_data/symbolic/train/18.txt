@@ -7,21 +7,21 @@
 7 D > G
 8 F > A
 9 E > A
-10 eval B > A	true	6 8
+10 eval B < A	false	6 8
 1 B > F
 2 B > E
 3 B > G
 4 F > A
 5 G > F
-6 eval G > A	true	5 4
+6 eval G < A	false	5 4
 7 eval B < A	false	4 1
 1 B > E
 2 B > F
 3 E > A
 4 G > F
 5 D > B
-6 eval B < A	false	3 1
-7 eval D > E	true	5 1
+6 eval A < B	true	3 1
+7 eval D < E	false	5 1
 8 eval D < F	false	5 2
 1 E > F
 2 G > A
@@ -30,22 +30,22 @@
 5 E > D
 6 G > B
 7 D > A
-8 eval E < B	false	4 6
-9 eval E > A	true	4 2
+8 eval B < E	true	4 6
+9 eval A < E	true	4 2
 1 G > F
 2 D > F
 3 B > F
 4 E > G
-5 eval E > F	true	4 1
+5 eval E < F	false	4 1
 1 B > A
 2 D > A
 3 G > F
 4 G > B
 5 B > D
 6 E > D
-7 eval E > A	true	6 2
-8 eval G > D	true	4 5
-9 eval G > A	true	4 1
+7 eval E < A	false	6 2
+8 eval G < D	false	4 5
+9 eval A < G	true	4 1
 1 D > B
 2 D > E
 3 G > B
@@ -54,7 +54,7 @@
 6 D > A
 7 E > B
 8 E > F
-9 eval G > F	true	8 5
+9 eval G < F	false	8 5
 10 eval E < A	false	7 4
 11 eval G < A	false	4 3
 12 eval D < F	false	2 8
@@ -67,16 +67,16 @@
 7 E > G
 8 G > F
 9 F > A
-10 eval D < G	false	7 2
-11 eval D > A	true	2 6
-12 eval G > A	true	9 8
-13 eval B > A	true	9 1
+10 eval G < D	true	7 2
+11 eval A < D	true	2 6
+12 eval G < A	false	9 8
+13 eval B < A	false	9 1
 14 eval D < F	false	2 4
 1 G > B
 2 G > A
 3 E > A
 4 E > G
-5 eval E > B	true	4 1
+5 eval B < E	true	4 1
 1 G > E
 2 G > B
 3 E > F
@@ -85,11 +85,11 @@
 6 D > E
 7 G > D
 8 F > A
-9 eval D > F	true	6 3
-10 eval G > A	true	2 5
-11 eval G > F	true	3 1
-12 eval B > E	true	6 4
-13 eval E < A	false	8 3
+9 eval F < D	true	6 3
+10 eval G < A	false	2 5
+11 eval F < G	true	3 1
+12 eval B < E	false	6 4
+13 eval A < E	true	8 3
 1 B > G
 2 D > B
 3 E > F
@@ -99,7 +99,7 @@
 7 B > E
 8 eval D < E	false	7 2
 9 eval D < G	false	1 2
-10 eval B > A	true	5 1
+10 eval A < B	true	5 1
 1 D > A
 2 E > G
 3 G > D
@@ -108,11 +108,11 @@
 6 E > D
 7 F > A
 8 D > B
-9 eval E > F	true	4 6
-10 eval E > B	true	5 2
+9 eval E < F	false	4 6
+10 eval E < B	false	5 2
 11 eval G < A	false	3 1
-12 eval E > A	true	6 1
-13 eval G < F	false	4 3
+12 eval E < A	false	6 1
+13 eval F < G	true	4 3
 1 G > D
 2 B > E
 3 G > A
@@ -120,33 +120,33 @@
 5 B > F
 6 E > F
 7 eval D < E	false	4 2
-8 eval D > F	true	4 5
-9 eval G > B	true	1 4
+8 eval F < D	true	4 5
+9 eval B < G	true	1 4
 1 G > D
 2 B > D
 3 E > B
 4 D > A
 5 B > F
-6 eval E > D	true	3 2
-7 eval G > A	true	4 1
+6 eval D < E	true	3 2
+7 eval A < G	true	4 1
 8 eval E < F	false	3 5
-9 eval B < A	false	4 2
+9 eval A < B	true	4 2
 1 E > A
 2 B > A
 3 E > F
 4 F > A
 5 G > E
 6 eval G < F	false	3 5
-7 eval G > A	true	1 5
+7 eval A < G	true	1 5
 1 B > E
 2 E > F
 3 E > G
 4 D > E
 5 B > A
 6 D > F
-7 eval B > F	true	1 2
-8 eval D < G	false	4 3
-9 eval B > G	true	1 3
+7 eval B < F	false	1 2
+8 eval G < D	true	4 3
+9 eval G < B	true	1 3
 1 B > A
 2 B > E
 3 D > B
@@ -154,9 +154,9 @@
 5 E > A
 6 D > E
 7 B > G
-8 eval D < G	false	3 7
+8 eval G < D	true	3 7
 9 eval D < A	false	3 1
-10 eval B < F	false	7 4
+10 eval F < B	true	7 4
 1 E > D
 2 B > G
 3 G > A
@@ -166,21 +166,21 @@
 7 E > B
 8 eval B < A	false	3 2
 9 eval B < F	false	6 2
-10 eval E > A	true	4 1
-11 eval E < G	false	2 7
-12 eval D < G	false	5 2
+10 eval A < E	true	4 1
+11 eval G < E	true	2 7
+12 eval G < D	true	5 2
 1 B > A
 2 E > G
 3 E > D
 4 E > B
 5 D > B
-6 eval D > A	true	1 5
-7 eval E > A	true	4 1
+6 eval A < D	true	1 5
+7 eval E < A	false	4 1
 1 E > A
 2 B > A
 3 E > D
 4 B > E
-5 eval B > D	true	3 4
+5 eval D < B	true	3 4
 1 G > A
 2 E > A
 3 B > F
@@ -190,21 +190,21 @@
 7 D > F
 8 D > B
 9 G > B
-10 eval D > A	true	4 1
-11 eval G > F	true	9 3
+10 eval D < A	false	4 1
+11 eval G < F	false	9 3
 1 B > A
 2 G > D
 3 B > E
 4 G > E
 5 E > F
-6 eval B > F	true	5 3
+6 eval B < F	false	5 3
 7 eval G < F	false	5 4
 1 F > A
 2 E > B
 3 E > A
 4 G > E
-5 eval G > B	true	2 4
-6 eval G < A	false	3 4
+5 eval G < B	false	2 4
+6 eval A < G	true	3 4
 1 B > A
 2 G > A
 3 B > D
@@ -214,13 +214,13 @@
 7 E > A
 8 D > G
 9 G > F
-10 eval B > F	true	6 3
+10 eval B < F	false	6 3
 1 D > B
 2 F > A
 3 E > F
 4 D > F
 5 eval E < A	false	2 3
-6 eval D < A	false	2 4
+6 eval A < D	true	2 4
 1 B > G
 2 E > A
 3 E > B
@@ -230,10 +230,10 @@
 7 D > F
 8 D > E
 9 G > F
-10 eval B > A	true	5 1
-11 eval E < G	false	3 1
-12 eval D < B	false	3 8
-13 eval B < F	false	9 1
+10 eval B < A	false	5 1
+11 eval G < E	true	3 1
+12 eval B < D	true	3 8
+13 eval F < B	true	9 1
 1 D > B
 2 D > G
 3 D > E
@@ -245,13 +245,13 @@
 9 G > A
 10 eval E < F	false	4 5
 11 eval D < F	false	5 1
-12 eval G < F	false	8 5
+12 eval F < G	true	8 5
 1 B > F
 2 E > D
 3 F > A
 4 E > B
-5 eval B > A	true	1 3
-6 eval E > F	true	4 1
+5 eval A < B	true	1 3
+6 eval F < E	true	4 1
 1 G > A
 2 D > A
 3 D > E
@@ -259,11 +259,11 @@
 5 E > F
 6 G > F
 7 E > G
-8 eval E > A	true	1 7
-9 eval B > G	true	7 4
-10 eval B > F	true	5 4
+8 eval A < E	true	1 7
+9 eval B < G	false	7 4
+10 eval F < B	true	5 4
 11 eval D < F	false	5 3
-12 eval D > G	true	7 3
+12 eval G < D	true	7 3
 1 D > B
 2 F > A
 3 D > E
@@ -278,7 +278,7 @@
 7 E > F
 8 B > A
 9 eval D < A	false	6 2
-10 eval G < A	false	1 6
+10 eval A < G	true	1 6
 1 B > F
 2 B > G
 3 E > G
@@ -287,17 +287,17 @@
 6 E > A
 7 D > A
 8 G > D
-9 eval G < F	false	8 5
-10 eval B > D	true	8 2
-11 eval G > A	true	8 7
-12 eval E < F	false	4 5
+9 eval F < G	true	8 5
+10 eval D < B	true	8 2
+11 eval G < A	false	8 7
+12 eval F < E	true	4 5
 1 G > A
 2 E > F
 3 E > D
 4 B > F
 5 F > A
-6 eval E > A	true	5 2
-7 eval B > A	true	5 4
+6 eval A < E	true	5 2
+7 eval B < A	false	5 4
 1 B > F
 2 B > A
 3 G > D
@@ -321,32 +321,32 @@
 4 D > A
 5 B > F
 6 F > A
-7 eval E > F	true	1 5
+7 eval E < F	false	1 5
 8 eval E < D	false	1 3
 9 eval E < A	false	1 2
 1 E > F
 2 B > G
 3 G > A
 4 B > E
-5 eval B > F	true	1 4
-6 eval B < A	false	3 2
+5 eval F < B	true	1 4
+6 eval A < B	true	3 2
 1 E > D
 2 D > A
 3 G > F
 4 G > A
-5 eval E > A	true	1 2
+5 eval A < E	true	1 2
 1 B > F
 2 E > G
 3 D > G
 4 G > F
 5 G > A
 6 G > B
-7 eval D < B	false	3 6
-8 eval E > A	true	2 5
+7 eval B < D	true	3 6
+8 eval A < E	true	2 5
 9 eval D < A	false	3 5
 10 eval E < F	false	2 4
 11 eval E < B	false	2 6
-12 eval D < F	false	3 4
+12 eval F < D	true	3 4
 1 E > A
 2 F > A
 3 B > F
@@ -358,21 +358,21 @@
 3 G > A
 4 G > E
 5 D > A
-6 eval D > E	true	2 4
+6 eval D < E	false	2 4
 1 G > F
 2 D > A
 3 B > F
 4 E > D
 5 E > B
 6 G > B
-7 eval E > A	true	2 4
-8 eval E < F	false	5 3
+7 eval E < A	false	2 4
+8 eval F < E	true	5 3
 1 D > B
 2 E > D
 3 G > B
 4 G > E
-5 eval G > D	true	4 2
-6 eval E > B	true	2 1
+5 eval G < D	false	4 2
+6 eval B < E	true	2 1
 1 D > F
 2 F > A
 3 G > F
@@ -382,7 +382,7 @@
 7 G > B
 8 E > F
 9 B > A
-10 eval D > A	true	2 1
+10 eval D < A	false	2 1
 1 G > B
 2 B > F
 3 F > A
@@ -390,9 +390,9 @@
 5 E > F
 6 D > B
 7 D > A
-8 eval E < A	false	5 3
-9 eval B > A	true	2 3
-10 eval G > F	true	5 4
+8 eval A < E	true	5 3
+9 eval B < A	false	2 3
+10 eval G < F	false	5 4
 11 eval D < F	false	2 6
 1 B > E
 2 D > G
@@ -400,8 +400,8 @@
 4 B > G
 5 B > D
 6 G > F
-7 eval B > F	true	6 4
-8 eval D > F	true	6 2
+7 eval F < B	true	6 4
+8 eval D < F	false	6 2
 1 G > E
 2 E > F
 3 D > B
@@ -411,10 +411,10 @@
 7 B > F
 8 E > A
 9 B > E
-10 eval G > F	true	1 2
+10 eval G < F	false	1 2
 11 eval D < A	false	3 4
-12 eval G < A	false	1 8
-13 eval D < E	false	3 9
+12 eval A < G	true	1 8
+13 eval E < D	true	3 9
 1 E > A
 2 G > D
 3 G > A
@@ -424,8 +424,8 @@
 7 D > E
 8 B > D
 9 B > E
-10 eval B > A	true	4 8
-11 eval G < E	false	9 6
+10 eval B < A	false	4 8
+11 eval E < G	true	9 6
 1 B > D
 2 D > F
 3 G > A
@@ -437,8 +437,8 @@
 9 E > B
 10 eval E < D	false	5 4
 11 eval B < F	false	2 1
-12 eval G > F	true	5 2
-13 eval E > A	true	3 4
+12 eval G < F	false	5 2
+13 eval E < A	false	3 4
 1 D > F
 2 D > A
 3 D > G
@@ -446,7 +446,7 @@
 5 E > F
 6 E > D
 7 E > G
-8 eval E > A	true	6 2
+8 eval A < E	true	6 2
 1 E > F
 2 G > F
 3 B > E
@@ -454,9 +454,9 @@
 5 D > B
 6 B > F
 7 F > A
-8 eval D < E	false	3 5
+8 eval E < D	true	3 5
 9 eval E < A	false	1 7
-10 eval G < A	false	2 7
+10 eval A < G	true	2 7
 11 eval D < F	false	6 5
 12 eval D < A	false	4 5
 1 G > D
@@ -466,9 +466,9 @@
 5 E > F
 6 G > A
 7 B > A
-8 eval B > D	true	1 3
-9 eval E > A	true	5 2
-10 eval B > F	true	4 5
+8 eval D < B	true	1 3
+9 eval A < E	true	5 2
+10 eval B < F	false	4 5
 1 D > B
 2 D > F
 3 G > F
@@ -478,14 +478,14 @@
 7 D > A
 8 B > F
 9 D > E
-10 eval D > G	true	4 1
+10 eval G < D	true	4 1
 1 E > G
 2 E > B
 3 G > A
 4 B > A
 5 F > A
 6 E > D
-7 eval E > A	true	3 1
+7 eval A < E	true	3 1
 1 E > B
 2 D > F
 3 G > F
@@ -493,34 +493,34 @@
 5 B > F
 6 E > A
 7 G > D
-8 eval E > F	true	5 1
-9 eval G > A	true	4 7
+8 eval F < E	true	5 1
+9 eval G < A	false	4 7
 1 B > E
 2 B > D
 3 F > A
 4 E > F
 5 D > F
 6 G > E
-7 eval E > A	true	4 3
+7 eval E < A	false	4 3
 8 eval G < F	false	4 6
-9 eval D < A	false	3 5
-10 eval B > F	true	5 2
+9 eval A < D	true	3 5
+10 eval F < B	true	5 2
 1 E > D
 2 G > D
 3 D > F
 4 G > E
-5 eval E < F	false	1 3
-6 eval G < F	false	2 3
+5 eval F < E	true	1 3
+6 eval F < G	true	2 3
 1 E > G
 2 D > F
 3 E > F
 4 F > A
 5 G > A
 6 B > E
-7 eval E > A	true	4 3
-8 eval B < F	false	3 6
-9 eval B > G	true	1 6
-10 eval D > A	true	4 2
+7 eval A < E	true	4 3
+8 eval F < B	true	3 6
+9 eval B < G	false	1 6
+10 eval A < D	true	4 2
 1 G > D
 2 F > A
 3 G > B
@@ -530,9 +530,9 @@
 7 D > F
 8 B > F
 9 E > B
-10 eval B < A	false	2 8
-11 eval G < F	false	8 3
-12 eval E > F	true	8 9
+10 eval A < B	true	2 8
+11 eval F < G	true	8 3
+12 eval F < E	true	8 9
 1 B > G
 2 E > F
 3 F > A
@@ -543,7 +543,7 @@
 8 E > A
 9 D > F
 10 eval G < A	false	3 7
-11 eval D < A	false	9 3
+11 eval A < D	true	9 3
 12 eval B < F	false	5 9
 1 E > F
 2 F > A
@@ -553,7 +553,7 @@
 6 E > A
 7 G > A
 8 eval D < F	false	4 1
-9 eval B < F	false	1 3
+9 eval F < B	true	1 3
 10 eval D < A	false	7 5
 11 eval B < A	false	6 3
 1 G > A
@@ -564,13 +564,13 @@
 6 B > F
 7 D > A
 8 E > A
-9 eval D < F	false	4 3
+9 eval F < D	true	4 3
 1 B > E
 2 G > A
 3 D > F
 4 D > B
 5 B > A
-6 eval D > A	true	4 5
+6 eval A < D	true	4 5
 7 eval D < E	false	4 1
 1 E > D
 2 D > A
@@ -579,16 +579,16 @@
 5 D > F
 6 G > D
 7 E > A
-8 eval G > A	true	2 6
-9 eval B > F	true	5 4
-10 eval E < F	false	5 1
-11 eval G > F	true	5 6
+8 eval G < A	false	2 6
+9 eval B < F	false	5 4
+10 eval F < E	true	5 1
+11 eval G < F	false	5 6
 1 G > F
 2 B > G
 3 B > A
 4 F > A
 5 B > E
-6 eval B > F	true	2 1
+6 eval F < B	true	2 1
 7 eval G < A	false	4 1
 1 D > E
 2 B > F
@@ -598,17 +598,17 @@
 6 B > A
 7 E > A
 8 D > B
-9 eval E < F	false	5 2
-10 eval D > F	true	8 2
-11 eval D > A	true	1 7
-12 eval G < B	false	5 4
+9 eval F < E	true	5 2
+10 eval D < F	false	8 2
+11 eval D < A	false	1 7
+12 eval B < G	true	5 4
 1 E > B
 2 G > F
 3 E > A
 4 B > F
 5 B > G
-6 eval E < F	false	4 1
-7 eval E > G	true	5 1
+6 eval F < E	true	4 1
+7 eval E < G	false	5 1
 1 D > F
 2 E > A
 3 B > E
@@ -617,9 +617,9 @@
 6 G > D
 7 B > A
 8 B > G
-9 eval G > F	true	1 6
-10 eval E > F	true	1 4
-11 eval B > D	true	4 3
+9 eval F < G	true	1 6
+10 eval F < E	true	1 4
+11 eval D < B	true	4 3
 1 D > G
 2 B > G
 3 F > A
@@ -629,17 +629,17 @@
 7 D > B
 8 B > E
 9 G > A
-10 eval D < E	false	7 8
+10 eval E < D	true	7 8
 11 eval B < A	false	8 4
-12 eval B > F	true	8 6
+12 eval F < B	true	8 6
 1 B > F
 2 B > A
 3 D > A
 4 E > B
 5 B > D
-6 eval E > D	true	4 5
-7 eval E < F	false	4 1
-8 eval E > A	true	4 2
+6 eval D < E	true	4 5
+7 eval F < E	true	4 1
+8 eval A < E	true	4 2
 1 D > E
 2 D > B
 3 B > F
@@ -647,9 +647,9 @@
 5 B > A
 6 E > F
 7 E > A
-8 eval D > A	true	2 5
-9 eval D < F	false	2 3
-10 eval D < G	false	1 4
+8 eval A < D	true	2 5
+9 eval F < D	true	2 3
+10 eval G < D	true	1 4
 1 B > A
 2 D > G
 3 E > F
@@ -657,9 +657,9 @@
 5 E > G
 6 G > F
 7 D > B
-8 eval D < A	false	1 7
-9 eval B < F	false	4 6
-10 eval D > F	true	6 2
+8 eval A < D	true	1 7
+9 eval F < B	true	4 6
+10 eval F < D	true	6 2
 1 D > G
 2 B > F
 3 D > F
@@ -668,19 +668,19 @@
 6 E > F
 7 F > A
 8 E > G
-9 eval B > A	true	7 2
+9 eval B < A	false	7 2
 10 eval D < A	false	7 3
-11 eval E > A	true	7 6
+11 eval E < A	false	7 6
 1 E > D
 2 D > F
 3 G > A
 4 D > G
 5 G > F
 6 B > D
-7 eval E > G	true	1 4
-8 eval B > F	true	2 6
-9 eval D > A	true	3 4
-10 eval B > G	true	4 6
+7 eval G < E	true	1 4
+8 eval B < F	false	2 6
+9 eval A < D	true	3 4
+10 eval B < G	false	4 6
 11 eval E < F	false	1 2
 1 E > D
 2 D > A
@@ -690,17 +690,17 @@
 6 F > A
 7 E > F
 8 eval E < A	false	1 2
-9 eval B > F	true	7 5
-10 eval B < D	false	1 5
+9 eval B < F	false	7 5
+10 eval D < B	true	1 5
 11 eval B < G	false	4 5
 1 E > A
 2 G > E
 3 B > F
 4 G > B
 5 B > E
-6 eval G < A	false	1 2
+6 eval A < G	true	1 2
 7 eval B < A	false	1 5
-8 eval G > F	true	3 4
+8 eval F < G	true	3 4
 1 G > F
 2 G > E
 3 D > E
@@ -714,22 +714,22 @@
 5 G > A
 6 B > E
 7 eval D < A	false	5 3
-8 eval B < A	false	4 1
-9 eval E > G	true	2 3
-10 eval B > D	true	6 2
+8 eval A < B	true	4 1
+9 eval E < G	false	2 3
+10 eval D < B	true	6 2
 1 G > D
 2 G > A
 3 E > G
 4 F > A
 5 E > B
-6 eval E > A	true	2 3
-7 eval E < D	false	1 3
+6 eval A < E	true	2 3
+7 eval D < E	true	1 3
 1 F > A
 2 G > F
 3 B > F
 4 B > G
-5 eval B > A	true	3 1
-6 eval G > A	true	2 1
+5 eval A < B	true	3 1
+6 eval G < A	false	2 1
 1 B > A
 2 E > B
 3 G > B
@@ -739,11 +739,11 @@
 7 B > D
 8 B > F
 9 eval G < A	false	3 1
-10 eval E < D	false	7 2
-11 eval G > F	true	8 3
-12 eval E > A	true	1 2
+10 eval D < E	true	7 2
+11 eval G < F	false	8 3
+12 eval E < A	false	1 2
 13 eval G < D	false	3 7
-14 eval E > F	true	8 2
+14 eval F < E	true	8 2
 1 G > F
 2 E > G
 3 E > A
@@ -752,9 +752,9 @@
 6 B > G
 7 E > F
 8 E > D
-9 eval B < A	false	3 5
-10 eval B < D	false	8 5
-11 eval B > F	true	7 5
+9 eval A < B	true	3 5
+10 eval D < B	true	8 5
+11 eval F < B	true	7 5
 1 E > F
 2 E > A
 3 D > G
@@ -762,7 +762,7 @@
 5 G > E
 6 eval D < A	false	4 3
 7 eval G < F	false	1 5
-8 eval D > E	true	5 3
+8 eval D < E	false	5 3
 1 B > F
 2 G > F
 3 E > A
@@ -772,15 +772,15 @@
 7 B > G
 8 E > F
 9 D > B
-10 eval D > F	true	1 9
-11 eval D > A	true	6 9
+10 eval D < F	false	1 9
+11 eval D < A	false	6 9
 1 G > A
 2 B > A
 3 G > D
 4 G > B
 5 B > F
 6 D > F
-7 eval G < F	false	4 5
+7 eval F < G	true	4 5
 1 F > A
 2 G > A
 3 B > G
@@ -789,7 +789,7 @@
 6 G > E
 7 E > D
 8 eval B < A	false	2 3
-9 eval G > D	true	6 7
+9 eval D < G	true	6 7
 10 eval B < F	false	5 3
 11 eval B < E	false	6 3
 12 eval E < A	false	1 4
@@ -801,7 +801,7 @@
 6 D > F
 7 B > E
 8 E > G
-9 eval B > A	true	2 7
+9 eval B < A	false	2 7
 10 eval E < F	false	8 1
 11 eval B < G	false	8 7
 12 eval D < A	false	6 4
@@ -811,9 +811,9 @@
 4 F > A
 5 B > A
 6 eval G < D	false	2 3
-7 eval B > F	true	1 3
+7 eval F < B	true	1 3
 8 eval G < A	false	2 5
-9 eval D < A	false	1 4
+9 eval A < D	true	1 4
 1 E > F
 2 F > A
 3 E > D
@@ -823,9 +823,9 @@
 7 G > D
 8 B > D
 9 B > F
-10 eval E < A	false	6 3
-11 eval B < A	false	8 6
-12 eval G > A	true	7 6
+10 eval A < E	true	6 3
+11 eval A < B	true	8 6
+12 eval G < A	false	7 6
 1 B > D
 2 D > F
 3 D > G
@@ -833,28 +833,28 @@
 5 E > F
 6 E > A
 7 D > A
-8 eval B > F	true	2 1
-9 eval B < A	false	7 1
-10 eval B > G	true	3 1
+8 eval F < B	true	2 1
+9 eval A < B	true	7 1
+10 eval B < G	false	3 1
 1 D > E
 2 E > G
 3 G > F
 4 D > A
 5 B > A
-6 eval E > F	true	3 2
+6 eval E < F	false	3 2
 7 eval D < G	false	1 2
 1 B > F
 2 F > A
 3 G > F
 4 D > G
-5 eval B < A	false	1 2
+5 eval A < B	true	1 2
 6 eval G < A	false	3 2
-7 eval D > F	true	3 4
+7 eval F < D	true	3 4
 1 B > G
 2 D > E
 3 G > E
 4 D > A
-5 eval B > E	true	3 1
+5 eval B < E	false	3 1
 1 G > A
 2 B > A
 3 B > G
@@ -871,8 +871,8 @@
 3 D > E
 4 E > B
 5 G > A
-6 eval D > B	true	3 4
-7 eval D > A	true	5 2
+6 eval D < B	false	3 4
+7 eval D < A	false	5 2
 8 eval G < B	false	1 4
 1 D > G
 2 E > A
@@ -882,15 +882,15 @@
 6 B > E
 7 E > F
 8 E > G
-9 eval B > G	true	8 6
+9 eval G < B	true	8 6
 10 eval B < A	false	2 6
 1 E > D
 2 D > A
 3 B > F
 4 G > A
 5 B > E
-6 eval E > A	true	2 1
-7 eval B > D	true	1 5
+6 eval E < A	false	2 1
+7 eval D < B	true	1 5
 1 B > A
 2 G > B
 3 B > F
@@ -899,15 +899,15 @@
 6 E > B
 7 D > A
 8 E > G
-9 eval D > F	true	3 5
-10 eval E > F	true	3 6
-11 eval G > A	true	1 2
-12 eval G > F	true	3 2
+9 eval F < D	true	3 5
+10 eval E < F	false	3 6
+11 eval A < G	true	1 2
+12 eval F < G	true	3 2
 1 D > A
 2 D > G
 3 G > A
 4 G > F
-5 eval D < F	false	4 2
+5 eval F < D	true	4 2
 1 F > A
 2 G > E
 3 E > F
@@ -922,7 +922,7 @@
 4 E > A
 5 G > D
 6 B > E
-7 eval G > E	true	5 2
+7 eval E < G	true	5 2
 8 eval D < A	false	2 4
 9 eval B < A	false	1 3
 1 G > D
@@ -934,8 +934,8 @@
 7 B > G
 8 B > F
 9 E > F
-10 eval E > D	true	5 1
-11 eval G > A	true	6 1
+10 eval D < E	true	5 1
+11 eval G < A	false	6 1
 12 eval B < D	false	7 1
 1 E > F
 2 F > A
@@ -946,8 +946,8 @@
 7 B > E
 8 D > A
 9 eval G < A	false	2 6
-10 eval B < A	false	2 4
-11 eval E > A	true	1 2
+10 eval A < B	true	2 4
+11 eval E < A	false	1 2
 1 G > B
 2 B > F
 3 E > B
@@ -955,8 +955,8 @@
 5 E > F
 6 F > A
 7 G > F
-8 eval G > A	true	6 7
-9 eval B < A	false	2 6
+8 eval A < G	true	6 7
+9 eval A < B	true	2 6
 1 G > A
 2 G > D
 3 G > E
@@ -965,8 +965,8 @@
 6 F > A
 7 B > F
 8 B > E
-9 eval E > A	true	6 4
-10 eval B > A	true	6 7
+9 eval A < E	true	6 4
+10 eval A < B	true	6 7
 1 G > F
 2 D > A
 3 B > D
@@ -979,15 +979,15 @@
 4 E > F
 5 G > F
 6 F > A
-7 eval B > F	true	1 4
-8 eval E < A	false	6 4
+7 eval F < B	true	1 4
+8 eval A < E	true	6 4
 9 eval G < A	false	6 5
-10 eval D > F	true	4 2
+10 eval F < D	true	4 2
 1 B > E
 2 D > E
 3 F > A
 4 D > F
-5 eval D < A	false	3 4
+5 eval A < D	true	3 4
 1 B > G
 2 E > F
 3 D > F
@@ -999,30 +999,30 @@
 9 D > A
 10 eval E < G	false	7 6
 11 eval E < A	false	9 6
-12 eval G > A	true	4 5
+12 eval A < G	true	4 5
 13 eval B < F	false	1 5
 1 B > F
 2 E > A
 3 G > E
 4 F > A
 5 E > F
-6 eval G > F	true	5 3
+6 eval G < F	false	5 3
 7 eval B < A	false	4 1
-8 eval G > A	true	2 3
+8 eval A < G	true	2 3
 1 G > E
 2 F > A
 3 G > F
 4 D > F
-5 eval D > A	true	2 4
-6 eval G > A	true	2 3
+5 eval A < D	true	2 4
+6 eval G < A	false	2 3
 1 D > A
 2 G > D
 3 E > A
 4 B > F
 5 E > D
 6 B > D
-7 eval G > A	true	1 2
-8 eval B < A	false	1 6
+7 eval G < A	false	1 2
+8 eval A < B	true	1 6
 1 E > G
 2 G > A
 3 E > A
@@ -1041,24 +1041,24 @@
 6 E > F
 7 B > D
 8 G > F
-9 eval B > A	true	7 2
-10 eval E > A	true	1 6
-11 eval B < E	false	7 4
-12 eval G > A	true	1 8
-13 eval D > F	true	4 6
+9 eval B < A	false	7 2
+10 eval E < A	false	1 6
+11 eval E < B	true	7 4
+12 eval A < G	true	1 8
+13 eval F < D	true	4 6
 1 E > B
 2 E > D
 3 F > A
 4 G > A
 5 E > F
-6 eval E < A	false	3 5
+6 eval A < E	true	3 5
 1 E > F
 2 G > B
 3 D > F
 4 B > F
 5 G > D
 6 G > A
-7 eval G > F	true	5 3
+7 eval G < F	false	5 3
 1 G > A
 2 D > A
 3 B > D
@@ -1067,15 +1067,15 @@
 6 E > F
 7 B > G
 8 eval B < F	false	4 3
-9 eval B > A	true	2 3
+9 eval B < A	false	2 3
 1 E > A
 2 D > E
 3 B > E
 4 E > F
-5 eval D < A	false	1 2
-6 eval B > F	true	4 3
-7 eval B > A	true	1 3
-8 eval D < F	false	4 2
+5 eval A < D	true	1 2
+6 eval B < F	false	4 3
+7 eval B < A	false	1 3
+8 eval F < D	true	4 2
 1 G > B
 2 B > A
 3 G > A
@@ -1088,8 +1088,8 @@
 4 D > A
 5 E > D
 6 B > A
-7 eval E < A	false	5 4
-8 eval B > D	true	3 5
+7 eval A < E	true	5 4
+8 eval D < B	true	3 5
 1 B > D
 2 G > A
 3 B > E
@@ -1097,16 +1097,16 @@
 5 G > F
 6 D > F
 7 D > G
-8 eval B > F	true	6 1
-9 eval D > A	true	2 7
+8 eval B < F	false	6 1
+9 eval A < D	true	2 7
 10 eval B < G	false	7 1
 1 D > F
 2 B > E
 3 G > D
 4 B > F
 5 F > A
-6 eval D < A	false	5 1
-7 eval B < A	false	5 4
+6 eval A < D	true	5 1
+7 eval A < B	true	5 4
 8 eval G < F	false	1 3
 1 G > D
 2 D > A
@@ -1116,38 +1116,38 @@
 6 F > A
 7 D > F
 8 eval G < F	false	1 7
-9 eval G < A	false	3 4
+9 eval A < G	true	3 4
 1 F > A
 2 G > F
 3 D > G
 4 G > A
 5 B > F
-6 eval D > A	true	4 3
-7 eval D > F	true	2 3
-8 eval B < A	false	1 5
+6 eval D < A	false	4 3
+7 eval F < D	true	2 3
+8 eval A < B	true	1 5
 1 G > D
 2 B > D
 3 G > F
 4 E > D
 5 D > F
-6 eval B < F	false	5 2
-7 eval E < F	false	5 4
+6 eval F < B	true	5 2
+7 eval F < E	true	5 4
 1 G > A
 2 E > F
 3 B > E
 4 E > A
-5 eval B > A	true	4 3
-6 eval B < F	false	2 3
+5 eval B < A	false	4 3
+6 eval F < B	true	2 3
 1 D > G
 2 D > E
 3 B > G
 4 E > G
 5 E > F
 6 G > A
-7 eval D < F	false	2 5
-8 eval E > A	true	4 6
+7 eval F < D	true	2 5
+8 eval A < E	true	4 6
 9 eval B < A	false	3 6
-10 eval D > A	true	1 6
+10 eval D < A	false	1 6
 1 D > B
 2 E > D
 3 D > G
@@ -1157,10 +1157,10 @@
 7 E > F
 8 B > A
 9 B > G
-10 eval D > A	true	8 1
+10 eval A < D	true	8 1
 11 eval E < G	false	3 2
 12 eval D < F	false	5 1
-13 eval E < B	false	1 2
+13 eval B < E	true	1 2
 14 eval E < A	false	4 7
 1 D > F
 2 D > E
@@ -1171,8 +1171,8 @@
 7 E > G
 8 B > F
 9 eval B < A	false	6 3
-10 eval B < E	false	2 3
-11 eval D > G	true	7 2
+10 eval E < B	true	2 3
+11 eval D < G	false	7 2
 1 E > B
 2 B > F
 3 G > F
@@ -1180,16 +1180,16 @@
 5 D > A
 6 E > D
 7 G > B
-8 eval E < F	false	1 2
+8 eval F < E	true	1 2
 9 eval E < A	false	5 6
 1 G > F
 2 E > F
 3 F > A
 4 D > G
 5 G > A
-6 eval E < A	false	2 3
+6 eval A < E	true	2 3
 7 eval D < A	false	4 5
-8 eval D < F	false	4 1
+8 eval F < D	true	4 1
 1 E > G
 2 B > A
 3 G > F
@@ -1198,8 +1198,8 @@
 6 D > G
 7 D > B
 8 eval E < A	false	5 2
-9 eval D > A	true	2 7
-10 eval E > F	true	3 1
+9 eval A < D	true	2 7
+10 eval F < E	true	3 1
 1 G > D
 2 B > E
 3 E > A
@@ -1207,16 +1207,16 @@
 5 G > E
 6 D > A
 7 F > A
-8 eval B > A	true	7 4
-9 eval G < A	false	1 6
+8 eval B < A	false	7 4
+9 eval A < G	true	1 6
 1 E > B
 2 B > F
 3 G > F
 4 D > G
 5 E > F
 6 B > A
-7 eval E > A	true	6 1
-8 eval D > F	true	4 3
+7 eval A < E	true	6 1
+8 eval F < D	true	4 3
 1 B > F
 2 E > D
 3 G > F
@@ -1227,16 +1227,16 @@
 8 D > A
 9 B > A
 10 eval E < A	false	8 2
-11 eval E > F	true	5 2
+11 eval E < F	false	5 2
 1 B > D
 2 G > F
 3 D > F
 4 E > D
 5 F > A
 6 G > A
-7 eval D > A	true	3 5
-8 eval B > F	true	1 3
-9 eval E > F	true	3 4
+7 eval D < A	false	3 5
+8 eval B < F	false	1 3
+9 eval F < E	true	3 4
 1 B > F
 2 G > F
 3 D > B
@@ -1245,7 +1245,7 @@
 6 G > A
 7 G > B
 8 eval D < F	false	4 2
-9 eval D < A	false	4 6
+9 eval A < D	true	4 6
 1 D > F
 2 E > A
 3 B > A
@@ -1254,23 +1254,23 @@
 6 G > D
 7 G > A
 8 B > G
-9 eval B < D	false	8 6
-10 eval G < F	false	1 6
-11 eval B < E	false	8 5
+9 eval D < B	true	8 6
+10 eval F < G	true	1 6
+11 eval E < B	true	8 5
 1 B > D
 2 D > F
 3 G > B
 4 E > F
 5 B > A
 6 eval G < D	false	3 1
-7 eval G > A	true	3 5
-8 eval B < F	false	2 1
+7 eval G < A	false	3 5
+8 eval F < B	true	2 1
 1 E > G
 2 D > E
 3 B > F
 4 E > B
 5 eval D < B	false	2 4
-6 eval D < G	false	2 1
+6 eval G < D	true	2 1
 7 eval E < F	false	4 3
 1 G > A
 2 E > B
@@ -1278,8 +1278,8 @@
 4 G > E
 5 B > A
 6 D > A
-7 eval G > B	true	2 4
-8 eval E > A	true	5 2
+7 eval B < G	true	2 4
+8 eval A < E	true	5 2
 1 D > A
 2 E > A
 3 G > B
@@ -1289,22 +1289,22 @@
 7 G > F
 8 E > F
 9 E > G
-10 eval E > B	true	9 3
+10 eval B < E	true	9 3
 1 E > B
 2 B > F
 3 D > E
 4 E > A
 5 B > A
-6 eval E > F	true	2 1
-7 eval D < B	false	1 3
+6 eval E < F	false	2 1
+7 eval B < D	true	1 3
 8 eval D < A	false	4 3
 1 E > G
 2 F > A
 3 G > F
 4 B > G
-5 eval B < F	false	4 3
-6 eval G > A	true	2 3
-7 eval E < F	false	3 1
+5 eval F < B	true	4 3
+6 eval A < G	true	2 3
+7 eval F < E	true	3 1
 1 G > B
 2 E > D
 3 G > E
@@ -1312,25 +1312,25 @@
 5 E > A
 6 B > F
 7 eval G < A	false	3 5
-8 eval G > D	true	3 2
-9 eval G > F	true	1 6
+8 eval D < G	true	3 2
+9 eval F < G	true	1 6
 1 B > G
 2 E > D
 3 G > E
 4 B > F
 5 G > A
 6 D > F
-7 eval E < F	false	2 6
-8 eval B > E	true	3 1
+7 eval F < E	true	2 6
+8 eval B < E	false	3 1
 9 eval B < A	false	5 1
-10 eval G < D	false	2 3
+10 eval D < G	true	2 3
 1 G > F
 2 B > F
 3 B > A
 4 F > A
 5 D > G
-6 eval G < A	false	4 1
-7 eval D < F	false	1 5
+6 eval A < G	true	4 1
+7 eval F < D	true	1 5
 1 G > B
 2 B > A
 3 G > F
@@ -1340,17 +1340,17 @@
 7 D > E
 8 F > A
 9 D > B
-10 eval G < A	false	1 2
+10 eval A < G	true	1 2
 11 eval D < F	false	6 3
-12 eval E < A	false	5 2
+12 eval A < E	true	5 2
 1 D > B
 2 E > A
 3 B > A
 4 D > E
 5 F > A
 6 B > F
-7 eval D < F	false	6 1
-8 eval D < A	false	3 1
+7 eval F < D	true	6 1
+8 eval A < D	true	3 1
 1 G > B
 2 D > A
 3 B > A
@@ -1362,16 +1362,16 @@
 4 G > F
 5 E > A
 6 D > F
-7 eval G < A	false	4 3
-8 eval D > A	true	3 6
+7 eval A < G	true	4 3
+8 eval D < A	false	3 6
 1 D > B
 2 E > D
 3 G > F
 4 E > A
 5 G > A
 6 D > F
-7 eval E < F	false	6 2
-8 eval E > B	true	1 2
+7 eval F < E	true	6 2
+8 eval B < E	true	1 2
 1 B > E
 2 B > A
 3 D > F
@@ -1398,44 +1398,44 @@
 7 B > F
 8 D > E
 9 B > A
-10 eval G > A	true	6 3
-11 eval E < A	false	6 4
+10 eval A < G	true	6 3
+11 eval A < E	true	6 4
 1 B > A
 2 E > B
 3 E > D
 4 B > F
 5 E > F
-6 eval E < A	false	2 1
+6 eval A < E	true	2 1
 1 D > B
 2 G > B
 3 E > F
 4 B > F
 5 D > A
 6 F > A
-7 eval G > F	true	2 4
-8 eval D > F	true	1 4
-9 eval E < A	false	3 6
-10 eval B < A	false	6 4
+7 eval G < F	false	2 4
+8 eval F < D	true	1 4
+9 eval A < E	true	3 6
+10 eval A < B	true	6 4
 1 G > F
 2 E > F
 3 D > F
 4 B > E
 5 B > A
 6 D > G
-7 eval B < F	false	2 4
+7 eval F < B	true	2 4
 1 E > D
 2 D > A
 3 B > D
 4 B > G
-5 eval B > A	true	3 2
+5 eval A < B	true	3 2
 6 eval E < A	false	1 2
 1 E > B
 2 G > F
 3 F > A
 4 E > G
 5 G > A
-6 eval E < F	false	2 4
-7 eval E > A	true	5 4
+6 eval F < E	true	2 4
+7 eval A < E	true	5 4
 1 D > A
 2 B > E
 3 E > A
@@ -1443,14 +1443,14 @@
 5 D > F
 6 G > E
 7 D > E
-8 eval G > A	true	3 6
-9 eval B > F	true	5 4
-10 eval B > A	true	1 4
+8 eval G < A	false	3 6
+9 eval F < B	true	5 4
+10 eval B < A	false	1 4
 1 F > A
 2 E > A
 3 B > F
 4 G > A
-5 eval B < A	false	3 1
+5 eval A < B	true	3 1
 1 E > F
 2 D > F
 3 D > A
@@ -1459,14 +1459,14 @@
 6 E > A
 7 B > D
 8 eval E < D	false	4 7
-9 eval B > F	true	2 7
+9 eval B < F	false	2 7
 10 eval B < A	false	3 7
 1 G > A
 2 E > F
 3 F > A
 4 B > G
-5 eval E > A	true	3 2
-6 eval B < A	false	1 4
+5 eval A < E	true	3 2
+6 eval A < B	true	1 4
 1 D > F
 2 E > A
 3 G > A
@@ -1475,7 +1475,7 @@
 6 F > A
 7 D > E
 8 D > A
-9 eval D > B	true	7 5
+9 eval D < B	false	7 5
 1 E > D
 2 E > F
 3 G > A
@@ -1485,7 +1485,7 @@
 7 F > A
 8 eval G < D	false	1 5
 9 eval D < A	false	6 7
-10 eval E < A	false	2 7
+10 eval A < E	true	2 7
 1 D > G
 2 G > F
 3 B > D
@@ -1494,10 +1494,10 @@
 6 E > D
 7 F > A
 8 B > G
-9 eval E < A	false	7 5
-10 eval G < A	false	7 2
-11 eval B > F	true	2 8
-12 eval D > F	true	1 2
+9 eval A < E	true	7 5
+10 eval A < G	true	7 2
+11 eval B < F	false	2 8
+12 eval D < F	false	1 2
 1 D > E
 2 D > B
 3 G > D
@@ -1505,11 +1505,11 @@
 5 E > B
 6 B > A
 7 eval G < B	false	3 2
-8 eval G < E	false	3 1
+8 eval E < G	true	3 1
 9 eval D < A	false	2 6
-10 eval E > A	true	6 5
-11 eval D > F	true	2 4
-12 eval E < F	false	4 5
+10 eval E < A	false	6 5
+11 eval D < F	false	2 4
+12 eval F < E	true	4 5
 1 G > B
 2 D > A
 3 F > A
@@ -1519,8 +1519,8 @@
 7 E > F
 8 D > B
 9 E > D
-10 eval G > A	true	3 5
-11 eval E < B	false	9 8
+10 eval A < G	true	3 5
+11 eval B < E	true	9 8
 1 D > F
 2 B > A
 3 D > E
@@ -1528,8 +1528,8 @@
 5 G > A
 6 E > A
 7 eval G < E	false	3 4
-8 eval D > A	true	6 3
-9 eval G > F	true	1 4
+8 eval A < D	true	6 3
+9 eval F < G	true	1 4
 1 B > A
 2 D > A
 3 E > F
@@ -1537,9 +1537,9 @@
 5 D > G
 6 B > E
 7 G > B
-8 eval D > F	true	3 4
-9 eval G > A	true	7 1
-10 eval B < F	false	6 3
+8 eval F < D	true	3 4
+9 eval G < A	false	7 1
+10 eval F < B	true	6 3
 11 eval G < E	false	7 6
 12 eval D < B	false	7 5
 1 E > D
@@ -1548,7 +1548,7 @@
 4 E > F
 5 G > F
 6 D > A
-7 eval E > A	true	1 6
+7 eval A < E	true	1 6
 1 E > F
 2 B > G
 3 D > F
@@ -1558,21 +1558,21 @@
 7 D > B
 8 B > A
 9 D > G
-10 eval D > A	true	8 7
-11 eval B > F	true	4 2
-12 eval E < B	false	7 6
+10 eval D < A	false	8 7
+11 eval F < B	true	4 2
+12 eval B < E	true	7 6
 1 D > E
 2 B > F
 3 B > D
 4 E > A
-5 eval D > A	true	1 4
-6 eval B > E	true	1 3
+5 eval D < A	false	1 4
+6 eval B < E	false	1 3
 1 B > A
 2 E > F
 3 E > B
 4 D > B
 5 eval E < A	false	3 1
-6 eval D > A	true	4 1
+6 eval A < D	true	4 1
 1 B > A
 2 B > F
 3 G > A
@@ -1580,20 +1580,20 @@
 5 E > D
 6 D > G
 7 E > G
-8 eval E > F	true	2 4
-9 eval E < A	false	1 4
-10 eval D > A	true	6 3
+8 eval F < E	true	2 4
+9 eval A < E	true	1 4
+10 eval A < D	true	6 3
 1 D > A
 2 B > F
 3 E > A
 4 G > B
-5 eval G > F	true	2 4
+5 eval G < F	false	2 4
 1 B > G
 2 D > E
 3 D > B
 4 G > A
-5 eval B > A	true	4 1
-6 eval D < G	false	3 1
+5 eval B < A	false	4 1
+6 eval G < D	true	3 1
 1 G > A
 2 D > F
 3 D > A
@@ -1611,10 +1611,10 @@
 4 F > A
 5 D > G
 6 E > F
-7 eval D < F	false	5 3
+7 eval F < D	true	5 3
 8 eval B < G	false	1 2
 9 eval G < A	false	4 3
-10 eval B < F	false	6 2
+10 eval F < B	true	6 2
 11 eval E < A	false	6 4
 1 D > E
 2 B > D
@@ -1626,8 +1626,8 @@
 8 D > G
 9 eval B < F	false	6 2
 10 eval B < E	false	1 2
-11 eval D > A	true	5 8
-12 eval B < G	false	8 2
+11 eval A < D	true	5 8
+12 eval G < B	true	8 2
 1 F > A
 2 E > F
 3 G > B
@@ -1637,9 +1637,9 @@
 7 D > F
 8 D > A
 9 G > D
-10 eval G < F	false	7 9
+10 eval F < G	true	7 9
 11 eval B < F	false	7 6
-12 eval B > A	true	8 6
+12 eval B < A	false	8 6
 1 D > G
 2 E > A
 3 G > F
@@ -1649,26 +1649,26 @@
 7 D > B
 8 F > A
 9 B > F
-10 eval E < F	false	5 9
-11 eval D > F	true	7 9
-12 eval D < A	false	1 4
-13 eval B > A	true	8 9
+10 eval F < E	true	5 9
+11 eval F < D	true	7 9
+12 eval A < D	true	1 4
+13 eval B < A	false	8 9
 1 D > A
 2 G > D
 3 E > F
 4 B > D
 5 D > F
 6 G > E
-7 eval B < A	false	4 1
-8 eval G > F	true	3 6
-9 eval B < F	false	4 5
-10 eval G < A	false	1 2
+7 eval A < B	true	4 1
+8 eval F < G	true	3 6
+9 eval F < B	true	4 5
+10 eval A < G	true	1 2
 1 B > A
 2 F > A
 3 E > G
 4 G > B
 5 G > F
-6 eval E > F	true	5 3
+6 eval E < F	false	5 3
 7 eval G < A	false	2 5
 8 eval E < B	false	4 3
 1 D > A
@@ -1677,9 +1677,9 @@
 4 D > F
 5 E > G
 6 D > E
-7 eval D > G	true	5 6
-8 eval B > F	true	2 3
-9 eval B > G	true	2 5
+7 eval D < G	false	5 6
+8 eval F < B	true	2 3
+9 eval G < B	true	2 5
 1 G > E
 2 D > E
 3 B > F
@@ -1687,14 +1687,14 @@
 5 D > G
 6 D > F
 7 E > A
-8 eval D < A	false	7 2
-9 eval G < A	false	7 1
-10 eval G > F	true	4 1
+8 eval A < D	true	7 2
+9 eval A < G	true	7 1
+10 eval F < G	true	4 1
 1 E > A
 2 E > B
 3 F > A
 4 D > E
-5 eval D < B	false	2 4
+5 eval B < D	true	2 4
 6 eval D < A	false	1 4
 1 E > A
 2 G > F
@@ -1706,7 +1706,7 @@
 8 D > F
 9 G > E
 10 eval D < A	false	4 1
-11 eval G < A	false	9 1
+11 eval A < G	true	9 1
 1 B > F
 2 G > A
 3 D > B
@@ -1722,9 +1722,9 @@
 7 D > E
 8 B > A
 9 D > G
-10 eval B > F	true	3 4
-11 eval D > A	true	9 5
-12 eval B < G	false	9 3
+10 eval F < B	true	3 4
+11 eval A < D	true	9 5
+12 eval G < B	true	9 3
 1 D > E
 2 E > A
 3 D > A
@@ -1734,15 +1734,15 @@
 7 E > F
 8 F > A
 9 B > A
-10 eval D > F	true	4 5
-11 eval G > A	true	8 6
+10 eval F < D	true	4 5
+11 eval G < A	false	8 6
 1 B > G
 2 B > E
 3 G > F
 4 E > G
 5 D > F
-6 eval E > F	true	4 3
-7 eval B > F	true	3 1
+6 eval F < E	true	4 3
+7 eval B < F	false	3 1
 1 E > A
 2 G > D
 3 E > D
@@ -1751,17 +1751,17 @@
 6 G > F
 7 D > B
 8 eval G < B	false	2 7
-9 eval E > B	true	7 3
+9 eval E < B	false	7 3
 1 G > A
 2 F > A
 3 E > F
 4 G > F
-5 eval E > A	true	2 3
+5 eval E < A	false	2 3
 1 G > D
 2 G > A
 3 B > G
 4 F > A
-5 eval B > D	true	3 1
+5 eval D < B	true	3 1
 6 eval B < A	false	3 2
 1 D > G
 2 E > F
@@ -1772,23 +1772,23 @@
 7 B > A
 8 E > D
 9 B > D
-10 eval B > F	true	2 4
-11 eval E > A	true	8 5
+10 eval B < F	false	2 4
+11 eval A < E	true	8 5
 1 G > D
 2 F > A
 3 B > D
 4 D > F
 5 G > F
 6 B > E
-7 eval B > F	true	3 4
-8 eval D < A	false	4 2
+7 eval B < F	false	3 4
+8 eval A < D	true	4 2
 9 eval G < A	false	5 2
 1 F > A
 2 B > F
 3 E > B
 4 E > G
-5 eval E > F	true	3 2
-6 eval B > A	true	1 2
+5 eval E < F	false	3 2
+6 eval B < A	false	1 2
 1 B > F
 2 B > E
 3 B > A
@@ -1805,9 +1805,9 @@
 7 B > F
 8 E > F
 9 E > B
-10 eval G > F	true	3 6
-11 eval B < A	false	7 5
-12 eval G > A	true	3 1
+10 eval G < F	false	3 6
+11 eval A < B	true	7 5
+12 eval G < A	false	3 1
 1 F > A
 2 E > D
 3 G > D
@@ -1817,9 +1817,9 @@
 7 D > F
 8 B > G
 9 G > A
-10 eval B > A	true	9 8
-11 eval B > F	true	7 4
-12 eval D > A	true	7 1
+10 eval B < A	false	9 8
+11 eval B < F	false	7 4
+12 eval D < A	false	7 1
 13 eval G < F	false	3 7
 1 F > A
 2 E > B
@@ -1829,17 +1829,17 @@
 6 B > F
 7 D > A
 8 G > B
-9 eval E < F	false	2 6
-10 eval G > F	true	6 8
+9 eval F < E	true	2 6
+10 eval F < G	true	6 8
 1 F > A
 2 G > F
 3 G > D
 4 D > F
 5 E > G
 6 E > D
-7 eval D > A	true	1 4
-8 eval G > A	true	2 1
-9 eval E > F	true	2 5
+7 eval D < A	false	1 4
+8 eval G < A	false	2 1
+9 eval F < E	true	2 5
 1 F > A
 2 G > E
 3 B > F
@@ -1847,10 +1847,10 @@
 5 D > B
 6 E > F
 7 D > E
-8 eval G > F	true	6 2
-9 eval G > B	true	4 5
+8 eval G < F	false	6 2
+9 eval G < B	false	4 5
 10 eval E < A	false	6 1
-11 eval B > A	true	3 1
+11 eval A < B	true	3 1
 12 eval D < F	false	7 6
 1 B > G
 2 B > E
@@ -1858,8 +1858,8 @@
 4 D > E
 5 G > E
 6 E > A
-7 eval G > A	true	6 5
-8 eval B < A	false	6 2
+7 eval G < A	false	6 5
+8 eval A < B	true	6 2
 1 E > B
 2 G > A
 3 E > F
@@ -1869,8 +1869,8 @@
 7 D > B
 8 D > F
 9 B > A
-10 eval D > A	true	8 4
-11 eval E > A	true	4 3
+10 eval A < D	true	8 4
+11 eval E < A	false	4 3
 1 E > A
 2 E > B
 3 B > F
@@ -1878,9 +1878,9 @@
 5 B > D
 6 G > D
 7 eval G < A	false	4 6
-8 eval B > A	true	4 5
-9 eval E > F	true	3 2
-10 eval E > D	true	5 2
+8 eval B < A	false	4 5
+9 eval E < F	false	3 2
+10 eval D < E	true	5 2
 1 G > A
 2 D > F
 3 B > G
@@ -1889,19 +1889,19 @@
 6 E > F
 7 B > D
 8 E > D
-9 eval B < F	false	2 7
-10 eval G > F	true	2 5
+9 eval F < B	true	2 7
+10 eval G < F	false	2 5
 1 F > A
 2 G > A
 3 D > G
 4 E > A
-5 eval D > A	true	2 3
+5 eval A < D	true	2 3
 1 G > F
 2 E > B
 3 B > G
 4 E > D
-5 eval B > F	true	1 3
-6 eval E > G	true	3 2
+5 eval B < F	false	1 3
+6 eval E < G	false	3 2
 1 F > A
 2 E > F
 3 E > A
@@ -1910,7 +1910,7 @@
 6 G > D
 7 G > A
 8 eval D < A	false	4 1
-9 eval G > F	true	6 4
+9 eval F < G	true	6 4
 1 D > A
 2 E > A
 3 G > D
@@ -1920,21 +1920,21 @@
 7 B > A
 8 D > F
 9 B > D
-10 eval E > D	true	3 4
-11 eval G < A	false	1 3
-12 eval E < F	false	5 4
+10 eval E < D	false	3 4
+11 eval A < G	true	1 3
+12 eval F < E	true	5 4
 1 B > D
 2 G > A
 3 D > F
 4 E > A
-5 eval B < F	false	1 3
+5 eval F < B	true	1 3
 1 E > A
 2 F > A
 3 B > A
 4 G > D
 5 B > E
 6 D > A
-7 eval G > A	true	4 6
+7 eval A < G	true	4 6
 1 E > D
 2 D > F
 3 B > D
@@ -1944,17 +1944,17 @@
 7 E > F
 8 D > G
 9 E > A
-10 eval D < A	false	8 6
+10 eval A < D	true	8 6
 11 eval B < A	false	9 5
-12 eval E > G	true	8 1
-13 eval B > G	true	8 3
+12 eval E < G	false	8 1
+13 eval G < B	true	8 3
 1 D > F
 2 D > A
 3 B > A
 4 G > D
 5 F > A
-6 eval G > A	true	4 2
-7 eval G > F	true	4 1
+6 eval A < G	true	4 2
+7 eval G < F	false	4 1
 1 G > F
 2 E > D
 3 E > G
@@ -1963,16 +1963,16 @@
 6 G > A
 7 D > A
 8 eval E < A	false	7 2
-9 eval B > F	true	5 1
-10 eval E > F	true	4 2
-11 eval B > A	true	5 6
+9 eval F < B	true	5 1
+10 eval F < E	true	4 2
+11 eval A < B	true	5 6
 1 G > A
 2 E > F
 3 B > E
 4 G > B
 5 G > D
-6 eval B > F	true	3 2
-7 eval G > E	true	4 3
+6 eval F < B	true	3 2
+7 eval E < G	true	4 3
 1 D > F
 2 B > F
 3 D > E
@@ -1981,28 +1981,28 @@
 6 B > A
 7 G > D
 8 eval G < F	false	7 1
-9 eval B > E	true	4 3
+9 eval E < B	true	4 3
 1 E > G
 2 G > F
 3 E > A
 4 D > E
-5 eval D < G	false	1 4
-6 eval E > F	true	2 1
-7 eval D > A	true	3 4
+5 eval G < D	true	1 4
+6 eval F < E	true	2 1
+7 eval A < D	true	3 4
 1 B > D
 2 G > F
 3 D > F
 4 F > A
 5 eval G < A	false	2 4
-6 eval B > F	true	1 3
-7 eval D > A	true	3 4
+6 eval F < B	true	1 3
+7 eval D < A	false	3 4
 1 E > G
 2 D > F
 3 E > D
 4 G > A
 5 D > A
 6 F > A
-7 eval E > A	true	1 4
+7 eval E < A	false	1 4
 8 eval E < F	false	3 2
 1 G > B
 2 E > G
@@ -2011,7 +2011,7 @@
 5 G > A
 6 B > A
 7 E > B
-8 eval E > A	true	5 2
+8 eval A < E	true	5 2
 9 eval E < F	false	4 2
 1 B > G
 2 D > B
@@ -2022,9 +2022,9 @@
 7 E > F
 8 B > E
 9 eval D < F	false	2 6
-10 eval D < G	false	2 1
+10 eval G < D	true	2 1
 11 eval G < F	false	5 7
-12 eval D > E	true	2 8
+12 eval D < E	false	2 8
 1 G > F
 2 D > G
 3 E > A
@@ -2033,15 +2033,15 @@
 6 D > B
 7 B > A
 8 G > A
-9 eval D < A	false	3 4
-10 eval D < F	false	1 2
+9 eval A < D	true	3 4
+10 eval F < D	true	1 2
 11 eval B < F	false	1 5
 1 B > F
 2 D > B
 3 G > A
 4 E > F
 5 D > G
-6 eval D > F	true	2 1
+6 eval F < D	true	2 1
 7 eval D < A	false	5 3
 1 D > F
 2 D > A
@@ -2050,22 +2050,22 @@
 5 B > F
 6 B > E
 7 E > A
-8 eval B > A	true	2 4
-9 eval B < G	false	3 4
+8 eval B < A	false	2 4
+9 eval G < B	true	3 4
 1 D > A
 2 B > D
 3 E > D
 4 G > A
 5 B > F
 6 F > A
-7 eval E > A	true	1 3
+7 eval A < E	true	1 3
 8 eval B < A	false	6 5
 1 G > E
 2 B > F
 3 B > G
 4 G > D
 5 eval B < E	false	1 3
-6 eval B < D	false	4 3
+6 eval D < B	true	4 3
 1 G > E
 2 E > A
 3 G > F
@@ -2075,17 +2075,17 @@
 7 D > A
 8 B > D
 9 B > A
-10 eval B > E	true	4 1
-11 eval B > F	true	4 3
-12 eval G < A	false	1 2
+10 eval E < B	true	4 1
+11 eval B < F	false	4 3
+12 eval A < G	true	1 2
 1 G > F
 2 F > A
 3 G > E
 4 B > A
 5 D > G
 6 B > F
-7 eval D < E	false	3 5
-8 eval G < A	false	2 1
+7 eval E < D	true	3 5
+8 eval A < G	true	2 1
 9 eval D < F	false	1 5
 1 E > F
 2 G > D
@@ -2095,11 +2095,11 @@
 6 B > F
 7 D > E
 8 B > D
-9 eval B > E	true	8 7
+9 eval B < E	false	8 7
 10 eval G < A	false	4 2
-11 eval G > E	true	7 2
-12 eval D > F	true	1 7
-13 eval B < A	false	8 4
+11 eval E < G	true	7 2
+12 eval F < D	true	1 7
+13 eval A < B	true	8 4
 1 D > B
 2 D > F
 3 D > A
@@ -2108,40 +2108,40 @@
 6 E > B
 7 G > A
 8 eval E < F	false	4 2
-9 eval E > A	true	4 3
+9 eval E < A	false	4 3
 1 E > B
 2 E > G
 3 F > A
 4 B > F
 5 G > B
-6 eval G < F	false	5 4
+6 eval F < G	true	5 4
 7 eval B < A	false	3 4
-8 eval E > F	true	1 4
+8 eval F < E	true	1 4
 1 G > F
 2 G > B
 3 E > F
 4 E > D
 5 G > E
 6 B > E
-7 eval G < D	false	5 4
-8 eval B > D	true	4 6
-9 eval B < F	false	3 6
+7 eval D < G	true	5 4
+8 eval B < D	false	4 6
+9 eval F < B	true	3 6
 1 E > F
 2 D > E
 3 B > A
 4 D > G
 5 E > A
-6 eval D > F	true	1 2
-7 eval D < A	false	5 2
+6 eval D < F	false	1 2
+7 eval A < D	true	5 2
 1 F > A
 2 E > B
 3 D > E
 4 D > F
 5 B > F
-6 eval E > F	true	5 2
-7 eval D > B	true	3 2
-8 eval B > A	true	5 1
-9 eval D > A	true	1 4
+6 eval F < E	true	5 2
+7 eval D < B	false	3 2
+8 eval B < A	false	5 1
+9 eval A < D	true	1 4
 1 E > A
 2 G > F
 3 D > F
@@ -2151,13 +2151,13 @@
 7 E > D
 8 G > A
 9 G > D
-10 eval E > F	true	3 7
+10 eval E < F	false	3 7
 1 B > F
 2 E > D
 3 B > D
 4 D > F
 5 E > B
-6 eval E > F	true	1 5
+6 eval E < F	false	1 5
 1 D > F
 2 E > G
 3 D > B
@@ -2167,10 +2167,10 @@
 7 G > A
 8 D > E
 9 G > F
-10 eval E > A	true	6 5
+10 eval E < A	false	6 5
 11 eval D < G	false	8 2
-12 eval D < A	false	3 6
-13 eval B < F	false	4 9
+12 eval A < D	true	3 6
+13 eval F < B	true	4 9
 14 eval E < F	false	9 2
 1 B > D
 2 G > B
@@ -2178,7 +2178,7 @@
 4 G > D
 5 E > D
 6 B > F
-7 eval G > F	true	2 6
+7 eval G < F	false	2 6
 8 eval B < A	false	3 6
 1 E > D
 2 E > A
@@ -2186,9 +2186,9 @@
 4 G > D
 5 F > A
 6 B > G
-7 eval E < F	false	1 3
-8 eval G > F	true	3 4
-9 eval D < A	false	5 3
+7 eval F < E	true	1 3
+8 eval G < F	false	3 4
+9 eval A < D	true	5 3
 10 eval B < D	false	6 4
 1 G > D
 2 G > B
@@ -2197,7 +2197,7 @@
 5 D > B
 6 B > F
 7 F > A
-8 eval G < F	false	3 1
+8 eval F < G	true	3 1
 9 eval B < A	false	6 7
 10 eval D < A	false	7 3
 1 G > B
@@ -2206,14 +2206,14 @@
 4 B > A
 5 D > F
 6 G > D
-7 eval D > A	true	5 3
+7 eval D < A	false	5 3
 8 eval G < A	false	1 4
-9 eval G < F	false	1 2
+9 eval F < G	true	1 2
 1 G > F
 2 E > A
 3 F > A
 4 D > B
-5 eval G > A	true	3 1
+5 eval A < G	true	3 1
 1 G > F
 2 F > A
 3 G > D
@@ -2221,9 +2221,9 @@
 5 D > F
 6 D > A
 7 E > D
-8 eval E > A	true	6 7
-9 eval G > A	true	3 6
-10 eval E > F	true	5 7
+8 eval A < E	true	6 7
+9 eval G < A	false	3 6
+10 eval E < F	false	5 7
 1 E > F
 2 G > F
 3 B > D
@@ -2232,8 +2232,8 @@
 6 D > F
 7 E > A
 8 D > G
-9 eval B < E	false	3 4
-10 eval B > F	true	3 6
+9 eval E < B	true	3 4
+10 eval B < F	false	3 6
 11 eval D < A	false	4 7
 1 G > D
 2 B > E
@@ -2244,9 +2244,9 @@
 7 G > F
 8 E > A
 9 B > G
-10 eval B > A	true	8 2
+10 eval A < B	true	8 2
 11 eval E < F	false	7 3
-12 eval B > F	true	9 7
+12 eval F < B	true	9 7
 13 eval E < D	false	1 3
 1 D > E
 2 F > A
@@ -2256,16 +2256,16 @@
 6 E > A
 7 E > F
 8 eval G < A	false	6 3
-9 eval G > F	true	7 3
-10 eval D < A	false	1 6
-11 eval D > F	true	7 1
+9 eval G < F	false	7 3
+10 eval A < D	true	1 6
+11 eval D < F	false	7 1
 1 E > F
 2 B > F
 3 F > A
 4 D > E
 5 eval B < A	false	3 2
-6 eval E > A	true	1 3
-7 eval D < F	false	1 4
+6 eval A < E	true	1 3
+7 eval F < D	true	1 4
 1 E > A
 2 G > F
 3 E > G
@@ -2274,8 +2274,8 @@
 6 E > D
 7 B > F
 8 eval G < A	false	5 2
-9 eval B > A	true	7 5
-10 eval E > F	true	3 2
+9 eval A < B	true	7 5
+10 eval E < F	false	3 2
 1 E > F
 2 D > G
 3 F > A
@@ -2285,23 +2285,23 @@
 7 B > D
 8 E > B
 9 D > F
-10 eval B > F	true	9 7
-11 eval D > A	true	9 3
-12 eval E > G	true	6 2
-13 eval B > G	true	2 7
+10 eval F < B	true	9 7
+11 eval D < A	false	9 3
+12 eval E < G	false	6 2
+13 eval B < G	false	2 7
 1 B > F
 2 B > E
 3 D > F
 4 G > D
 5 F > A
-6 eval B > A	true	5 1
-7 eval G > F	true	4 3
-8 eval D < A	false	5 3
+6 eval B < A	false	5 1
+7 eval G < F	false	4 3
+8 eval A < D	true	5 3
 1 G > E
 2 B > F
 3 F > A
 4 D > F
-5 eval D > A	true	3 4
+5 eval A < D	true	3 4
 6 eval B < A	false	3 2
 1 B > F
 2 D > F
@@ -2310,10 +2310,10 @@
 5 E > D
 6 G > A
 7 D > A
-8 eval E < F	false	2 5
-9 eval B > A	true	4 7
+8 eval F < E	true	2 5
+9 eval B < A	false	4 7
 10 eval E < A	false	7 5
-11 eval G > F	true	2 3
+11 eval G < F	false	2 3
 1 B > A
 2 G > D
 3 G > B
@@ -2321,8 +2321,8 @@
 5 B > D
 6 E > D
 7 B > F
-8 eval G > A	true	3 1
-9 eval G > F	true	3 7
+8 eval A < G	true	3 1
+9 eval G < F	false	3 7
 1 E > D
 2 D > F
 3 E > F
@@ -2331,20 +2331,20 @@
 6 F > A
 7 G > D
 8 B > F
-9 eval E < A	false	6 3
-10 eval B < A	false	8 6
-11 eval D < A	false	6 2
-12 eval G > F	true	3 4
+9 eval A < E	true	6 3
+10 eval A < B	true	8 6
+11 eval A < D	true	6 2
+12 eval F < G	true	3 4
 1 D > E
 2 G > D
 3 D > A
 4 D > B
 5 E > F
 6 B > A
-7 eval G > B	true	2 4
-8 eval D > F	true	5 1
+7 eval B < G	true	2 4
+8 eval D < F	false	5 1
 9 eval G < A	false	2 3
-10 eval G < E	false	2 1
+10 eval E < G	true	2 1
 1 G > B
 2 D > A
 3 F > A
@@ -2355,7 +2355,7 @@
 8 D > F
 9 G > D
 10 eval B < A	false	3 6
-11 eval E < F	false	7 8
+11 eval F < E	true	7 8
 12 eval G < A	false	2 9
 1 B > A
 2 D > G
@@ -2366,24 +2366,24 @@
 7 G > E
 8 G > B
 9 G > A
-10 eval D > E	true	2 7
-11 eval D < A	false	2 9
+10 eval E < D	true	2 7
+11 eval A < D	true	2 9
 12 eval D < F	false	2 6
 1 B > A
 2 E > D
 3 D > B
 4 D > F
-5 eval E < B	false	3 2
-6 eval D > A	true	1 3
-7 eval E > F	true	4 2
+5 eval B < E	true	3 2
+6 eval A < D	true	1 3
+7 eval E < F	false	4 2
 1 E > D
 2 G > F
 3 B > F
 4 F > A
 5 G > D
 6 B > D
-7 eval B > A	true	4 3
-8 eval G < A	false	2 4
+7 eval A < B	true	4 3
+8 eval A < G	true	2 4
 1 B > F
 2 D > A
 3 B > D
@@ -2396,7 +2396,7 @@
 5 E > F
 6 D > G
 7 B > F
-8 eval E < A	false	2 3
+8 eval A < E	true	2 3
 9 eval D < F	false	4 6
 10 eval D < A	false	3 6
 1 D > F
@@ -2406,10 +2406,10 @@
 5 E > A
 6 G > B
 7 D > G
-8 eval D > A	true	7 3
-9 eval B < A	false	5 2
+8 eval A < D	true	7 3
+9 eval A < B	true	5 2
 10 eval G < E	false	2 6
-11 eval D > B	true	7 6
+11 eval D < B	false	7 6
 1 E > A
 2 G > F
 3 B > F
@@ -2429,18 +2429,18 @@
 2 G > D
 3 G > F
 4 D > A
-5 eval G > A	true	4 2
-6 eval E > A	true	4 1
+5 eval G < A	false	4 2
+6 eval E < A	false	4 1
 1 B > A
 2 D > F
 3 F > A
 4 B > G
 5 E > D
 6 G > F
-7 eval B > F	true	4 6
-8 eval D < A	false	2 3
+7 eval B < F	false	4 6
+8 eval A < D	true	2 3
 9 eval G < A	false	3 6
-10 eval E < F	false	2 5
+10 eval F < E	true	2 5
 1 B > G
 2 E > F
 3 D > G
@@ -2449,26 +2449,26 @@
 6 F > A
 7 D > F
 8 D > E
-9 eval D < A	false	8 4
+9 eval A < D	true	8 4
 1 B > E
 2 G > A
 3 B > G
 4 B > D
 5 D > A
-6 eval B < A	false	3 2
+6 eval A < B	true	3 2
 1 G > F
 2 F > A
 3 B > D
 4 B > A
 5 B > G
-6 eval B > F	true	1 5
+6 eval B < F	false	1 5
 7 eval G < A	false	2 1
 1 E > A
 2 B > A
 3 D > A
 4 G > B
 5 E > F
-6 eval G > A	true	2 4
+6 eval G < A	false	2 4
 1 B > G
 2 B > A
 3 E > D
@@ -2476,9 +2476,9 @@
 5 G > F
 6 G > D
 7 B > E
-8 eval B < F	false	1 5
-9 eval B > D	true	7 3
-10 eval E > F	true	4 3
+8 eval F < B	true	1 5
+9 eval B < D	false	7 3
+10 eval E < F	false	4 3
 1 G > F
 2 E > A
 3 E > F
@@ -2487,7 +2487,7 @@
 6 G > A
 7 D > F
 8 G > E
-9 eval B > A	true	5 4
+9 eval B < A	false	5 4
 10 eval B < F	false	7 4
 1 G > F
 2 D > E
@@ -2496,8 +2496,8 @@
 5 B > G
 6 D > G
 7 eval D < F	false	1 6
-8 eval B > A	true	5 4
-9 eval B < F	false	5 1
+8 eval A < B	true	5 4
+9 eval F < B	true	5 1
 1 D > A
 2 E > F
 3 B > D
@@ -2507,9 +2507,9 @@
 7 E > D
 8 F > A
 9 G > F
-10 eval B > F	true	2 5
-11 eval E > A	true	7 1
-12 eval B > A	true	1 3
+10 eval B < F	false	2 5
+11 eval E < A	false	7 1
+12 eval A < B	true	1 3
 1 F > A
 2 G > F
 3 G > B
@@ -2519,27 +2519,27 @@
 7 B > A
 8 E > A
 9 B > F
-10 eval G > A	true	3 7
-11 eval D > F	true	9 5
-12 eval D > A	true	5 7
-13 eval E > B	true	3 6
+10 eval G < A	false	3 7
+11 eval D < F	false	9 5
+12 eval A < D	true	5 7
+13 eval E < B	false	3 6
 1 D > A
 2 D > F
 3 F > A
 4 B > D
 5 E > D
 6 E > G
-7 eval B > F	true	2 4
-8 eval B < A	false	1 4
-9 eval E > A	true	1 5
+7 eval B < F	false	2 4
+8 eval A < B	true	1 4
+9 eval E < A	false	1 5
 10 eval E < F	false	2 5
 1 D > F
 2 B > D
 3 F > A
 4 E > F
-5 eval B < F	false	2 1
-6 eval D < A	false	3 1
-7 eval E > A	true	4 3
+5 eval F < B	true	2 1
+6 eval A < D	true	3 1
+7 eval E < A	false	4 3
 1 B > G
 2 F > A
 3 E > D
@@ -2550,7 +2550,7 @@
 2 D > F
 3 F > A
 4 G > A
-5 eval D < A	false	4 1
+5 eval A < D	true	4 1
 1 G > F
 2 B > G
 3 E > A
@@ -2562,7 +2562,7 @@
 3 G > D
 4 B > F
 5 G > E
-6 eval G > F	true	1 3
+6 eval G < F	false	1 3
 1 G > F
 2 D > F
 3 G > D
@@ -2574,45 +2574,45 @@
 3 F > A
 4 G > F
 5 eval B < A	false	3 1
-6 eval G > A	true	3 4
+6 eval A < G	true	3 4
 1 G > A
 2 G > D
 3 B > G
 4 B > E
 5 D > F
-6 eval B > A	true	1 3
+6 eval B < A	false	1 3
 7 eval B < D	false	3 2
-8 eval G > F	true	5 2
+8 eval G < F	false	5 2
 1 G > A
 2 B > E
 3 E > A
 4 D > E
-5 eval B < A	false	2 3
-6 eval D > A	true	3 4
+5 eval A < B	true	2 3
+6 eval D < A	false	3 4
 1 E > G
 2 E > B
 3 G > B
 4 G > F
 5 B > A
-6 eval E < F	false	4 1
+6 eval F < E	true	4 1
 7 eval E < A	false	2 5
-8 eval G > A	true	3 5
+8 eval G < A	false	3 5
 1 D > A
 2 G > E
 3 E > D
 4 G > B
 5 B > A
 6 eval G < D	false	2 3
-7 eval E > A	true	3 1
-8 eval G < A	false	4 5
+7 eval E < A	false	3 1
+8 eval A < G	true	4 5
 1 E > G
 2 B > F
 3 D > A
 4 G > F
 5 B > A
 6 B > E
-7 eval E > F	true	1 4
-8 eval B > G	true	6 1
+7 eval E < F	false	1 4
+8 eval G < B	true	6 1
 1 B > F
 2 F > A
 3 G > F
@@ -2620,21 +2620,21 @@
 5 D > G
 6 B > G
 7 E > A
-8 eval E < G	false	4 6
-9 eval E > F	true	1 4
-10 eval G > A	true	2 3
-11 eval B < A	false	1 2
-12 eval D > F	true	5 3
+8 eval G < E	true	4 6
+9 eval F < E	true	1 4
+10 eval A < G	true	2 3
+11 eval A < B	true	1 2
+12 eval F < D	true	5 3
 1 F > A
 2 B > G
 3 G > A
 4 E > F
 5 D > G
 6 B > E
-7 eval E > A	true	1 4
-8 eval B > A	true	3 2
-9 eval D < A	false	3 5
-10 eval B > F	true	4 6
+7 eval E < A	false	1 4
+8 eval A < B	true	3 2
+9 eval A < D	true	3 5
+10 eval F < B	true	4 6
 1 B > F
 2 B > A
 3 G > B
@@ -2644,9 +2644,9 @@
 7 F > A
 8 G > F
 9 E > G
-10 eval D > F	true	6 1
+10 eval F < D	true	6 1
 11 eval G < A	false	2 3
-12 eval E > F	true	8 9
+12 eval E < F	false	8 9
 13 eval D < A	false	6 2
 1 E > D
 2 F > A
@@ -2656,14 +2656,14 @@
 6 G > A
 7 G > F
 8 D > A
-9 eval B > F	true	7 4
-10 eval B > A	true	6 4
+9 eval F < B	true	7 4
+10 eval B < A	false	6 4
 11 eval E < A	false	1 8
 1 G > B
 2 B > F
 3 E > B
 4 G > F
-5 eval E > F	true	2 3
+5 eval F < E	true	2 3
 1 B > F
 2 D > E
 3 E > F
@@ -2672,15 +2672,15 @@
 6 D > G
 7 G > A
 8 G > E
-9 eval D > A	true	6 7
-10 eval G > F	true	3 8
+9 eval D < A	false	6 7
+10 eval G < F	false	3 8
 11 eval D < F	false	2 3
-12 eval E > A	true	4 3
+12 eval E < A	false	4 3
 1 G > D
 2 D > A
 3 G > A
 4 D > F
-5 eval G > F	true	4 1
+5 eval F < G	true	4 1
 1 D > F
 2 E > B
 3 D > E
@@ -2690,9 +2690,9 @@
 7 E > A
 8 G > A
 9 G > F
-10 eval D > A	true	3 7
-11 eval D < B	false	2 3
-12 eval E > F	true	9 4
+10 eval A < D	true	3 7
+11 eval B < D	true	2 3
+12 eval E < F	false	9 4
 1 F > A
 2 D > A
 3 E > G
@@ -2703,15 +2703,15 @@
 8 D > B
 9 D > G
 10 eval D < F	false	5 8
-11 eval B > A	true	1 5
-12 eval E < B	false	4 8
+11 eval B < A	false	1 5
+12 eval B < E	true	4 8
 1 D > F
 2 B > E
 3 G > F
 4 D > B
 5 E > F
-6 eval D < E	false	4 2
-7 eval B > F	true	2 5
+6 eval E < D	true	4 2
+7 eval B < F	false	2 5
 1 B > A
 2 E > F
 3 B > G
@@ -2720,15 +2720,15 @@
 6 F > A
 7 D > B
 8 B > E
-9 eval D < E	false	7 8
+9 eval E < D	true	7 8
 10 eval D < A	false	7 1
-11 eval B > F	true	2 8
+11 eval F < B	true	2 8
 1 B > A
 2 E > F
 3 D > E
 4 B > E
 5 G > F
-6 eval B > F	true	2 4
+6 eval F < B	true	2 4
 7 eval D < F	false	2 3
 1 G > A
 2 D > B
@@ -2736,8 +2736,8 @@
 4 B > A
 5 F > A
 6 D > F
-7 eval G > F	true	3 6
-8 eval D < A	false	2 4
+7 eval F < G	true	3 6
+8 eval A < D	true	2 4
 9 eval G < B	false	2 3
 1 F > A
 2 G > B
@@ -2747,11 +2747,11 @@
 6 E > F
 7 B > E
 8 B > A
-9 eval D > F	true	3 6
+9 eval F < D	true	3 6
 10 eval G < E	false	3 5
-11 eval G < A	false	8 2
+11 eval A < G	true	8 2
 12 eval E < A	false	6 1
-13 eval B > F	true	6 7
+13 eval F < B	true	6 7
 14 eval D < A	false	8 4
 1 G > A
 2 D > F
@@ -2765,7 +2765,7 @@
 3 D > E
 4 B > F
 5 G > F
-6 eval D < B	false	3 2
+6 eval B < D	true	3 2
 7 eval D < F	false	1 5
 8 eval E < F	false	4 2
 1 B > F
@@ -2774,7 +2774,7 @@
 4 G > A
 5 E > A
 6 eval E < F	false	3 1
-7 eval B < A	false	2 1
+7 eval A < B	true	2 1
 1 B > A
 2 E > B
 3 E > G
@@ -2783,7 +2783,7 @@
 6 F > A
 7 G > A
 8 eval E < F	false	4 2
-9 eval E > A	true	3 7
+9 eval A < E	true	3 7
 1 G > A
 2 G > F
 3 E > G
@@ -2791,9 +2791,9 @@
 5 D > G
 6 D > B
 7 D > A
-8 eval E < A	false	1 3
-9 eval D > F	true	2 5
-10 eval E < F	false	2 3
+8 eval A < E	true	1 3
+9 eval F < D	true	2 5
+10 eval F < E	true	2 3
 1 E > F
 2 G > B
 3 E > G
@@ -2801,14 +2801,14 @@
 5 B > F
 6 eval G < F	false	2 5
 7 eval G < A	false	2 4
-8 eval E > B	true	3 2
+8 eval E < B	false	3 2
 1 E > G
 2 F > A
 3 B > G
 4 G > F
-5 eval G > A	true	4 2
-6 eval B > F	true	3 4
-7 eval E < F	false	1 4
+5 eval A < G	true	4 2
+6 eval B < F	false	3 4
+7 eval F < E	true	1 4
 1 D > F
 2 E > A
 3 E > G
@@ -2816,10 +2816,10 @@
 5 B > D
 6 B > G
 7 F > A
-8 eval D > A	true	4 2
-9 eval B < F	false	1 5
+8 eval A < D	true	4 2
+9 eval F < B	true	1 5
 10 eval D < G	false	4 3
-11 eval B < E	false	4 5
+11 eval E < B	true	4 5
 1 E > D
 2 E > F
 3 B > F
@@ -2828,9 +2828,9 @@
 6 B > D
 7 G > A
 8 B > G
-9 eval B > A	true	5 6
-10 eval E > G	true	8 4
-11 eval E < A	false	1 5
+9 eval B < A	false	5 6
+10 eval G < E	true	8 4
+11 eval A < E	true	1 5
 1 B > A
 2 E > A
 3 E > B
@@ -2838,8 +2838,8 @@
 5 G > F
 6 D > E
 7 F > A
-8 eval D > B	true	3 6
-9 eval G > A	true	5 7
+8 eval B < D	true	3 6
+9 eval G < A	false	5 7
 1 B > F
 2 E > A
 3 G > E
@@ -2847,7 +2847,7 @@
 5 G > F
 6 B > D
 7 eval B < A	false	4 6
-8 eval G > A	true	2 3
+8 eval G < A	false	2 3
 1 G > E
 2 G > A
 3 E > F
@@ -2855,7 +2855,7 @@
 5 B > F
 6 eval G < F	false	3 1
 7 eval B < A	false	4 5
-8 eval E > A	true	4 3
+8 eval A < E	true	4 3
 1 G > F
 2 E > B
 3 B > F
@@ -2863,9 +2863,9 @@
 5 B > A
 6 D > G
 7 D > F
-8 eval E > G	true	4 2
-9 eval E > F	true	3 2
-10 eval E > A	true	5 2
+8 eval E < G	false	4 2
+9 eval E < F	false	3 2
+10 eval A < E	true	5 2
 1 B > F
 2 E > G
 3 G > A
@@ -2873,11 +2873,11 @@
 5 B > E
 6 G > F
 7 D > E
-8 eval E < A	false	2 3
-9 eval B > G	true	5 2
-10 eval D < F	false	1 4
-11 eval D > G	true	7 2
-12 eval E < F	false	6 2
+8 eval A < E	true	2 3
+9 eval B < G	false	5 2
+10 eval F < D	true	1 4
+11 eval G < D	true	7 2
+12 eval F < E	true	6 2
 1 D > F
 2 B > A
 3 G > B
@@ -2886,7 +2886,7 @@
 6 G > E
 7 D > A
 8 G > A
-9 eval G < F	false	3 4
+9 eval F < G	true	3 4
 1 D > A
 2 E > G
 3 D > B
@@ -2895,16 +2895,16 @@
 6 E > D
 7 G > F
 8 G > B
-9 eval E < B	false	8 2
-10 eval E > F	true	7 2
+9 eval B < E	true	8 2
+10 eval E < F	false	7 2
 11 eval G < A	false	1 4
 1 B > F
 2 D > F
 3 F > A
 4 G > F
 5 eval D < A	false	3 2
-6 eval B > A	true	3 1
-7 eval G > A	true	3 4
+6 eval B < A	false	3 1
+7 eval G < A	false	3 4
 1 G > B
 2 D > B
 3 B > F
@@ -2912,8 +2912,8 @@
 5 D > E
 6 G > F
 7 G > E
-8 eval E > F	true	3 4
-9 eval D < F	false	2 3
+8 eval E < F	false	3 4
+9 eval F < D	true	2 3
 1 B > E
 2 G > F
 3 E > F
@@ -2925,19 +2925,19 @@
 9 B > F
 10 eval G < A	false	7 5
 11 eval D < F	false	3 4
-12 eval G < E	false	7 1
+12 eval E < G	true	7 1
 1 D > F
 2 B > D
 3 G > D
 4 B > F
-5 eval G > F	true	1 3
+5 eval F < G	true	1 3
 1 B > A
 2 G > A
 3 D > B
 4 D > G
 5 D > F
 6 B > F
-7 eval D > A	true	3 1
+7 eval A < D	true	3 1
 1 G > A
 2 E > F
 3 B > F
@@ -2947,15 +2947,15 @@
 7 E > A
 8 D > F
 9 D > E
-10 eval B < A	false	5 4
-11 eval B > E	true	5 9
-12 eval B < G	false	5 6
+10 eval A < B	true	5 4
+11 eval E < B	true	5 9
+12 eval G < B	true	5 6
 1 D > F
 2 F > A
 3 D > E
 4 G > F
-5 eval G > A	true	4 2
-6 eval D > A	true	1 2
+5 eval G < A	false	4 2
+6 eval D < A	false	1 2
 1 D > B
 2 B > G
 3 F > A
@@ -2966,14 +2966,14 @@
 8 E > A
 9 eval D < A	false	4 6
 10 eval D < F	false	5 1
-11 eval E > F	true	5 7
-12 eval E < G	false	2 7
+11 eval E < F	false	5 7
+12 eval G < E	true	2 7
 13 eval B < A	false	4 2
 1 B > D
 2 F > A
 3 D > A
 4 E > B
-5 eval B > A	true	1 3
+5 eval A < B	true	1 3
 6 eval E < D	false	4 1
 1 D > A
 2 E > A
@@ -2982,14 +2982,14 @@
 5 G > D
 6 E > B
 7 E > D
-8 eval G < B	false	6 4
-9 eval G < A	false	2 4
+8 eval B < G	true	6 4
+9 eval A < G	true	2 4
 1 D > A
 2 G > A
 3 E > A
 4 B > D
 5 D > F
-6 eval B < A	false	1 4
+6 eval A < B	true	1 4
 7 eval B < F	false	5 4
 1 B > A
 2 G > D
@@ -2997,11 +2997,11 @@
 4 E > B
 5 B > F
 6 G > A
-7 eval D > A	true	1 3
-8 eval E > F	true	5 4
-9 eval D < F	false	5 3
-10 eval E < A	false	1 4
-11 eval G > B	true	2 3
+7 eval A < D	true	1 3
+8 eval F < E	true	5 4
+9 eval F < D	true	5 3
+10 eval A < E	true	1 4
+11 eval G < B	false	2 3
 1 D > A
 2 D > F
 3 E > B
@@ -3012,8 +3012,8 @@
 8 G > B
 9 B > A
 10 eval G < D	false	7 4
-11 eval G < A	false	8 9
-12 eval E > A	true	9 3
+11 eval A < G	true	8 9
+12 eval E < A	false	9 3
 1 G > A
 2 B > A
 3 F > A
@@ -3022,8 +3022,8 @@
 6 B > E
 7 E > A
 8 D > G
-9 eval D > F	true	4 8
-10 eval D > A	true	1 8
+9 eval D < F	false	4 8
+10 eval A < D	true	1 8
 11 eval B < F	false	5 4
 1 E > A
 2 G > B
@@ -3033,17 +3033,17 @@
 6 E > G
 7 E > D
 8 B > D
-9 eval G > D	true	2 8
-10 eval E < F	false	6 5
+9 eval G < D	false	2 8
+10 eval F < E	true	6 5
 1 G > F
 2 D > F
 3 G > E
 4 E > D
 5 F > A
 6 eval D < A	false	5 2
-7 eval G < D	false	3 4
+7 eval D < G	true	3 4
 8 eval E < F	false	2 4
-9 eval G > A	true	5 1
+9 eval A < G	true	5 1
 1 D > A
 2 G > B
 3 G > D
@@ -3053,10 +3053,10 @@
 7 F > A
 8 E > F
 9 G > F
-10 eval E > A	true	7 8
+10 eval A < E	true	7 8
 11 eval G < A	false	3 1
-12 eval B > F	true	4 8
-13 eval G < E	false	2 4
+12 eval B < F	false	4 8
+13 eval E < G	true	2 4
 1 E > A
 2 D > F
 3 F > A
@@ -3073,8 +3073,8 @@
 9 eval B < G	false	2 3
 10 eval G < A	false	4 5
 11 eval E < D	false	2 7
-12 eval E > A	true	6 5
-13 eval B > A	true	1 5
+12 eval A < E	true	6 5
+13 eval A < B	true	1 5
 1 B > A
 2 G > E
 3 E > D
@@ -3083,37 +3083,37 @@
 6 G > F
 7 G > D
 8 E > A
-9 eval G < A	false	1 4
+9 eval A < G	true	1 4
 1 G > D
 2 B > E
 3 E > F
 4 E > A
 5 G > B
-6 eval G > E	true	5 2
+6 eval G < E	false	5 2
 7 eval B < F	false	3 2
-8 eval B > A	true	4 2
+8 eval B < A	false	4 2
 1 F > A
 2 E > F
 3 D > A
 4 B > E
-5 eval B < F	false	4 2
-6 eval E < A	false	1 2
+5 eval F < B	true	4 2
+6 eval A < E	true	1 2
 1 G > D
 2 E > F
 3 D > F
 4 F > A
-5 eval D < A	false	4 3
-6 eval E > A	true	4 2
-7 eval G < F	false	3 1
+5 eval A < D	true	4 3
+6 eval E < A	false	4 2
+7 eval F < G	true	3 1
 1 F > A
 2 D > B
 3 B > F
 4 E > D
 5 G > F
-6 eval B > A	true	3 1
-7 eval D > F	true	3 2
-8 eval G > A	true	5 1
-9 eval E > B	true	2 4
+6 eval A < B	true	3 1
+7 eval F < D	true	3 2
+8 eval G < A	false	5 1
+9 eval E < B	false	2 4
 1 G > F
 2 B > A
 3 F > A
@@ -3126,7 +3126,7 @@
 3 D > A
 4 G > F
 5 G > B
-6 eval G > A	true	3 2
+6 eval A < G	true	3 2
 1 E > A
 2 B > F
 3 B > A
@@ -3141,8 +3141,8 @@
 3 B > A
 4 D > B
 5 G > F
-6 eval D > A	true	4 3
-7 eval D > E	true	4 1
+6 eval D < A	false	4 3
+7 eval E < D	true	4 1
 1 G > F
 2 B > G
 3 E > A
@@ -3151,16 +3151,16 @@
 6 B > D
 7 D > A
 8 D > G
-9 eval D < E	false	8 4
+9 eval E < D	true	8 4
 10 eval B < E	false	2 4
-11 eval D < F	false	8 1
-12 eval B < A	false	6 7
-13 eval B > F	true	1 2
+11 eval F < D	true	8 1
+12 eval A < B	true	6 7
+13 eval F < B	true	1 2
 1 D > A
 2 E > D
 3 B > F
 4 B > A
-5 eval E > A	true	1 2
+5 eval A < E	true	1 2
 1 F > A
 2 G > B
 3 E > A
@@ -3170,15 +3170,15 @@
 7 E > D
 8 D > A
 9 B > F
-10 eval G > A	true	2 4
-11 eval G < F	false	2 9
+10 eval G < A	false	2 4
+11 eval F < G	true	2 9
 1 F > A
 2 E > A
 3 G > A
 4 D > F
 5 B > F
 6 E > G
-7 eval D > A	true	1 4
+7 eval D < A	false	1 4
 8 eval B < A	false	5 1
 1 E > B
 2 B > F
@@ -3189,22 +3189,22 @@
 7 F > A
 8 D > A
 9 eval G < B	false	4 6
-10 eval D > F	true	2 4
+10 eval F < D	true	2 4
 11 eval E < A	false	3 8
-12 eval B > A	true	2 7
-13 eval G < A	false	8 6
+12 eval B < A	false	2 7
+13 eval A < G	true	8 6
 1 G > D
 2 G > A
 3 F > A
 4 E > F
 5 B > F
-6 eval E > A	true	4 3
-7 eval B > A	true	3 5
+6 eval E < A	false	4 3
+7 eval A < B	true	3 5
 1 B > G
 2 E > D
 3 B > F
 4 G > A
-5 eval B > A	true	4 1
+5 eval A < B	true	4 1
 1 G > F
 2 B > G
 3 E > B
@@ -3214,7 +3214,7 @@
 7 B > A
 8 F > A
 9 eval B < F	false	2 1
-10 eval E > A	true	3 7
+10 eval A < E	true	3 7
 1 D > F
 2 F > A
 3 D > G
@@ -3227,14 +3227,14 @@
 5 E > F
 6 D > F
 7 F > A
-8 eval D > A	true	6 7
+8 eval A < D	true	6 7
 9 eval B < A	false	7 3
 1 B > G
 2 G > D
 3 E > F
 4 B > E
-5 eval B > F	true	4 3
-6 eval B > D	true	1 2
+5 eval B < F	false	4 3
+6 eval B < D	false	1 2
 1 E > F
 2 B > D
 3 G > B
@@ -3244,7 +3244,7 @@
 7 F > A
 8 G > D
 9 E > D
-10 eval B < A	false	4 2
+10 eval A < B	true	4 2
 1 E > B
 2 D > G
 3 G > A
@@ -3253,9 +3253,9 @@
 6 G > F
 7 B > A
 8 D > B
-9 eval D > A	true	2 3
-10 eval E > F	true	5 6
-11 eval D > F	true	2 6
+9 eval D < A	false	2 3
+10 eval F < E	true	5 6
+11 eval F < D	true	2 6
 1 B > F
 2 D > A
 3 D > G
@@ -3265,17 +3265,17 @@
 7 E > F
 8 B > G
 9 eval B < E	false	8 6
-10 eval B < A	false	8 5
-11 eval D > F	true	1 4
+10 eval A < B	true	8 5
+11 eval F < D	true	1 4
 12 eval D < E	false	3 6
-13 eval G > F	true	7 6
+13 eval G < F	false	7 6
 1 G > E
 2 D > B
 3 E > D
 4 E > B
 5 F > A
 6 eval G < B	false	4 1
-7 eval G > D	true	3 1
+7 eval D < G	true	3 1
 1 E > A
 2 G > A
 3 G > F
@@ -3285,7 +3285,7 @@
 7 B > F
 8 G > D
 9 B > E
-10 eval B > A	true	1 9
+10 eval A < B	true	1 9
 1 E > A
 2 E > F
 3 D > B
@@ -3294,17 +3294,17 @@
 6 F > A
 7 G > A
 8 D > E
-9 eval D < F	false	8 2
+9 eval F < D	true	8 2
 10 eval D < A	false	4 3
-11 eval G > F	true	2 5
+11 eval G < F	false	2 5
 1 G > A
 2 G > F
 3 B > G
 4 D > A
 5 D > E
 6 D > G
-7 eval B < F	false	2 3
-8 eval B > A	true	1 3
+7 eval F < B	true	2 3
+8 eval A < B	true	1 3
 9 eval D < F	false	2 6
 1 D > F
 2 G > D
@@ -3312,10 +3312,10 @@
 4 G > A
 5 B > G
 6 F > A
-7 eval B > D	true	5 2
-8 eval B < A	false	5 4
-9 eval G > F	true	1 2
-10 eval D > A	true	6 1
+7 eval D < B	true	5 2
+8 eval A < B	true	5 4
+9 eval F < G	true	1 2
+10 eval A < D	true	6 1
 11 eval E < F	false	1 3
 1 B > D
 2 G > B
@@ -3324,11 +3324,11 @@
 5 D > F
 6 D > E
 7 E > A
-8 eval G < D	false	1 2
-9 eval D < A	false	6 7
+8 eval D < G	true	1 2
+9 eval A < D	true	6 7
 10 eval B < A	false	7 4
 11 eval B < F	false	5 1
-12 eval G > E	true	4 2
+12 eval E < G	true	4 2
 1 D > A
 2 B > A
 3 E > B
@@ -3336,18 +3336,18 @@
 5 G > A
 6 B > D
 7 D > F
-8 eval E < A	false	2 3
+8 eval A < E	true	2 3
 9 eval E < G	false	4 3
-10 eval B > F	true	7 6
-11 eval E > D	true	6 3
+10 eval F < B	true	7 6
+11 eval E < D	false	6 3
 1 F > A
 2 E > G
 3 D > F
 4 E > F
 5 D > E
 6 eval E < A	false	1 4
-7 eval D < G	false	2 5
-8 eval D > A	true	1 3
+7 eval G < D	true	2 5
+8 eval A < D	true	1 3
 1 F > A
 2 E > F
 3 E > G
@@ -3357,17 +3357,17 @@
 7 D > A
 8 D > E
 9 B > A
-10 eval D < B	false	8 5
-11 eval D > G	true	8 3
-12 eval D > F	true	8 2
+10 eval B < D	true	8 5
+11 eval G < D	true	8 3
+12 eval F < D	true	8 2
 1 D > G
 2 D > B
 3 B > A
 4 E > B
 5 G > F
-6 eval D > F	true	1 5
-7 eval D > A	true	3 2
-8 eval E > A	true	4 3
+6 eval D < F	false	1 5
+7 eval A < D	true	3 2
+8 eval E < A	false	4 3
 1 D > A
 2 E > B
 3 G > E
@@ -3375,23 +3375,23 @@
 5 G > A
 6 F > A
 7 B > D
-8 eval B > A	true	7 1
-9 eval G > F	true	3 4
+8 eval A < B	true	7 1
+9 eval G < F	false	3 4
 10 eval E < D	false	2 7
-11 eval G < B	false	3 2
+11 eval B < G	true	3 2
 12 eval E < A	false	6 4
 1 D > E
 2 B > E
 3 F > A
 4 G > B
 5 B > D
-6 eval G > E	true	2 4
-7 eval G < D	false	5 4
+6 eval E < G	true	2 4
+7 eval D < G	true	5 4
 1 E > F
 2 E > B
 3 D > B
 4 B > F
-5 eval D < F	false	4 3
+5 eval F < D	true	4 3
 1 B > A
 2 G > F
 3 G > B
@@ -3399,8 +3399,8 @@
 5 G > A
 6 D > F
 7 eval E < B	false	3 4
-8 eval E > A	true	5 4
-9 eval E > F	true	4 2
+8 eval E < A	false	5 4
+9 eval F < E	true	4 2
 1 F > A
 2 B > D
 3 E > B
@@ -3415,10 +3415,10 @@
 4 B > F
 5 E > G
 6 G > F
-7 eval G < A	false	6 1
-8 eval E > F	true	6 5
-9 eval B > A	true	4 1
-10 eval E > A	true	2 3
+7 eval A < G	true	6 1
+8 eval F < E	true	6 5
+9 eval A < B	true	4 1
+10 eval E < A	false	2 3
 1 E > F
 2 D > F
 3 F > A
@@ -3426,10 +3426,10 @@
 5 D > A
 6 G > D
 7 B > G
-8 eval B > A	true	4 7
-9 eval G > F	true	2 6
+8 eval A < B	true	4 7
+9 eval G < F	false	2 6
 10 eval B < D	false	6 7
-11 eval E > A	true	1 3
+11 eval A < E	true	1 3
 1 G > B
 2 E > B
 3 G > F
@@ -3438,17 +3438,17 @@
 6 G > E
 7 G > D
 8 B > F
-9 eval E < F	false	8 2
+9 eval F < E	true	8 2
 10 eval G < A	false	3 4
-11 eval B > A	true	8 4
+11 eval A < B	true	8 4
 1 D > F
 2 E > B
 3 B > A
 4 G > B
 5 G > D
-6 eval E > A	true	3 2
-7 eval G > F	true	5 1
-8 eval G > A	true	4 3
+6 eval A < E	true	3 2
+7 eval F < G	true	5 1
+8 eval G < A	false	4 3
 1 G > E
 2 E > B
 3 D > A
@@ -3456,9 +3456,9 @@
 5 B > F
 6 F > A
 7 G > D
-8 eval E > F	true	5 2
-9 eval B > A	true	6 5
-10 eval G < B	false	1 2
+8 eval F < E	true	5 2
+9 eval A < B	true	6 5
+10 eval B < G	true	1 2
 1 B > G
 2 G > E
 3 B > F
@@ -3467,8 +3467,8 @@
 6 E > A
 7 G > F
 8 eval D < A	false	5 6
-9 eval G > A	true	6 2
-10 eval B > A	true	4 6
+9 eval A < G	true	6 2
+10 eval B < A	false	4 6
 1 D > E
 2 F > A
 3 B > G
@@ -3476,8 +3476,8 @@
 5 B > F
 6 B > E
 7 eval E < A	false	2 4
-8 eval D < F	false	4 1
-9 eval B > A	true	5 2
+8 eval F < D	true	4 1
+9 eval A < B	true	5 2
 1 B > G
 2 E > F
 3 G > A
@@ -3486,10 +3486,10 @@
 6 E > A
 7 D > E
 8 B > A
-9 eval D < F	false	2 7
-10 eval G > E	true	7 5
+9 eval F < D	true	2 7
+10 eval G < E	false	7 5
 11 eval D < A	false	7 6
-12 eval B > E	true	7 4
+12 eval B < E	false	7 4
 1 E > B
 2 F > A
 3 B > F
@@ -3500,23 +3500,23 @@
 8 eval E < A	false	7 4
 9 eval E < F	false	3 1
 10 eval D < A	false	5 6
-11 eval D < F	false	5 3
+11 eval F < D	true	5 3
 1 E > G
 2 G > D
 3 D > F
 4 B > F
 5 D > B
-6 eval G < F	false	3 2
-7 eval E < D	false	2 1
-8 eval G > B	true	2 5
+6 eval F < G	true	3 2
+7 eval D < E	true	2 1
+8 eval G < B	false	2 5
 1 D > G
 2 E > B
 3 E > F
 4 E > G
 5 D > E
 6 B > G
-7 eval D > B	true	5 2
-8 eval D > F	true	5 3
+7 eval D < B	false	5 2
+8 eval F < D	true	5 3
 1 B > A
 2 D > A
 3 G > D
@@ -3532,35 +3532,35 @@
 2 E > B
 3 E > D
 4 D > F
-5 eval E > F	true	3 4
-6 eval E > A	true	3 1
+5 eval F < E	true	3 4
+6 eval A < E	true	3 1
 1 G > B
 2 E > A
 3 B > F
 4 E > B
 5 eval G < F	false	3 1
-6 eval E < F	false	4 3
+6 eval F < E	true	4 3
 1 E > B
 2 F > A
 3 E > D
 4 B > G
 5 D > G
-6 eval E > G	true	1 4
+6 eval G < E	true	1 4
 1 E > G
 2 F > A
 3 B > E
 4 G > A
 5 B > D
 6 D > A
-7 eval B > G	true	3 1
-8 eval E > A	true	1 4
+7 eval G < B	true	3 1
+8 eval A < E	true	1 4
 9 eval B < A	false	6 5
 1 B > G
 2 G > F
 3 D > E
 4 E > G
 5 eval B < F	false	1 2
-6 eval E > F	true	4 2
+6 eval E < F	false	4 2
 7 eval D < G	false	3 4
 1 G > F
 2 G > A
@@ -3571,22 +3571,22 @@
 7 E > A
 8 E > F
 9 F > A
-10 eval D > A	true	2 5
+10 eval D < A	false	2 5
 1 B > F
 2 F > A
 3 G > B
 4 D > B
 5 G > E
 6 G > A
-7 eval D < F	false	1 4
-8 eval B > A	true	2 1
-9 eval G > F	true	1 3
+7 eval F < D	true	1 4
+8 eval A < B	true	2 1
+9 eval F < G	true	1 3
 1 B > F
 2 D > B
 3 E > F
 4 B > A
 5 D > A
-6 eval D > F	true	1 2
+6 eval D < F	false	1 2
 1 E > F
 2 G > A
 3 B > D
@@ -3594,8 +3594,8 @@
 5 G > F
 6 F > A
 7 B > G
-8 eval E < A	false	6 1
-9 eval B > F	true	7 5
+8 eval A < E	true	6 1
+9 eval F < B	true	7 5
 1 G > A
 2 B > F
 3 D > F
@@ -3605,7 +3605,7 @@
 7 B > G
 8 F > A
 9 B > D
-10 eval D > A	true	8 3
+10 eval A < D	true	8 3
 11 eval B < A	false	2 8
 1 B > E
 2 D > E
@@ -3615,7 +3615,7 @@
 6 D > B
 7 B > F
 8 B > A
-9 eval D < F	false	7 6
+9 eval F < D	true	7 6
 10 eval D < A	false	3 5
 1 G > E
 2 F > A
@@ -3623,7 +3623,7 @@
 4 G > F
 5 D > G
 6 D > E
-7 eval G > A	true	4 2
+7 eval G < A	false	4 2
 8 eval D < F	false	4 5
 1 E > F
 2 D > G
@@ -3639,7 +3639,7 @@
 2 G > B
 3 B > F
 4 G > A
-5 eval G > F	true	3 2
+5 eval G < F	false	3 2
 1 B > G
 2 F > A
 3 B > E
@@ -3654,10 +3654,10 @@
 7 D > A
 8 G > A
 9 B > F
-10 eval E > A	true	8 4
-11 eval B < A	false	1 7
-12 eval B < G	false	1 2
-13 eval E < F	false	5 4
+10 eval A < E	true	8 4
+11 eval A < B	true	1 7
+12 eval G < B	true	1 2
+13 eval F < E	true	5 4
 1 D > E
 2 B > E
 3 D > B
@@ -3665,8 +3665,8 @@
 5 G > F
 6 B > F
 7 E > F
-8 eval D < G	false	4 1
-9 eval B > G	true	4 2
+8 eval G < D	true	4 1
+9 eval B < G	false	4 2
 10 eval D < F	false	6 3
 1 G > D
 2 E > F
@@ -3677,15 +3677,15 @@
 7 B > F
 8 B > D
 9 eval B < A	false	8 4
-10 eval G > F	true	7 3
-11 eval G > A	true	4 1
+10 eval F < G	true	7 3
+11 eval A < G	true	4 1
 12 eval E < A	false	5 2
 1 G > D
 2 G > E
 3 G > F
 4 B > E
 5 F > A
-6 eval G < A	false	5 3
+6 eval A < G	true	5 3
 1 B > F
 2 B > A
 3 G > A
@@ -3695,7 +3695,7 @@
 7 G > E
 8 G > F
 9 E > A
-10 eval D > A	true	9 4
+10 eval D < A	false	9 4
 1 F > A
 2 B > E
 3 D > B
@@ -3704,8 +3704,8 @@
 6 D > G
 7 G > E
 8 D > A
-9 eval D > F	true	6 5
-10 eval D > E	true	6 7
+9 eval D < F	false	6 5
+10 eval D < E	false	6 7
 1 B > A
 2 B > G
 3 D > B
@@ -3716,8 +3716,8 @@
 8 B > E
 9 D > E
 10 eval D < A	false	1 3
-11 eval D > G	true	2 3
-12 eval E < F	false	4 7
+11 eval D < G	false	2 3
+12 eval F < E	true	4 7
 1 D > G
 2 G > F
 3 G > A
@@ -3727,52 +3727,52 @@
 7 F > A
 8 E > A
 9 E > G
-10 eval D < F	false	1 2
-11 eval D > A	true	1 3
-12 eval B < A	false	4 7
+10 eval F < D	true	1 2
+11 eval D < A	false	1 3
+12 eval A < B	true	4 7
 1 G > B
 2 B > A
 3 B > F
 4 B > E
-5 eval G < E	false	4 1
-6 eval G < A	false	2 1
+5 eval E < G	true	4 1
+6 eval A < G	true	2 1
 7 eval G < F	false	3 1
 1 D > A
 2 D > E
 3 E > A
 4 E > F
-5 eval D > F	true	4 2
+5 eval D < F	false	4 2
 1 F > A
 2 D > A
 3 G > D
 4 E > D
 5 B > F
 6 E > F
-7 eval G < A	false	3 2
-8 eval B < A	false	1 5
-9 eval E < A	false	6 1
+7 eval A < G	true	3 2
+8 eval A < B	true	1 5
+9 eval A < E	true	6 1
 1 F > A
 2 E > B
 3 G > B
 4 B > A
 5 G > F
 6 D > G
-7 eval G < A	false	4 3
-8 eval D < B	false	6 3
-9 eval D > F	true	6 5
-10 eval E < A	false	2 4
+7 eval A < G	true	4 3
+8 eval B < D	true	6 3
+9 eval F < D	true	6 5
+10 eval A < E	true	2 4
 1 E > B
 2 D > B
 3 E > F
 4 F > A
-5 eval E > A	true	4 3
+5 eval A < E	true	4 3
 1 E > D
 2 E > B
 3 B > A
 4 B > F
 5 E > G
-6 eval E > F	true	2 4
-7 eval E > A	true	2 3
+6 eval F < E	true	2 4
+7 eval E < A	false	2 3
 1 G > E
 2 G > D
 3 B > F
@@ -3780,7 +3780,7 @@
 5 B > A
 6 D > F
 7 D > A
-8 eval G > A	true	2 7
+8 eval A < G	true	2 7
 9 eval G < F	false	6 2
 1 B > G
 2 D > A
@@ -3791,9 +3791,9 @@
 7 E > F
 8 D > G
 9 eval E < A	false	5 7
-10 eval B > A	true	1 3
-11 eval B < F	false	7 6
-12 eval D < F	false	8 4
+10 eval A < B	true	1 3
+11 eval F < B	true	7 6
+12 eval F < D	true	8 4
 1 G > F
 2 D > G
 3 B > A
@@ -3804,8 +3804,8 @@
 8 D > F
 9 F > A
 10 eval D < B	false	2 4
-11 eval D < A	false	2 5
-12 eval D > E	true	2 7
+11 eval A < D	true	2 5
+12 eval D < E	false	2 7
 1 E > A
 2 G > F
 3 F > A
@@ -3813,18 +3813,18 @@
 5 D > B
 6 B > F
 7 D > F
-8 eval B > A	true	3 6
-9 eval G > A	true	2 3
+8 eval A < B	true	3 6
+9 eval G < A	false	2 3
 1 D > A
 2 E > G
 3 G > F
 4 B > G
 5 G > D
-6 eval E > F	true	3 2
-7 eval B > D	true	5 4
-8 eval B > F	true	3 4
-9 eval G > A	true	5 1
-10 eval E > D	true	5 2
+6 eval E < F	false	3 2
+7 eval D < B	true	5 4
+8 eval F < B	true	3 4
+9 eval A < G	true	5 1
+10 eval D < E	true	5 2
 1 G > A
 2 E > A
 3 G > F
@@ -3832,9 +3832,9 @@
 5 B > E
 6 D > B
 7 F > A
-8 eval G > E	true	5 4
+8 eval G < E	false	5 4
 9 eval B < A	false	2 5
-10 eval D < E	false	6 5
+10 eval E < D	true	6 5
 1 G > F
 2 E > A
 3 D > A
@@ -3849,10 +3849,10 @@
 4 F > A
 5 E > B
 6 G > F
-7 eval E > F	true	5 2
-8 eval E < A	false	3 1
-9 eval G > A	true	6 4
-10 eval B > A	true	4 2
+7 eval E < F	false	5 2
+8 eval A < E	true	3 1
+9 eval G < A	false	6 4
+10 eval A < B	true	4 2
 1 D > G
 2 E > F
 3 B > E
@@ -3862,14 +3862,14 @@
 7 D > A
 8 D > F
 9 E > G
-10 eval B > G	true	3 9
-11 eval E < A	false	6 9
+10 eval B < G	false	3 9
+11 eval A < E	true	6 9
 1 E > G
 2 G > D
 3 E > D
 4 E > B
 5 G > F
-6 eval E < F	false	1 5
+6 eval F < E	true	1 5
 1 G > F
 2 E > F
 3 D > F
@@ -3878,8 +3878,8 @@
 6 B > F
 7 B > D
 8 G > A
-9 eval D > E	true	4 5
-10 eval D > A	true	8 5
+9 eval D < E	false	4 5
+10 eval A < D	true	8 5
 11 eval B < G	false	5 7
 1 D > F
 2 B > E
@@ -3890,9 +3890,9 @@
 7 G > D
 8 D > E
 9 E > A
-10 eval G > A	true	9 3
-11 eval D > A	true	8 9
-12 eval G > F	true	6 5
+10 eval G < A	false	9 3
+11 eval A < D	true	8 9
+12 eval F < G	true	6 5
 13 eval B < A	false	2 9
 1 E > F
 2 G > E
@@ -3902,9 +3902,9 @@
 6 B > F
 7 B > A
 8 F > A
-9 eval D > F	true	3 1
-10 eval E > A	true	8 1
-11 eval G > F	true	1 2
+9 eval D < F	false	3 1
+10 eval E < A	false	8 1
+11 eval G < F	false	1 2
 12 eval G < A	false	5 4
 1 D > E
 2 B > F
@@ -3914,7 +3914,7 @@
 6 D > F
 7 D > G
 8 F > A
-9 eval E > A	true	5 8
+9 eval E < A	false	5 8
 10 eval B < A	false	2 8
 1 G > D
 2 E > B
@@ -3925,12 +3925,12 @@
 7 G > E
 8 G > B
 9 eval E < A	false	6 2
-10 eval G < F	false	7 5
+10 eval F < G	true	7 5
 1 G > B
 2 B > A
 3 E > G
 4 D > A
-5 eval G > A	true	1 2
+5 eval A < G	true	1 2
 6 eval E < B	false	3 1
 1 E > A
 2 D > F
@@ -3940,8 +3940,8 @@
 6 E > F
 7 B > G
 8 D > G
-9 eval D > A	true	1 3
-10 eval B < F	false	4 7
+9 eval A < D	true	1 3
+10 eval F < B	true	4 7
 1 B > E
 2 D > F
 3 D > B
@@ -3949,17 +3949,17 @@
 5 G > A
 6 F > A
 7 eval D < E	false	1 3
-8 eval D > A	true	6 2
-9 eval B > F	true	4 1
-10 eval E < A	false	6 4
+8 eval A < D	true	6 2
+9 eval F < B	true	4 1
+10 eval A < E	true	6 4
 1 G > F
 2 D > A
 3 G > D
 4 D > E
 5 E > A
 6 B > A
-7 eval G < E	false	3 4
-8 eval G < A	false	3 2
+7 eval E < G	true	3 4
+8 eval A < G	true	3 2
 1 D > F
 2 D > G
 3 D > E
@@ -3969,15 +3969,15 @@
 7 G > E
 8 B > E
 9 B > G
-10 eval B > F	true	6 1
-11 eval G > F	true	5 7
+10 eval B < F	false	6 1
+11 eval F < G	true	5 7
 1 D > A
 2 G > D
 3 B > D
 4 B > A
 5 E > B
-6 eval G > A	true	1 2
-7 eval E < A	false	5 4
+6 eval G < A	false	1 2
+7 eval A < E	true	5 4
 8 eval E < D	false	5 3
 1 F > A
 2 B > A
@@ -3985,7 +3985,7 @@
 4 G > D
 5 G > F
 6 D > F
-7 eval G < A	false	4 3
+7 eval A < G	true	4 3
 1 D > F
 2 G > B
 3 F > A
@@ -3993,8 +3993,8 @@
 5 G > F
 6 G > A
 7 D > E
-8 eval E > A	true	3 4
-9 eval D > A	true	3 1
+8 eval E < A	false	3 4
+9 eval D < A	false	3 1
 1 G > B
 2 B > E
 3 D > B
@@ -4002,9 +4002,9 @@
 5 G > F
 6 E > A
 7 B > F
-8 eval G > E	true	2 1
+8 eval G < E	false	2 1
 9 eval D < E	false	2 3
-10 eval B < A	false	6 2
+10 eval A < B	true	6 2
 1 G > F
 2 E > A
 3 E > F
@@ -4012,11 +4012,11 @@
 5 B > E
 6 D > B
 7 F > A
-8 eval D > E	true	5 6
-9 eval D < A	false	4 7
+8 eval D < E	false	5 6
+9 eval A < D	true	4 7
 10 eval B < A	false	5 2
-11 eval B < F	false	5 3
-12 eval G > A	true	7 1
+11 eval F < B	true	5 3
+12 eval A < G	true	7 1
 1 F > A
 2 G > A
 3 B > F
@@ -4024,41 +4024,41 @@
 5 B > A
 6 D > G
 7 B > E
-8 eval E > A	true	4 1
-9 eval D > A	true	6 2
+8 eval E < A	false	4 1
+9 eval A < D	true	6 2
 1 E > A
 2 E > G
 3 D > G
 4 B > E
 5 G > F
 6 B > G
-7 eval D < F	false	3 5
-8 eval B > A	true	1 4
-9 eval E > F	true	5 2
-10 eval B < F	false	5 6
+7 eval F < D	true	3 5
+8 eval B < A	false	1 4
+9 eval E < F	false	5 2
+10 eval F < B	true	5 6
 1 E > F
 2 E > D
 3 D > F
 4 B > D
 5 G > F
 6 G > D
-7 eval B > F	true	4 3
+7 eval B < F	false	4 3
 1 D > E
 2 B > E
 3 E > F
 4 B > A
 5 G > A
-6 eval B > F	true	2 3
-7 eval D > F	true	3 1
+6 eval F < B	true	2 3
+7 eval F < D	true	3 1
 1 G > D
 2 E > B
 3 G > B
 4 B > D
 5 D > A
 6 G > F
-7 eval B > A	true	5 4
-8 eval G < A	false	5 1
-9 eval E > D	true	2 4
+7 eval A < B	true	5 4
+8 eval A < G	true	5 1
+9 eval E < D	false	2 4
 1 D > F
 2 D > B
 3 G > A
@@ -4068,7 +4068,7 @@
 7 G > B
 8 B > A
 9 E > G
-10 eval E > A	true	3 9
+10 eval A < E	true	3 9
 1 B > G
 2 D > G
 3 F > A
@@ -4076,10 +4076,10 @@
 5 E > F
 6 G > F
 7 D > E
-8 eval D < F	false	5 7
-9 eval G > A	true	6 3
-10 eval D < A	false	4 7
-11 eval B < F	false	6 1
+8 eval F < D	true	5 7
+9 eval G < A	false	6 3
+10 eval A < D	true	4 7
+11 eval F < B	true	6 1
 1 E > B
 2 D > E
 3 G > A
@@ -4088,27 +4088,27 @@
 6 D > G
 7 D > B
 8 eval E < F	false	4 1
-9 eval B < A	false	5 4
-10 eval D < A	false	6 3
-11 eval D < F	false	4 7
+9 eval A < B	true	5 4
+10 eval A < D	true	6 3
+11 eval F < D	true	4 7
 1 E > F
 2 B > G
 3 E > B
 4 G > A
 5 G > D
 6 B > A
-7 eval E < A	false	6 3
-8 eval B < D	false	5 2
-9 eval E > G	true	2 3
+7 eval A < E	true	6 3
+8 eval D < B	true	5 2
+9 eval G < E	true	2 3
 1 F > A
 2 D > G
 3 E > G
 4 D > E
 5 G > A
 6 B > F
-7 eval D < A	false	2 5
-8 eval B > A	true	1 6
-9 eval E > A	true	5 3
+7 eval A < D	true	2 5
+8 eval A < B	true	1 6
+9 eval E < A	false	5 3
 1 G > A
 2 G > E
 3 G > B
@@ -4117,8 +4117,8 @@
 6 E > D
 7 D > F
 8 D > A
-9 eval E < F	false	6 7
-10 eval E < A	false	6 8
+9 eval F < E	true	6 7
+10 eval A < E	true	6 8
 11 eval G < D	false	2 6
 1 F > A
 2 B > G
@@ -4127,12 +4127,12 @@
 5 G > A
 6 E > G
 7 G > F
-8 eval B < A	false	2 5
+8 eval A < B	true	2 5
 9 eval B < F	false	2 7
-10 eval E > F	true	7 6
+10 eval E < F	false	7 6
 11 eval E < A	false	5 6
-12 eval D > F	true	7 4
-13 eval D < A	false	5 4
+12 eval D < F	false	7 4
+13 eval A < D	true	5 4
 1 G > B
 2 B > F
 3 G > E
@@ -4141,7 +4141,7 @@
 6 B > A
 7 eval G < A	false	6 1
 8 eval D < F	false	5 4
-9 eval G > F	true	2 1
+9 eval G < F	false	2 1
 1 D > F
 2 E > B
 3 G > A
@@ -4150,19 +4150,19 @@
 6 E > D
 7 B > A
 8 eval E < A	false	5 3
-9 eval E < F	false	1 6
-10 eval B > F	true	1 4
+9 eval F < E	true	1 6
+10 eval B < F	false	1 4
 1 E > F
 2 E > A
 3 G > B
 4 D > E
 5 B > E
 6 B > F
-7 eval G < F	false	6 3
-8 eval D > F	true	4 1
-9 eval D > A	true	4 2
-10 eval G > E	true	5 3
-11 eval B > A	true	5 2
+7 eval F < G	true	6 3
+8 eval D < F	false	4 1
+9 eval D < A	false	4 2
+10 eval E < G	true	5 3
+11 eval B < A	false	5 2
 1 E > A
 2 D > F
 3 D > B
@@ -4170,12 +4170,12 @@
 5 F > A
 6 E > F
 7 eval E < B	false	4 3
-8 eval D > A	true	5 2
+8 eval D < A	false	5 2
 1 B > G
 2 E > A
 3 B > E
 4 F > A
-5 eval B < A	false	2 3
+5 eval A < B	true	2 3
 1 B > G
 2 B > F
 3 G > A
@@ -4191,13 +4191,13 @@
 3 B > A
 4 D > G
 5 G > F
-6 eval B < F	false	1 5
+6 eval F < B	true	1 5
 1 E > D
 2 D > A
 3 G > B
 4 B > F
-5 eval G > F	true	3 4
-6 eval E > A	true	1 2
+5 eval G < F	false	3 4
+6 eval A < E	true	1 2
 1 D > F
 2 E > D
 3 E > B
@@ -4206,20 +4206,20 @@
 6 D > B
 7 B > F
 8 E > A
-9 eval B > A	true	7 4
-10 eval E < F	false	1 2
+9 eval B < A	false	7 4
+10 eval F < E	true	1 2
 1 F > A
 2 D > A
 3 B > D
 4 E > F
-5 eval B > A	true	2 3
-6 eval E > A	true	1 4
+5 eval B < A	false	2 3
+6 eval E < A	false	1 4
 1 D > G
 2 B > G
 3 B > E
 4 D > F
 5 G > F
-6 eval B > F	true	5 2
+6 eval F < B	true	5 2
 1 D > B
 2 E > B
 3 D > F
@@ -4228,16 +4228,16 @@
 6 G > B
 7 G > E
 8 E > D
-9 eval G > D	true	8 7
+9 eval G < D	false	8 7
 10 eval G < A	false	4 7
-11 eval D < A	false	5 3
+11 eval A < D	true	5 3
 12 eval E < F	false	3 8
 1 B > G
 2 G > F
 3 E > G
 4 D > A
-5 eval E > F	true	2 3
-6 eval B > F	true	2 1
+5 eval F < E	true	2 3
+6 eval F < B	true	2 1
 1 E > A
 2 D > E
 3 F > A
@@ -4248,9 +4248,9 @@
 8 eval G < E	false	4 2
 9 eval G < A	false	5 3
 10 eval B < A	false	1 7
-11 eval B < F	false	6 7
-12 eval D > A	true	2 1
-13 eval D > F	true	2 6
+11 eval F < B	true	6 7
+12 eval A < D	true	2 1
+13 eval D < F	false	2 6
 1 G > F
 2 E > A
 3 G > B
@@ -4258,7 +4258,7 @@
 5 E > D
 6 G > E
 7 eval G < D	false	5 6
-8 eval G > A	true	2 6
+8 eval A < G	true	2 6
 1 G > E
 2 B > F
 3 F > A
@@ -4266,15 +4266,15 @@
 5 D > F
 6 E > F
 7 G > F
-8 eval D > A	true	5 3
-9 eval G < A	false	4 1
+8 eval D < A	false	5 3
+9 eval A < G	true	4 1
 10 eval B < A	false	3 2
 1 E > D
 2 E > B
 3 G > D
 4 E > G
 5 B > G
-6 eval B > D	true	3 5
+6 eval D < B	true	3 5
 1 E > A
 2 G > A
 3 D > A
@@ -4288,29 +4288,29 @@
 4 D > A
 5 B > F
 6 G > A
-7 eval G > E	true	1 3
+7 eval G < E	false	1 3
 1 B > F
 2 D > E
 3 E > F
 4 D > F
 5 B > E
 6 E > A
-7 eval B < A	false	6 5
+7 eval A < B	true	6 5
 8 eval D < A	false	6 2
 1 G > F
 2 G > A
 3 F > A
 4 D > F
-5 eval D > A	true	3 4
+5 eval A < D	true	3 4
 1 G > A
 2 E > F
 3 D > G
 4 D > F
 5 G > F
 6 B > D
-7 eval B > F	true	6 4
-8 eval D > A	true	1 3
-9 eval B < G	false	6 3
+7 eval F < B	true	6 4
+8 eval A < D	true	1 3
+9 eval G < B	true	6 3
 1 D > E
 2 D > G
 3 G > A
@@ -4325,9 +4325,9 @@
 7 D > A
 8 F > A
 9 E > F
-10 eval G > F	true	6 9
-11 eval D < F	false	4 9
-12 eval B > A	true	5 7
+10 eval G < F	false	6 9
+11 eval F < D	true	4 9
+12 eval B < A	false	5 7
 13 eval E < A	false	8 9
 1 E > A
 2 D > B
@@ -4337,24 +4337,24 @@
 6 G > F
 7 D > E
 8 B > A
-9 eval D > F	true	4 6
+9 eval D < F	false	4 6
 1 D > F
 2 E > A
 3 G > F
 4 B > G
 5 B > D
 6 G > E
-7 eval B < F	false	3 4
-8 eval G > A	true	2 6
-9 eval B < E	false	6 4
+7 eval F < B	true	3 4
+8 eval A < G	true	2 6
+9 eval E < B	true	6 4
 1 F > A
 2 E > F
 3 D > F
 4 B > A
 5 E > D
 6 E > G
-7 eval E > A	true	1 2
-8 eval D < A	false	3 1
+7 eval E < A	false	1 2
+8 eval A < D	true	3 1
 1 D > F
 2 D > E
 3 B > F
@@ -4364,7 +4364,7 @@
 7 B > A
 8 G > B
 9 G > F
-10 eval G < A	false	7 8
+10 eval A < G	true	7 8
 11 eval D < A	false	1 4
 12 eval E < A	false	4 6
 1 D > B
@@ -4381,10 +4381,10 @@
 5 B > A
 6 E > B
 7 G > E
-8 eval E > A	true	2 4
-9 eval G > F	true	7 2
-10 eval G < B	false	7 6
-11 eval D < A	false	1 4
+8 eval A < E	true	2 4
+9 eval G < F	false	7 2
+10 eval B < G	true	7 6
+11 eval A < D	true	1 4
 1 G > E
 2 D > F
 3 B > F
@@ -4392,10 +4392,10 @@
 5 E > D
 6 B > A
 7 D > B
-8 eval G < D	false	5 1
-9 eval E > A	true	4 5
-10 eval E > F	true	2 5
-11 eval E > B	true	7 5
+8 eval D < G	true	5 1
+9 eval E < A	false	4 5
+10 eval E < F	false	2 5
+11 eval B < E	true	7 5
 1 B > E
 2 G > B
 3 B > F
@@ -4405,17 +4405,17 @@
 7 D > A
 8 E > A
 9 E > F
-10 eval G > A	true	5 2
+10 eval G < A	false	5 2
 11 eval G < E	false	1 2
-12 eval D > F	true	9 6
-13 eval G > F	true	3 2
+12 eval D < F	false	9 6
+13 eval G < F	false	3 2
 1 B > F
 2 D > F
 3 G > A
 4 E > B
 5 D > A
 6 D > G
-7 eval E > F	true	4 1
+7 eval E < F	false	4 1
 1 E > F
 2 G > F
 3 D > B
@@ -4424,10 +4424,10 @@
 6 D > A
 7 D > E
 8 D > F
-9 eval B > F	true	2 4
-10 eval G < A	false	5 2
-11 eval E > A	true	1 5
-12 eval D > G	true	3 4
+9 eval F < B	true	2 4
+10 eval A < G	true	5 2
+11 eval E < A	false	1 5
+12 eval G < D	true	3 4
 1 D > B
 2 F > A
 3 G > B
@@ -4437,16 +4437,16 @@
 7 B > F
 8 D > A
 9 B > A
-10 eval E < F	false	5 6
-11 eval E > A	true	4 9
-12 eval D > F	true	7 1
-13 eval G < A	false	3 9
+10 eval F < E	true	5 6
+11 eval A < E	true	4 9
+12 eval F < D	true	7 1
+13 eval A < G	true	3 9
 1 D > G
 2 G > F
 3 D > E
 4 B > G
-5 eval B > F	true	4 2
-6 eval D > F	true	1 2
+5 eval F < B	true	4 2
+6 eval F < D	true	1 2
 1 E > B
 2 D > A
 3 E > D
@@ -4454,9 +4454,9 @@
 5 E > F
 6 G > A
 7 B > G
-8 eval B > A	true	6 7
-9 eval E < A	false	5 4
-10 eval E > G	true	1 7
+8 eval B < A	false	6 7
+9 eval A < E	true	5 4
+10 eval G < E	true	1 7
 1 E > A
 2 G > A
 3 E > D
@@ -4467,8 +4467,8 @@
 8 D > B
 9 E > B
 10 eval E < F	false	5 9
-11 eval D > F	true	5 8
-12 eval D < A	false	6 8
+11 eval D < F	false	5 8
+12 eval A < D	true	6 8
 1 G > E
 2 D > G
 3 F > A
@@ -4476,7 +4476,7 @@
 5 B > F
 6 D > A
 7 eval B < A	false	5 3
-8 eval D > E	true	1 2
+8 eval E < D	true	1 2
 1 D > F
 2 G > F
 3 D > B
@@ -4485,7 +4485,7 @@
 6 E > A
 7 B > F
 8 E > F
-9 eval B > A	true	7 5
+9 eval B < A	false	7 5
 10 eval G < A	false	6 4
 11 eval D < A	false	5 1
 1 E > A
@@ -4497,8 +4497,8 @@
 7 B > D
 8 E > G
 9 E > F
-10 eval B > F	true	7 3
-11 eval B < A	false	7 2
+10 eval B < F	false	7 3
+11 eval A < B	true	7 2
 12 eval E < D	false	5 7
 1 E > G
 2 B > A
@@ -4507,8 +4507,8 @@
 5 B > F
 6 G > F
 7 E > B
-8 eval E > D	true	3 1
-9 eval E > A	true	2 7
+8 eval E < D	false	3 1
+9 eval A < E	true	2 7
 1 D > F
 2 G > E
 3 G > F
@@ -4517,32 +4517,32 @@
 6 B > G
 7 B > F
 8 B > A
-9 eval B > E	true	6 2
-10 eval D > G	true	4 6
-11 eval D > A	true	4 8
-12 eval G > A	true	5 2
+9 eval B < E	false	6 2
+10 eval D < G	false	4 6
+11 eval A < D	true	4 8
+12 eval G < A	false	5 2
 1 E > B
 2 G > A
 3 D > G
 4 B > A
 5 B > G
-6 eval E < A	false	4 1
-7 eval D > A	true	2 3
-8 eval E > G	true	5 1
+6 eval A < E	true	4 1
+7 eval A < D	true	2 3
+8 eval G < E	true	5 1
 1 D > A
 2 B > D
 3 B > E
 4 B > F
 5 E > A
 6 E > G
-7 eval B < G	false	6 3
-8 eval B < A	false	1 2
+7 eval G < B	true	6 3
+8 eval A < B	true	1 2
 1 F > A
 2 D > E
 3 G > D
 4 B > E
 5 G > B
-6 eval G < E	false	3 2
+6 eval E < G	true	3 2
 1 D > F
 2 G > E
 3 E > A
@@ -4557,8 +4557,8 @@
 7 G > D
 8 E > A
 9 D > F
-10 eval B > D	true	7 3
-11 eval G > A	true	7 6
+10 eval D < B	true	7 3
+11 eval G < A	false	7 6
 12 eval B < A	false	4 8
 1 G > B
 2 D > G
@@ -4569,17 +4569,17 @@
 7 B > F
 8 G > E
 9 eval D < A	false	2 5
-10 eval D > B	true	2 1
-11 eval D > E	true	2 8
-12 eval D > F	true	2 4
-13 eval B > A	true	7 3
-14 eval E > F	true	7 6
+10 eval D < B	false	2 1
+11 eval D < E	false	2 8
+12 eval F < D	true	2 4
+13 eval A < B	true	7 3
+14 eval F < E	true	7 6
 1 B > G
 2 B > E
 3 E > A
 4 E > F
-5 eval B < F	false	4 2
-6 eval B > A	true	3 2
+5 eval F < B	true	4 2
+6 eval A < B	true	3 2
 1 G > F
 2 E > B
 3 B > D
@@ -4589,44 +4589,44 @@
 7 F > A
 8 D > A
 9 G > A
-10 eval G > D	true	4 3
-11 eval B > A	true	3 8
+10 eval D < G	true	4 3
+11 eval B < A	false	3 8
 1 G > F
 2 E > F
 3 D > B
 4 B > E
 5 B > A
 6 G > A
-7 eval D < A	false	3 5
+7 eval A < D	true	3 5
 8 eval D < E	false	3 4
-9 eval B > F	true	4 2
+9 eval F < B	true	4 2
 1 B > A
 2 G > B
 3 G > F
 4 E > B
 5 B > F
 6 E > D
-7 eval G > A	true	1 2
-8 eval E < A	false	4 1
-9 eval E > F	true	5 4
+7 eval G < A	false	1 2
+8 eval A < E	true	4 1
+9 eval F < E	true	5 4
 1 G > E
 2 D > E
 3 B > D
 4 E > A
 5 E > F
 6 D > F
-7 eval G > F	true	5 1
-8 eval G < A	false	4 1
+7 eval F < G	true	5 1
+8 eval A < G	true	4 1
 9 eval B < F	false	6 3
-10 eval B > E	true	2 3
-11 eval D > A	true	4 2
+10 eval B < E	false	2 3
+11 eval A < D	true	4 2
 1 B > G
 2 G > F
 3 D > A
 4 B > F
 5 D > B
 6 eval D < F	false	5 4
-7 eval D > G	true	5 1
+7 eval G < D	true	5 1
 1 E > G
 2 B > A
 3 B > F
@@ -4634,8 +4634,8 @@
 5 E > B
 6 G > F
 7 E > A
-8 eval E > F	true	3 5
-9 eval D > F	true	4 6
+8 eval E < F	false	3 5
+9 eval F < D	true	4 6
 1 D > F
 2 G > E
 3 B > D
@@ -4644,11 +4644,11 @@
 6 G > B
 7 B > F
 8 F > A
-9 eval G > D	true	3 6
-10 eval G > F	true	7 6
-11 eval B < A	false	7 8
-12 eval D > A	true	1 8
-13 eval G > A	true	5 2
+9 eval D < G	true	3 6
+10 eval F < G	true	7 6
+11 eval A < B	true	7 8
+12 eval A < D	true	1 8
+13 eval G < A	false	5 2
 1 G > A
 2 G > F
 3 E > F
@@ -4657,7 +4657,7 @@
 6 B > E
 7 eval B < A	false	1 5
 8 eval B < F	false	2 5
-9 eval E > A	true	3 4
+9 eval E < A	false	3 4
 1 G > E
 2 B > A
 3 D > F
@@ -4666,10 +4666,10 @@
 6 G > B
 7 G > D
 8 E > A
-9 eval G > A	true	8 1
-10 eval B > F	true	4 3
+9 eval G < A	false	8 1
+10 eval B < F	false	4 3
 11 eval G < F	false	3 7
-12 eval E > D	true	5 4
+12 eval D < E	true	5 4
 1 D > G
 2 D > F
 3 G > F
@@ -4677,8 +4677,8 @@
 5 D > B
 6 E > G
 7 B > A
-8 eval D > A	true	7 5
-9 eval E < F	false	6 3
+8 eval A < D	true	7 5
+9 eval F < E	true	6 3
 1 D > F
 2 E > F
 3 G > A
@@ -4688,8 +4688,8 @@
 7 D > G
 8 E > A
 9 B > A
-10 eval D < A	false	7 3
-11 eval G > F	true	2 6
+10 eval A < D	true	7 3
+11 eval G < F	false	2 6
 1 F > A
 2 E > F
 3 B > F
@@ -4700,12 +4700,12 @@
 8 E > A
 9 G > F
 10 eval D < F	false	6 9
-11 eval B > A	true	4 8
+11 eval A < B	true	4 8
 1 D > G
 2 B > A
 3 E > F
 4 F > A
-5 eval E > A	true	3 4
+5 eval A < E	true	3 4
 1 B > E
 2 D > G
 3 D > E
@@ -4715,16 +4715,16 @@
 7 E > F
 8 E > A
 9 eval D < F	false	7 3
-10 eval B > A	true	8 1
+10 eval B < A	false	8 1
 1 G > D
 2 B > E
 3 G > F
 4 E > F
 5 G > E
 6 F > A
-7 eval E < A	false	6 4
+7 eval A < E	true	6 4
 8 eval G < A	false	3 6
-9 eval B > F	true	2 4
+9 eval B < F	false	2 4
 1 B > D
 2 B > A
 3 F > A
@@ -4733,24 +4733,24 @@
 6 E > B
 7 E > A
 8 G > F
-9 eval G < A	false	8 3
-10 eval B < G	false	4 1
-11 eval D > F	true	4 8
-12 eval E > D	true	6 1
+9 eval A < G	true	8 3
+10 eval G < B	true	4 1
+11 eval F < D	true	4 8
+12 eval D < E	true	6 1
 1 F > A
 2 D > G
 3 E > G
 4 B > F
 5 D > F
 6 B > A
-7 eval D > A	true	5 1
+7 eval A < D	true	5 1
 1 E > A
 2 B > E
 3 F > A
 4 D > F
 5 B > G
 6 E > G
-7 eval B < A	false	1 2
+7 eval A < B	true	1 2
 8 eval D < A	false	3 4
 1 E > F
 2 B > A
@@ -4758,17 +4758,17 @@
 4 D > F
 5 G > E
 6 D > B
-7 eval G > F	true	1 5
-8 eval D > A	true	2 6
-9 eval G > B	true	3 6
+7 eval F < G	true	1 5
+8 eval A < D	true	2 6
+9 eval B < G	true	3 6
 1 E > D
 2 D > F
 3 D > A
 4 F > A
 5 G > F
-6 eval G > A	true	4 5
-7 eval E < A	false	1 3
-8 eval E > F	true	2 1
+6 eval G < A	false	4 5
+7 eval A < E	true	1 3
+8 eval F < E	true	2 1
 1 E > D
 2 D > A
 3 G > A
@@ -4777,10 +4777,10 @@
 6 D > F
 7 E > A
 8 D > B
-9 eval D > G	true	5 8
-10 eval E > G	true	4 5
-11 eval B > A	true	5 3
-12 eval E < F	false	6 1
+9 eval D < G	false	5 8
+10 eval E < G	false	4 5
+11 eval A < B	true	5 3
+12 eval F < E	true	6 1
 1 E > A
 2 B > A
 3 B > G
@@ -4788,23 +4788,23 @@
 5 E > G
 6 G > A
 7 E > D
-8 eval E > F	true	7 4
+8 eval E < F	false	7 4
 1 G > E
 2 G > B
 3 D > A
 4 D > G
 5 B > A
-6 eval D > B	true	2 4
-7 eval D > E	true	1 4
-8 eval G > A	true	2 5
+6 eval B < D	true	2 4
+7 eval E < D	true	1 4
+8 eval A < G	true	2 5
 1 E > F
 2 D > B
 3 E > B
 4 F > A
 5 B > F
 6 eval D < F	false	5 2
-7 eval E > A	true	1 4
-8 eval B < A	false	4 5
+7 eval E < A	false	1 4
+8 eval A < B	true	4 5
 1 E > G
 2 E > F
 3 B > A
@@ -4813,9 +4813,9 @@
 6 E > A
 7 B > D
 8 E > B
-9 eval E > D	true	7 8
-10 eval G > A	true	3 5
-11 eval G > D	true	7 5
+9 eval E < D	false	7 8
+10 eval G < A	false	3 5
+11 eval G < D	false	7 5
 1 E > D
 2 B > G
 3 E > A
@@ -4823,9 +4823,9 @@
 5 E > F
 6 E > G
 7 F > A
-8 eval B < F	false	5 4
-9 eval B < D	false	1 4
-10 eval B > A	true	3 4
+8 eval F < B	true	5 4
+9 eval D < B	true	1 4
+10 eval B < A	false	3 4
 1 D > A
 2 G > F
 3 F > A
@@ -4834,7 +4834,7 @@
 6 D > F
 7 eval B < A	false	5 1
 8 eval G < A	false	2 3
-9 eval B < F	false	5 6
+9 eval F < B	true	5 6
 10 eval B < G	false	5 4
 1 B > F
 2 B > G
@@ -4843,8 +4843,8 @@
 5 F > A
 6 D > A
 7 B > D
-8 eval B < A	false	1 5
-9 eval E > A	true	4 5
+8 eval A < B	true	1 5
+9 eval A < E	true	4 5
 1 D > A
 2 F > A
 3 B > F
@@ -4852,8 +4852,8 @@
 5 G > A
 6 D > E
 7 E > B
-8 eval E > F	true	3 7
-9 eval E > A	true	4 7
+8 eval F < E	true	3 7
+9 eval E < A	false	4 7
 10 eval D < B	false	7 6
 1 E > F
 2 E > D
@@ -4861,8 +4861,8 @@
 4 B > D
 5 B > F
 6 G > A
-7 eval E < A	false	2 3
-8 eval B > A	true	4 3
+7 eval A < E	true	2 3
+8 eval A < B	true	4 3
 1 E > F
 2 E > G
 3 G > B
@@ -4872,23 +4872,23 @@
 7 G > D
 8 D > F
 9 D > A
-10 eval E > D	true	7 2
-11 eval E > B	true	3 2
-12 eval G < A	false	3 5
-13 eval G > F	true	8 7
+10 eval E < D	false	7 2
+11 eval E < B	false	3 2
+12 eval A < G	true	3 5
+13 eval G < F	false	8 7
 14 eval B < F	false	6 8
-15 eval E > A	true	4 1
+15 eval A < E	true	4 1
 1 B > E
 2 G > E
 3 E > A
 4 D > F
 5 eval B < A	false	3 1
-6 eval G > A	true	2 3
+6 eval A < G	true	2 3
 1 B > A
 2 G > B
 3 E > A
 4 D > A
-5 eval G > A	true	1 2
+5 eval G < A	false	1 2
 1 E > A
 2 B > D
 3 D > F
@@ -4898,12 +4898,12 @@
 7 F > A
 8 B > E
 9 eval D < A	false	3 7
-10 eval G > A	true	7 6
+10 eval A < G	true	7 6
 1 B > F
 2 G > D
 3 G > B
 4 E > D
-5 eval G > F	true	3 1
+5 eval F < G	true	3 1
 1 D > F
 2 G > A
 3 E > G
@@ -4912,10 +4912,10 @@
 6 B > F
 7 G > B
 8 E > B
-9 eval E > A	true	2 3
-10 eval G < F	false	7 6
-11 eval E < F	false	6 8
-12 eval D > A	true	5 4
+9 eval A < E	true	2 3
+10 eval F < G	true	7 6
+11 eval F < E	true	6 8
+12 eval D < A	false	5 4
 1 B > A
 2 B > E
 3 D > E
@@ -4925,8 +4925,8 @@
 7 G > A
 8 B > F
 9 eval D < F	false	3 4
-10 eval G < F	false	4 5
-11 eval D < A	false	6 3
+10 eval F < G	true	4 5
+11 eval A < D	true	6 3
 1 G > F
 2 D > F
 3 D > A
@@ -4936,17 +4936,17 @@
 7 G > D
 8 E > D
 9 eval G < A	false	7 3
-10 eval G > B	true	7 5
+10 eval B < G	true	7 5
 11 eval E < F	false	2 8
-12 eval E > A	true	3 8
+12 eval A < E	true	3 8
 1 G > A
 2 E > D
 3 G > D
 4 D > B
 5 E > G
-6 eval G < B	false	4 3
-7 eval E < B	false	4 2
-8 eval E > A	true	5 1
+6 eval B < G	true	4 3
+7 eval B < E	true	4 2
+8 eval A < E	true	5 1
 1 D > E
 2 G > E
 3 E > A
@@ -4956,10 +4956,10 @@
 7 B > G
 8 D > G
 9 G > A
-10 eval D > A	true	8 9
-11 eval B > E	true	6 1
-12 eval B > F	true	6 5
-13 eval B > A	true	7 9
+10 eval D < A	false	8 9
+11 eval E < B	true	6 1
+12 eval B < F	false	6 5
+13 eval A < B	true	7 9
 1 G > F
 2 B > G
 3 D > F
@@ -4967,7 +4967,7 @@
 5 E > A
 6 B > D
 7 B > E
-8 eval B > F	true	3 6
+8 eval B < F	false	3 6
 9 eval B < A	false	4 6
 1 G > B
 2 D > G
@@ -4976,8 +4976,8 @@
 5 G > A
 6 D > A
 7 E > F
-8 eval D > B	true	1 2
-9 eval G > F	true	1 4
+8 eval D < B	false	1 2
+9 eval G < F	false	1 4
 1 B > F
 2 E > F
 3 D > A
@@ -4986,7 +4986,7 @@
 6 D > G
 7 E > G
 8 eval E < B	false	5 7
-9 eval D > F	true	4 6
+9 eval F < D	true	4 6
 10 eval D < B	false	5 6
 1 B > A
 2 D > B
@@ -4994,34 +4994,34 @@
 4 E > A
 5 G > A
 6 D > E
-7 eval D < A	false	2 1
-8 eval D > F	true	2 3
+7 eval A < D	true	2 1
+8 eval F < D	true	2 3
 1 F > A
 2 D > A
 3 E > B
 4 B > A
 5 D > G
-6 eval E < A	false	4 3
+6 eval A < E	true	4 3
 1 D > G
 2 F > A
 3 E > G
 4 D > F
 5 E > D
 6 B > E
-7 eval B < G	false	6 3
-8 eval B > D	true	6 5
-9 eval D < A	false	2 4
-10 eval E > F	true	5 4
+7 eval G < B	true	6 3
+8 eval B < D	false	6 5
+9 eval A < D	true	2 4
+10 eval E < F	false	5 4
 1 D > E
 2 G > F
 3 B > A
 4 E > G
 5 D > B
 6 G > A
-7 eval D > A	true	3 5
-8 eval E > F	true	2 4
+7 eval A < D	true	3 5
+8 eval E < F	false	2 4
 9 eval D < G	false	4 1
-10 eval E > A	true	6 4
+10 eval A < E	true	6 4
 1 E > F
 2 B > F
 3 E > A
@@ -5030,13 +5030,13 @@
 6 B > G
 7 E > G
 8 B > D
-9 eval D > A	true	5 4
-10 eval B > A	true	2 4
+9 eval A < D	true	5 4
+10 eval B < A	false	2 4
 1 G > E
 2 D > F
 3 B > A
 4 E > F
-5 eval G < F	false	4 1
+5 eval F < G	true	4 1
 1 E > D
 2 G > D
 3 E > F
@@ -5044,14 +5044,14 @@
 5 F > A
 6 G > F
 7 E > A
-8 eval G > A	true	4 2
+8 eval G < A	false	4 2
 1 B > F
 2 D > G
 3 E > D
 4 D > B
-5 eval E < G	false	3 2
-6 eval E > B	true	3 4
-7 eval D < F	false	1 4
+5 eval G < E	true	3 2
+6 eval B < E	true	3 4
+7 eval F < D	true	1 4
 1 B > F
 2 D > A
 3 E > F
@@ -5063,21 +5063,21 @@
 9 D > F
 10 eval G < A	false	8 6
 11 eval E < A	false	4 2
-12 eval G < F	false	1 6
+12 eval F < G	true	1 6
 1 B > A
 2 G > B
 3 E > A
 4 F > A
 5 G > E
 6 G > D
-7 eval G > A	true	3 5
+7 eval G < A	false	3 5
 1 F > A
 2 D > E
 3 G > A
 4 D > F
 5 E > F
 6 D > A
-7 eval E < A	false	1 5
+7 eval A < E	true	1 5
 1 E > F
 2 D > A
 3 B > F
@@ -5085,19 +5085,19 @@
 5 G > F
 6 F > A
 7 G > E
-8 eval B < A	false	6 3
-9 eval G > A	true	5 6
-10 eval E > A	true	1 6
+8 eval A < B	true	6 3
+9 eval A < G	true	5 6
+10 eval A < E	true	1 6
 1 E > D
 2 D > F
 3 G > D
 4 D > A
 5 B > A
 6 E > B
-7 eval E < A	false	1 4
-8 eval G < F	false	2 3
-9 eval E > F	true	1 2
-10 eval G > A	true	4 3
+7 eval A < E	true	1 4
+8 eval F < G	true	2 3
+9 eval F < E	true	1 2
+10 eval A < G	true	4 3
 1 D > G
 2 G > A
 3 E > F
@@ -5108,15 +5108,15 @@
 8 B > E
 9 G > E
 10 eval G < F	false	3 9
-11 eval B < A	false	4 8
-12 eval D > E	true	1 9
-13 eval D < A	false	1 2
+11 eval A < B	true	4 8
+12 eval D < E	false	1 9
+13 eval A < D	true	1 2
 1 G > B
 2 D > E
 3 E > F
 4 B > F
 5 D > B
-6 eval G > F	true	4 1
+6 eval G < F	false	4 1
 7 eval D < F	false	3 2
 1 E > D
 2 B > E
@@ -5127,29 +5127,29 @@
 7 B > D
 8 B > F
 9 B > G
-10 eval G > A	true	6 5
-11 eval B > A	true	2 4
+10 eval A < G	true	6 5
+11 eval B < A	false	2 4
 1 B > A
 2 D > F
 3 D > A
 4 E > B
 5 B > D
 6 G > B
-7 eval E > D	true	4 5
-8 eval E > A	true	4 1
-9 eval B > F	true	2 5
-10 eval G > A	true	6 1
-11 eval G < D	false	6 5
+7 eval E < D	false	4 5
+8 eval E < A	false	4 1
+9 eval B < F	false	2 5
+10 eval A < G	true	6 1
+11 eval D < G	true	6 5
 1 E > F
 2 B > A
 3 B > E
 4 E > A
-5 eval B > F	true	1 3
+5 eval F < B	true	1 3
 1 D > A
 2 E > D
 3 G > F
 4 E > F
-5 eval E < A	false	2 1
+5 eval A < E	true	2 1
 1 B > A
 2 E > A
 3 D > E
@@ -5158,9 +5158,9 @@
 6 D > F
 7 F > A
 8 E > F
-9 eval B < F	false	6 4
-10 eval D > A	true	2 3
-11 eval B < E	false	3 4
+9 eval F < B	true	6 4
+10 eval D < A	false	2 3
+11 eval E < B	true	3 4
 1 D > A
 2 G > F
 3 B > A
@@ -5170,31 +5170,31 @@
 7 D > F
 8 G > B
 9 E > A
-10 eval G > A	true	8 3
+10 eval G < A	false	8 3
 1 B > A
 2 B > F
 3 E > B
 4 G > F
 5 D > A
-6 eval E < F	false	3 2
-7 eval E > A	true	3 1
+6 eval F < E	true	3 2
+7 eval E < A	false	3 1
 1 G > E
 2 E > F
 3 D > A
 4 B > G
 5 G > A
 6 G > F
-7 eval B < F	false	6 4
+7 eval F < B	true	6 4
 8 eval B < E	false	1 4
-9 eval B > A	true	5 4
+9 eval A < B	true	5 4
 1 G > E
 2 D > B
 3 E > D
 4 E > F
 5 G > A
-6 eval G > D	true	3 1
+6 eval G < D	false	3 1
 7 eval G < F	false	4 1
-8 eval E > B	true	2 3
+8 eval E < B	false	2 3
 1 D > F
 2 G > A
 3 E > F
@@ -5204,9 +5204,9 @@
 7 D > G
 8 E > A
 9 D > E
-10 eval B > F	true	5 1
+10 eval B < F	false	5 1
 11 eval B < A	false	5 6
-12 eval B < E	false	5 9
+12 eval E < B	true	5 9
 1 D > A
 2 E > B
 3 E > F
@@ -5216,26 +5216,26 @@
 7 D > F
 8 E > D
 9 F > A
-10 eval E < A	false	1 8
-11 eval G < A	false	6 9
+10 eval A < E	true	1 8
+11 eval A < G	true	6 9
 12 eval E < G	false	2 5
-13 eval D > G	true	4 5
+13 eval D < G	false	4 5
 14 eval B < F	false	6 5
 1 D > F
 2 B > D
 3 D > A
 4 B > E
 5 E > D
-6 eval E > A	true	5 3
-7 eval E > F	true	5 1
-8 eval B < A	false	3 2
+6 eval A < E	true	5 3
+7 eval F < E	true	5 1
+8 eval A < B	true	3 2
 9 eval B < F	false	1 2
 1 E > B
 2 B > A
 3 G > B
 4 D > A
 5 E > A
-6 eval G > A	true	2 3
+6 eval G < A	false	2 3
 1 D > F
 2 D > A
 3 G > F
@@ -5243,19 +5243,19 @@
 5 D > E
 6 B > D
 7 F > A
-8 eval B > E	true	6 5
+8 eval B < E	false	6 5
 9 eval G < A	false	7 3
-10 eval B > A	true	6 2
-11 eval G < D	false	6 4
-12 eval B > F	true	6 1
+10 eval A < B	true	6 2
+11 eval D < G	true	6 4
+12 eval B < F	false	6 1
 1 D > F
 2 G > F
 3 B > E
 4 E > A
 5 E > F
 6 B > D
-7 eval B > A	true	3 4
-8 eval B > F	true	1 6
+7 eval B < A	false	3 4
+8 eval F < B	true	1 6
 1 B > A
 2 G > A
 3 D > G
@@ -5264,8 +5264,8 @@
 6 D > F
 7 E > B
 8 E > G
-9 eval D < A	false	2 3
-10 eval D > B	true	5 3
+9 eval A < D	true	2 3
+10 eval D < B	false	5 3
 1 G > B
 2 E > F
 3 D > E
@@ -5275,8 +5275,8 @@
 7 G > D
 8 G > A
 9 D > F
-10 eval G > E	true	3 7
-11 eval D > A	true	3 6
+10 eval E < G	true	3 7
+11 eval D < A	false	3 6
 1 B > A
 2 F > A
 3 D > E
@@ -5284,7 +5284,7 @@
 5 G > F
 6 D > F
 7 eval G < A	false	5 2
-8 eval D > A	true	4 1
+8 eval A < D	true	4 1
 1 G > A
 2 E > F
 3 B > G
@@ -5298,7 +5298,7 @@
 4 E > B
 5 D > F
 6 G > A
-7 eval G > F	true	5 2
+7 eval F < G	true	5 2
 1 D > G
 2 E > F
 3 E > B
@@ -5306,24 +5306,24 @@
 5 B > A
 6 G > B
 7 D > E
-8 eval D < B	false	6 1
-9 eval D > F	true	7 2
-10 eval D > A	true	4 1
-11 eval E > A	true	5 3
+8 eval B < D	true	6 1
+9 eval F < D	true	7 2
+10 eval D < A	false	4 1
+11 eval E < A	false	5 3
 1 D > A
 2 G > F
 3 B > A
 4 G > D
 5 D > B
 6 eval G < B	false	4 5
-7 eval G > A	true	1 4
+7 eval A < G	true	1 4
 1 B > A
 2 D > F
 3 B > E
 4 B > F
 5 E > D
-6 eval B > D	true	5 3
-7 eval E > F	true	2 5
+6 eval D < B	true	5 3
+7 eval F < E	true	2 5
 1 E > F
 2 D > G
 3 B > A
@@ -5343,14 +5343,14 @@
 4 E > G
 5 B > A
 6 B > D
-7 eval B < G	false	6 2
-8 eval E > A	true	4 3
+7 eval G < B	true	6 2
+8 eval A < E	true	4 3
 1 E > G
 2 D > G
 3 E > F
 4 F > A
 5 B > A
-6 eval E > A	true	4 3
+6 eval A < E	true	4 3
 1 B > G
 2 D > A
 3 B > E
@@ -5366,10 +5366,10 @@
 7 B > F
 8 B > A
 9 E > G
-10 eval B > D	true	6 4
-11 eval E > F	true	5 9
-12 eval G < A	false	1 5
-13 eval B > G	true	9 4
+10 eval D < B	true	6 4
+11 eval F < E	true	5 9
+12 eval A < G	true	1 5
+13 eval B < G	false	9 4
 1 E > F
 2 B > A
 3 B > F
@@ -5379,15 +5379,15 @@
 7 G > A
 8 F > A
 9 D > B
-10 eval E > A	true	2 5
+10 eval A < E	true	2 5
 11 eval D < A	false	9 2
 1 D > F
 2 D > E
 3 E > B
 4 E > A
 5 F > A
-6 eval D > A	true	5 1
-7 eval D < B	false	2 3
+6 eval A < D	true	5 1
+7 eval B < D	true	2 3
 1 B > F
 2 E > A
 3 G > A
@@ -5397,7 +5397,7 @@
 7 B > A
 8 B > E
 9 eval D < E	false	4 8
-10 eval D < A	false	4 7
+10 eval A < D	true	4 7
 11 eval D < F	false	4 1
 1 E > G
 2 F > A
@@ -5409,20 +5409,20 @@
 3 D > A
 4 E > B
 5 E > G
-6 eval E > A	true	1 5
-7 eval E < F	false	2 5
+6 eval A < E	true	1 5
+7 eval F < E	true	2 5
 1 G > F
 2 E > G
 3 D > G
 4 D > B
 5 E > F
 6 E > A
-7 eval D > F	true	1 3
+7 eval D < F	false	1 3
 1 G > F
 2 B > A
 3 F > A
 4 E > D
-5 eval G > A	true	1 3
+5 eval A < G	true	1 3
 1 G > D
 2 B > E
 3 G > A
@@ -5432,12 +5432,12 @@
 7 G > F
 8 E > A
 9 eval G < E	false	1 5
-10 eval D < A	false	8 5
+10 eval A < D	true	8 5
 1 D > A
 2 G > D
 3 B > F
 4 B > D
-5 eval G > A	true	2 1
+5 eval G < A	false	2 1
 6 eval B < A	false	4 1
 1 D > F
 2 E > A
@@ -5445,8 +5445,8 @@
 4 B > F
 5 G > B
 6 G > D
-7 eval G > A	true	5 3
-8 eval G > F	true	1 6
+7 eval G < A	false	5 3
+8 eval F < G	true	1 6
 1 B > F
 2 E > F
 3 G > D
@@ -5455,13 +5455,13 @@
 6 B > E
 7 G > A
 8 F > A
-9 eval E < A	false	8 2
+9 eval A < E	true	8 2
 1 B > F
 2 B > D
 3 B > A
 4 D > A
 5 E > D
-6 eval E > A	true	5 4
+6 eval E < A	false	5 4
 1 E > A
 2 D > E
 3 B > E
@@ -5469,23 +5469,23 @@
 5 G > A
 6 G > F
 7 eval D < F	false	2 4
-8 eval B > F	true	3 4
+8 eval F < B	true	3 4
 9 eval B < A	false	3 1
-10 eval D > A	true	2 1
+10 eval D < A	false	2 1
 1 E > G
 2 D > F
 3 B > F
 4 B > G
 5 B > E
 6 F > A
-7 eval B < A	false	3 6
-8 eval D > A	true	6 2
+7 eval A < B	true	3 6
+8 eval D < A	false	6 2
 1 B > G
 2 E > D
 3 D > B
 4 D > G
-5 eval E < B	false	3 2
-6 eval E < G	false	4 2
+5 eval B < E	true	3 2
+6 eval G < E	true	4 2
 1 F > A
 2 B > F
 3 E > G
@@ -5498,7 +5498,7 @@
 5 D > A
 6 G > D
 7 G > A
-8 eval E > F	true	2 4
+8 eval E < F	false	2 4
 9 eval E < D	false	2 6
 1 G > A
 2 D > F
@@ -5507,9 +5507,9 @@
 5 E > B
 6 E > D
 7 B > G
-8 eval E > A	true	3 6
-9 eval B < A	false	1 7
-10 eval E < F	false	2 6
+8 eval E < A	false	3 6
+9 eval A < B	true	1 7
+10 eval F < E	true	2 6
 1 E > G
 2 B > G
 3 E > F
@@ -5522,11 +5522,11 @@
 3 G > A
 4 E > F
 5 B > G
-6 eval B > A	true	5 3
-7 eval D > E	true	2 1
-8 eval B < E	false	5 2
-9 eval D > A	true	3 1
-10 eval G > F	true	4 2
+6 eval A < B	true	5 3
+7 eval E < D	true	2 1
+8 eval E < B	true	5 2
+9 eval D < A	false	3 1
+10 eval G < F	false	4 2
 1 B > F
 2 D > F
 3 E > F
@@ -5536,8 +5536,8 @@
 7 G > B
 8 G > F
 9 eval D < A	false	6 4
-10 eval D > B	true	6 7
-11 eval D < E	false	6 5
+10 eval B < D	true	6 7
+11 eval E < D	true	6 5
 1 D > G
 2 F > A
 3 E > F
@@ -5545,17 +5545,17 @@
 5 G > A
 6 G > B
 7 E > A
-8 eval D < A	false	1 5
-9 eval B < A	false	2 4
-10 eval G < F	false	4 6
-11 eval D < B	false	1 6
+8 eval A < D	true	1 5
+9 eval A < B	true	2 4
+10 eval F < G	true	4 6
+11 eval B < D	true	1 6
 1 D > A
 2 D > E
 3 D > B
 4 G > D
 5 eval G < B	false	3 4
-6 eval G < E	false	2 4
-7 eval G > A	true	1 4
+6 eval E < G	true	2 4
+7 eval G < A	false	1 4
 1 B > G
 2 B > F
 3 F > A
@@ -5565,30 +5565,30 @@
 7 D > G
 8 D > A
 9 D > F
-10 eval B > A	true	8 5
+10 eval A < B	true	8 5
 1 D > G
 2 B > E
 3 G > F
 4 B > G
 5 E > F
-6 eval D < F	false	3 1
-7 eval B > F	true	5 2
+6 eval F < D	true	3 1
+7 eval F < B	true	5 2
 1 D > F
 2 D > G
 3 B > G
 4 G > A
 5 B > D
 6 E > B
-7 eval B > F	true	5 1
-8 eval D > A	true	4 2
+7 eval B < F	false	5 1
+8 eval A < D	true	4 2
 9 eval E < G	false	6 3
-10 eval B > A	true	4 3
+10 eval A < B	true	4 3
 11 eval E < D	false	5 6
 1 B > D
 2 G > A
 3 D > E
 4 B > F
-5 eval B > E	true	1 3
+5 eval B < E	false	1 3
 1 E > F
 2 D > F
 3 G > A
@@ -5597,16 +5597,16 @@
 6 E > A
 7 B > E
 8 B > D
-9 eval D < A	false	2 5
-10 eval B > F	true	7 1
+9 eval A < D	true	2 5
+10 eval B < F	false	7 1
 1 F > A
 2 D > G
 3 G > F
 4 E > F
 5 D > F
-6 eval G < A	false	3 1
-7 eval E > A	true	1 4
-8 eval D > A	true	1 5
+6 eval A < G	true	3 1
+7 eval E < A	false	1 4
+8 eval A < D	true	1 5
 1 G > F
 2 G > A
 3 B > D
@@ -5615,9 +5615,9 @@
 6 B > G
 7 F > A
 8 B > F
-9 eval E > F	true	1 5
+9 eval E < F	false	1 5
 10 eval E < A	false	2 5
-11 eval B > A	true	3 4
+11 eval B < A	false	3 4
 1 B > E
 2 G > A
 3 G > F
@@ -5626,15 +5626,15 @@
 6 E > D
 7 E > A
 8 eval B < D	false	6 1
-9 eval B < A	false	7 1
-10 eval B < F	false	5 1
+9 eval A < B	true	7 1
+10 eval F < B	true	5 1
 1 D > B
 2 B > F
 3 B > G
 4 G > F
 5 E > F
 6 B > E
-7 eval D < F	false	1 2
+7 eval F < D	true	1 2
 8 eval D < E	false	6 1
 9 eval D < G	false	1 3
 1 B > E
@@ -5648,15 +5648,15 @@
 3 G > E
 4 E > B
 5 B > D
-6 eval G < B	false	3 4
-7 eval E < D	false	4 5
+6 eval B < G	true	3 4
+7 eval D < E	true	4 5
 1 B > F
 2 D > A
 3 F > A
 4 E > A
 5 E > D
 6 B > G
-7 eval B > A	true	3 1
+7 eval A < B	true	3 1
 1 G > A
 2 D > A
 3 E > G
@@ -5666,8 +5666,8 @@
 7 E > A
 8 B > G
 9 D > G
-10 eval E > F	true	5 3
-11 eval B > F	true	5 8
+10 eval F < E	true	5 3
+11 eval B < F	false	5 8
 1 G > B
 2 G > F
 3 B > A
@@ -5675,8 +5675,8 @@
 5 D > F
 6 E > F
 7 G > D
-8 eval E > A	true	4 6
-9 eval G > A	true	1 3
+8 eval A < E	true	4 6
+9 eval A < G	true	1 3
 10 eval D < A	false	5 4
 1 E > G
 2 E > B
@@ -5687,8 +5687,8 @@
 7 D > F
 8 B > A
 9 B > F
-10 eval E > F	true	9 2
-11 eval G > F	true	7 6
+10 eval E < F	false	9 2
+11 eval G < F	false	7 6
 12 eval E < A	false	2 8
 1 D > F
 2 E > F
@@ -5699,18 +5699,18 @@
 7 B > A
 8 B > D
 9 G > F
-10 eval E < A	false	7 5
-11 eval E < D	false	8 5
-12 eval B > F	true	1 8
+10 eval A < E	true	7 5
+11 eval D < E	true	8 5
+12 eval B < F	false	1 8
 1 B > A
 2 E > B
 3 F > A
 4 B > F
 5 D > B
 6 E > A
-7 eval E < F	false	4 2
-8 eval D > F	true	5 4
-9 eval D > A	true	5 1
+7 eval F < E	true	4 2
+8 eval F < D	true	5 4
+9 eval A < D	true	5 1
 1 D > F
 2 B > A
 3 G > B
@@ -5720,8 +5720,8 @@
 7 B > F
 8 G > F
 9 F > A
-10 eval D > A	true	9 1
-11 eval G > A	true	2 3
+10 eval A < D	true	9 1
+11 eval A < G	true	2 3
 1 D > F
 2 D > B
 3 E > B
@@ -5730,8 +5730,8 @@
 6 G > A
 7 F > A
 8 E > F
-9 eval D > A	true	7 1
-10 eval E < A	false	7 8
+9 eval D < A	false	7 1
+10 eval A < E	true	7 8
 1 G > A
 2 E > B
 3 E > G
@@ -5742,8 +5742,8 @@
 8 B > A
 9 F > A
 10 eval G < F	false	5 7
-11 eval G < B	false	6 7
-12 eval E < D	false	7 3
+11 eval B < G	true	6 7
+12 eval D < E	true	7 3
 13 eval D < A	false	5 9
 1 F > A
 2 D > E
@@ -5752,8 +5752,8 @@
 5 B > F
 6 D > G
 7 E > F
-8 eval B < A	false	5 1
-9 eval G > A	true	1 3
+8 eval A < B	true	5 1
+9 eval A < G	true	1 3
 10 eval D < F	false	7 2
 11 eval D < A	false	4 2
 1 B > E
@@ -5762,22 +5762,22 @@
 4 B > D
 5 F > A
 6 G > F
-7 eval G < A	false	6 5
-8 eval B > A	true	2 1
-9 eval D > A	true	2 3
+7 eval A < G	true	6 5
+8 eval A < B	true	2 1
+9 eval A < D	true	2 3
 1 G > A
 2 D > G
 3 F > A
 4 E > G
-5 eval E < A	false	1 4
-6 eval D > A	true	2 1
+5 eval A < E	true	1 4
+6 eval A < D	true	2 1
 1 B > F
 2 E > B
 3 G > F
 4 F > A
 5 G > B
 6 eval E < F	false	2 1
-7 eval B < A	false	4 1
+7 eval A < B	true	4 1
 8 eval G < A	false	4 3
 1 E > A
 2 D > B
@@ -5786,9 +5786,9 @@
 5 G > A
 6 B > F
 7 E > F
-8 eval D > A	true	2 3
-9 eval D > F	true	2 6
-10 eval D > E	true	2 4
+8 eval A < D	true	2 3
+9 eval F < D	true	2 6
+10 eval D < E	false	2 4
 1 G > E
 2 D > F
 3 F > A
@@ -5799,14 +5799,14 @@
 3 G > F
 4 D > B
 5 D > E
-6 eval E > F	true	3 1
+6 eval E < F	false	3 1
 7 eval D < G	false	1 5
-8 eval D < A	false	4 2
+8 eval A < D	true	4 2
 1 F > A
 2 E > G
 3 B > D
 4 E > F
-5 eval E < A	false	1 4
+5 eval A < E	true	1 4
 1 D > A
 2 G > F
 3 G > D
@@ -5815,15 +5815,15 @@
 6 B > A
 7 F > A
 8 eval G < A	false	7 2
-9 eval E < A	false	1 5
+9 eval A < E	true	1 5
 1 G > F
 2 D > B
 3 G > A
 4 B > F
 5 E > A
 6 B > A
-7 eval D < F	false	2 4
-8 eval D > A	true	2 6
+7 eval F < D	true	2 4
+8 eval D < A	false	2 6
 1 E > G
 2 D > F
 3 E > B
@@ -5833,24 +5833,24 @@
 7 B > F
 8 D > E
 9 D > G
-10 eval D > A	true	6 9
-11 eval E < F	false	4 1
-12 eval D > B	true	8 3
+10 eval A < D	true	6 9
+11 eval F < E	true	4 1
+12 eval D < B	false	8 3
 13 eval E < A	false	6 1
 1 B > G
 2 E > G
 3 G > A
 4 B > D
 5 B > F
-6 eval B > A	true	1 3
-7 eval E > A	true	3 2
+6 eval B < A	false	1 3
+7 eval A < E	true	3 2
 1 G > E
 2 D > A
 3 E > A
 4 D > F
 5 E > B
 6 eval G < A	false	3 1
-7 eval G > B	true	5 1
+7 eval B < G	true	5 1
 1 E > F
 2 E > D
 3 B > E
@@ -5858,8 +5858,8 @@
 5 D > F
 6 F > A
 7 eval D < A	false	6 5
-8 eval E > A	true	6 1
-9 eval B > F	true	1 3
+8 eval E < A	false	6 1
+9 eval B < F	false	1 3
 10 eval B < D	false	2 3
 1 F > A
 2 D > F
@@ -5868,27 +5868,27 @@
 5 B > A
 6 D > B
 7 E > B
-8 eval E > F	true	4 7
-9 eval E > A	true	5 7
-10 eval D > A	true	5 6
+8 eval F < E	true	4 7
+9 eval A < E	true	5 7
+10 eval A < D	true	5 6
 1 E > G
 2 G > B
 3 E > B
 4 G > A
 5 B > A
-6 eval E < A	false	1 4
+6 eval A < E	true	1 4
 1 F > A
 2 E > D
 3 G > F
 4 B > A
-5 eval G > A	true	3 1
+5 eval A < G	true	3 1
 1 B > G
 2 D > G
 3 E > F
 4 B > E
 5 E > A
 6 eval B < F	false	4 3
-7 eval B < A	false	4 5
+7 eval A < B	true	4 5
 1 B > E
 2 F > A
 3 G > D
@@ -5897,10 +5897,10 @@
 6 D > F
 7 E > A
 8 B > D
-9 eval D > A	true	2 6
-10 eval B < F	false	6 8
-11 eval G > A	true	5 2
-12 eval B > A	true	7 1
+9 eval A < D	true	2 6
+10 eval F < B	true	6 8
+11 eval A < G	true	5 2
+12 eval A < B	true	7 1
 1 E > A
 2 G > A
 3 G > F
@@ -5909,7 +5909,7 @@
 6 D > F
 7 F > A
 8 G > E
-9 eval D > A	true	7 6
+9 eval D < A	false	7 6
 1 D > A
 2 D > B
 3 B > A
@@ -5918,9 +5918,9 @@
 6 F > A
 7 G > E
 8 E > F
-9 eval G > A	true	4 7
-10 eval G > F	true	8 7
-11 eval D < F	false	5 2
+9 eval A < G	true	4 7
+10 eval F < G	true	8 7
+11 eval F < D	true	5 2
 1 D > F
 2 G > A
 3 F > A
@@ -5930,9 +5930,9 @@
 7 B > A
 8 B > F
 9 G > B
-10 eval D < A	false	1 3
-11 eval E > F	true	8 6
-12 eval E > A	true	7 6
+10 eval A < D	true	1 3
+11 eval E < F	false	8 6
+12 eval A < E	true	7 6
 1 D > G
 2 B > F
 3 D > A
@@ -5940,7 +5940,7 @@
 5 G > E
 6 F > A
 7 eval D < E	false	1 5
-8 eval B > A	true	2 6
+8 eval B < A	false	2 6
 1 D > A
 2 G > E
 3 D > G
@@ -5950,9 +5950,9 @@
 7 E > F
 8 B > F
 9 G > F
-10 eval D < F	false	3 9
-11 eval B < E	false	6 2
-12 eval B > A	true	6 4
+10 eval F < D	true	3 9
+11 eval E < B	true	6 2
+12 eval B < A	false	6 4
 1 B > A
 2 G > B
 3 E > F
@@ -5962,20 +5962,20 @@
 7 E > B
 8 G > A
 9 D > F
-10 eval E > A	true	8 6
+10 eval E < A	false	8 6
 1 F > A
 2 E > B
 3 B > F
 4 G > F
-5 eval B < A	false	1 3
-6 eval G > A	true	1 4
-7 eval E > F	true	3 2
+5 eval A < B	true	1 3
+6 eval A < G	true	1 4
+7 eval E < F	false	3 2
 1 F > A
 2 G > B
 3 D > F
 4 G > F
-5 eval G > A	true	1 4
-6 eval D > A	true	3 1
+5 eval A < G	true	1 4
+6 eval A < D	true	3 1
 1 G > D
 2 F > A
 3 E > F
@@ -5984,17 +5984,17 @@
 6 E > A
 7 B > A
 8 B > G
-9 eval G > E	true	1 5
-10 eval D > A	true	5 6
-11 eval B > D	true	8 1
-12 eval D > F	true	5 3
+9 eval G < E	false	1 5
+10 eval A < D	true	5 6
+11 eval D < B	true	8 1
+12 eval D < F	false	5 3
 13 eval B < F	false	3 4
 1 F > A
 2 D > F
 3 B > G
 4 G > A
-5 eval B > A	true	4 3
-6 eval D < A	false	1 2
+5 eval B < A	false	4 3
+6 eval A < D	true	1 2
 1 G > B
 2 G > F
 3 F > A
@@ -6003,10 +6003,10 @@
 6 B > A
 7 G > E
 8 E > B
-9 eval G > A	true	6 1
+9 eval A < G	true	6 1
 10 eval E < A	false	6 8
-11 eval D > A	true	3 4
-12 eval E > F	true	5 8
+11 eval D < A	false	3 4
+12 eval F < E	true	5 8
 1 B > D
 2 G > E
 3 G > B
@@ -6017,7 +6017,7 @@
 8 G > A
 9 eval B < A	false	4 1
 10 eval G < D	false	1 3
-11 eval G < F	false	2 7
+11 eval F < G	true	2 7
 1 D > A
 2 G > A
 3 E > G
@@ -6030,8 +6030,8 @@
 4 E > F
 5 D > F
 6 B > D
-7 eval B < F	false	5 6
-8 eval G < F	false	1 5
+7 eval F < B	true	5 6
+8 eval F < G	true	1 5
 1 B > G
 2 D > A
 3 E > G
@@ -6041,16 +6041,16 @@
 7 B > A
 8 D > E
 9 E > F
-10 eval E < A	false	5 7
-11 eval D > B	true	5 8
+10 eval A < E	true	5 7
+11 eval D < B	false	5 8
 12 eval D < F	false	9 8
 1 G > D
 2 G > E
 3 E > F
 4 B > G
-5 eval B < D	false	4 1
-6 eval G > F	true	2 3
-7 eval B < E	false	4 2
+5 eval D < B	true	4 1
+6 eval G < F	false	2 3
+7 eval E < B	true	4 2
 1 E > B
 2 B > F
 3 D > B
@@ -6066,7 +6066,7 @@
 4 B > A
 5 D > F
 6 eval G < F	false	5 3
-7 eval G > A	true	2 4
+7 eval G < A	false	2 4
 1 B > G
 2 D > F
 3 B > F
@@ -6074,9 +6074,9 @@
 5 E > D
 6 G > F
 7 G > A
-8 eval E > F	true	5 2
-9 eval B > A	true	7 1
-10 eval D > A	true	2 4
+8 eval E < F	false	5 2
+9 eval A < B	true	7 1
+10 eval A < D	true	2 4
 1 B > A
 2 E > B
 3 G > E
@@ -6085,10 +6085,10 @@
 6 F > A
 7 G > F
 8 eval G < B	false	2 3
-9 eval E > A	true	1 2
-10 eval E > F	true	5 2
-11 eval G > A	true	6 7
-12 eval D > A	true	6 4
+9 eval E < A	false	1 2
+10 eval E < F	false	5 2
+11 eval G < A	false	6 7
+12 eval A < D	true	6 4
 1 B > A
 2 E > D
 3 B > F
@@ -6096,9 +6096,9 @@
 5 E > B
 6 G > D
 7 G > F
-8 eval E < A	false	1 5
-9 eval G > B	true	4 5
-10 eval E < F	false	3 5
+8 eval A < E	true	1 5
+9 eval B < G	true	4 5
+10 eval F < E	true	3 5
 1 D > E
 2 G > F
 3 B > D
@@ -6107,21 +6107,21 @@
 6 B > A
 7 B > G
 8 E > F
-9 eval E > A	true	8 5
+9 eval A < E	true	8 5
 10 eval D < F	false	8 1
-11 eval B > E	true	4 7
-12 eval G > A	true	5 2
-13 eval B > F	true	2 7
+11 eval E < B	true	4 7
+12 eval G < A	false	5 2
+13 eval F < B	true	2 7
 1 F > A
 2 E > D
 3 G > E
 4 B > A
 5 D > F
 6 E > F
-7 eval G < D	false	3 2
+7 eval D < G	true	3 2
 8 eval E < A	false	1 6
 9 eval D < A	false	5 1
-10 eval G < F	false	3 6
+10 eval F < G	true	3 6
 1 E > B
 2 G > F
 3 B > A
@@ -6130,8 +6130,8 @@
 6 E > F
 7 B > G
 8 E > D
-9 eval E > A	true	3 1
-10 eval G < A	false	2 5
+9 eval E < A	false	3 1
+10 eval A < G	true	2 5
 11 eval B < F	false	2 7
 1 D > A
 2 B > A
@@ -6142,7 +6142,7 @@
 7 B > D
 8 D > F
 9 F > A
-10 eval B > F	true	8 7
+10 eval B < F	false	8 7
 1 B > E
 2 D > A
 3 E > F
@@ -6151,15 +6151,15 @@
 6 E > A
 7 B > D
 8 D > F
-9 eval B < A	false	6 1
-10 eval G > A	true	4 5
-11 eval B > F	true	3 1
+9 eval A < B	true	6 1
+10 eval G < A	false	4 5
+11 eval B < F	false	3 1
 1 G > A
 2 B > A
 3 D > B
 4 D > A
 5 B > G
-6 eval D > G	true	3 5
+6 eval G < D	true	3 5
 1 B > E
 2 E > D
 3 G > A
@@ -6169,15 +6169,15 @@
 7 B > F
 8 D > A
 9 eval G < D	false	2 4
-10 eval B > A	true	6 7
-11 eval E > A	true	2 8
+10 eval A < B	true	6 7
+11 eval A < E	true	2 8
 1 E > A
 2 D > F
 3 B > G
 4 D > G
 5 G > A
 6 eval D < A	false	5 4
-7 eval B < A	false	5 3
+7 eval A < B	true	5 3
 1 D > A
 2 G > F
 3 B > F
@@ -6186,9 +6186,9 @@
 6 E > G
 7 B > G
 8 D > F
-9 eval E > F	true	2 6
-10 eval B > D	true	4 5
-11 eval E > A	true	1 5
+9 eval F < E	true	2 6
+10 eval B < D	false	4 5
+11 eval E < A	false	1 5
 1 G > A
 2 E > F
 3 G > E
@@ -6196,29 +6196,29 @@
 5 F > A
 6 B > D
 7 eval E < A	false	5 2
-8 eval G > F	true	3 2
+8 eval F < G	true	3 2
 1 E > F
 2 G > F
 3 B > D
 4 E > G
 5 D > F
-6 eval B > F	true	3 5
+6 eval F < B	true	3 5
 1 B > E
 2 E > A
 3 G > E
 4 E > D
 5 G > A
-6 eval B > D	true	1 4
-7 eval G < D	false	3 4
-8 eval B > A	true	1 2
+6 eval B < D	false	1 4
+7 eval D < G	true	3 4
+8 eval B < A	false	1 2
 1 E > F
 2 F > A
 3 G > D
 4 G > E
 5 D > F
 6 eval D < A	false	5 2
-7 eval G < F	false	1 4
-8 eval E > A	true	1 2
+7 eval F < G	true	1 4
+8 eval A < E	true	1 2
 1 E > G
 2 B > A
 3 F > A
@@ -6235,15 +6235,15 @@
 3 D > A
 4 D > B
 5 G > F
-6 eval E > F	true	5 1
+6 eval F < E	true	5 1
 7 eval D < F	false	2 5
 1 D > A
 2 D > E
 3 B > E
 4 E > G
 5 D > F
-6 eval D > G	true	4 2
-7 eval B > G	true	3 4
+6 eval G < D	true	4 2
+7 eval B < G	false	3 4
 1 G > E
 2 E > A
 3 G > A
@@ -6253,8 +6253,8 @@
 7 D > B
 8 G > D
 9 E > B
-10 eval G > F	true	1 4
-11 eval G > B	true	1 9
+10 eval F < G	true	1 4
+11 eval G < B	false	1 9
 1 E > G
 2 E > F
 3 G > A
@@ -6267,9 +6267,9 @@
 5 E > F
 6 E > A
 7 D > F
-8 eval E < D	false	2 4
-9 eval G < F	false	7 4
-10 eval B < D	false	4 1
+8 eval D < E	true	2 4
+9 eval F < G	true	7 4
+10 eval D < B	true	4 1
 1 F > A
 2 D > F
 3 B > E
@@ -6280,23 +6280,23 @@
 8 E > D
 9 E > F
 10 eval G < E	false	3 7
-11 eval B < F	false	3 9
-12 eval E > A	true	5 8
+11 eval F < B	true	3 9
+12 eval E < A	false	5 8
 13 eval B < D	false	3 8
 1 E > B
 2 G > B
 3 D > A
 4 B > F
-5 eval E > F	true	4 1
-6 eval G < F	false	4 2
+5 eval E < F	false	4 1
+6 eval F < G	true	4 2
 1 B > D
 2 E > G
 3 D > G
 4 D > E
 5 D > F
-6 eval B < E	false	1 4
-7 eval B < G	false	1 3
-8 eval B > F	true	1 5
+6 eval E < B	true	1 4
+7 eval G < B	true	1 3
+8 eval F < B	true	1 5
 1 G > A
 2 E > F
 3 G > E
@@ -6307,19 +6307,19 @@
 8 F > A
 9 G > B
 10 eval B < A	false	8 4
-11 eval G > F	true	3 2
+11 eval F < G	true	3 2
 1 D > G
 2 B > D
 3 F > A
 4 B > A
 5 G > A
-6 eval B > G	true	1 2
-7 eval D > A	true	5 1
+6 eval B < G	false	1 2
+7 eval D < A	false	5 1
 1 F > A
 2 E > A
 3 D > A
 4 B > D
-5 eval B > A	true	3 4
+5 eval B < A	false	3 4
 1 D > E
 2 F > A
 3 D > F
@@ -6328,7 +6328,7 @@
 6 G > F
 7 E > A
 8 D > A
-9 eval G < A	false	6 2
+9 eval A < G	true	6 2
 1 B > E
 2 D > A
 3 E > A
@@ -6339,17 +6339,17 @@
 2 B > E
 3 D > A
 4 F > A
-5 eval E > A	true	3 1
-6 eval B > D	true	1 2
+5 eval E < A	false	3 1
+6 eval D < B	true	1 2
 1 F > A
 2 B > E
 3 G > F
 4 D > F
 5 E > D
 6 G > E
-7 eval B > D	true	2 5
-8 eval G > D	true	6 5
-9 eval G > A	true	3 1
+7 eval D < B	true	2 5
+8 eval D < G	true	6 5
+9 eval A < G	true	3 1
 10 eval E < F	false	4 5
 11 eval D < A	false	4 1
 1 G > F
@@ -6361,8 +6361,8 @@
 7 E > G
 8 B > F
 9 E > F
-10 eval E > B	true	3 2
-11 eval D < F	false	8 3
+10 eval E < B	false	3 2
+11 eval F < D	true	8 3
 1 E > F
 2 D > B
 3 F > A
@@ -6371,10 +6371,10 @@
 6 B > E
 7 E > A
 8 E > G
-9 eval B < A	false	7 6
-10 eval D > E	true	2 6
-11 eval D < A	false	3 4
-12 eval B < G	false	8 6
+9 eval A < B	true	7 6
+10 eval D < E	false	2 6
+11 eval A < D	true	3 4
+12 eval G < B	true	8 6
 1 E > G
 2 G > F
 3 E > B
@@ -6383,7 +6383,7 @@
 6 D > B
 7 B > G
 8 eval D < F	false	4 6
-9 eval E > F	true	4 3
+9 eval F < E	true	4 3
 1 F > A
 2 B > A
 3 G > B
@@ -6393,10 +6393,10 @@
 7 B > F
 8 D > B
 9 E > F
-10 eval E < B	false	8 5
-11 eval G > F	true	7 3
-12 eval G < A	false	2 3
-13 eval E < A	false	4 5
+10 eval B < E	true	8 5
+11 eval F < G	true	7 3
+12 eval A < G	true	2 3
+13 eval A < E	true	4 5
 1 D > E
 2 E > F
 3 G > B
@@ -6408,8 +6408,8 @@
 4 G > A
 5 F > A
 6 eval E < F	false	1 3
-7 eval B > A	true	5 3
-8 eval D > A	true	2 5
+7 eval B < A	false	5 3
+8 eval A < D	true	2 5
 1 B > E
 2 G > A
 3 G > F
@@ -6419,7 +6419,7 @@
 7 G > D
 8 B > G
 9 eval E < F	false	6 3
-10 eval E < A	false	6 2
+10 eval A < E	true	6 2
 11 eval B < F	false	3 8
 12 eval B < D	false	5 1
 1 F > A
@@ -6428,16 +6428,16 @@
 4 B > F
 5 E > F
 6 D > G
-7 eval B > A	true	1 4
+7 eval B < A	false	1 4
 8 eval E < A	false	5 1
 9 eval G < A	false	1 3
-10 eval D > F	true	6 3
+10 eval F < D	true	6 3
 1 D > E
 2 G > F
 3 E > A
 4 E > B
-5 eval D > B	true	1 4
-6 eval D < A	false	1 3
+5 eval B < D	true	1 4
+6 eval A < D	true	1 3
 1 F > A
 2 B > E
 3 E > A
@@ -6445,10 +6445,10 @@
 5 D > G
 6 G > B
 7 D > F
-8 eval D > A	true	7 1
-9 eval G > A	true	6 4
-10 eval D > B	true	6 5
-11 eval G > E	true	6 2
+8 eval A < D	true	7 1
+9 eval G < A	false	6 4
+10 eval D < B	false	6 5
+11 eval E < G	true	6 2
 1 B > G
 2 D > E
 3 E > G
@@ -6459,14 +6459,14 @@
 8 G > A
 9 D > B
 10 eval D < G	false	9 1
-11 eval D > F	true	9 7
+11 eval F < D	true	9 7
 12 eval E < A	false	8 3
 1 D > F
 2 F > A
 3 E > F
 4 E > G
-5 eval D < A	false	2 1
-6 eval E > A	true	3 2
+5 eval A < D	true	2 1
+6 eval E < A	false	3 2
 1 B > G
 2 D > G
 3 E > F
@@ -6476,10 +6476,10 @@
 7 D > E
 8 G > E
 9 G > A
-10 eval G > F	true	8 3
-11 eval D > F	true	3 7
-12 eval B > A	true	9 1
-13 eval B < E	false	7 5
+10 eval G < F	false	8 3
+11 eval F < D	true	3 7
+12 eval A < B	true	9 1
+13 eval E < B	true	7 5
 14 eval D < A	false	9 2
 1 D > E
 2 E > A
@@ -6490,17 +6490,17 @@
 7 E > G
 8 G > F
 9 E > F
-10 eval D > A	true	1 2
+10 eval A < D	true	1 2
 1 E > D
 2 G > F
 3 E > B
 4 D > F
 5 F > A
 6 B > D
-7 eval D < A	false	5 4
+7 eval A < D	true	5 4
 8 eval B < F	false	4 6
 9 eval G < A	false	5 2
-10 eval E < F	false	1 4
+10 eval F < E	true	1 4
 1 E > F
 2 D > G
 3 D > B
@@ -6510,8 +6510,8 @@
 7 G > F
 8 B > A
 9 E > G
-10 eval D < A	false	2 6
-11 eval D > F	true	2 7
+10 eval A < D	true	2 6
+11 eval F < D	true	2 7
 1 D > E
 2 B > A
 3 G > A
@@ -6521,9 +6521,9 @@
 7 B > F
 8 G > E
 9 F > A
-10 eval D > F	true	4 1
-11 eval B < E	false	1 5
-12 eval D < A	false	6 1
+10 eval F < D	true	4 1
+11 eval E < B	true	1 5
+12 eval A < D	true	6 1
 13 eval G < F	false	8 4
 1 E > F
 2 E > G
@@ -6538,9 +6538,9 @@
 5 B > D
 6 F > A
 7 B > F
-8 eval E > F	true	1 2
-9 eval B > A	true	5 3
-10 eval B > G	true	5 4
+8 eval E < F	false	1 2
+9 eval B < A	false	5 3
+10 eval G < B	true	5 4
 11 eval D < F	false	2 4
 12 eval G < A	false	6 2
 1 D > A
@@ -6549,9 +6549,9 @@
 4 G > B
 5 B > A
 6 B > F
-7 eval G > F	true	4 6
+7 eval F < G	true	4 6
 8 eval D < F	false	6 3
-9 eval G > A	true	4 5
+9 eval G < A	false	4 5
 1 G > F
 2 E > F
 3 D > E
@@ -6569,9 +6569,9 @@
 5 G > D
 6 D > F
 7 eval B < A	false	2 3
-8 eval G > E	true	4 2
+8 eval E < G	true	4 2
 9 eval D < A	false	6 1
-10 eval G < F	false	6 5
+10 eval F < G	true	6 5
 1 D > E
 2 D > F
 3 B > A
@@ -6580,31 +6580,31 @@
 6 F > A
 7 E > F
 8 B > D
-9 eval B > E	true	8 1
+9 eval E < B	true	8 1
 10 eval G < A	false	5 6
-11 eval B > F	true	8 2
-12 eval E > A	true	7 6
+11 eval B < F	false	8 2
+12 eval A < E	true	7 6
 1 E > F
 2 D > A
 3 F > A
 4 B > G
-5 eval E < A	false	3 1
+5 eval A < E	true	3 1
 1 D > B
 2 D > F
 3 E > D
 4 G > A
 5 F > A
-6 eval D > A	true	2 5
-7 eval E > F	true	3 2
-8 eval E > B	true	3 1
+6 eval D < A	false	2 5
+7 eval F < E	true	3 2
+8 eval B < E	true	3 1
 1 E > F
 2 B > E
 3 F > A
 4 B > D
 5 B > F
 6 G > F
-7 eval B < A	false	5 3
-8 eval G < A	false	3 6
+7 eval A < B	true	5 3
+8 eval A < G	true	3 6
 9 eval E < A	false	3 1
 1 G > D
 2 E > A
@@ -6615,57 +6615,57 @@
 7 B > D
 8 D > F
 9 F > A
-10 eval B > A	true	6 2
-11 eval G < F	false	8 1
-12 eval G < A	false	5 2
+10 eval B < A	false	6 2
+11 eval F < G	true	8 1
+12 eval A < G	true	5 2
 13 eval B < F	false	7 8
-14 eval D < A	false	9 8
+14 eval A < D	true	9 8
 1 G > E
 2 E > B
 3 B > D
 4 D > A
-5 eval E < D	false	3 2
+5 eval D < E	true	3 2
 6 eval B < A	false	4 3
-7 eval G < B	false	1 2
+7 eval B < G	true	1 2
 1 B > G
 2 G > D
 3 B > A
 4 D > E
 5 G > A
 6 E > F
-7 eval D < F	false	4 6
-8 eval B < D	false	2 1
-9 eval G < E	false	2 4
+7 eval F < D	true	4 6
+8 eval D < B	true	2 1
+9 eval E < G	true	2 4
 1 E > D
 2 G > F
 3 G > D
 4 D > F
 5 D > B
-6 eval E > F	true	1 4
+6 eval E < F	false	1 4
 7 eval G < B	false	5 3
-8 eval E < B	false	5 1
+8 eval B < E	true	5 1
 1 E > F
 2 E > D
 3 D > G
 4 G > A
 5 E > B
 6 D > F
-7 eval E < G	false	3 2
-8 eval D < A	false	4 3
+7 eval G < E	true	3 2
+8 eval A < D	true	4 3
 1 E > A
 2 D > E
 3 D > F
 4 B > G
 5 E > B
-6 eval D > A	true	1 2
-7 eval D < B	false	2 5
-8 eval E > G	true	4 5
+6 eval A < D	true	1 2
+7 eval B < D	true	2 5
+8 eval G < E	true	4 5
 1 F > A
 2 B > F
 3 B > G
 4 G > F
-5 eval B < A	false	2 1
-6 eval G > A	true	4 1
+5 eval A < B	true	2 1
+6 eval A < G	true	4 1
 1 E > F
 2 D > F
 3 G > B
@@ -6674,14 +6674,14 @@
 6 G > E
 7 D > E
 8 B > F
-9 eval D < B	false	3 4
+9 eval B < D	true	3 4
 1 E > A
 2 D > F
 3 B > G
 4 F > A
 5 B > F
 6 B > A
-7 eval D < A	false	4 2
+7 eval A < D	true	4 2
 1 D > G
 2 G > F
 3 B > F
@@ -6689,8 +6689,8 @@
 5 E > D
 6 E > G
 7 E > B
-8 eval D > F	true	1 2
-9 eval E > F	true	3 7
+8 eval D < F	false	1 2
+9 eval E < F	false	3 7
 1 E > F
 2 D > A
 3 E > B
@@ -6699,11 +6699,11 @@
 6 B > F
 7 D > E
 8 B > A
-9 eval E < A	false	8 3
-10 eval G > A	true	2 4
+9 eval A < E	true	8 3
+10 eval G < A	false	2 4
 11 eval D < F	false	7 1
-12 eval G < B	false	5 4
-13 eval G > E	true	7 4
+12 eval B < G	true	5 4
+13 eval E < G	true	7 4
 1 G > A
 2 B > F
 3 E > B
@@ -6714,7 +6714,7 @@
 8 G > E
 9 B > A
 10 eval E < D	false	4 3
-11 eval G < B	false	8 3
+11 eval B < G	true	8 3
 1 F > A
 2 B > E
 3 D > E
@@ -6728,10 +6728,10 @@
 5 D > F
 6 B > F
 7 G > D
-8 eval G > A	true	7 2
-9 eval B > A	true	6 1
-10 eval E < F	false	4 3
-11 eval E > D	true	4 7
+8 eval G < A	false	7 2
+9 eval B < A	false	6 1
+10 eval F < E	true	4 3
+11 eval E < D	false	4 7
 1 G > E
 2 D > F
 3 G > D
@@ -6740,9 +6740,9 @@
 6 D > B
 7 E > F
 8 B > F
-9 eval G < B	false	6 3
-10 eval G < A	false	5 1
-11 eval D > A	true	6 4
+9 eval B < G	true	6 3
+10 eval A < G	true	5 1
+11 eval A < D	true	6 4
 12 eval G < F	false	2 3
 1 B > A
 2 B > D
@@ -6753,9 +6753,9 @@
 7 E > F
 8 F > A
 9 E > G
-10 eval B > F	true	2 3
+10 eval F < B	true	2 3
 11 eval D < A	false	8 3
-12 eval E > A	true	5 1
+12 eval E < A	false	5 1
 1 D > G
 2 B > F
 3 E > B
@@ -6773,9 +6773,9 @@
 6 E > B
 7 B > F
 8 G > B
-9 eval E > F	true	1 5
-10 eval D > A	true	4 3
-11 eval D < G	false	5 3
+9 eval E < F	false	1 5
+10 eval D < A	false	4 3
+11 eval G < D	true	5 3
 12 eval G < A	false	2 8
 13 eval D < B	false	6 3
 1 D > G
@@ -6786,14 +6786,14 @@
 6 B > A
 7 G > B
 8 eval D < A	false	4 1
-9 eval D > B	true	7 1
+9 eval B < D	true	7 1
 1 B > D
 2 B > A
 3 E > F
 4 B > F
 5 F > A
 6 G > A
-7 eval E > A	true	5 3
+7 eval E < A	false	5 3
 1 E > A
 2 D > F
 3 F > A
@@ -6802,7 +6802,7 @@
 6 B > E
 7 eval B < A	false	1 6
 8 eval D < A	false	3 2
-9 eval G > A	true	5 1
+9 eval A < G	true	5 1
 1 B > E
 2 E > D
 3 E > F
@@ -6810,10 +6810,10 @@
 5 E > G
 6 G > A
 7 D > A
-8 eval B < F	false	3 1
-9 eval E > A	true	7 2
-10 eval B > D	true	2 1
-11 eval B > A	true	4 6
+8 eval F < B	true	3 1
+9 eval A < E	true	7 2
+10 eval D < B	true	2 1
+11 eval B < A	false	4 6
 1 B > G
 2 B > E
 3 D > G
@@ -6822,10 +6822,10 @@
 6 F > A
 7 E > F
 8 D > F
-9 eval B > F	true	5 1
-10 eval D > A	true	4 3
+9 eval B < F	false	5 1
+10 eval D < A	false	4 3
 11 eval E < A	false	7 6
-12 eval B < A	false	4 1
+12 eval A < B	true	4 1
 1 B > E
 2 E > F
 3 G > A
@@ -6834,16 +6834,16 @@
 6 D > E
 7 D > G
 8 eval B < A	false	3 4
-9 eval D > A	true	3 7
+9 eval A < D	true	3 7
 10 eval D < F	false	2 6
-11 eval B > F	true	1 2
-12 eval G > F	true	2 5
+11 eval B < F	false	1 2
+12 eval G < F	false	2 5
 1 D > F
 2 B > E
 3 D > A
 4 D > E
 5 G > B
-6 eval G > E	true	2 5
+6 eval E < G	true	2 5
 1 D > A
 2 D > F
 3 G > E
@@ -6853,7 +6853,7 @@
 7 B > A
 8 G > F
 9 D > E
-10 eval G > A	true	4 3
+10 eval G < A	false	4 3
 1 E > G
 2 F > A
 3 D > F
@@ -6862,7 +6862,7 @@
 6 E > F
 7 D > A
 8 B > A
-9 eval D > G	true	5 1
+9 eval D < G	false	5 1
 1 E > B
 2 E > A
 3 G > F
@@ -6871,8 +6871,8 @@
 6 E > F
 7 B > A
 8 D > A
-9 eval B < F	false	5 4
-10 eval E > D	true	4 1
+9 eval F < B	true	5 4
+10 eval E < D	false	4 1
 1 G > D
 2 E > A
 3 B > A
@@ -6881,7 +6881,7 @@
 6 E > B
 7 D > A
 8 F > A
-9 eval G < A	false	3 4
+9 eval A < G	true	3 4
 1 B > F
 2 E > G
 3 B > A
@@ -6890,21 +6890,21 @@
 6 B > E
 7 D > A
 8 F > A
-9 eval E > A	true	4 8
+9 eval A < E	true	4 8
 1 G > F
 2 E > G
 3 E > F
 4 E > D
 5 D > F
 6 F > A
-7 eval E < A	false	6 3
-8 eval G < A	false	1 6
+7 eval A < E	true	6 3
+8 eval A < G	true	1 6
 9 eval D < A	false	5 6
 1 E > D
 2 D > F
 3 G > F
 4 B > F
-5 eval E < F	false	2 1
+5 eval F < E	true	2 1
 1 G > E
 2 D > F
 3 G > D
@@ -6915,23 +6915,23 @@
 8 D > A
 9 eval E < F	false	2 6
 10 eval E < A	false	8 6
-11 eval G > A	true	3 8
+11 eval A < G	true	3 8
 12 eval G < F	false	3 2
 1 D > A
 2 E > D
 3 E > A
 4 D > B
-5 eval E > B	true	4 2
+5 eval B < E	true	4 2
 1 D > A
 2 E > A
 3 G > F
 4 G > D
-5 eval G > A	true	1 4
+5 eval A < G	true	1 4
 1 D > A
 2 E > G
 3 D > B
 4 B > G
-5 eval D < G	false	4 3
+5 eval G < D	true	4 3
 1 G > F
 2 B > F
 3 E > B
@@ -6940,14 +6940,14 @@
 6 D > A
 7 D > F
 8 D > B
-9 eval G > A	true	5 1
-10 eval E > A	true	4 3
+9 eval G < A	false	5 1
+10 eval A < E	true	4 3
 11 eval E < F	false	3 2
 1 E > A
 2 B > E
 3 B > D
 4 B > F
-5 eval B > A	true	1 2
+5 eval A < B	true	1 2
 1 B > D
 2 E > F
 3 G > B
@@ -6956,21 +6956,21 @@
 6 B > A
 7 E > D
 8 E > A
-9 eval G < A	false	3 6
-10 eval G < D	false	3 1
-11 eval G > F	true	3 4
+9 eval A < G	true	3 6
+10 eval D < G	true	3 1
+11 eval G < F	false	3 4
 1 G > F
 2 F > A
 3 B > G
 4 D > A
-5 eval B > F	true	1 3
-6 eval G > A	true	2 1
+5 eval B < F	false	1 3
+6 eval A < G	true	2 1
 1 B > F
 2 G > D
 3 F > A
 4 G > F
-5 eval B > A	true	3 1
-6 eval G > A	true	3 4
+5 eval A < B	true	3 1
+6 eval A < G	true	3 4
 1 F > A
 2 E > D
 3 D > G
@@ -6979,7 +6979,7 @@
 6 B > A
 7 G > F
 8 eval E < G	false	2 3
-9 eval D < F	false	3 7
+9 eval F < D	true	3 7
 10 eval G < A	false	1 7
 1 E > F
 2 E > A
@@ -6988,7 +6988,7 @@
 5 B > G
 6 E > D
 7 E > G
-8 eval B < F	false	5 4
+8 eval F < B	true	5 4
 1 B > F
 2 E > G
 3 G > F
@@ -6996,8 +6996,8 @@
 5 E > B
 6 E > F
 7 G > A
-8 eval E > A	true	2 7
-9 eval B < A	false	4 1
+8 eval E < A	false	2 7
+9 eval A < B	true	4 1
 1 D > A
 2 G > A
 3 B > A
@@ -7005,8 +7005,8 @@
 5 G > D
 6 B > F
 7 G > B
-8 eval E > A	true	4 3
-9 eval G < F	false	7 6
+8 eval E < A	false	4 3
+9 eval F < G	true	7 6
 10 eval E < F	false	4 6
 1 B > G
 2 G > D
@@ -7016,19 +7016,19 @@
 6 F > A
 7 B > F
 8 D > A
-9 eval E > F	true	5 3
-10 eval G > F	true	5 2
+9 eval F < E	true	5 3
+10 eval F < G	true	5 2
 11 eval G < A	false	8 2
 12 eval E < A	false	8 3
-13 eval B > D	true	2 1
+13 eval D < B	true	2 1
 1 G > F
 2 E > G
 3 E > D
 4 D > F
 5 G > A
 6 B > A
-7 eval E > A	true	5 2
-8 eval E < F	false	4 3
+7 eval E < A	false	5 2
+8 eval F < E	true	4 3
 1 D > F
 2 G > F
 3 B > A
@@ -7036,9 +7036,9 @@
 5 B > F
 6 G > A
 7 E > G
-8 eval D > A	true	4 1
-9 eval E > A	true	7 6
-10 eval E > F	true	7 2
+8 eval D < A	false	4 1
+9 eval A < E	true	7 6
+10 eval F < E	true	7 2
 1 B > F
 2 E > F
 3 E > A
@@ -7048,7 +7048,7 @@
 7 B > A
 8 G > A
 9 F > A
-10 eval D > F	true	1 6
+10 eval D < F	false	1 6
 1 D > E
 2 E > A
 3 E > F
@@ -7056,10 +7056,10 @@
 5 D > F
 6 D > B
 7 B > E
-8 eval B < F	false	7 3
-9 eval D > G	true	4 6
-10 eval D > A	true	2 1
-11 eval B > A	true	7 2
+8 eval F < B	true	7 3
+9 eval G < D	true	4 6
+10 eval D < A	false	2 1
+11 eval B < A	false	7 2
 1 E > A
 2 G > A
 3 D > F
@@ -7070,16 +7070,16 @@
 8 B > A
 9 B > D
 10 eval B < E	false	4 9
-11 eval D > A	true	4 1
-12 eval B > F	true	7 5
+11 eval A < D	true	4 1
+12 eval B < F	false	7 5
 1 D > A
 2 E > A
 3 B > G
 4 E > D
 5 G > D
 6 B > F
-7 eval G > A	true	1 5
-8 eval B > D	true	5 3
+7 eval G < A	false	1 5
+8 eval D < B	true	5 3
 1 E > F
 2 B > A
 3 E > G
@@ -7089,15 +7089,15 @@
 7 B > E
 8 D > E
 9 D > B
-10 eval D > A	true	2 9
+10 eval A < D	true	2 9
 11 eval B < F	false	1 7
 12 eval B < G	false	3 7
 1 E > A
 2 B > E
 3 G > B
 4 B > A
-5 eval G < E	false	2 3
-6 eval G < A	false	4 3
+5 eval E < G	true	2 3
+6 eval A < G	true	4 3
 1 F > A
 2 E > G
 3 D > E
@@ -7106,9 +7106,9 @@
 6 E > F
 7 B > F
 8 eval B < A	false	1 7
-9 eval D > G	true	2 3
-10 eval B > E	true	3 4
-11 eval E > A	true	6 1
+9 eval G < D	true	2 3
+10 eval E < B	true	3 4
+11 eval E < A	false	6 1
 12 eval D < F	false	6 3
 1 G > B
 2 B > F
@@ -7117,7 +7117,7 @@
 5 D > F
 6 E > B
 7 eval E < F	false	6 2
-8 eval G < A	false	4 1
+8 eval A < G	true	4 1
 9 eval G < F	false	2 1
 10 eval E < A	false	6 4
 1 G > D
@@ -7129,26 +7129,26 @@
 7 E > F
 8 D > B
 9 F > A
-10 eval D < A	false	8 3
-11 eval D > E	true	8 4
+10 eval A < D	true	8 3
+11 eval D < E	false	8 4
 12 eval E < A	false	7 9
-13 eval G > E	true	4 2
+13 eval G < E	false	4 2
 14 eval B < F	false	7 4
-15 eval G > F	true	1 6
+15 eval G < F	false	1 6
 1 G > B
 2 D > G
 3 E > A
 4 D > E
-5 eval D > A	true	4 3
-6 eval D < B	false	1 2
+5 eval A < D	true	4 3
+6 eval B < D	true	1 2
 1 D > A
 2 F > A
 3 G > A
 4 D > G
 5 B > D
 6 E > G
-7 eval B > A	true	1 5
-8 eval B > G	true	4 5
+7 eval B < A	false	1 5
+8 eval B < G	false	4 5
 9 eval E < A	false	6 3
 1 G > A
 2 B > A
@@ -7157,15 +7157,15 @@
 5 D > B
 6 E > F
 7 eval D < G	false	5 3
-8 eval D > A	true	2 5
+8 eval D < A	false	2 5
 1 G > F
 2 B > G
 3 B > D
 4 E > G
 5 B > A
 6 E > A
-7 eval E < F	false	4 1
-8 eval B < F	false	2 1
+7 eval F < E	true	4 1
+8 eval F < B	true	2 1
 1 G > F
 2 E > F
 3 E > G
@@ -7174,7 +7174,7 @@
 6 D > F
 7 D > B
 8 G > A
-9 eval E < B	false	3 5
+9 eval B < E	true	3 5
 1 B > F
 2 E > A
 3 B > D
@@ -7182,15 +7182,15 @@
 5 G > D
 6 D > F
 7 G > E
-8 eval G > F	true	6 5
-9 eval G < A	false	2 7
+8 eval G < F	false	6 5
+9 eval A < G	true	2 7
 1 B > F
 2 D > G
 3 E > A
 4 E > G
 5 D > B
 6 E > F
-7 eval D < F	false	1 5
+7 eval F < D	true	1 5
 1 D > F
 2 G > F
 3 G > D
@@ -7200,8 +7200,8 @@
 7 B > D
 8 G > B
 9 E > F
-10 eval E < A	false	5 6
-11 eval G < A	false	8 6
+10 eval A < E	true	5 6
+11 eval A < G	true	8 6
 12 eval B < F	false	7 1
 13 eval E < D	false	5 7
 1 G > D
@@ -7211,12 +7211,12 @@
 5 B > F
 6 E > D
 7 F > A
-8 eval B > A	true	5 7
+8 eval A < B	true	5 7
 9 eval D < A	false	7 4
-10 eval G > F	true	1 4
-11 eval E < F	false	4 6
-12 eval G < B	false	1 3
-13 eval E > B	true	3 6
+10 eval G < F	false	1 4
+11 eval F < E	true	4 6
+12 eval B < G	true	1 3
+13 eval E < B	false	3 6
 1 E > D
 2 B > D
 3 E > G
@@ -7224,8 +7224,8 @@
 5 E > A
 6 F > A
 7 G > D
-8 eval B < A	false	5 4
-9 eval B > G	true	3 4
+8 eval A < B	true	5 4
+9 eval G < B	true	3 4
 1 G > F
 2 E > B
 3 E > A
@@ -7234,7 +7234,7 @@
 6 G > A
 7 B > A
 8 D > E
-9 eval D > B	true	2 8
+9 eval D < B	false	2 8
 1 D > A
 2 D > E
 3 D > F
@@ -7244,25 +7244,25 @@
 7 B > F
 8 E > F
 9 F > A
-10 eval E > A	true	8 9
+10 eval A < E	true	8 9
 11 eval B < A	false	4 6
-12 eval D > G	true	6 5
+12 eval G < D	true	6 5
 1 G > F
 2 E > G
 3 B > G
 4 D > G
-5 eval B < F	false	1 3
-6 eval D > F	true	4 1
-7 eval E < F	false	1 2
+5 eval F < B	true	1 3
+6 eval D < F	false	4 1
+7 eval F < E	true	1 2
 1 E > B
 2 D > F
 3 E > A
 4 G > F
 5 E > D
 6 F > A
-7 eval D > A	true	6 2
+7 eval D < A	false	6 2
 8 eval E < F	false	2 5
-9 eval G > A	true	4 6
+9 eval A < G	true	4 6
 1 B > F
 2 G > F
 3 D > A
@@ -7271,9 +7271,9 @@
 6 G > D
 7 E > G
 8 E > A
-9 eval E < F	false	7 2
-10 eval E > D	true	7 6
-11 eval G > A	true	3 6
+9 eval F < E	true	7 2
+10 eval E < D	false	7 6
+11 eval G < A	false	3 6
 1 E > G
 2 F > A
 3 E > D
@@ -7284,10 +7284,10 @@
 8 B > E
 9 E > F
 10 eval B < D	false	8 3
-11 eval E < A	false	6 1
+11 eval A < E	true	6 1
 12 eval B < G	false	8 1
-13 eval D > A	true	4 6
-14 eval B > A	true	2 5
+13 eval A < D	true	4 6
+14 eval A < B	true	2 5
 1 B > F
 2 E > F
 3 G > E
@@ -7297,12 +7297,12 @@
 7 G > F
 8 G > B
 9 B > D
-10 eval G > D	true	9 8
+10 eval G < D	false	9 8
 1 F > A
 2 G > B
 3 E > F
 4 E > B
-5 eval E > A	true	1 3
+5 eval A < E	true	1 3
 1 F > A
 2 E > A
 3 G > F
@@ -7313,7 +7313,7 @@
 8 G > A
 9 eval B < F	false	3 6
 10 eval E < F	false	3 4
-11 eval B < A	false	7 2
+11 eval A < B	true	7 2
 1 D > F
 2 D > A
 3 E > A
@@ -7323,10 +7323,10 @@
 7 B > G
 8 D > G
 9 G > F
-10 eval D > E	true	6 8
-11 eval B > E	true	6 7
-12 eval B > A	true	5 4
-13 eval G > A	true	6 3
+10 eval E < D	true	6 8
+11 eval E < B	true	6 7
+12 eval B < A	false	5 4
+13 eval A < G	true	6 3
 1 B > F
 2 G > B
 3 F > A
@@ -7335,11 +7335,11 @@
 6 E > D
 7 E > G
 8 B > A
-9 eval E > A	true	4 7
-10 eval E > B	true	2 7
-11 eval E > F	true	6 5
-12 eval G > F	true	1 2
-13 eval D > A	true	3 5
+9 eval A < E	true	4 7
+10 eval E < B	false	2 7
+11 eval F < E	true	6 5
+12 eval F < G	true	1 2
+13 eval D < A	false	3 5
 1 D > F
 2 F > A
 3 B > D
@@ -7347,9 +7347,9 @@
 5 G > A
 6 D > E
 7 D > A
-8 eval B > E	true	6 3
+8 eval B < E	false	6 3
 9 eval B < F	false	1 3
-10 eval B > A	true	7 3
+10 eval A < B	true	7 3
 1 E > A
 2 D > G
 3 G > F
@@ -7357,7 +7357,7 @@
 5 D > F
 6 D > A
 7 eval E < F	false	5 4
-8 eval E > G	true	2 4
+8 eval E < G	false	2 4
 1 G > E
 2 G > F
 3 E > F
@@ -7373,17 +7373,17 @@
 7 E > A
 8 F > A
 9 D > F
-10 eval B > F	true	9 1
-11 eval G > A	true	7 2
-12 eval D < A	false	8 9
+10 eval F < B	true	9 1
+11 eval G < A	false	7 2
+12 eval A < D	true	8 9
 1 G > A
 2 B > F
 3 E > D
 4 D > F
 5 E > G
 6 G > D
-7 eval G > F	true	4 6
-8 eval E > A	true	5 1
+7 eval G < F	false	4 6
+8 eval E < A	false	5 1
 9 eval E < F	false	3 4
 1 D > B
 2 G > B
@@ -7399,7 +7399,7 @@
 6 G > E
 7 B > F
 8 G > A
-9 eval G > B	true	2 6
+9 eval B < G	true	2 6
 1 E > G
 2 E > A
 3 G > F
@@ -7409,7 +7409,7 @@
 7 D > F
 8 D > A
 9 D > B
-10 eval B > F	true	3 5
+10 eval B < F	false	3 5
 11 eval D < G	false	5 9
 12 eval E < F	false	3 1
 1 D > F
@@ -7420,11 +7420,11 @@
 6 B > F
 7 G > D
 8 E > G
-9 eval E < F	false	6 3
-10 eval D < A	false	5 1
+9 eval F < E	true	6 3
+10 eval A < D	true	5 1
 11 eval B < D	false	7 2
-12 eval G < F	false	7 1
-13 eval B > A	true	5 6
+12 eval F < G	true	7 1
+13 eval B < A	false	5 6
 1 F > A
 2 D > B
 3 G > E
@@ -7432,17 +7432,17 @@
 5 G > F
 6 B > G
 7 D > A
-8 eval G > A	true	1 5
-9 eval B > F	true	5 6
-10 eval D > E	true	4 2
-11 eval D < G	false	6 2
+8 eval G < A	false	1 5
+9 eval F < B	true	5 6
+10 eval D < E	false	4 2
+11 eval G < D	true	6 2
 1 E > D
 2 E > G
 3 B > E
 4 G > A
-5 eval B > D	true	3 1
-6 eval E < A	false	4 2
-7 eval B < G	false	3 2
+5 eval D < B	true	3 1
+6 eval A < E	true	4 2
+7 eval G < B	true	3 2
 1 D > B
 2 G > A
 3 E > G
@@ -7451,7 +7451,7 @@
 6 G > F
 7 D > G
 8 E > F
-9 eval D > A	true	2 7
+9 eval D < A	false	2 7
 10 eval E < A	false	2 3
 1 E > D
 2 G > F
@@ -7461,24 +7461,24 @@
 6 E > F
 7 D > F
 8 D > B
-9 eval G > A	true	3 2
+9 eval G < A	false	3 2
 10 eval E < B	false	1 8
 11 eval D < A	false	3 7
-12 eval E > A	true	3 6
-13 eval B < A	false	4 3
+12 eval A < E	true	3 6
+13 eval A < B	true	4 3
 1 E > A
 2 D > F
 3 B > E
 4 B > D
-5 eval B > A	true	1 3
-6 eval B < F	false	2 4
+5 eval A < B	true	1 3
+6 eval F < B	true	2 4
 1 E > G
 2 E > B
 3 D > E
 4 G > F
 5 eval D < B	false	3 2
-6 eval D > G	true	3 1
-7 eval E > F	true	4 1
+6 eval D < G	false	3 1
+7 eval E < F	false	4 1
 1 E > A
 2 B > E
 3 D > G
@@ -7490,13 +7490,13 @@
 3 B > A
 4 G > A
 5 E > B
-6 eval D > A	true	1 2
+6 eval A < D	true	1 2
 7 eval D < B	false	5 2
 1 G > A
 2 D > A
 3 B > D
 4 E > A
-5 eval B < A	false	3 2
+5 eval A < B	true	3 2
 1 D > B
 2 E > F
 3 B > E
@@ -7506,10 +7506,10 @@
 7 F > A
 8 G > E
 9 D > E
-10 eval D > A	true	9 5
-11 eval B > A	true	5 3
-12 eval B < F	false	3 2
-13 eval G < F	false	8 2
+10 eval D < A	false	9 5
+11 eval A < B	true	5 3
+12 eval F < B	true	3 2
+13 eval F < G	true	8 2
 1 B > A
 2 E > B
 3 G > F
@@ -7517,7 +7517,7 @@
 5 D > F
 6 D > A
 7 eval G < A	false	1 4
-8 eval E < A	false	2 1
+8 eval A < E	true	2 1
 1 E > A
 2 D > B
 3 G > E
@@ -7527,26 +7527,26 @@
 7 D > A
 8 E > B
 9 G > D
-10 eval G > B	true	3 8
-11 eval G < A	false	3 1
-12 eval E > F	true	4 5
+10 eval G < B	false	3 8
+11 eval A < G	true	3 1
+12 eval E < F	false	4 5
 13 eval G < F	false	9 5
 1 D > F
 2 E > F
 3 F > A
 4 D > A
-5 eval E < A	false	2 3
+5 eval A < E	true	2 3
 1 B > D
 2 D > A
 3 F > A
 4 B > E
-5 eval B > A	true	2 1
+5 eval B < A	false	2 1
 1 D > E
 2 B > E
 3 B > D
 4 E > F
-5 eval B > F	true	4 2
-6 eval D < F	false	1 4
+5 eval B < F	false	4 2
+6 eval F < D	true	1 4
 1 E > D
 2 B > D
 3 E > B
@@ -7554,24 +7554,24 @@
 5 E > A
 6 G > D
 7 D > F
-8 eval E < F	false	1 7
-9 eval B < F	false	2 7
-10 eval D < A	false	7 4
-11 eval G > F	true	6 7
+8 eval F < E	true	1 7
+9 eval F < B	true	2 7
+10 eval A < D	true	7 4
+11 eval G < F	false	6 7
 1 F > A
 2 G > F
 3 E > D
 4 E > G
 5 B > G
-6 eval G > A	true	1 2
+6 eval G < A	false	1 2
 7 eval B < F	false	5 2
-8 eval E > F	true	2 4
+8 eval F < E	true	2 4
 1 B > E
 2 F > A
 3 G > F
 4 E > G
-5 eval G > A	true	2 3
-6 eval B > G	true	4 1
+5 eval A < G	true	2 3
+6 eval B < G	false	4 1
 7 eval E < F	false	3 4
 1 G > A
 2 E > B
@@ -7582,7 +7582,7 @@
 7 D > B
 8 eval B < A	false	1 4
 9 eval D < G	false	7 4
-10 eval E > A	true	5 1
+10 eval E < A	false	5 1
 1 D > B
 2 E > G
 3 G > F
@@ -7591,10 +7591,10 @@
 6 B > G
 7 G > A
 8 E > B
-9 eval D > G	true	6 1
-10 eval E < A	false	7 2
-11 eval E > F	true	4 8
-12 eval B > A	true	6 7
+9 eval G < D	true	6 1
+10 eval A < E	true	7 2
+11 eval F < E	true	4 8
+12 eval B < A	false	6 7
 13 eval D < F	false	1 4
 1 G > D
 2 G > A
@@ -7608,8 +7608,8 @@
 2 G > D
 3 B > F
 4 F > A
-5 eval G > A	true	4 1
-6 eval B > A	true	3 4
+5 eval G < A	false	4 1
+6 eval B < A	false	3 4
 1 G > A
 2 E > F
 3 D > E
@@ -7618,8 +7618,8 @@
 6 D > F
 7 B > E
 8 E > A
-9 eval B > A	true	7 8
-10 eval B > F	true	7 2
+9 eval B < A	false	7 8
+10 eval B < F	false	7 2
 1 G > B
 2 D > B
 3 E > G
@@ -7629,29 +7629,29 @@
 7 E > B
 8 G > D
 9 E > F
-10 eval G > A	true	4 1
-11 eval D > A	true	4 2
-12 eval E > A	true	4 7
+10 eval G < A	false	4 1
+11 eval A < D	true	4 2
+12 eval A < E	true	4 7
 1 G > A
 2 B > A
 3 D > A
 4 G > F
 5 E > B
-6 eval E > A	true	5 2
+6 eval E < A	false	5 2
 1 G > B
 2 E > A
 3 B > E
 4 G > F
 5 eval G < E	false	1 3
-6 eval B < A	false	3 2
+6 eval A < B	true	3 2
 1 D > E
 2 G > A
 3 E > G
 4 D > A
 5 B > G
-6 eval E > A	true	3 2
-7 eval B > A	true	2 5
-8 eval D < G	false	1 3
+6 eval A < E	true	3 2
+7 eval A < B	true	2 5
+8 eval G < D	true	1 3
 1 B > D
 2 G > D
 3 D > A
@@ -7668,21 +7668,21 @@
 7 B > F
 8 B > D
 9 G > D
-10 eval E > F	true	3 1
+10 eval E < F	false	3 1
 11 eval E < A	false	3 4
-12 eval B < A	false	4 6
+12 eval A < B	true	4 6
 1 B > F
 2 E > D
 3 B > A
 4 E > A
 5 E > B
-6 eval E > F	true	1 5
+6 eval F < E	true	1 5
 1 E > D
 2 G > F
 3 D > A
 4 E > G
 5 B > F
-6 eval E < F	false	2 4
+6 eval F < E	true	2 4
 7 eval E < A	false	3 1
 1 G > F
 2 E > D
@@ -7691,9 +7691,9 @@
 5 B > G
 6 D > B
 7 E > G
-8 eval E > B	true	6 2
-9 eval E > F	true	4 2
-10 eval D > G	true	5 6
+8 eval E < B	false	6 2
+9 eval E < F	false	4 2
+10 eval G < D	true	5 6
 1 G > E
 2 D > A
 3 E > D
@@ -7701,11 +7701,11 @@
 5 D > B
 6 B > F
 7 G > B
-8 eval G > D	true	3 1
-9 eval G > F	true	4 1
-10 eval E > B	true	5 3
-11 eval E > A	true	2 3
-12 eval D < F	false	6 5
+8 eval D < G	true	3 1
+9 eval G < F	false	4 1
+10 eval E < B	false	5 3
+11 eval E < A	false	2 3
+12 eval F < D	true	6 5
 1 G > E
 2 G > B
 3 B > E
@@ -7713,8 +7713,8 @@
 5 D > A
 6 E > F
 7 eval G < F	false	6 1
-8 eval B < F	false	6 3
-9 eval G > A	true	4 2
+8 eval F < B	true	6 3
+9 eval A < G	true	4 2
 1 E > B
 2 B > G
 3 G > F
@@ -7722,38 +7722,38 @@
 5 G > A
 6 B > D
 7 E > D
-8 eval E < F	false	1 4
+8 eval F < E	true	1 4
 9 eval E < G	false	1 2
-10 eval B < A	false	2 5
+10 eval A < B	true	2 5
 1 B > D
 2 F > A
 3 E > F
 4 D > E
-5 eval D < F	false	4 3
-6 eval B > E	true	4 1
-7 eval E < A	false	2 3
+5 eval F < D	true	4 3
+6 eval B < E	false	4 1
+7 eval A < E	true	2 3
 1 E > D
 2 G > A
 3 G > D
 4 G > E
 5 D > F
 6 F > A
-7 eval E > F	true	5 1
-8 eval G > F	true	5 3
-9 eval D > A	true	5 6
+7 eval E < F	false	5 1
+8 eval F < G	true	5 3
+9 eval A < D	true	5 6
 1 B > D
 2 E > D
 3 G > F
 4 B > G
 5 E > B
 6 eval E < G	false	4 5
-7 eval B > F	true	4 3
+7 eval F < B	true	4 3
 1 B > G
 2 E > G
 3 G > A
 4 D > F
 5 B > F
-6 eval B > A	true	1 3
+6 eval B < A	false	1 3
 7 eval E < A	false	2 3
 1 B > F
 2 F > A
@@ -7761,7 +7761,7 @@
 4 B > A
 5 E > B
 6 E > F
-7 eval E > A	true	4 5
+7 eval E < A	false	4 5
 1 E > B
 2 G > F
 3 D > A
@@ -7771,17 +7771,17 @@
 7 D > B
 8 D > G
 9 G > B
-10 eval D > F	true	2 8
+10 eval F < D	true	2 8
 11 eval E < F	false	6 1
 12 eval G < A	false	5 2
-13 eval B < A	false	6 5
+13 eval A < B	true	6 5
 1 G > F
 2 D > E
 3 B > F
 4 B > G
 5 D > B
 6 D > G
-7 eval D < F	false	3 5
+7 eval F < D	true	3 5
 1 E > F
 2 G > E
 3 B > G
@@ -7790,9 +7790,9 @@
 6 B > A
 7 B > D
 8 D > A
-9 eval G < A	false	8 4
-10 eval B > E	true	2 3
-11 eval B < F	false	5 3
+9 eval A < G	true	8 4
+10 eval E < B	true	2 3
+11 eval F < B	true	5 3
 1 F > A
 2 G > E
 3 D > F
@@ -7801,11 +7801,11 @@
 6 G > F
 7 B > F
 8 D > A
-9 eval B < A	false	4 8
-10 eval G < A	false	6 1
+9 eval A < B	true	4 8
+10 eval A < G	true	6 1
 11 eval E < D	false	4 5
-12 eval E > F	true	7 5
-13 eval G > B	true	5 2
+12 eval F < E	true	7 5
+13 eval B < G	true	5 2
 1 B > F
 2 F > A
 3 G > F
@@ -7813,9 +7813,9 @@
 5 D > F
 6 D > A
 7 G > A
-8 eval E > F	true	4 5
-9 eval E > A	true	4 6
-10 eval B > A	true	2 1
+8 eval E < F	false	4 5
+9 eval A < E	true	4 6
+10 eval A < B	true	2 1
 1 G > B
 2 F > A
 3 E > B
@@ -7824,10 +7824,10 @@
 6 E > F
 7 D > F
 8 G > E
-9 eval E > A	true	6 2
-10 eval G > F	true	8 6
+9 eval E < A	false	6 2
+10 eval G < F	false	8 6
 11 eval B < A	false	2 4
-12 eval D > A	true	2 7
+12 eval D < A	false	2 7
 1 E > A
 2 B > F
 3 G > B
@@ -7836,34 +7836,34 @@
 6 D > G
 7 E > B
 8 B > A
-9 eval D < A	false	8 4
-10 eval E > F	true	2 7
-11 eval G > A	true	5 1
-12 eval G > F	true	2 3
-13 eval D > E	true	6 5
-14 eval D < F	false	2 4
+9 eval A < D	true	8 4
+10 eval E < F	false	2 7
+11 eval A < G	true	5 1
+12 eval F < G	true	2 3
+13 eval E < D	true	6 5
+14 eval F < D	true	2 4
 1 G > B
 2 E > A
 3 G > A
 4 G > F
 5 B > D
 6 D > A
-7 eval B > A	true	5 6
-8 eval G > D	true	5 1
+7 eval A < B	true	5 6
+8 eval G < D	false	5 1
 1 E > D
 2 F > A
 3 D > B
 4 E > B
 5 B > F
-6 eval E > F	true	5 4
-7 eval B > A	true	2 5
-8 eval D > F	true	3 5
+6 eval F < E	true	5 4
+7 eval B < A	false	2 5
+8 eval D < F	false	3 5
 1 E > G
 2 D > F
 3 B > F
 4 G > A
 5 G > B
-6 eval E < B	false	1 5
+6 eval B < E	true	1 5
 7 eval G < F	false	5 3
 8 eval E < A	false	1 4
 1 F > A
@@ -7875,11 +7875,11 @@
 7 G > B
 8 D > B
 9 E > F
-10 eval G > E	true	3 7
-11 eval D > F	true	6 2
+10 eval G < E	false	3 7
+11 eval F < D	true	6 2
 12 eval E < A	false	9 1
-13 eval B > A	true	1 4
-14 eval G < A	false	2 1
+13 eval B < A	false	1 4
+14 eval A < G	true	2 1
 1 D > E
 2 E > F
 3 D > A
@@ -7902,8 +7902,8 @@
 8 B > F
 9 F > A
 10 eval B < E	false	5 4
-11 eval D > F	true	3 8
-12 eval D < A	false	3 2
+11 eval F < D	true	3 8
+12 eval A < D	true	3 2
 1 E > D
 2 D > G
 3 G > A
@@ -7911,14 +7911,14 @@
 5 E > A
 6 B > A
 7 E > B
-8 eval E > G	true	2 1
+8 eval E < G	false	2 1
 1 D > E
 2 G > E
 3 F > A
 4 E > A
 5 D > F
 6 eval D < A	false	3 5
-7 eval G > A	true	4 2
+7 eval A < G	true	4 2
 1 G > A
 2 E > A
 3 D > F
@@ -7928,9 +7928,9 @@
 7 B > E
 8 D > B
 9 B > F
-10 eval B > A	true	7 2
-11 eval D > A	true	4 2
-12 eval G > F	true	3 5
+10 eval B < A	false	7 2
+11 eval A < D	true	4 2
+12 eval G < F	false	3 5
 13 eval G < E	false	4 5
 1 G > F
 2 E > F
@@ -7944,14 +7944,14 @@
 4 D > F
 5 E > B
 6 eval B < F	false	1 4
-7 eval B < A	false	1 3
+7 eval A < B	true	1 3
 8 eval G < B	false	5 2
-9 eval E < D	false	1 5
+9 eval D < E	true	1 5
 1 G > F
 2 B > E
 3 B > G
 4 D > E
-5 eval B < F	false	3 1
+5 eval F < B	true	3 1
 1 E > F
 2 F > A
 3 D > F
@@ -7961,8 +7961,8 @@
 7 B > A
 8 D > B
 9 G > F
-10 eval B > F	true	9 4
-11 eval E > A	true	2 1
+10 eval F < B	true	9 4
+11 eval A < E	true	2 1
 12 eval D < G	false	8 4
 1 B > A
 2 D > A
@@ -7974,18 +7974,18 @@
 8 E > D
 9 G > E
 10 eval G < D	false	8 9
-11 eval E < A	false	1 7
+11 eval A < E	true	1 7
 12 eval G < A	false	1 3
-13 eval G > F	true	9 5
+13 eval F < G	true	9 5
 1 B > A
 2 D > F
 3 B > G
 4 G > A
 5 E > G
 6 D > B
-7 eval D < A	false	6 1
+7 eval A < D	true	6 1
 8 eval E < A	false	4 5
-9 eval D < G	false	6 3
+9 eval G < D	true	6 3
 1 G > B
 2 B > A
 3 B > F
@@ -7995,17 +7995,17 @@
 7 E > A
 8 G > E
 9 F > A
-10 eval G > A	true	2 1
-11 eval D > F	true	3 5
+10 eval A < G	true	2 1
+11 eval D < F	false	3 5
 12 eval G < F	false	3 1
-13 eval D < A	false	2 5
+13 eval A < D	true	2 5
 1 B > D
 2 B > G
 3 B > A
 4 E > A
 5 E > B
-6 eval E > G	true	2 5
-7 eval E > D	true	1 5
+6 eval E < G	false	2 5
+7 eval E < D	false	1 5
 1 G > F
 2 B > F
 3 E > F
@@ -8014,8 +8014,8 @@
 6 F > A
 7 B > D
 8 B > E
-9 eval B > A	true	6 2
-10 eval E > A	true	3 6
+9 eval B < A	false	6 2
+10 eval E < A	false	3 6
 1 B > G
 2 E > B
 3 F > A
@@ -8023,11 +8023,11 @@
 5 B > D
 6 G > F
 7 E > G
-8 eval E > D	true	2 5
-9 eval G < A	false	6 3
+8 eval D < E	true	2 5
+9 eval A < G	true	6 3
 10 eval E < F	false	6 7
 11 eval B < F	false	6 1
-12 eval E < A	false	2 4
+12 eval A < E	true	2 4
 1 B > A
 2 B > G
 3 D > E
@@ -8037,10 +8037,10 @@
 7 G > D
 8 F > A
 9 E > A
-10 eval B < D	false	7 2
-11 eval G > A	true	7 5
-12 eval G > F	true	7 6
-13 eval B < E	false	4 2
+10 eval D < B	true	7 2
+11 eval G < A	false	7 5
+12 eval G < F	false	7 6
+13 eval E < B	true	4 2
 1 B > G
 2 D > G
 3 D > E
@@ -8050,16 +8050,16 @@
 7 E > F
 8 E > G
 9 eval B < E	false	3 6
-10 eval B > A	true	4 6
-11 eval B < F	false	1 5
-12 eval D < F	false	7 3
+10 eval B < A	false	4 6
+11 eval F < B	true	1 5
+12 eval F < D	true	7 3
 1 G > F
 2 B > G
 3 E > B
 4 D > B
-5 eval D > G	true	2 4
-6 eval E > G	true	2 3
-7 eval B < F	false	2 1
+5 eval G < D	true	2 4
+6 eval G < E	true	2 3
+7 eval F < B	true	2 1
 1 E > F
 2 F > A
 3 B > G
@@ -8067,15 +8067,15 @@
 5 G > A
 6 B > E
 7 D > A
-8 eval B < F	false	6 1
-9 eval D < F	false	1 4
-10 eval B > A	true	3 5
-11 eval E > A	true	2 1
+8 eval F < B	true	6 1
+9 eval F < D	true	1 4
+10 eval A < B	true	3 5
+11 eval A < E	true	2 1
 1 F > A
 2 E > B
 3 E > F
 4 D > G
-5 eval E < A	false	1 3
+5 eval A < E	true	1 3
 1 D > F
 2 F > A
 3 B > G
@@ -8087,13 +8087,13 @@
 9 D > G
 10 eval B < A	false	3 6
 11 eval E < A	false	2 5
-12 eval B < F	false	3 7
+12 eval F < B	true	3 7
 1 E > D
 2 E > G
 3 G > A
 4 D > F
-5 eval E > A	true	2 3
-6 eval E > F	true	1 4
+5 eval E < A	false	2 3
+6 eval F < E	true	1 4
 1 E > B
 2 G > E
 3 D > F
@@ -8107,15 +8107,15 @@
 5 B > G
 6 B > F
 7 G > A
-8 eval E > A	true	4 3
+8 eval A < E	true	4 3
 9 eval B < A	false	7 5
-10 eval D > A	true	4 1
+10 eval A < D	true	4 1
 1 D > B
 2 B > A
 3 D > A
 4 B > F
 5 F > A
-6 eval D > F	true	1 4
+6 eval F < D	true	1 4
 1 E > A
 2 E > B
 3 G > E
@@ -8125,30 +8125,30 @@
 7 D > A
 8 G > F
 9 E > F
-10 eval G > B	true	2 3
+10 eval B < G	true	2 3
 1 B > A
 2 E > G
 3 D > G
 4 B > F
 5 E > F
 6 F > A
-7 eval E < A	false	6 5
+7 eval A < E	true	6 5
 1 B > E
 2 E > F
 3 D > F
 4 G > E
 5 E > D
 6 B > A
-7 eval G > D	true	5 4
-8 eval B > D	true	1 5
-9 eval B < F	false	1 2
-10 eval G < F	false	2 4
+7 eval D < G	true	5 4
+8 eval B < D	false	1 5
+9 eval F < B	true	1 2
+10 eval F < G	true	2 4
 1 B > G
 2 E > D
 3 E > F
 4 D > F
 5 B > E
-6 eval B < F	false	5 3
+6 eval F < B	true	5 3
 7 eval B < D	false	5 2
 1 D > A
 2 B > F
@@ -8159,7 +8159,7 @@
 2 B > E
 3 F > A
 4 D > G
-5 eval B > A	true	1 2
+5 eval A < B	true	1 2
 1 G > A
 2 B > E
 3 D > F
@@ -8169,22 +8169,22 @@
 7 E > F
 8 B > D
 9 G > E
-10 eval B > F	true	8 3
+10 eval B < F	false	8 3
 11 eval G < F	false	7 9
 1 G > F
 2 E > G
 3 D > A
 4 G > B
 5 G > A
-6 eval E > B	true	4 2
-7 eval E > F	true	2 1
+6 eval B < E	true	4 2
+7 eval E < F	false	2 1
 8 eval E < A	false	5 2
 1 B > A
 2 E > D
 3 D > B
 4 D > A
-5 eval E < B	false	3 2
-6 eval E > A	true	4 2
+5 eval B < E	true	3 2
+6 eval A < E	true	4 2
 1 E > B
 2 B > F
 3 G > D
@@ -8192,8 +8192,8 @@
 5 E > F
 6 G > F
 7 D > E
-8 eval D < F	false	5 7
-9 eval G < E	false	3 7
+8 eval F < D	true	5 7
+9 eval E < G	true	3 7
 10 eval D < B	false	1 7
 1 G > E
 2 G > D
@@ -8203,12 +8203,12 @@
 6 F > A
 7 D > E
 8 B > A
-9 eval G > A	true	5 2
+9 eval A < G	true	5 2
 1 G > A
 2 D > E
 3 G > B
 4 E > A
-5 eval D > A	true	4 2
+5 eval A < D	true	4 2
 1 E > A
 2 G > D
 3 G > E
@@ -8221,22 +8221,22 @@
 4 D > G
 5 F > A
 6 E > D
-7 eval E > A	true	2 6
-8 eval B < D	false	3 6
-9 eval E > G	true	4 6
+7 eval A < E	true	2 6
+8 eval D < B	true	3 6
+9 eval G < E	true	4 6
 1 B > F
 2 B > G
 3 F > A
 4 E > A
-5 eval B > A	true	1 3
+5 eval A < B	true	1 3
 1 G > D
 2 B > D
 3 G > B
 4 E > B
 5 B > F
 6 D > F
-7 eval E < D	false	4 2
-8 eval G > F	true	5 3
+7 eval D < E	true	4 2
+8 eval G < F	false	5 3
 9 eval E < F	false	4 5
 1 F > A
 2 D > F
@@ -8246,9 +8246,9 @@
 6 B > F
 7 G > A
 8 B > G
-9 eval B > E	true	4 3
-10 eval B > A	true	6 1
-11 eval D > A	true	1 2
+9 eval B < E	false	4 3
+10 eval B < A	false	6 1
+11 eval A < D	true	1 2
 1 D > F
 2 G > D
 3 F > A
@@ -8257,11 +8257,11 @@
 6 B > G
 7 B > D
 8 D > A
-9 eval G > F	true	1 2
-10 eval B > A	true	4 6
-11 eval E > F	true	1 5
-12 eval E > A	true	8 5
-13 eval B < F	false	1 7
+9 eval G < F	false	1 2
+10 eval B < A	false	4 6
+11 eval E < F	false	1 5
+12 eval A < E	true	8 5
+13 eval F < B	true	1 7
 1 G > D
 2 B > A
 3 G > B
@@ -8269,19 +8269,19 @@
 5 D > F
 6 E > G
 7 B > D
-8 eval E > D	true	6 1
+8 eval E < D	false	6 1
 9 eval E < B	false	6 3
-10 eval D > A	true	4 5
-11 eval G > A	true	2 3
+10 eval D < A	false	4 5
+11 eval G < A	false	2 3
 12 eval G < F	false	5 1
-13 eval B > F	true	5 7
+13 eval F < B	true	5 7
 1 D > B
 2 G > F
 3 E > B
 4 B > G
-5 eval E > G	true	4 3
-6 eval D > G	true	1 4
-7 eval B > F	true	2 4
+5 eval G < E	true	4 3
+6 eval G < D	true	1 4
+7 eval B < F	false	2 4
 1 G > B
 2 E > D
 3 F > A
@@ -8300,23 +8300,23 @@
 6 E > G
 7 G > B
 8 B > F
-9 eval E < A	false	4 1
-10 eval D > B	true	3 7
-11 eval E > B	true	6 7
-12 eval G < F	false	8 7
+9 eval A < E	true	4 1
+10 eval B < D	true	3 7
+11 eval E < B	false	6 7
+12 eval F < G	true	8 7
 1 D > G
 2 E > A
 3 E > F
 4 F > A
 5 G > A
-6 eval D < A	false	5 1
+6 eval A < D	true	5 1
 1 G > B
 2 F > A
 3 D > B
 4 G > F
 5 E > D
 6 E > A
-7 eval G < A	false	4 2
+7 eval A < G	true	4 2
 8 eval E < B	false	5 3
 1 G > E
 2 E > F
@@ -8325,15 +8325,15 @@
 5 B > A
 6 D > A
 7 F > A
-8 eval G > F	true	1 2
-9 eval G > B	true	1 4
+8 eval G < F	false	1 2
+9 eval B < G	true	1 4
 10 eval E < A	false	7 2
 1 B > F
 2 G > B
 3 F > A
 4 B > A
 5 eval G < A	false	4 2
-6 eval G < F	false	1 2
+6 eval F < G	true	1 2
 1 D > F
 2 B > D
 3 E > G
@@ -8341,10 +8341,10 @@
 5 G > A
 6 E > F
 7 G > D
-8 eval E < B	false	3 4
-9 eval E > D	true	3 7
-10 eval B > F	true	1 2
-11 eval G > F	true	1 7
+8 eval B < E	true	3 4
+9 eval E < D	false	3 7
+10 eval F < B	true	1 2
+11 eval F < G	true	1 7
 12 eval E < A	false	3 5
 1 D > A
 2 D > E
@@ -8355,13 +8355,13 @@
 7 E > A
 8 B > F
 9 E > G
-10 eval B > A	true	8 5
+10 eval B < A	false	8 5
 1 E > A
 2 G > D
 3 D > F
 4 E > F
 5 B > F
-6 eval G > F	true	2 3
+6 eval F < G	true	2 3
 1 B > G
 2 E > A
 3 G > F
@@ -8376,7 +8376,7 @@
 3 G > F
 4 G > D
 5 F > A
-6 eval G > A	true	4 2
+6 eval A < G	true	4 2
 1 D > F
 2 B > F
 3 E > B
@@ -8385,7 +8385,7 @@
 6 E > F
 7 D > A
 8 E > G
-9 eval E > A	true	8 4
+9 eval E < A	false	8 4
 1 D > G
 2 E > B
 3 B > G
@@ -8393,10 +8393,10 @@
 5 B > F
 6 G > A
 7 E > G
-8 eval D > A	true	6 1
+8 eval A < D	true	6 1
 9 eval E < F	false	2 5
-10 eval E > A	true	6 7
-11 eval B > A	true	6 3
+10 eval A < E	true	6 7
+11 eval A < B	true	6 3
 1 D > G
 2 D > F
 3 D > B
@@ -8405,14 +8405,14 @@
 6 B > F
 7 G > A
 8 F > A
-9 eval D < A	false	3 4
+9 eval A < D	true	3 4
 1 E > A
 2 B > G
 3 G > A
 4 B > E
 5 D > F
 6 D > A
-7 eval B > A	true	3 2
+7 eval A < B	true	3 2
 1 B > F
 2 E > A
 3 D > E
@@ -8420,17 +8420,17 @@
 5 F > A
 6 G > D
 7 G > B
-8 eval G < F	false	1 7
-9 eval B < A	false	1 5
-10 eval G > E	true	3 6
-11 eval G > A	true	4 6
+8 eval F < G	true	1 7
+9 eval A < B	true	1 5
+10 eval E < G	true	3 6
+11 eval G < A	false	4 6
 1 B > F
 2 G > F
 3 B > A
 4 F > A
 5 E > G
 6 eval E < F	false	5 2
-7 eval G < A	false	4 2
+7 eval A < G	true	4 2
 1 B > F
 2 G > F
 3 B > G
@@ -8440,9 +8440,9 @@
 7 E > F
 8 G > D
 9 eval G < A	false	4 8
-10 eval D < F	false	7 5
+10 eval F < D	true	7 5
 11 eval B < D	false	3 8
-12 eval B > E	true	3 6
+12 eval B < E	false	3 6
 1 G > A
 2 E > D
 3 E > B
@@ -8450,22 +8450,22 @@
 5 G > F
 6 D > F
 7 eval D < A	false	6 4
-8 eval E < F	false	2 6
+8 eval F < E	true	2 6
 1 E > F
 2 B > E
 3 D > G
 4 D > A
 5 G > E
-6 eval D > E	true	3 5
-7 eval G < F	false	1 5
-8 eval B > F	true	1 2
+6 eval D < E	false	3 5
+7 eval F < G	true	1 5
+8 eval F < B	true	1 2
 1 E > A
 2 D > F
 3 D > B
 4 B > F
 5 F > A
-6 eval D < A	false	5 2
-7 eval B > A	true	5 4
+6 eval A < D	true	5 2
+7 eval B < A	false	5 4
 1 D > F
 2 D > A
 3 E > F
@@ -8484,7 +8484,7 @@
 7 B > A
 8 B > F
 9 E > A
-10 eval E < F	false	8 1
+10 eval F < E	true	8 1
 1 G > D
 2 D > A
 3 D > E
@@ -8492,7 +8492,7 @@
 5 G > B
 6 B > A
 7 G > A
-8 eval G > E	true	1 3
+8 eval E < G	true	1 3
 1 B > A
 2 E > A
 3 E > B
@@ -8502,10 +8502,10 @@
 7 E > F
 8 G > B
 9 F > A
-10 eval G < A	false	8 1
-11 eval D > B	true	4 3
-12 eval G < F	false	8 5
-13 eval D > A	true	4 2
+10 eval A < G	true	8 1
+11 eval B < D	true	4 3
+12 eval F < G	true	8 5
+13 eval D < A	false	4 2
 1 E > D
 2 D > B
 3 G > D
@@ -8513,9 +8513,9 @@
 5 D > F
 6 F > A
 7 E > F
-8 eval G > A	true	4 3
-9 eval G > F	true	5 3
-10 eval E < B	false	2 1
+8 eval G < A	false	4 3
+9 eval G < F	false	5 3
+10 eval B < E	true	2 1
 11 eval G < B	false	2 3
 12 eval E < A	false	4 1
 1 B > E
@@ -8525,9 +8525,9 @@
 5 B > G
 6 E > F
 7 E > G
-8 eval B < F	false	6 1
-9 eval B > A	true	4 5
-10 eval D > F	true	3 6
+8 eval F < B	true	6 1
+9 eval B < A	false	4 5
+10 eval F < D	true	3 6
 11 eval E < A	false	7 4
 12 eval D < G	false	7 3
 1 F > A
@@ -8538,10 +8538,10 @@
 6 D > B
 7 D > A
 8 E > F
-9 eval B > A	true	1 3
-10 eval D > F	true	3 6
-11 eval G < A	false	1 2
-12 eval E < A	false	1 8
+9 eval B < A	false	1 3
+10 eval D < F	false	3 6
+11 eval A < G	true	1 2
+12 eval A < E	true	1 8
 1 F > A
 2 B > E
 3 G > B
@@ -8550,11 +8550,11 @@
 6 E > F
 7 D > G
 8 D > A
-9 eval G > E	true	3 2
+9 eval E < G	true	3 2
 10 eval B < F	false	6 2
-11 eval E > A	true	1 6
-12 eval D > B	true	3 7
-13 eval D > F	true	7 4
+11 eval E < A	false	1 6
+12 eval B < D	true	3 7
+13 eval D < F	false	7 4
 1 B > E
 2 G > E
 3 D > E
@@ -8564,14 +8564,14 @@
 7 F > A
 8 E > A
 9 G > F
-10 eval G < A	false	8 2
-11 eval D > A	true	3 8
-12 eval B > F	true	6 1
+10 eval A < G	true	8 2
+11 eval D < A	false	3 8
+12 eval B < F	false	6 1
 1 G > F
 2 E > D
 3 E > F
 4 B > G
-5 eval B > F	true	1 4
+5 eval B < F	false	1 4
 1 G > D
 2 B > D
 3 B > F
@@ -8579,27 +8579,27 @@
 5 F > A
 6 D > A
 7 E > F
-8 eval G > A	true	6 1
-9 eval B > A	true	5 3
-10 eval E > D	true	4 2
-11 eval E > A	true	5 7
+8 eval G < A	false	6 1
+9 eval A < B	true	5 3
+10 eval E < D	false	4 2
+11 eval E < A	false	5 7
 1 G > D
 2 G > F
 3 D > A
 4 E > A
 5 E > G
-6 eval E > F	true	2 5
-7 eval G < A	false	3 1
-8 eval E > D	true	1 5
+6 eval F < E	true	2 5
+7 eval A < G	true	3 1
+8 eval D < E	true	1 5
 1 G > D
 2 B > D
 3 E > A
 4 F > A
 5 G > F
 6 E > G
-7 eval G > A	true	5 4
-8 eval E > D	true	1 6
-9 eval E > F	true	5 6
+7 eval A < G	true	5 4
+8 eval D < E	true	1 6
+9 eval E < F	false	5 6
 1 B > A
 2 B > F
 3 E > A
@@ -8608,8 +8608,8 @@
 6 G > F
 7 F > A
 8 E > B
-9 eval E > F	true	8 2
-10 eval E < D	false	8 4
+9 eval E < F	false	8 2
+10 eval D < E	true	8 4
 1 D > F
 2 E > G
 3 E > D
@@ -8619,7 +8619,7 @@
 7 B > D
 8 B > G
 9 eval B < F	false	8 5
-10 eval E > F	true	5 2
+10 eval E < F	false	5 2
 11 eval B < A	false	4 8
 1 B > D
 2 E > D
@@ -8629,10 +8629,10 @@
 6 B > F
 7 D > A
 8 G > A
-9 eval B < A	false	7 1
-10 eval E < G	false	5 3
-11 eval E > A	true	2 7
-12 eval E > F	true	6 3
+9 eval A < B	true	7 1
+10 eval G < E	true	5 3
+11 eval A < E	true	2 7
+12 eval F < E	true	6 3
 1 E > B
 2 D > A
 3 G > E
@@ -8642,19 +8642,19 @@
 7 G > D
 8 B > D
 9 G > B
-10 eval E > F	true	5 1
-11 eval E > D	true	8 1
-12 eval B > A	true	8 2
-13 eval G < A	false	3 4
-14 eval G > F	true	5 9
+10 eval F < E	true	5 1
+11 eval D < E	true	8 1
+12 eval A < B	true	8 2
+13 eval A < G	true	3 4
+14 eval F < G	true	5 9
 1 B > A
 2 D > G
 3 D > A
 4 G > F
 5 B > G
 6 G > A
-7 eval B > F	true	4 5
-8 eval D > F	true	4 2
+7 eval B < F	false	4 5
+8 eval D < F	false	4 2
 1 B > F
 2 G > B
 3 D > A
@@ -8664,7 +8664,7 @@
 7 E > B
 8 E > A
 9 eval D < F	false	5 6
-10 eval G > F	true	2 1
+10 eval G < F	false	2 1
 1 D > A
 2 D > E
 3 G > F
@@ -8673,7 +8673,7 @@
 6 B > D
 7 G > B
 8 G > A
-9 eval G < E	false	5 7
+9 eval E < G	true	5 7
 10 eval B < A	false	1 6
 1 E > F
 2 D > G
@@ -8685,9 +8685,9 @@
 8 G > A
 9 F > A
 10 eval B < G	false	7 2
-11 eval E > A	true	5 4
-12 eval B > F	true	7 3
-13 eval B > A	true	7 4
+11 eval E < A	false	5 4
+12 eval B < F	false	7 3
+13 eval B < A	false	7 4
 1 E > D
 2 D > A
 3 G > D
@@ -8697,21 +8697,21 @@
 7 B > A
 8 B > E
 9 G > E
-10 eval G > A	true	5 9
+10 eval G < A	false	5 9
 1 B > F
 2 G > E
 3 F > A
 4 B > A
 5 E > F
 6 eval E < A	false	5 3
-7 eval G > F	true	5 2
+7 eval G < F	false	5 2
 1 E > D
 2 B > F
 3 G > F
 4 G > E
 5 E > A
-6 eval G > D	true	4 1
-7 eval G > A	true	4 5
+6 eval G < D	false	4 1
+7 eval A < G	true	4 5
 1 B > D
 2 D > A
 3 E > G
@@ -8722,10 +8722,10 @@
 3 D > B
 4 G > D
 5 D > A
-6 eval G > A	true	5 4
+6 eval A < G	true	5 4
 7 eval G < B	false	3 4
-8 eval E < F	false	2 1
-9 eval E > D	true	2 4
+8 eval F < E	true	2 1
+9 eval E < D	false	2 4
 1 G > E
 2 G > A
 3 D > A
@@ -8735,8 +8735,8 @@
 7 D > F
 8 D > E
 9 B > F
-10 eval B > D	true	4 5
-11 eval B > E	true	1 5
+10 eval D < B	true	4 5
+11 eval B < E	false	1 5
 12 eval B < A	false	2 5
 1 G > A
 2 D > E
@@ -8748,15 +8748,15 @@
 8 E > A
 9 B > F
 10 eval D < A	false	1 4
-11 eval D > F	true	2 6
+11 eval D < F	false	2 6
 12 eval B < A	false	5 1
-13 eval G < F	false	6 7
+13 eval F < G	true	6 7
 14 eval B < E	false	2 3
 1 E > B
 2 E > A
 3 B > G
 4 D > B
-5 eval D > G	true	3 4
+5 eval D < G	false	3 4
 6 eval E < G	false	3 1
 1 E > G
 2 E > F
@@ -8766,9 +8766,9 @@
 6 D > F
 7 B > F
 8 B > A
-9 eval G > A	true	8 3
-10 eval G < F	false	7 3
-11 eval E > A	true	8 5
+9 eval G < A	false	8 3
+10 eval F < G	true	7 3
+11 eval A < E	true	8 5
 12 eval D < A	false	8 4
 1 E > G
 2 G > B
@@ -8781,8 +8781,8 @@
 9 E > A
 10 eval G < A	false	6 3
 11 eval E < B	false	2 1
-12 eval D < F	false	7 4
-13 eval E > D	true	5 1
+12 eval F < D	true	7 4
+13 eval E < D	false	5 1
 14 eval B < A	false	3 7
 1 B > A
 2 E > D
@@ -8792,10 +8792,10 @@
 6 F > A
 7 B > D
 8 G > A
-9 eval E > F	true	4 2
-10 eval D > A	true	4 6
-11 eval B > F	true	4 7
-12 eval E < A	false	8 5
+9 eval E < F	false	4 2
+10 eval D < A	false	4 6
+11 eval B < F	false	4 7
+12 eval A < E	true	8 5
 1 F > A
 2 G > A
 3 B > F
@@ -8804,13 +8804,13 @@
 6 G > F
 7 E > A
 8 E > D
-9 eval B < A	false	1 3
+9 eval A < B	true	1 3
 1 D > B
 2 B > E
 3 F > A
 4 B > A
 5 eval D < E	false	2 1
-6 eval D < A	false	4 1
+6 eval A < D	true	4 1
 1 E > A
 2 G > B
 3 B > E
@@ -8819,7 +8819,7 @@
 6 B > A
 7 D > B
 8 eval D < A	false	6 7
-9 eval G < A	false	2 6
+9 eval A < G	true	2 6
 1 E > F
 2 E > G
 3 G > A
@@ -8829,7 +8829,7 @@
 7 D > A
 8 G > F
 9 B > F
-10 eval D > F	true	6 8
+10 eval D < F	false	6 8
 1 B > A
 2 F > A
 3 E > B
@@ -8839,23 +8839,23 @@
 7 D > A
 8 B > F
 9 eval G < F	false	4 6
-10 eval G > A	true	4 5
-11 eval G > B	true	4 3
+10 eval G < A	false	4 5
+11 eval G < B	false	4 3
 1 E > G
 2 B > F
 3 B > A
 4 F > A
 5 G > A
 6 D > B
-7 eval D < A	false	3 6
-8 eval E < A	false	5 1
-9 eval D < F	false	2 6
+7 eval A < D	true	3 6
+8 eval A < E	true	5 1
+9 eval F < D	true	2 6
 1 D > E
 2 B > E
 3 B > A
 4 D > F
 5 E > F
-6 eval B < F	false	5 2
+6 eval F < B	true	5 2
 1 E > B
 2 D > B
 3 G > A
@@ -8864,9 +8864,9 @@
 6 B > A
 7 E > A
 8 G > F
-9 eval B > F	true	8 4
-10 eval E < G	false	1 4
-11 eval D > G	true	2 4
+9 eval B < F	false	8 4
+10 eval G < E	true	1 4
+11 eval G < D	true	2 4
 1 B > A
 2 B > D
 3 G > F
@@ -8874,15 +8874,15 @@
 5 G > E
 6 E > A
 7 B > G
-8 eval B < F	false	3 7
-9 eval B > E	true	5 7
-10 eval G > A	true	5 6
+8 eval F < B	true	3 7
+9 eval B < E	false	5 7
+10 eval A < G	true	5 6
 1 D > B
 2 E > D
 3 B > F
 4 E > F
-5 eval E < B	false	1 2
-6 eval D > F	true	3 1
+5 eval B < E	true	1 2
+6 eval F < D	true	3 1
 1 E > G
 2 E > B
 3 D > A
@@ -8890,38 +8890,38 @@
 5 E > F
 6 G > F
 7 G > A
-8 eval E > A	true	1 7
+8 eval E < A	false	1 7
 1 D > E
 2 E > F
 3 E > A
 4 B > F
 5 D > F
 6 B > G
-7 eval D > A	true	3 1
+7 eval D < A	false	3 1
 1 G > A
 2 E > G
 3 B > A
 4 D > G
 5 B > G
 6 B > E
-7 eval D > A	true	1 4
-8 eval E < A	false	1 2
+7 eval A < D	true	1 4
+8 eval A < E	true	1 2
 1 B > A
 2 G > D
 3 D > E
 4 D > B
 5 D > F
-6 eval D > A	true	1 4
+6 eval D < A	false	1 4
 7 eval G < B	false	2 4
-8 eval G < F	false	2 5
-9 eval G > E	true	3 2
+8 eval F < G	true	2 5
+9 eval E < G	true	3 2
 1 E > G
 2 E > A
 3 B > E
 4 G > F
-5 eval B < A	false	2 3
+5 eval A < B	true	2 3
 6 eval B < G	false	1 3
-7 eval E > F	true	1 4
+7 eval E < F	false	1 4
 1 E > A
 2 D > F
 3 E > F
@@ -8930,7 +8930,7 @@
 6 F > A
 7 D > A
 8 B > G
-9 eval B > A	true	7 5
+9 eval A < B	true	7 5
 1 D > A
 2 E > G
 3 D > F
@@ -8938,8 +8938,8 @@
 5 G > B
 6 B > A
 7 D > G
-8 eval E > B	true	5 2
-9 eval G > A	true	6 5
+8 eval E < B	false	5 2
+9 eval G < A	false	6 5
 1 E > F
 2 G > F
 3 D > B
@@ -8949,22 +8949,22 @@
 7 D > E
 8 B > F
 9 F > A
-10 eval D > A	true	6 7
-11 eval D > F	true	1 7
-12 eval B < A	false	8 9
-13 eval G > A	true	2 9
+10 eval D < A	false	6 7
+11 eval D < F	false	1 7
+12 eval A < B	true	8 9
+13 eval G < A	false	2 9
 1 G > F
 2 E > F
 3 E > A
 4 G > D
 5 E > G
-6 eval E < D	false	4 5
+6 eval D < E	true	4 5
 1 D > F
 2 B > D
 3 F > A
 4 G > D
-5 eval B > F	true	2 1
-6 eval D > A	true	1 3
+5 eval B < F	false	2 1
+6 eval D < A	false	1 3
 7 eval G < F	false	4 1
 1 D > A
 2 E > D
@@ -8975,9 +8975,9 @@
 7 E > G
 8 D > F
 9 B > D
-10 eval B > G	true	4 9
-11 eval B < F	false	8 9
-12 eval E > F	true	2 8
+10 eval B < G	false	4 9
+11 eval F < B	true	8 9
+12 eval F < E	true	2 8
 1 D > A
 2 F > A
 3 E > F
@@ -8986,20 +8986,20 @@
 6 D > E
 7 B > A
 8 G > F
-9 eval B < F	false	8 5
+9 eval F < B	true	8 5
 10 eval D < F	false	6 3
-11 eval E < A	false	2 3
+11 eval A < E	true	2 3
 1 D > F
 2 G > D
 3 F > A
 4 B > A
-5 eval G > F	true	1 2
-6 eval D > A	true	1 3
+5 eval G < F	false	1 2
+6 eval D < A	false	1 3
 1 G > A
 2 D > B
 3 D > A
 4 B > F
-5 eval D > F	true	4 2
+5 eval D < F	false	4 2
 1 G > A
 2 B > D
 3 E > F
@@ -9008,7 +9008,7 @@
 6 E > B
 7 E > A
 8 F > A
-9 eval B < A	false	1 4
+9 eval A < B	true	1 4
 10 eval E < G	false	4 6
 1 E > B
 2 D > F
@@ -9017,7 +9017,7 @@
 5 D > B
 6 G > F
 7 D > E
-8 eval E > F	true	3 1
+8 eval E < F	false	3 1
 1 G > A
 2 D > B
 3 B > F
@@ -9028,7 +9028,7 @@
 8 D > E
 9 eval E < A	false	4 7
 10 eval G < E	false	8 5
-11 eval G < B	false	2 5
+11 eval B < G	true	2 5
 12 eval D < F	false	3 2
 13 eval B < A	false	3 4
 1 E > F
@@ -9037,8 +9037,8 @@
 4 F > A
 5 G > F
 6 E > D
-7 eval D > A	true	2 4
-8 eval G < A	false	5 4
+7 eval D < A	false	2 4
+8 eval A < G	true	5 4
 1 B > F
 2 B > A
 3 B > G
@@ -9046,13 +9046,13 @@
 5 E > G
 6 D > G
 7 D > F
-8 eval E > A	true	4 5
-9 eval D > A	true	4 6
+8 eval A < E	true	4 5
+9 eval D < A	false	4 6
 1 D > G
 2 G > F
 3 E > G
 4 B > E
 5 B > A
-6 eval D < F	false	2 1
+6 eval F < D	true	2 1
 7 eval E < F	false	2 3
-8 eval B < G	false	4 3
+8 eval G < B	true	4 3
