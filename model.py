@@ -5,8 +5,6 @@ from torch.autograd import Variable
 import torch.nn.functional as F
 import scipy.sparse as sp
 
-
-
 class AttrProxy(object):
     """
     Translates index lookups into attribute lookups.

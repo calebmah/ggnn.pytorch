@@ -42,7 +42,6 @@ parser.add_argument('--save_all', action='store_true', help='print debug')
 parser.add_argument('--grid', action='store_true', help='grid search')
 
 opt = parser.parse_args()
-#print(opt)
 
 if opt.manualSeed is None:
     opt.manualSeed = random.randint(1, 10000)
